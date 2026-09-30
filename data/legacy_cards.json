@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "name": "Zoltraak",
+    "origin": "Frieren",
+    "stars": 3,
+    "effect": "Over the next 3 turn do 7 damage to each enemy"
+  },
+  {
+    "id": 2,
+    "name": "Kyubey",
+    "origin": "Madoka",
+    "stars": 3,
+    "effect": "Deal 15 damage to each opponent"
+  },
+  {
+    "id": 3,
+    "name": "Team Rocket",
+    "origin": "Pokemon",
+    "stars": 3,
+    "effect": "After 3 turns do 25 damage to each opponent"
+  },
+  {
+    "id": 4,
+    "name": "I mustn’t run away",
+    "origin": "Evangelion",
+    "stars": 3,
+    "effect": "One your next turn you can’t use a card or gamble but your punch does 30 damage for 2 turns"
+  },
+  {
+    "id": 5,
+    "name": "Explosion",
+    "origin": "MHA",
+    "stars": 3,
+    "effect": "Deal 25 damage to one opponent"
+  },
+  {
+    "id": 6,
+    "name": "Wendy",
+    "origin": "Fairy Tail",
+    "stars": 3,
+    "effect": "Heal your teammate 25 hp"
+  },
+  {
+    "id": 7,
+    "name": "Kazuya",
+    "origin": "Rent a Girlfriend",
+    "stars": 3,
+    "effect": "This card does nothing"
+  },
+  {
+    "id": 8,
+    "name": "Social Anxiety",
+    "origin": "Bocchi the rock",
+    "stars": 3,
+    "effect": "until your next turn you can’t be targeted by attacks"
+  },
+  {
+    "id": 9,
+    "name": "Apology",
+    "origin": "Fragrant Flower Blooms with dignity",
+    "stars": 3,
+    "effect": "Give 20 hp to your teammate from your own health, then gamble"
+  },
+  {
+    "id": 10,
+    "name": "Puberty Syndrome",
+    "origin": "Bunny girl senpai",
+    "stars": 3,
+    "effect": "on the start of your next turn you and an opponent of your choosing cannot target each other with cards or punches for one full turn"
+  },
+  {
+    "id": 11,
+    "name": "Murasame",
+    "origin": "Akame Ga Kill",
+    "stars": 3,
+    "effect": "Mark an opponent, when they next take damage do an additional 20"
+  },
+  {
+    "id": 12,
+    "name": "Breathing Technique",
+    "origin": "Demon slayer",
+    "stars": 3,
+    "effect": "discard a card and gamble for 2 new cards instantly"
+  },
+  {
+    "id": 13,
+    "name": "Komi",
+    "origin": "Komi Can’t Communicate",
+    "stars": 3,
+    "effect": "One opponent must deafen on their next turn"
+  },
+  {
+    "id": 14,
+    "name": "Magicless",
+    "origin": "Wistoria",
+    "stars": 3,
+    "effect": "0.75x the damage of the next attack targeted at you"
+  },
+  {
+    "id": 15,
+    "name": "Wild Joker",
+    "origin": "Umamusume",
+    "stars": 3,
+    "effect": "Force your opponent to play the same card they just played on their next turn"
+  },
+  {
+    "id": 16,
+    "name": "Para-RAID",
+    "origin": "86",
+    "stars": 3,
+    "effect": "On your teammates next 2 attacks add an extra 10 damage per attack"
+  },
+  {
+    "id": 17,
+    "name": "Fire Dragon Roar",
+    "origin": "Fairy Tail",
+    "stars": 3,
+    "effect": "deal 20 damage to 1 opponent and 5 to the other"
+  },
+  {
+    "id": 18,
+    "name": "Auto Memory Doll",
+    "origin": "Violet Evergarden",
+    "stars": 3,
+    "effect": "Have the opponent reveal what 3 non 5 star cards of their choosing do"
+  },
+  {
+    "id": 19,
+    "name": "Star Eye",
+    "origin": "Oshi No Ko",
+    "stars": 3,
+    "effect": "Your next gamble gets you 2 cards instead of 1"
+  },
+  {
+    "id": 20,
+    "name": "Petting a dog",
+    "origin": "",
+    "stars": 3,
+    "effect": "heal 25 hp"
+  },
+  {
+    "id": 21,
+    "name": "Sukunas finger",
+    "origin": "JJK",
+    "stars": 3,
+    "effect": "flip a coin, tails is a 1.5x dmg increase on your next attack heads is take 40 dmg"
+  },
+  {
+    "id": 22,
+    "name": "Rage Shield",
+    "origin": "Shield hero",
+    "stars": 3,
+    "effect": "Deal 15 damage to each opponent"
+  },
+  {
+    "id": 23,
+    "name": "Pizzahut",
+    "origin": "Code Geass",
+    "stars": 3,
+    "effect": "heal 25 hp"
+  },
+  {
+    "id": 24,
+    "name": "Meteor fall",
+    "origin": "Overlord",
+    "stars": 3,
+    "effect": "do 20 dmg to everyone except you."
+  },
+  {
+    "id": 25,
+    "name": "Crippling Depression",
+    "origin": "Cyberpunk Edgerunners",
+    "stars": 3,
+    "effect": "Everyone takes 10 damage"
+  },
+  {
+    "id": 26,
+    "name": "Overleveled",
+    "origin": "SAO",
+    "stars": 3,
+    "effect": "take -15 dmg from incoming attacks until the start of your next turn"
+  },
+  {
+    "id": 27,
+    "name": "Omurice beam",
+    "origin": "Bochi the rock",
+    "stars": 3,
+    "effect": "Turn on cam and faithfully recreate the omurice kita scene for a 1.25x dmg boost and 10 healing"
+  },
+  {
+    "id": 28,
+    "name": "Digivolve",
+    "origin": "Digimon",
+    "stars": 3,
+    "effect": "Discard a card and gamble for 2 new cards instantly"
+  },
+  {
+    "id": 29,
+    "name": "Such elegance",
+    "origin": "Spy X Family",
+    "stars": 3,
+    "effect": "You and your teammate heal 5 hp every time you play a card for the next 3 turns"
+  },
+  {
+    "id": 30,
+    "name": "MgRonalds worker’",
+    "origin": "Devil is a partimer",
+    "stars": 3,
+    "effect": "make the opponent pay you one 3 star card of your choosing"
+  },
+  {
+    "id": 31,
+    "name": "Opposites",
+    "origin": "You and I are Polar Opposites",
+    "stars": 3,
+    "effect": "if you heal during the turn an opponent of your choosing take half the damage as you healed"
+  },
+  {
+    "id": 32,
+    "name": "Rassengan",
+    "origin": "Naruto",
+    "stars": 3,
+    "effect": "do 25 dmg to 1 opponent"
+  },
+  {
+    "id": 33,
+    "name": "Hit the Nape",
+    "origin": "AOT",
+    "stars": 3,
+    "effect": "do 25 dmg to 1 opponent"
+  },
+  {
+    "id": 34,
+    "name": "Skeleton",
+    "origin": "Oshi",
+    "stars": 3,
+    "effect": "deal 1.25x dmg to the opponent that attacked your teammate last turn on your next attack"
+  },
+  {
+    "id": 35,
+    "name": "Titan hardening",
+    "origin": "AOT",
+    "stars": 3,
+    "effect": "add 20 bonus hp as armor (can go on top of max hp)"
+  },
+  {
+    "id": 36,
+    "name": "Heliocentrical Heresy",
+    "origin": "Orb on the movements of the earth",
+    "stars": 3,
+    "effect": "Both your opponents take 10 damage, and another 10 if they play a card this next turn."
+  },
+  {
+    "id": 37,
+    "name": "Angel beats horrendous gym song",
+    "origin": "Angel beats",
+    "stars": 3,
+    "effect": "decrease 1 opponent dmg done to 0.75x for 1 turn"
+  },
+  {
+    "id": 38,
+    "name": "Cosplay",
+    "origin": "My Dressup Darling",
+    "stars": 3,
+    "effect": "One opponent must roleplay as an anime character of your choice for the next 3 turns. If they don’t (Jon Goon Discretion), 35 damage."
+  },
+  {
+    "id": 39,
+    "name": "Miyamura",
+    "origin": "Horimya",
+    "stars": 3,
+    "effect": "If you or your teammate take damage this turn, heal 30"
+  },
+  {
+    "id": 40,
+    "name": "Pull the chord",
+    "origin": "Chainsaw man",
+    "stars": 3,
+    "effect": "do 10 damage to yourself then 35 to one opponent"
+  },
+  {
+    "id": 41,
+    "name": "Agnes Tachyon",
+    "origin": "Umamusume",
+    "stars": 3,
+    "effect": "Return one 3 star to your pool from the graveyard, then gamble"
+  },
+  {
+    "id": 42,
+    "name": "Pot of Greed",
+    "origin": "Yugioh",
+    "stars": 3,
+    "effect": "Draw two new 3 star cards"
+  },
+  {
+    "id": 43,
+    "name": "Boredom",
+    "origin": "Death Note",
+    "stars": 3,
+    "effect": "your opponent gambles immediately, if they get a 3 star they give it to you, if not they keep the card"
+  },
+  {
+    "id": 44,
+    "name": "True Warrior",
+    "origin": "Vinland Saga",
+    "stars": 3,
+    "effect": "The next three punches your opponents play against you don’t deal damage."
+  },
+  {
+    "id": 45,
+    "name": "Strelizia",
+    "origin": "Darling in the Franxx",
+    "stars": 3,
+    "effect": "For the next two turns whenever your teammate does damage do an additional 10 damage"
+  },
+  {
+    "id": 46,
+    "name": "Kagune",
+    "origin": "Tokyo Ghoul",
+    "stars": 3,
+    "effect": "Deal 20 damage to one opponent. If they are below half do 30"
+  },
+  {
+    "id": 47,
+    "name": "Love is War",
+    "origin": "Kaguya sama love is war",
+    "stars": 3,
+    "effect": "Look at one non five star card your opponent has. They cannot play that card on their turn"
+  },
+  {
+    "id": 48,
+    "name": "Unlimited Blade Works",
+    "origin": "Fate Stay Night UBW",
+    "stars": 3,
+    "effect": "your next gamble gives you 2 cards instead of 1"
+  },
+  {
+    "id": 49,
+    "name": "Poison Detection",
+    "origin": "Apothecary Diaries",
+    "stars": 3,
+    "effect": "Neither opponent can heal on their next turn"
+  },
+  {
+    "id": 50,
+    "name": "Dragon’s Loyalty",
+    "origin": "Miss Koboyashi’s dragon maid",
+    "stars": 3,
+    "effect": "When your teammate next takes damage you guys split the damage 50/50 instead"
+  },
+  {
+    "id": 51,
+    "name": "Requip",
+    "origin": "Fairy Tail",
+    "stars": 4,
+    "effect": "add 40 bonus hp as armor (can go on top of max hp)"
+  },
+  {
+    "id": 52,
+    "name": "Boogie woogie",
+    "origin": "JJK",
+    "stars": 4,
+    "effect": "switch the hp of any two players of your choosing, cannot be used on a dead player"
+  },
+  {
+    "id": 53,
+    "name": "I have no enemies",
+    "origin": "Vinland Saga",
+    "stars": 4,
+    "effect": "Enemy punches deal 1 damage to you for the rest of the game"
+  },
+  {
+    "id": 54,
+    "name": "How Cute (Kaguya Sama",
+    "origin": "",
+    "stars": 4,
+    "effect": "Love Is War): Deal 30 damage to each opponent"
+  },
+  {
+    "id": 55,
+    "name": "Sandevistan",
+    "origin": "Cyberpunk",
+    "stars": 4,
+    "effect": "Have one opponent skip their next turn, you can then punch on the same turn this card was played"
+  },
+  {
+    "id": 56,
+    "name": "Thunder Spear",
+    "origin": "AOT",
+    "stars": 4,
+    "effect": "Do 45 damage to one enemy"
+  },
+  {
+    "id": 57,
+    "name": "Arise",
+    "origin": "Solo leveling",
+    "stars": 4,
+    "effect": "Bring 3 non five star cards back to your pool from your discard pile"
+  },
+  {
+    "id": 58,
+    "name": "You’re Next",
+    "origin": "My Hero Academia",
+    "stars": 4,
+    "effect": "Your team’s next attack does 1.5x damage"
+  },
+  {
+    "id": 59,
+    "name": "Berserk",
+    "origin": "Evangelion",
+    "stars": 4,
+    "effect": "When you next take damage, do that amount of damage back to your opponent up to 50 damage"
+  },
+  {
+    "id": 60,
+    "name": "The Gray Monster",
+    "origin": "Umamusume",
+    "stars": 4,
+    "effect": "1.5x damage for your team's next attack. If you are below 30 hp it’s 2x damage. Cannot be used to increase damage from a five star card"
+  },
+  {
+    "id": 61,
+    "name": "Undertaker",
+    "origin": "86",
+    "stars": 4,
+    "effect": "When your teammate dies this card immediately pops, you gain an extra 50 hp (can go over max hp)"
+  },
+  {
+    "id": 62,
+    "name": "Hinokami Kagura",
+    "origin": "Demon Slayer",
+    "stars": 4,
+    "effect": "Deal 25 damage to each opponent"
+  },
+  {
+    "id": 63,
+    "name": "Equivalent Exchange",
+    "origin": "FMAB",
+    "stars": 4,
+    "effect": "Sacrifice one of your 3 star cards to get a spin on the better odds gamble wheel, you can gamble immediately after this card is used"
+  },
+  {
+    "id": 64,
+    "name": "Shou Tucker",
+    "origin": "FMAB",
+    "stars": 4,
+    "effect": "transform a random enemy 4 star card into a useless card for 2 turns"
+  },
+  {
+    "id": 65,
+    "name": "One punch",
+    "origin": "one punch man",
+    "stars": 4,
+    "effect": "Do 50 dmg to one opponent"
+  },
+  {
+    "id": 66,
+    "name": "Quintessential quintuplets",
+    "origin": "",
+    "stars": 4,
+    "effect": "This does not count as a played card, play 2 cards this turn. You can’t place a 5 star as either card"
+  },
+  {
+    "id": 67,
+    "name": "Queen",
+    "origin": "To Be Hero X",
+    "stars": 4,
+    "effect": "Reaction when an opponent attacks: redirect the attack to whichever teammate has higher hp"
+  },
+  {
+    "id": 68,
+    "name": "Bond Forger",
+    "origin": "Spy X Family",
+    "stars": 4,
+    "effect": "You can see the abilities of opponents' cards for the rest of the game, but you cannot tell your teammate (tenitrus bolt if u do (die)."
+  },
+  {
+    "id": 69,
+    "name": "Have you ever played golf with your life on the line?",
+    "origin": "birdie wing",
+    "stars": 4,
+    "effect": "minus a 15 hp from yourself for a 30+ dmg addition to you’re next attack"
+  },
+  {
+    "id": 70,
+    "name": "Seeing stars",
+    "origin": "Planetarian",
+    "stars": 4,
+    "effect": "Deal 15 damage to one opponent, that opponent's next card is randomly selected out of the ones in their pool."
+  },
+  {
+    "id": 71,
+    "name": "Aura, Kill yourself",
+    "origin": "Frieren",
+    "stars": 4,
+    "effect": "Select one opponent. Their next action is a punch against themself."
+  },
+  {
+    "id": 72,
+    "name": "Golden ball 1",
+    "origin": "Dan Da dan",
+    "stars": 4,
+    "effect": "does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns"
+  },
+  {
+    "id": 73,
+    "name": "Golden ball 2",
+    "origin": "Dan Da dan",
+    "stars": 4,
+    "effect": "does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns"
+  },
+  {
+    "id": 74,
+    "name": "World item",
+    "origin": "overlord",
+    "stars": 4,
+    "effect": "Become immune to any multipliers or status effects for 1 turn ( only 1 teammate and cannot work on 5 stars)"
+  },
+  {
+    "id": 75,
+    "name": "perfect warrior",
+    "origin": "overlord",
+    "stars": 4,
+    "effect": "give 1.25x attack and 0.75x dmg taken decrease to your teammate for 2 turns."
+  },
+  {
+    "id": 76,
+    "name": "Geass",
+    "origin": "Code Geass",
+    "stars": 5,
+    "effect": "Control an opponent to give you one card of your choice (can be 5 stars)"
+  },
+  {
+    "id": 77,
+    "name": "Death Note",
+    "origin": "Death Note",
+    "stars": 5,
+    "effect": "write an opponents name in the death note, they will die in 5 turns, but if the person who used the death note dies then the timer disappears"
+  },
+  {
+    "id": 78,
+    "name": "Return by Death",
+    "origin": "Rezero",
+    "stars": 5,
+    "effect": "When a player on your team dies revive them on 50 hp instantly after death"
+  },
+  {
+    "id": 79,
+    "name": "Excalibur",
+    "origin": "Fate",
+    "stars": 5,
+    "effect": "Deal 75 damage to 1 opponent"
+  },
+  {
+    "id": 80,
+    "name": "Time Leap Machine",
+    "origin": "Steins Gate",
+    "stars": 5,
+    "effect": "go back in time two turns undoing all the actions of those two turns. All cards will be returned that were used during those turns (everything is reversed)"
+  },
+  {
+    "id": 81,
+    "name": "Flourite Eye’s Song",
+    "origin": "Vivy",
+    "stars": 5,
+    "effect": "1.5x all damage and healing from you and your teammate this turn and the user can cast a second card"
+  },
+  {
+    "id": 82,
+    "name": "Infinity",
+    "origin": "JJK",
+    "stars": 5,
+    "effect": "The person who used this card will take no damage from the next 3 standard damage attacks they take"
+  },
+  {
+    "id": 83,
+    "name": "The Place Above the Grey Fog",
+    "origin": "Lord of Mysteries",
+    "stars": 5,
+    "effect": "Gamble 5 times on the higher odds wheel, gain all 5 cards and you can play another card after this one"
+  },
+  {
+    "id": 84,
+    "name": "Snap",
+    "origin": "To Be Hero X",
+    "stars": 5,
+    "effect": "Use when an opponent casts a card, negate the effects of that card"
+  },
+  {
+    "id": 85,
+    "name": "The Overlord of Centuries End",
+    "origin": "Umamusume",
+    "stars": 5,
+    "effect": "Until the start of your next turn you cannot go below 1 hp, at the start of that next turn do 30 damage to both opponents"
+  },
+  {
+    "id": 86,
+    "name": "The Father",
+    "origin": "FMAB",
+    "stars": 5,
+    "effect": "Bring 3 non five star cards back from your discard pile and play one instantly"
+  },
+  {
+    "id": 87,
+    "name": "Piss Dragon",
+    "origin": "Witch Hat Atelier",
+    "stars": 5,
+    "effect": "Deal 30 damage to both opponents. Until the start of your next turn, your team cannot take more than 30 damage from any single attack."
+  },
+  {
+    "id": 88,
+    "name": "Pepper dance",
+    "origin": "oshi",
+    "stars": 5,
+    "effect": "can be played outside off turn when attacked, when attacked half the damage and do that half damage back"
+  },
+  {
+    "id": 89,
+    "name": "Shirogine singing voice",
+    "origin": "kaguya",
+    "stars": 5,
+    "effect": "sing a designated song (depending on dylan and matts rating of ur singing bring 3 cards back from graveyard, delay an opponents turn by 1, or both)."
+  },
+  {
+    "id": 90,
+    "name": "The World",
+    "origin": "Jojos",
+    "stars": 5,
+    "effect": "skip both of your opponents next turn"
+  }
+]

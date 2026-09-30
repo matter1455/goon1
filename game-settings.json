@@ -1,0 +1,9 @@
+{
+  "startingHp": 300,
+  "basePunchDamage": 20,
+  "startingHandSize": 5,
+  "showsPerDeck": 3,
+  "cardsPerShow": { "3": 10, "4": 5, "5": 1 },
+  "deckSize": 48,
+  "openingTeamSkipsFirstDraw": true
+}

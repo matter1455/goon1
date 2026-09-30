@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anime Clash TCG — 2v2 Show Decks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">AC</span><span>ANIME CLASH <b>TCG</b> <small>2v2</small></span></div>
+    <button id="libraryBtn" class="ghost small">Card Library</button>
+  </header>
+
+  <main>
+    <section id="lobby" class="lobby shell">
+      <div class="hero-copy">
+        <div class="eyebrow">REAL-TIME 2V2 FANMADE CARD BATTLE</div>
+        <h1>300 HP each.<br><span>Three shows build your deck.</span></h1>
+        <p>Create one private room and send the code to three friends. Each player picks exactly three shows. Every show contributes 10 three-star, 5 four-star, and 1 five-star card for a 48-card deck.</p>
+        <div class="rule-pills">
+          <span>2 vs 2</span><span>300 HP</span><span>20 punch</span><span>5-card opening hand</span><span>Draw each turn</span><span>48-card decks</span><span>Friendly fire</span>
+        </div>
+      </div>
+
+      <div class="lobby-card glass">
+        <label>Display name</label>
+        <input id="nameInput" maxlength="24" placeholder="Player name" value="Player" />
+        <button id="createBtn" class="primary">Create 2v2 room</button>
+        <div class="divider"><span>or join</span></div>
+        <div class="join-row"><input id="roomInput" maxlength="5" placeholder="ROOM CODE" /><button id="joinBtn" class="secondary">Join</button></div>
+        <p class="micro">Four total players use the same room code. No account required.</p>
+      </div>
+    </section>
+
+    <section id="waiting" class="waiting shell hidden">
+      <div class="glass waiting-box deck-waiting-box">
+        <div class="eyebrow">2V2 ROOM</div>
+        <h2>Choose your three shows</h2>
+        <div class="room-code" id="waitingCode">-----</div>
+        <button id="copyCodeBtn" class="secondary">Copy room code</button>
+        <p id="waitingStatus">Waiting for players and decks…</p>
+        <div id="waitingRoster" class="waiting-roster"></div>
+
+        <div class="deck-builder">
+          <div class="deck-builder-head">
+            <div><span class="label">YOUR 48-CARD DECK</span><h3 id="deckSelectionTitle">0 / 3 shows selected</h3></div>
+            <button id="readyDeckBtn" class="primary" disabled>Lock deck & ready</button>
+          </div>
+          <p class="micro">Every show below is a complete 16-card package: 10× 3★, 5× 4★, 1× 5★. Select exactly three.</p>
+          <input id="showSearch" class="show-search" placeholder="Search shows…" />
+          <div id="showPicker" class="show-picker"></div>
+          <div id="selectedShows" class="selected-shows"></div>
+          <div id="showPreview" class="show-preview"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="game" class="game hidden">
+      <div class="game-grid">
+        <aside class="side-panel left-panel glass">
+          <div class="room-chip">ROOM <b id="roomCode">-----</b></div>
+          <div class="turn-card">
+            <span class="label">TURN</span>
+            <strong id="turnNumber">1</strong>
+            <p id="turnText">Waiting…</p>
+          </div>
+
+          <div class="target-box">
+            <label for="targetSelect">ACTION TARGET</label>
+            <select id="targetSelect"></select>
+            <small>Single-target damage can hit a teammate. Enemy-wide effects still follow their printed wording.</small>
+          </div>
+
+          <div class="action-stack">
+            <button id="punchBtn" class="action punch"><span>✦</span><div><b>Punch</b><small>20 base damage</small></div></button>
+            <button id="endBtn" class="action end"><span>→</span><div><b>End turn</b><small>Pass control</small></div></button>
+          </div>
+          <div class="rules-mini">
+            <h3>Main turn rule</h3>
+            <p>At the start of your turn, draw 1 card. Then normally choose either one card or one punch. Special cards can grant extra plays. The team chosen by the opening coin flip skips its first-turn draws.</p>
+          </div>
+        </aside>
+
+        <section class="board">
+          <div class="team-heading enemy-heading"><span>TEAM <b id="enemyTeamLetter">B</b></span><small>ENEMIES</small></div>
+          <div id="enemyGrid" class="players-grid enemies-grid"></div>
+          <div class="center-field">
+            <div id="matchBanner" class="match-banner">Waiting for action</div>
+            <div class="vs-2v2">2 <span>VS</span> 2</div>
+          </div>
+          <div class="team-heading ally-heading"><span>TEAM <b id="yourTeamLetter">A</b></span><small>YOUR TEAM</small></div>
+          <div id="allyGrid" class="players-grid allies-grid"></div>
+        </section>
+
+        <aside class="side-panel right-panel glass">
+          <div class="panel-head"><div><span class="label">MATCH FEED</span><h3>Battle log</h3></div><button id="clearToastBtn" class="icon-btn">×</button></div>
+          <div id="battleLog" class="battle-log"></div>
+        </aside>
+      </div>
+
+      <div class="hand-dock">
+        <div class="hand-head"><div><span class="label">YOUR HAND</span><b id="handCount">0 cards</b><small id="deckCount">48 deck</small></div><span id="actionHint">Choose an action</span></div>
+        <div id="yourHand" class="hand"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <dialog id="libraryDialog" class="library-dialog">
+    <div class="library-top"><div><div class="eyebrow">SHOW CATALOG</div><h2>Card Library</h2></div><button id="closeLibraryBtn" class="icon-btn">×</button></div>
+    <div id="libraryShowTabs" class="library-show-tabs"></div>
+    <div class="library-controls"><input id="cardSearch" placeholder="Search cards or shows…" /><div class="filters"><button data-star="all" class="active">All</button><button data-star="3">3★</button><button data-star="4">4★</button><button data-star="5">5★</button></div></div>
+    <div id="librarySummary" class="library-summary"></div>
+    <div id="libraryGrid" class="library-grid"></div>
+  </dialog>
+
+  <dialog id="cardDialog" class="card-dialog">
+    <div id="cardDetail"></div>
+    <div id="cardTargetRow" class="dialog-target hidden">
+      <label for="cardTargetSelect">Target</label>
+      <select id="cardTargetSelect"></select>
+    </div>
+    <div class="dialog-actions"><button id="cancelCardBtn" class="ghost">Cancel</button><button id="playCardBtn" class="primary">Play card</button></div>
+  </dialog>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
+</html>
