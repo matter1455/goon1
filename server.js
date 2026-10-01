@@ -14,6 +14,7 @@ const SHOWS_PER_DECK = SETTINGS.showsPerDeck;
 const DECK_SIZE = SETTINGS.deckSize;
 const CARDS_PER_SHOW = SETTINGS.cardsPerShow;
 const POOL_CARDS_PER_SHOW = SETTINGS.poolCardsPerShow || { '3': 15, '4': 7, '5': 2 };
+const MIN_ENVIRONMENTS_PER_SHOW = Number(SETTINGS.minEnvironmentsPerShow || 3);
 const SHOWS = [...new Set(CARDS.map(c => c.show || c.origin))].sort();
 // Card-specific gamble effects still use these internal odds; there is no base gamble action.
 const STANDARD_GAMBLE = {3: 0.70, 4: 0.25, 5: 0.05};
@@ -29,7 +30,7 @@ const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/api/cards', (_req, res) => res.json(CARDS));
-app.get('/api/config', (_req, res) => res.json({ startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW }));
+app.get('/api/config', (_req, res) => res.json({ startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW, minEnvironmentsPerShow: MIN_ENVIRONMENTS_PER_SHOW }));
 app.get('/api/shows', (_req, res) => res.json(SHOWS));
 
 const rooms = new Map();
@@ -118,10 +119,18 @@ function makePlayer(socket, name, seat) {
 function defaultCardIdsForShows(shows) {
   const ids = [];
   for (const show of shows) {
+    const pool = CARDS.filter(c => (c.show || c.origin) === show).sort((a,b)=>a.id-b.id);
+    const picked = [];
+    // Make the default deck environment-heavy enough to demonstrate the board fight.
+    const envs = pool.filter(c => c.cardType === 'environment');
+    picked.push(...envs.slice(0, MIN_ENVIRONMENTS_PER_SHOW));
     for (const star of [3,4,5]) {
       const need = Number(CARDS_PER_SHOW[String(star)]);
-      ids.push(...CARDS.filter(c => (c.show || c.origin) === show && Number(c.stars) === star).sort((a,b)=>a.id-b.id).slice(0, need).map(c=>c.id));
+      const already = picked.filter(c => Number(c.stars) === star).length;
+      const fill = pool.filter(c => Number(c.stars) === star && !picked.some(x => x.id === c.id)).slice(0, Math.max(0, need - already));
+      picked.push(...fill);
     }
+    ids.push(...picked.map(c=>c.id));
   }
   return ids;
 }
@@ -144,6 +153,7 @@ function buildDeckForSelection(shows, cardIds) {
     const counts = {3:0,4:0,5:0};
     cards.forEach(c => counts[c.stars]++);
     if (counts[3] !== Number(CARDS_PER_SHOW['3']) || counts[4] !== Number(CARDS_PER_SHOW['4']) || counts[5] !== Number(CARDS_PER_SHOW['5'])) return null;
+    if (cards.filter(c => c.cardType === 'environment').length < MIN_ENVIRONMENTS_PER_SHOW) return null;
   }
   return ids;
 }
@@ -156,6 +166,27 @@ function preparePlayerDeck(p) {
 
 function getCard(id) { return CARDS.find(c => c.id === Number(id)); }
 function teamOf(p) { return p.seat % 2; }
+function terrainForTeam(room, team) {
+  const env = room.environment || null;
+  return env && Number(env.ownerTeam) === Number(team) ? env : null;
+}
+function setTerrain(room, p, card, action) {
+  const team = teamOf(p);
+  const previous = room.environment || null;
+  if (previous) log(room, `${card.name} replaced ${previous.name} as the Environment.`);
+  room.environment = {
+    name: card.name,
+    show: card.show || card.origin || '',
+    kind: action.terrainKind,
+    amount: Number(action.amount) || 0,
+    ownerTeam: team,
+  };
+  log(room, `Team ${team===0?'A':'B'} controls the Environment: ${card.name}.`);
+}
+function tickTerrainAfterTurn(_room, _p) {
+  // Environments persist until another Environment card replaces them.
+}
+
 function teammates(room, p) { return room.players.filter(x => x.socketId !== p.socketId && teamOf(x) === teamOf(p)); }
 function teammate(room, p) { return teammates(room, p)[0] || null; }
 function enemies(room, p) { return room.players.filter(x => teamOf(x) !== teamOf(p)); }
@@ -294,7 +325,8 @@ function stateFor(room, viewer) {
     log: room.log,
     shows: SHOWS,
     startingTeam: room.startingTeam,
-    config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW },
+    environment: room.environment || null,
+    config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW, minEnvironmentsPerShow: MIN_ENVIRONMENTS_PER_SHOW },
     pending: room.pending && room.pending.forSocket === viewer.socketId ? room.pending.public : null,
   };
 }
@@ -331,6 +363,16 @@ function applyDamage(room, source, target, baseAmount, opts = {}) {
   let amount = Math.max(0, Number(baseAmount) || 0);
   const isPunch = !!opts.isPunch;
   const isAttack = opts.isAttack !== false;
+
+  if (source && isAttack) {
+    const field = terrainForTeam(room, teamOf(source));
+    if (field?.kind === 'attack') amount += field.amount;
+    if (isPunch && field?.kind === 'punch') amount += field.amount;
+  }
+  if (isAttack) {
+    const field = terrainForTeam(room, teamOf(target));
+    if (field?.kind === 'guard') amount = Math.max(0, amount - field.amount);
+  }
 
   if (isPunch && target.buffs.punchImmunityCharges > 0) {
     target.buffs.punchImmunityCharges -= 1;
@@ -451,12 +493,16 @@ function startOfTurn(room, p) {
     if (p.buffs.deathNoteTurns <= 0) { p.buffs.deathNoteSourceSeat = null; p.hp = 0; log(room, `${p.name}'s Death Note timer reached zero.`); handleDeath(room, p); }
   }
   if (p.hp <= 0 && room.phase === 'playing') { setTimeout(() => advanceTurn(room), 250); return false; }
-  if (p.buffs.zoltraakTicks > 0) { applyDamage(room, null, p, 7, { isAttack:false }); p.buffs.zoltraakTicks -= 1; }
+  if (p.buffs.zoltraakTicks > 0) { applyDamage(room, null, p, 10, { isAttack:false }); p.buffs.zoltraakTicks -= 1; }
   for (const delayed of p.buffs.delayedTeamRocket) delayed.turns -= 1;
   const due = p.buffs.delayedTeamRocket.filter(x => x.turns <= 0);
   for (const _ of due) applyDamage(room, null, p, 30, { isAttack:false });
   p.buffs.delayedTeamRocket = p.buffs.delayedTeamRocket.filter(x => x.turns > 0);
   if (p.buffs.skipTurns > 0 && room.phase === 'playing') { p.buffs.skipTurns -= 1; log(room, `${p.name}'s turn was skipped.`); setTimeout(() => advanceTurn(room), 250); return false; }
+
+  const field = terrainForTeam(room, teamOf(p));
+  if (field?.kind === 'heal') heal(room, p, field.amount, field.name);
+  if (field?.kind === 'armor') { p.armor += field.amount; log(room, `${p.name} gained ${field.amount} armor from ${field.name}.`); }
 
   const skipOpeningDraw = SETTINGS.openingTeamSkipsFirstDraw && room.turn.number === 1 && teamOf(p) === room.startingTeam;
   if (skipOpeningDraw) log(room, `${p.name} skips the draw on the very first turn because Team ${room.startingTeam === 0 ? 'A' : 'B'} won the coin flip and went first.`);
@@ -637,6 +683,10 @@ function resolveStructuredAction(room,p,card,targetSeat,action){
     for(const step of (heads?action.heads:action.tails)||[]) structuredStep(room,p,card,targetSeat,step);
     return true;
   }
+  if (action.type === 'terrain') {
+    setTerrain(room,p,card,action);
+    return true;
+  }
   return false;
 }
 
@@ -729,7 +779,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   else if (n === 'how cute') damageEnemies(40);
   else if (n === 'sandevistan') { opp.buffs.skipTurns += 1; room.turn.extraPunchAllowed = true; }
   else if (n === 'thunder spear') damage(60);
-  else if (n === 'arise') { const r = restoreFromDiscard(p, 3, c => c.stars < 5); log(room, `${p.name} restored ${r.length} cards.`); }
+  else if (n === 'arise') { const r = restoreFromDiscard(p, 2, c => c.stars < 5); log(room, `${p.name} restored ${r.length} cards.`); }
   else if (n === 'you’re next' || n === "you're next") { p.buffs.nextAttackFlatBonus += 30; if (mate) mate.buffs.nextAttackFlatBonus += 30; }
   else if (n === 'berserk') p.buffs.berserkReflect = true;
   else if (n === 'the gray monster') { const mult = p.hp < 30 ? 1.5 : 1.25; p.buffs.nextAttackMultiplier *= mult; if (mate) mate.buffs.nextAttackMultiplier *= mult; }
@@ -752,7 +802,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
       room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, room.turn.cardsPlayed + 1);
       log(room, `${p.name} must play ${counterpart} this turn to activate the pair.`);
     } else {
-      heal(room, ally, 30, 'Golden Ball pair');
+      heal(room, ally, 70, 'Golden Ball pair');
       p.buffs.nextAttackMultiplier *= 1.5;
       p.buffs.attackBoostTurns = Math.max(p.buffs.attackBoostTurns, 2);
       room.turn.goldenPairRequired = null;
@@ -812,6 +862,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
 function snapshotRoom(room) {
   return {
     turn: JSON.parse(JSON.stringify(room.turn)),
+    environment: JSON.parse(JSON.stringify(room.environment || null)),
     players: room.players.map(p => ({
       hp: p.hp, armor: p.armor, hand: [...p.hand], discard: [...p.discard], deck: [...p.deck], firstTurnTaken: p.firstTurnTaken, buffs: JSON.parse(JSON.stringify(p.buffs))
     }))
@@ -819,6 +870,7 @@ function snapshotRoom(room) {
 }
 function restoreSnapshot(room, snap) {
   room.turn = JSON.parse(JSON.stringify(snap.turn));
+  room.environment = JSON.parse(JSON.stringify(snap.environment || null));
   room.players.forEach((p, i) => {
     Object.assign(p, JSON.parse(JSON.stringify(snap.players[i])));
   });
@@ -905,7 +957,7 @@ io.on('connection', socket => {
     const code = roomCode();
     mode = mode === '1v1' ? '1v1' : '2v2';
     const requiredPlayers = mode === '1v1' ? 2 : 4;
-    const room = { code, mode, requiredPlayers, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null };
+    const room = { code, mode, requiredPlayers, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null, environment:null };
     rooms.set(code, room); socket.data.roomCode = code; socket.join(code);
     log(room, `${room.players[0].name} created a ${mode} room ${code}. Choose exactly ${SHOWS_PER_DECK} shows, build your 48-card deck, and ready up.`); emitState(room);
   });
@@ -924,11 +976,12 @@ io.on('connection', socket => {
     const room=requireRoom(socket); if (!room || room.phase!=='waiting') return;
     const p=playerBySocket(room,socket.id); if (!p) return;
     const deck=buildDeckForSelection(shows, cardIds);
-    if (!deck) return socket.emit('errorMessage',`Choose exactly ${SHOWS_PER_DECK} valid shows and exactly 10×3★, 5×4★, and 1×5★ from each show (48 cards total).`);
+    if (!deck) return socket.emit('errorMessage',`Choose exactly ${SHOWS_PER_DECK} valid shows and exactly 10×3★, 5×4★, and 1×5★ from each show (48 cards total), with at least ${MIN_ENVIRONMENTS_PER_SHOW} Environment cards from each show.`);
     p.selectedShows=[...new Set(shows)]; p.selectedCardIds=[...deck]; p.ready=true;
     log(room, `${p.name} locked a custom 48-card deck (${p.selectedShows.join(' / ')}).`);
     if (room.players.length===room.requiredPlayers && room.players.every(x=>x.ready)) {
       room.players.forEach(preparePlayerDeck);
+      room.environment=null;
       room.startingTeam=Math.random()<0.5?0:1;
       const firstSeat=room.startingTeam===0?0:1;
       room.phase='playing'; room.turn=newTurnState(firstSeat,1);
@@ -989,6 +1042,7 @@ io.on('connection', socket => {
       p.buffs.damageTakenMultiplierTurns -= 1;
       if (p.buffs.damageTakenMultiplierTurns <= 0) p.buffs.persistentDamageTakenMultiplier = 1;
     }
+    tickTerrainAfterTurn(room, p);
     saveTurnSnapshot(room);
     advanceTurn(room);
   });

@@ -16,6 +16,7 @@ const teamOfSeat = seat => Number(seat) % 2;
 const teamLetter = seat => teamOfSeat(seat) === 0 ? 'A' : 'B';
 const deckNeed = star => Number(state?.config?.cardsPerShow?.[String(star)] ?? ({3:10,4:5,5:1})[star]);
 const poolSize = star => Number(state?.config?.poolCardsPerShow?.[String(star)] ?? ({3:15,4:7,5:2})[star]);
+const minEnvironmentsPerShow = () => Number(state?.config?.minEnvironmentsPerShow ?? 3);
 
 Promise.all([fetch('/api/cards').then(r=>r.json()), fetch('/api/shows').then(r=>r.json())]).then(([c,s]) => {
   cards = c; shows = s;
@@ -30,11 +31,11 @@ $('joinBtn').onclick = () => socket.emit('joinRoom', { code: $('roomInput').valu
 $('roomInput').addEventListener('keydown', e => { if (e.key === 'Enter') $('joinBtn').click(); });
 $('punchBtn').onclick = () => {
   const targetSeat = getPunchTargetSeat();
-  if (targetSeat == null) return toast('pick somebody to BONK first 😭');
+  if (targetSeat == null) return toast('Pick a target first.');
   socket.emit('punch', { targetSeat });
 };
 $('endBtn').onclick = () => socket.emit('endTurn');
-$('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('secret room number yoinked 📋'); };
+$('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('Room code copied.'); };
 $('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); };
 $('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); };
 $('showSearch').oninput = renderShowPicker;
@@ -66,11 +67,11 @@ function renderState() {
     const need = state.requiredPlayers || 4;
     const ready = (state.players || []).filter(p => p.ready).length;
     $('waitingStatus').textContent = count < need
-      ? `need ${need-count} more goblin${need-count===1?'':'s'} · ${ready}/${count} decks locked`
-      : `${ready}/${need} decks locked — everybody ready = immediate violence.`;
+      ? `Need ${need-count} more player${need-count===1?'':'s'} · ${ready}/${count} decks ready`
+      : `${ready}/${need} decks ready — game starts when everyone is ready.`;
     renderWaitingRoster(); renderShowPicker(); renderSelectedShows(); renderShowPreview();
     $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
-    $('readyDeckBtn').textContent = state.you.ready ? 'CARDBOARD LOCKED ✓' : 'LOCK IT IN 🔒';
+    $('readyDeckBtn').textContent = state.you.ready ? 'READY ✓' : 'READY';
     return;
   }
 
@@ -79,19 +80,15 @@ function renderState() {
   $('turnNumber').textContent = state.turn.number;
   $('vsMode').innerHTML = state.mode === '1v1' ? '1 <span>VS</span> 1' : '2 <span>VS</span> 2';
   const myTurn = state.turn.seat === state.you.seat && state.phase === 'playing';
-  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN, DO A THING' : `${state.turn.currentName} has the braincell`;
-  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN 🔥' : `waiting on ${state.turn.currentName}...`;
+  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `${state.turn.currentName}'s turn`;
+  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `Waiting for ${state.turn.currentName}...`;
   $('yourTeamLetter').textContent = teamLetter(state.you.seat);
   $('enemyTeamLetter').textContent = teamLetter(state.you.seat) === 'A' ? 'B' : 'A';
-  renderTargets(); renderBoard(); renderHand(state.you.hand || [], myTurn); renderLog();
+  renderTargets(); renderBoard(); renderEnvironment(); renderHand(state.you.hand || [], myTurn); renderLog();
   $('deckCount').textContent = `${state.you.deckCount} deck`;
 
   $('punchBtn').disabled = !myTurn || (state.turn.mainActionUsed && !state.turn.extraPunchAllowed);
   $('endBtn').disabled = !myTurn;
-  $('actionHint').textContent = !myTurn ? 'somebody else is cooking…'
-    : state.turn.goldenPairRequired ? `you MUST play ${state.turn.goldenPairRequired} lol`
-    : state.turn.cardsPlayed < state.turn.cardPlayLimit ? `${state.turn.cardPlayLimit - state.turn.cardsPlayed} card play${state.turn.cardPlayLimit - state.turn.cardsPlayed === 1 ? '' : 's'} available`
-    : !state.turn.mainActionUsed ? 'play ONE card or BONK somebody' : 'you did the thing. end turn.';
   if (state.phase === 'finished') $('punchBtn').disabled = $('endBtn').disabled = true;
 }
 
@@ -105,7 +102,7 @@ function renderWaitingRoster() {
     el.appendChild(d);
   });
   for(let i=(state.players||[]).length;i<need;i++){
-    const d=document.createElement('div'); d.className='roster-seat empty'; d.innerHTML='<span>EMPTY CHAIR</span><b>somebody get in here</b>'; el.appendChild(d);
+    const d=document.createElement('div'); d.className='roster-seat empty'; d.innerHTML='<span>EMPTY SLOT</span><b>Waiting for player</b>'; el.appendChild(d);
   }
 }
 
@@ -116,33 +113,42 @@ function selectedCount(show, star) {
   return showCards(show, star).filter(c=>selectedCardIds.has(c.id)).length;
 }
 function autoSelectShow(show) {
+  const picked = new Set();
+  const envs = showCards(show).filter(c=>c.cardType==='environment');
+  envs.slice(0,minEnvironmentsPerShow()).forEach(c=>picked.add(c.id));
   for (const star of [3,4,5]) {
-    showCards(show,star).slice(0, deckNeed(star)).forEach(c=>selectedCardIds.add(c.id));
+    const need = deckNeed(star);
+    const already = showCards(show,star).filter(c=>picked.has(c.id)).length;
+    showCards(show,star).filter(c=>!picked.has(c.id)).slice(0,Math.max(0,need-already)).forEach(c=>picked.add(c.id));
   }
+  picked.forEach(id=>selectedCardIds.add(id));
 }
+
 function removeShowCards(show) {
   showCards(show).forEach(c=>selectedCardIds.delete(c.id));
 }
 function deckProblem() {
-  if (selectedShows.length !== 3) return 'pick exactly 3 shows, coward.';
-  if (selectedCardIds.size !== 48) return `48 cards means 48 cards 😭 you have ${selectedCardIds.size}.`;
+  if (selectedShows.length !== 3) return 'Pick exactly 3 shows.';
+  if (selectedCardIds.size !== 48) return `Your deck needs 48 cards. You currently have ${selectedCardIds.size}.`;
   for (const show of selectedShows) {
     for (const star of [3,4,5]) {
       const got = selectedCount(show,star), need = deckNeed(star);
       if (got !== need) return `${show} needs exactly ${need} ${star}★ card${need===1?'':'s'}; you selected ${got}.`;
     }
+    const envCount = showCards(show).filter(c=>selectedCardIds.has(c.id) && c.cardType==='environment').length;
+    if (envCount < minEnvironmentsPerShow()) return `${show} needs at least ${minEnvironmentsPerShow()} Environment cards; you selected ${envCount}.`;
   }
   return '';
 }
 function toggleDeckCard(card) {
   if (state?.you?.ready) return;
   const show = card.show || card.origin;
-  if (!selectedShows.includes(show)) return toast('pick the show first, THEN steal its cards');
+  if (!selectedShows.includes(show)) return toast('Select the show first.');
   if (selectedCardIds.has(card.id)) selectedCardIds.delete(card.id);
   else {
     const current = selectedCount(show,card.stars);
     const max = deckNeed(card.stars);
-    if (current >= max) return toast(`too many ${card.stars}★ from ${show}. kick one out first.`);
+    if (current >= max) return toast(`You already selected the maximum number of ${card.stars}★ cards from ${show}.`);
     selectedCardIds.add(card.id);
   }
   renderSelectedShows(); renderShowPreview();
@@ -160,7 +166,7 @@ function renderShowPicker(){
       if (!state?.you?.ready) {
         if(selectedShows.includes(show)) { selectedShows=selectedShows.filter(x=>x!==show); removeShowCards(show); }
         else if(selectedShows.length<3) { selectedShows.push(show); autoSelectShow(show); }
-        else toast('three shows. THREE. put one back 😭');
+        else toast('You can only select 3 shows.');
       }
       renderShowPicker(); renderSelectedShows(); renderShowPreview();
       if (state?.phase==='waiting') $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
@@ -176,18 +182,19 @@ function renderSelectedShows(){
     s.textContent=`${show} · ${showCards(show).filter(c=>selectedCardIds.has(c.id)).length}/16`;
     el.appendChild(s);
   });
-  $('deckSelectionTitle').textContent=`${selectedShows.length} / 3 anime acquired · ${selectedCardIds.size} / 48 cardboard rectangles`;
+  $('deckSelectionTitle').textContent=`${selectedShows.length} / 3 shows selected · ${selectedCardIds.size} / 48 cards`;
 }
 
 function renderShowPreview(){
   const el=$('showPreview'); if(!el)return; el.innerHTML='';
   const meta=$('showPreviewMeta'); if(meta) meta.innerHTML='';
   const show=previewShow || selectedShows[selectedShows.length-1];
-  if(!show){ el.innerHTML='<p class="micro">click an anime and rummage through its card pile 👀</p>'; return; }
+  if(!show){ return; }
   const isChosen=selectedShows.includes(show);
   if(meta){
     const parts=[3,4,5].map(star=>`${selectedCount(show,star)}/${deckNeed(star)} selected from ${poolSize(star)} ${star}★`);
-    meta.innerHTML=`<b>${escapeHtml(show)}</b><span>${parts.join(' · ')}</span><small>${isChosen?'click cards to throw them in/out of your 16-card pile.':'pick this anime up top before touching its cards.'}</small>`;
+    const envCount=showCards(show).filter(c=>selectedCardIds.has(c.id)&&c.cardType==='environment').length;
+    meta.innerHTML=`<b>${escapeHtml(show)}</b><span>${parts.join(' · ')} · ${envCount}/${minEnvironmentsPerShow()}+ environments</span>`;
   }
   showCards(show).forEach(c=>{
     const n=makeCard(c);
@@ -220,6 +227,12 @@ function fillTargetSelect(select,candidates){
 function syncDialogTarget(){ if(selectedTargetSeat!=null)$('cardTargetSelect').value=String(selectedTargetSeat); }
 function getPunchTargetSeat(){ const x=(state.players||[]).find(p=>p.seat===Number(selectedTargetSeat)&&!p.isSelf&&p.hp>0); return x?.seat??(state.players||[]).find(p=>!p.isSelf&&p.hp>0)?.seat??null; }
 
+function renderEnvironment(){
+  const env = state.environment || null;
+  $('environmentName').textContent = env?.name || 'None';
+  $('environmentOwner').textContent = env ? `Team ${env.ownerTeam===0?'A':'B'}` : '';
+}
+
 function renderBoard(){
   const enemyGrid=$('enemyGrid'),allyGrid=$('allyGrid'); enemyGrid.innerHTML=''; allyGrid.innerHTML='';
   (state.enemies||[]).sort((a,b)=>a.seat-b.seat).forEach(p=>enemyGrid.appendChild(makePlayerTile(p,'enemy')));
@@ -242,11 +255,11 @@ function renderHand(hand,myTurn){
 }
 function makeCard(card){
   const d=document.createElement('article'); d.className=`tcg-card ${card.stars===3?'three':card.stars===4?'four':'five'}`;
-  d.innerHTML=`<div class="stars">${'★'.repeat(card.stars)}</div><h4>${escapeHtml(card.name)}</h4><div class="origin">${escapeHtml(card.show||card.origin||'Fanmade')}</div><p>${escapeHtml(card.effect)}</p><span class="corner">#${card.id}</span>`; return d;
+  d.innerHTML=`<div class="stars">${'★'.repeat(card.stars)}</div><h4>${escapeHtml(card.name)}</h4><p>${escapeHtml(card.effect)}</p>`; return d;
 }
 function showCard(card,playable){
   selectedCard=playable?card:null; const cls=card.stars===3?'three':card.stars===4?'four':'five';
-  $('cardDetail').innerHTML=`<div class="card-detail-card ${cls}"><div class="stars">${'★'.repeat(card.stars)}</div><h2>${escapeHtml(card.name)}</h2><div class="series">${escapeHtml(card.show||card.origin||'Fanmade')}</div><p>${escapeHtml(card.effect)}</p></div>`;
+  $('cardDetail').innerHTML=`<div class="card-detail-card ${cls}"><div class="stars">${'★'.repeat(card.stars)}</div><h2>${escapeHtml(card.name)}</h2><p>${escapeHtml(card.effect)}</p></div>`;
   $('playCardBtn').classList.toggle('hidden',!playable); $('cardTargetRow').classList.toggle('hidden',!playable||!(state?.players?.length>1)); syncDialogTarget(); $('cardDialog').showModal();
 }
 $('cancelCardBtn').onclick=()=>$('cardDialog').close();
@@ -268,6 +281,6 @@ function renderLibrary(){
   if(!cards.length)return; const q=($('cardSearch')?.value||'').toLowerCase();
   const list=cards.filter(c=>(libraryStar==='all'||String(c.stars)===libraryStar)&&(libraryShow==='all'||(c.show||c.origin)===libraryShow)&&`${c.name} ${c.show||c.origin} ${c.effect}`.toLowerCase().includes(q));
   const grid=$('libraryGrid');grid.innerHTML='';list.forEach(c=>{const n=makeCard(c);n.onclick=()=>showCard(c,false);grid.appendChild(n);});
-  $('librarySummary').textContent=libraryShow==='all'?`${list.length} cards across ${shows.length} anime. good luck reading all that.`:`${libraryShow}: ${list.length} cards · bring 10/5/1 or the math police arrive`;
+  $('librarySummary').textContent=libraryShow==='all'?`${list.length} cards`:`${libraryShow}: ${list.length} cards`;
 }
 function escapeHtml(s){return String(s??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));}

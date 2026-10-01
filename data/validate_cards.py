@@ -49,6 +49,17 @@ def walk_amounts(node, card_name):
 for c in cards:
     walk_amounts(c.get('action'), c['name'])
 
+
+# Environment system: six Environment cards per show, all 3★, weak +10/-10 style effects.
+environments=[c for c in cards if c.get('cardType')=='environment']
+env_by_show=defaultdict(list)
+for c in environments: env_by_show[c['show']].append(c)
+if len(environments) != 58*6: errors.append(f'Expected 348 Environment cards, got {len(environments)}')
+for show in SHOW_REFERENCES:
+    envs=env_by_show.get(show,[])
+    if len(envs)!=6: errors.append(f'{show}: expected 6 Environment cards, got {len(envs)}')
+    if any(int(c['stars'])!=3 for c in envs): errors.append(f'{show}: Environment cards should all be 3★')
+    if any(int(c.get('action',{}).get('amount',0) or 0)!=10 for c in envs): errors.append(f'{show}: Environment amount should be 10')
 if errors:
     print('VALIDATION FAILED')
     for e in errors: print('-',e)
@@ -59,7 +70,8 @@ print(f'- {len(cards)} cards')
 print(f'- {len(by_show)} shows')
 print(f'- {len(generated)} generated canon-reference cards')
 print('- every show pool = 15x 3-star / 7x 4-star / 2x 5-star')
-print('- each deck still selects 10x 3-star / 5x 4-star / 1x 5-star per chosen show')
+print('- each deck selects 10x 3-star / 5x 4-star / 1x 5-star per chosen show')
+print('- 6 Environment cards per show (348 total); deck builder requires at least 3 per show / 9 per deck')
 print('- generated effect text unique')
 print('- generated structured actions unique')
 print('- all structured flat amount values use multiples of 10')

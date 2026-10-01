@@ -147,6 +147,11 @@ def _normalize_effect_text(text):
     text = re.sub(r'(?<=\+)(\d+)(?=\s+on the next damage)', repl, text)
     text = re.sub(r'(?<=increased by )(\d+)(?!\s*%)(?=[\s.,;]|$)', repl, text)
     text = re.sub(r'(\d+)(?=\s+less damage)', repl, text)
+    text = re.sub(r'(?<=damage by )(\d+)(?!\s*%)', repl, text)
+    text = re.sub(r'(?<=attack by )(\d+)(?!\s*%)', repl, text)
+    text = re.sub(r'(?<=gets \+)(\d+)(?=\s+damage)', repl, text)
+    text = re.sub(r'(?<=give each \+)(\d+)(?=\s+damage)', repl, text)
+    text = re.sub(r'(?<=give your teammate \+)(\d+)(?=\s+damage)', repl, text)
     return text
 
 
@@ -973,9 +978,13 @@ POOL_TARGETS = {3: 15, 4: 7, 5: 2}
 for show_index, show in enumerate(show_names):
     refs = SHOW_REFERENCES[show]
     show_profile = PROFILES[show]
+    # The extra pool cards lean into techniques/items/plot points instead of
+    # just making five more character-name cards. The first 10 3★ slots still
+    # give characters room to exist, while the optional slots are mostly show concepts.
     variant_specs = [
-        *[(3, refs[i], i) for i in range(5)],
-        *[(4, refs[10+i], i) for i in range(2)],
+        *[(3, refs[10+i], i) for i in range(5)],
+        (4, refs[15], 0),
+        (4, refs[9], 1),
         (5, refs[14], 0),
     ]
     for star, ref, variant_index in variant_specs:
@@ -1052,6 +1061,35 @@ _set_card('Cyberpunk: Edgerunners','Sandevistan',stars=5)
 _set_card('Cyberpunk: Edgerunners','Edgerunners',stars=4,
           effect='Take 20 damage, then deal 90 damage to one other player.',
           action=seq(st('damage','self',amount=20,attack=False),st('damage','chosen_other',amount=90)))
+
+
+# Extra hand-tuned balance changes after playtesting the action economy.
+# Quintessential is effectively a 5★ because the card itself is free action economy and
+# can turn one turn into two additional non-5★ cards.
+_set_card('The Quintessential Quintuplets','Quintessential quintuplets',stars=5,
+          effect='This card does not count as your normal card play. You may play 2 additional non-5★ cards this turn.')
+for _c in out:
+    if (_c['show']=='The Quintessential Quintuplets' and _c.get('generated') and
+        _c.get('canonRef')=='Wedding Day' and int(_c['stars'])==5):
+        _c['stars']=4
+        _c['effect']='Heal yourself or your teammate 60 HP and give that player 20 armor.'
+        _c['action']=seq(st('heal','ally',amount=60),st('armor','ally',amount=20))
+        break
+
+# Kazuya stays a joke card, but no longer bricks an entire draw.
+_set_card('Rent-a-Girlfriend','Kazuya',
+          effect='This card does basically nothing. Draw 1 card because the deck feels bad for you.',
+          action=seq(st('draw','self',count=1)))
+
+# Two 4★ cards and a same-turn combo should have a payoff worth actually building around.
+_set_card('Dandadan','Golden ball 1',effect='Does nothing by itself. Play Golden ball 2 this turn to heal 70 HP to either teammate and gain ×1.5 damage for 2 turns.')
+_set_card('Dandadan','Golden ball 2',effect='Does nothing by itself. Play Golden ball 1 this turn to heal 70 HP to either teammate and gain ×1.5 damage for 2 turns.')
+
+# The website cannot currently choose an exact hidden card from an opponent's hand, so Geass
+# gets a strong, deterministic-to-resolve version rather than pretending the UI can do that.
+_set_card('Code Geass','Geass',
+          effect='Steal 2 random cards from one opponent’s hand.',
+          action=seq(st('steal_random','chosen_enemy',count=2)))
 
 # --- Broader balance audit -------------------------------------------------
 # The original generated pool had some cards whose drawbacks stacked so hard that a 3★
@@ -1203,9 +1241,446 @@ _set_card("JoJo's Bizarre Adventure",'The World',effect='Both opponents skip the
 _set_card('Vivy: Fluorite Eye’s Song','Flourite Eye’s Song',effect='Draw 1 card. Your next attack deals ×1.5 damage, and you may play one additional non-5★ card this turn.')
 _set_card('Witch Hat Atelier','Piss Dragon',effect='Deal 30 damage to both opponents. Until your next turn, your team cannot take more than 50 damage from any single attack.')
 
+# -----------------------------------------------------------------------------
+# Card-name polish + team Field/Terrain system
+# -----------------------------------------------------------------------------
+# Generated cards should read like actual card titles, not a spreadsheet full of
+# character names. Character-based references get a fanmade action/plot-style
+# title while techniques, locations, items, and events keep the canon reference
+# as the core of the title. canonRef remains untouched for traceability.
+TITLE_PHRASES = {
+    'assault': ['Full-Force Attack','No Holding Back','Counterattack','Point-Blank','Finishing Blow','Last Rush','Break the Line','All-In Assault'],
+    'team': ['Hold the Line','Covering Fire','Rally the Team','Back-to-Back','Rescue Mission','Perfect Assist','Stand Together','Last Stand'],
+    'control': ['Trap Is Set','No Escape','Forced Move','Checkmate','Read the Field','False Opening','Cornered','Plan Within a Plan'],
+    'social': ['Promise Kept','Heart-to-Heart','Trust Fall','One More Chance','Shared Resolve','Say It Out Loud','Together Again','The Big Moment'],
+    'tempo': ['Encore','Quick Shift','Second Beat','Steal the Tempo','Keep It Going','Sudden Turn','One More Move','Finale'],
+    'sport': ['Perfect Form','Closing Sprint','Clutch Play','Second Wind','Training Pays Off','Photo Finish','Peak Condition','Championship Point'],
+    'risk': ['All In','Over the Limit','No Turning Back','Danger Zone','Burn It All','Desperate Bet','Point of No Return','One Last Shot'],
+    'mystic': ['Hidden Art','Forbidden Pattern','Resonance','Grand Invocation','Unseen Hand','Arcane Turn','Reality Break','Transcendence'],
+    'tactical': ['Perfect Setup','Countermeasure','Contingency','Read the Situation','Field Plan','Prepared Response','Calculated Risk','Grand Strategy'],
+}
+
+def _reference_index(show, ref):
+    try: return SHOW_REFERENCES[show].index(ref)
+    except ValueError: return 99
+
+CONCEPT_WORDS = (
+    'attack','art','battle','ball','blade','castle','club','contract','curse','devil','domain',
+    'exam','faction','festival','field','finals','gear','guild','house','island','jutsu','labyrinth',
+    'league','live','magic','mode','moon','palace','project','room','school','shrine','spear','sword',
+    'system','titan','tournament','tower','warehouse','world','academy','farm','planetarium','float',
+    'shield','stone','song','rosario','stream','flash','note','requiem','rumbling','speech','technique','catch','reaper','fool','truth',
+    'tail','transformation','memory','machine','festival','family','stryx','strix','star','bolt','garden',
+)
+
+def _title_for_generated(card, serial):
+    ref=card.get('canonRef') or card['name']
+    low=ref.casefold()
+    phrases=TITLE_PHRASES.get(card.get('profile'), TITLE_PHRASES['tactical'])
+    phrase=phrases[serial % len(phrases)]
+    looks_like_concept = any(re.search(r'(?<!\w)'+re.escape(word)+r'(?!\w)', low) for word in CONCEPT_WORDS)
+    # Plain character/creature references put the move/scene first so the card
+    # reads like a TCG card title instead of a character roster entry.
+    if not looks_like_concept:
+        return f'{phrase} — {ref}'
+    # Techniques / items / plot points / places can stand on their own. Alternate
+    # versions add a subtitle so each card is still easy to distinguish.
+    if card.get('variant'):
+        return f'{ref}: {phrase}'
+    return ref
+
+# Environments are deliberately common. Each show gets SIX Environment cards in its
+# 24-card pool (six 3★), so a legal three-show deck has plenty of
+# opportunities to fight over the board. The deck builder requires at least three
+# Environments from each selected show (9 total in a 48-card deck), but players may
+# include more. Only ONE Environment exists on the board globally; a new one replaces
+# the old one, even if the other team played it. Effects are intentionally modest.
+FIELD_HINTS = (
+    'academy','school','room','house','castle','palace','farm','tomb','island','league',
+    'festival','planetarium','float','moon','labyrinth','field','kingdom','village','city',
+    'tower','forest','garden','battlefront','underground','nazarick','aincrad','rear palace',
+    'ente isla','tracen','vinland','san magnolia','giad federacy','starry','world line',
+    'guild','headquarters','warehouse','metal float','tournament','the farm','the moon',
+    'shrine','rumbling','requiem','domain','promised day','singularity','zero requiem','culture festival',
+)
+
+FIELD_REF_OVERRIDES = {
+    'Digimon':['DigiDestined','Digital World'],
+    'Fate/stay night':['Gate of Babylon','Unlimited Blade Works'],
+    'Frieren':['First-Class Mage Exam','Aureole'],
+    'My Hero Academia':['Class 1-A','U.A. High School'],
+    'One-Punch Man':['Hero Association','Monster Association'],
+    'Oshi no Ko':['Tokyo Blade','B-Komachi'],
+    'Re:Zero':['Unseen Hand','Roswaal Mansion'],
+    'Rent-a-Girlfriend':['Movie Premiere','Rental Date'],
+    'Tokyo Ghoul':['Anteiku','20th Ward'],
+    'Violet Evergarden':['Fifty Letters','CH Postal Company'],
+    'Yu-Gi-Oh!':['Duel Disk','Shadow Game'],
+    "Miss Kobayashi's Dragon Maid":['Chaos Faction','Kobayashi Apartment'],
+    'Demon Slayer':['Upper Moons','Infinity Castle'],
+    'Darling in the Franxx':['The Beast and the Prince','Plantation 13'],
+}
+FIELD_TITLE_OVERRIDES = {
+    ('You and I Are Polar Opposites','Culture Festival'):'Polar Opposites Culture Festival',
+}
+
+def _field_refs(show, count=6):
+    refs=[]
+    for ref in FIELD_REF_OVERRIDES.get(show,[]):
+        if ref in SHOW_REFERENCES[show] and ref not in refs: refs.append(ref)
+    scored=[]
+    for i,ref in enumerate(SHOW_REFERENCES[show]):
+        if ref in refs: continue
+        low=ref.casefold()
+        score=(7 if any(k in low for k in FIELD_HINTS) else 0) + (3 if i>=10 else 0)
+        scored.append((score,i,ref))
+    scored.sort(key=lambda x:(x[0],x[1]), reverse=True)
+    refs.extend(ref for _,_,ref in scored if ref not in refs)
+    return refs[:count]
+
+# Weak persistent effects. They last until either team plays another Environment.
+
+RESERVED_ENV_REFS = {
+    ('Frieren','Mimic Chest'), ('Bocchi the Rock!','Kessoku Band'), ('SPY x FAMILY','Operation Strix'),
+    ('One-Punch Man','King'), ('Overlord','Grasp Heart'), ('Sword Art Online','Dual Blades'),
+    ('Pokémon','Brock'), ('Jujutsu Kaisen','Satoru Gojo'), ('Chainsaw Man','Kobeni Higashiyama'),
+    ('Fullmetal Alchemist: Brotherhood','Roy Mustang'), ('Naruto','Naruto Uzumaki'),
+    ('Puella Magi Madoka Magica',"Homura's Shield"), ('My Hero Academia','Izuku Midoriya'),
+    ("JoJo's Bizarre Adventure",'Star Platinum'), ('Re:Zero','Subaru Natsuki'),
+    ('Kaguya-sama: Love Is War','Love Detective Chika'),
+}
+
+FIELD_KINDS = [
+    ('attack',10,'Your team’s attacks deal +10 damage.'),
+    ('guard',10,'Attacks against your team deal 10 less damage.'),
+    ('heal',10,'At the start of each allied turn, that player heals 10 HP.'),
+    ('armor',10,'At the start of each allied turn, that player gains 10 armor.'),
+    ('punch',10,'Your team’s punches deal +10 damage.'),
+]
+
+for show_index,show in enumerate(show_names):
+    threes=[c for c in out if c['show']==show and c.get('generated') and int(c['stars'])==3]
+    # Keep Environments at 3★: their strength comes from persisting until replaced,
+    # not from a large one-turn stat swing.
+    env_candidates=[c for c in threes if (show,c.get('canonRef')) not in RESERVED_ENV_REFS]
+    targets=env_candidates[-6:]
+    if len(targets) < 6:
+        raise RuntimeError(f'Not enough generated cards to make environments for {show}')
+    refs=_field_refs(show,6)
+    for j,(env_card,ref) in enumerate(zip(targets,refs)):
+        kind,amount,rule=FIELD_KINDS[(show_index+j) % len(FIELD_KINDS)]
+        env_card['canonRef']=ref
+        env_card['cardType']='environment'
+        title=FIELD_TITLE_OVERRIDES.get((show,ref), ref)
+        env_card['name']=f'Environment: {title}'
+        env_card['effect']=f'Set {title} as the Environment. {rule} Playing another Environment replaces it.'
+        env_card['action']={
+            'type':'terrain','terrainKind':kind,'amount':amount,
+            'terrainKey':f'{show}::{ref}'
+        }
+        env_card['profile']='tactical'
+
+# Rename the rest of the generated pool after terrain assignment.
+used_final=set(c['name'].casefold() for c in out if not c.get('generated'))
+for serial,c in enumerate([x for x in out if x.get('generated')]):
+    if c.get('cardType') in ('field','environment'):
+        proposed=c['name']
+    else:
+        proposed=_title_for_generated(c,serial)
+    attempt=1
+    while proposed.casefold() in used_final:
+        # Try another action/plot title rather than putting an ugly "2" after the name.
+        proposed=_title_for_generated(c,serial + attempt)
+        attempt+=1
+        if attempt>32:
+            proposed=f"{c.get('canonRef', c['name'])}: Another Route {attempt}"
+            break
+    c['name']=proposed
+    used_final.add(proposed.casefold())
+
+
+# A small number of intentionally meme-y cards. These are still mechanically balanced;
+# the joke is in the title/flavor, not in making them unusable or auto-win buttons.
+def _generated_ref(show, ref, stars):
+    matches=[c for c in out if c.get('generated') and c['show']==show and c.get('canonRef')==ref and int(c['stars'])==stars and c.get('cardType') not in ('field','environment')]
+    if not matches:
+        raise RuntimeError(f'Meme target not found: {show} / {ref} / {stars}★')
+    return matches[-1]
+
+def _meme(show, ref, stars, name, effect, action):
+    c=_generated_ref(show,ref,stars)
+    c['name']=name; c['effect']=effect; c['action']=action; c['meme']=True
+
+_meme('Frieren','Mimic Chest',3,'99% Chance It Is a Mimic',
+      'Flip a coin. Heads: draw 2 cards. Tails: take 20 damage and draw 1 card.',
+      {'type':'coin','heads':[st('draw','self',count=2)],'tails':[st('damage','self',amount=20,attack=False),st('draw','self',count=1)]})
+_meme('Bocchi the Rock!','Kessoku Band',3,'Bocchi.exe Has Stopped Responding',
+      'Until your next turn, you cannot be targeted. Then discard 1 random card.',
+      seq(st('untargetable','self'),st('discard_random','self',count=1)))
+_meme('SPY x FAMILY','Operation Strix',3,'Heh.',
+      'Draw 2 cards, then discard 1 random card.',
+      seq(st('draw','self',count=2),st('discard_random','self',count=1)))
+_meme('One-Punch Man','King',3,'King Engine (Definitely Real)',
+      'Gain 40 armor. Your next attack deals 10 less damage.',
+      seq(st('armor','self',amount=40),st('buff_attack','self',amount=-10)))
+_meme('Overlord','Grasp Heart',3,'Sasuga Ainz-sama',
+      'Give yourself or your teammate +20 damage on their next attack and 20 armor.',
+      seq(st('buff_attack','ally',amount=20),st('armor','ally',amount=20)))
+_meme('Sword Art Online','Dual Blades',3,'Kirito Is Definitely Not Hacking',
+      'Draw 1 card and get +20 damage on your next attack. Then take 10 damage.',
+      seq(st('draw','self',count=1),st('buff_attack','self',amount=20),st('damage','self',amount=10,attack=False)))
+_meme('Pokémon','Brock',3,'Jelly-Filled Donuts',
+      'Heal yourself or your teammate 40 HP.',
+      seq(st('heal','ally',amount=40)))
+_meme('Jujutsu Kaisen','Satoru Gojo',4,"Nah, I'd Win",
+      'Gain 50 armor and +20 damage on your next attack.',
+      seq(st('armor','self',amount=50),st('buff_attack','self',amount=20)))
+_meme('Chainsaw Man','Kobeni Higashiyama',3,"Kobeni's Car",
+      'Deal 40 damage to one other player, then take 20 damage.',
+      seq(st('damage','chosen_other',amount=40),st('damage','self',amount=20,attack=False)))
+_meme('Fullmetal Alchemist: Brotherhood','Roy Mustang',3,"It's a Terrible Day for Rain",
+      'Heal yourself or your teammate 20 HP and reduce their next incoming damage by 20.',
+      seq(st('heal','ally',amount=20),st('reduce_next','ally',amount=20)))
+_meme('Naruto','Naruto Uzumaki',3,'Talk no Jutsu',
+      'Make one opponent’s next attack deal 30 less damage, then draw 1 card.',
+      seq(st('buff_attack','chosen_enemy',amount=-30),st('draw','self',count=1)))
+_meme('Puella Magi Madoka Magica',"Homura's Shield",3,'Being Meguca Is Suffering',
+      'Draw 2 cards, then take 20 damage.',
+      seq(st('draw','self',count=2),st('damage','self',amount=20,attack=False)))
+_meme('My Hero Academia','Izuku Midoriya',3,'Deku Broke His Arms Again',
+      'Take 20 damage, then deal 50 damage to one other player.',
+      seq(st('damage','self',amount=20,attack=False),st('damage','chosen_other',amount=50)))
+_meme("JoJo's Bizarre Adventure",'Star Platinum',3,'To Be Continued...',
+      'Choose one other player. At the start of their next turn, deal 40 damage to them. Gain 10 armor.',
+      seq(st('delayed_damage','chosen_other',amount=40,turns=1),st('armor','self',amount=10)))
+_meme('Re:Zero','Subaru Natsuki',3,'I Love Emilia',
+      'Heal yourself or your teammate 40 HP, draw 1 card, then discard 1 random card.',
+      seq(st('heal','ally',amount=40),st('draw','self',count=1),st('discard_random','self',count=1)))
+_meme('Kaguya-sama: Love Is War','Love Detective Chika',3,'O Kawaii Koto',
+      'Make one opponent’s next attack deal 30 less damage and heal yourself 10 HP.',
+      seq(st('buff_attack','chosen_enemy',amount=-30),st('heal','self',amount=10)))
+
+
+# Simplify generated 3★/4★ abilities. Earlier versions kept every balancing rider used
+# during generation, which made some cards read like five unrelated clauses. Keep the
+# interesting core and at most two riders, remove "help the opponent" compensation, and
+# bring the result back inside the rarity power band.
+def _flat_steps(action):
+    if not isinstance(action,dict): return []
+    if action.get('type')=='sequence': return [dict(x) for x in action.get('steps',[])]
+    if action.get('type')=='bundle': return _flat_steps(action.get('main')) + [dict(x) for x in action.get('after',[])]
+    return []
+
+def _bad_comp(step):
+    op=step.get('op'); target=step.get('target')
+    if target=='chosen_enemy' and op in ('heal','armor'): return True
+    if target=='chosen_enemy' and op=='buff_attack' and float(step.get('amount',0) or 0)>0: return True
+    if target=='self' and op=='buff_attack' and float(step.get('amount',0) or 0)<0: return True
+    return False
+
+def _increase_positive(steps, need):
+    # Increase one normal flat positive effect in clean 10-point chunks.
+    for op in ('damage','heal','armor','reduce_next','buff_attack','mark','delayed_damage'):
+        for step in steps:
+            if step.get('op')!=op: continue
+            if op=='damage' and step.get('target')=='self': continue
+            if op=='buff_attack' and float(step.get('amount',0) or 0)<=0: continue
+            cur=int(step.get('amount',0) or 0)
+            add=max(10,min(50,int(((need+9)//10)*10)))
+            step['amount']=cur+add
+            return True
+    return False
+
+def _rider_for(profile, serial, strength=20):
+    amount=max(10,int(round(strength/10))*10)
+    options={
+      'assault':[st('buff_attack','self',amount=amount),st('mark','chosen_other',amount=amount),st('armor','self',amount=amount)],
+      'risk':[st('buff_attack','self',amount=amount),st('damage','self',amount=max(10,amount-10),attack=False),st('mark','chosen_other',amount=amount)],
+      'team':[st('armor','ally',amount=amount),st('heal','ally',amount=amount),st('buff_attack','ally',amount=amount)],
+      'social':[st('heal','ally',amount=amount),st('armor','ally',amount=amount),st('draw','self',count=1)],
+      'control':[st('buff_attack','chosen_enemy',amount=-amount),st('discard_random','chosen_enemy',count=1),st('prevent_heal','chosen_enemy',turns=1)],
+      'tempo':[st('draw','self',count=1),st('buff_attack','self',amount=amount),st('armor','self',amount=amount)],
+      'sport':[st('buff_attack','self',amount=amount),st('armor','self',amount=amount),st('heal','self',amount=amount)],
+      'mystic':[st('mark','chosen_other',amount=amount),st('delayed_damage','chosen_other',amount=amount+10,turns=1),st('reduce_next','self',amount=amount)],
+      'tactical':[st('reduce_next','self',amount=amount),st('armor','self',amount=amount),st('buff_attack','chosen_enemy',amount=-amount)],
+    }
+    opts=options.get(profile,options['tactical'])
+    return dict(opts[serial % len(opts)])
+
+def _describe_step(step):
+    op=step.get('op'); t=step.get('target','self'); a=int(step.get('amount',0) or 0)
+    if op=='damage':
+        if t=='self': return f'Take {a} damage'
+        if t=='enemies': return f'Deal {a} damage to both opponents'
+        if t=='all_others': return f'Deal {a} damage to every other living player'
+        if t=='chosen_enemy': return f'Deal {a} damage to one opponent'
+        return f'Deal {a} damage to one other player'
+    if op=='heal':
+        if t=='team': return f'Heal both members of your team {a} HP'
+        if t=='self': return f'Heal yourself {a} HP'
+        return f'Heal yourself or your teammate {a} HP'
+    if op=='armor':
+        if t=='team': return f'Give both members of your team {a} armor'
+        if t=='self': return f'Gain {a} armor'
+        return f'Give yourself or your teammate {a} armor'
+    if op=='draw': return f'Draw {int(step.get("count",1) or 1)} card' + ('s' if int(step.get('count',1) or 1)!=1 else '')
+    if op=='discard_random':
+        n=int(step.get('count',1) or 1)
+        who='one opponent' if t=='chosen_enemy' else 'yourself'
+        return f'{who.capitalize()} discards {n} random card' + ('s' if n!=1 else '')
+    if op=='buff_attack':
+        if a<0 and t=='chosen_enemy': return f'One opponent’s next attack deals {abs(a)} less damage'
+        if t=='team': return f'Your team gets +{a} damage on their next attack'
+        if t=='ally': return f'Give yourself or your teammate +{a} damage on their next attack'
+        return f'Your next attack gets +{a} damage'
+    if op=='attack_multiplier': return f'Your next attack deals ×{step.get("mult",1)} damage'
+    if op=='next_damage_multiplier': return f'Your next damage taken is ×{step.get("mult",1)}'
+    if op=='reduce_next':
+        if t=='ally': return f'Reduce the next damage you or your teammate takes by {a}'
+        return f'Reduce your next incoming damage by {a}'
+    if op=='mark': return f'Mark one other player for +{a} damage the next time they take damage'
+    if op=='prevent_heal': return 'One opponent cannot heal until the start of their next turn'
+    if op=='force_self_punch': return 'Choose an opponent. Their next action is a punch against themself'
+    if op=='delayed_damage': return f'Deal {a} delayed damage to one other player at the start of their next turn'
+    if op=='untargetable': return 'Until your next turn, you cannot be targeted'
+    if op=='return_discard':
+        n=int(step.get('count',1) or 1); mx=step.get('maxStars')
+        return f'Return up to {n} ' + (f'non-{int(mx)+1}★ ' if mx else '') + 'card' + ('s' if n!=1 else '') + ' from your discard pile'
+    if op=='punch_immunity': return f'Ignore the next {int(step.get("charges",1) or 1)} punch' + ('es' if int(step.get('charges',1) or 1)!=1 else '')
+    if op=='extra_punch': return 'You may punch once this turn after playing this card'
+    if op=='extra_play':
+        n=int(step.get('count',1) or 1); mx=step.get('maxStars')
+        return f'You may play {n} additional ' + (f'{mx}★ or lower ' if mx else '') + 'card' + ('s' if n!=1 else '') + ' this turn'
+    if op=='skip_turn': return 'One opponent skips their next turn'
+    if op=='steal_random': return f'Steal {int(step.get("count",1) or 1)} random card' + ('s' if int(step.get('count',1) or 1)!=1 else '') + ' from one opponent'
+    if op=='damage_cap': return f'Until your next turn, no single hit can deal you more than {a} damage'
+    if op=='swap_hp': return 'Swap your HP with one other living player'
+    if op=='bonus_draw': return f'Draw {int(step.get("count",1) or 1)} extra card' + ('s' if int(step.get('count',1) or 1)!=1 else '') + ' at the start of your next turn'
+    return None
+
+def _describe_steps(steps):
+    parts=[_describe_step(x) for x in steps]
+    if any(x is None for x in parts): return None
+    return '. '.join(parts)+'.'
+
+_clean_serial=0
+for c in out:
+    if not c.get('generated') or c.get('meme') or c.get('cardType') in ('field','environment') or int(c['stars']) not in (3,4,5):
+        continue
+    steps=_flat_steps(c.get('action'))
+    if not steps: continue
+    steps=[x for x in steps if not _bad_comp(x)]
+    if not steps: continue
+    # Keep the main idea plus at most two riders.
+    steps=steps[:3]
+    lo,hi=_POWER_BANDS[int(c['stars'])]
+    power=_action_power(seq(*steps))
+    if power<lo:
+        if len(steps)<3:
+            steps.append(_rider_for(c.get('profile','tactical'),_clean_serial,max(10,int((lo-power)//10*10))))
+        else:
+            _increase_positive(steps,lo-power)
+    power=_action_power(seq(*steps))
+    if power>hi:
+        excess=power-hi
+        if len(steps)<3:
+            steps.append(st('damage','self',amount=max(10,min(50,int(((excess+9)//10)*10))),attack=False))
+        else:
+            # Reduce the largest ordinary positive amount instead of adding a fourth clause.
+            candidates=[x for x in steps if x.get('op') in ('damage','heal','armor','buff_attack','mark','reduce_next') and not (x.get('op')=='damage' and x.get('target')=='self') and float(x.get('amount',0) or 0)>10]
+            if candidates:
+                big=max(candidates,key=lambda x:float(x.get('amount',0) or 0))
+                big['amount']=max(10,int(big.get('amount',0))-max(10,min(40,int(((excess+9)//10)*10))))
+    text=_describe_steps(steps)
+    if text:
+        c['action']=seq(*steps); c['effect']=text; c['simplified']=True
+    _clean_serial+=1
+
+# If simplification happened to make two generated action sets identical, replace only the
+# final rider with a small, useful signature rider. This keeps abilities mechanically distinct
+# without returning to five-clause cards.
+_used_actions={}
+for serial,c in enumerate([x for x in out if x.get('generated') and x.get('action') and x.get('cardType') not in ('field','environment')]):
+    key=json.dumps(c['action'],sort_keys=True,ensure_ascii=False)
+    if key not in _used_actions:
+        _used_actions[key]=c['id']; continue
+    if c.get('meme'): continue
+    steps=_flat_steps(c['action'])
+    base=steps[:2]
+    fixed=False
+    for attempt in range(60):
+        strength=10 + 10*((attempt//9)%4)
+        rider=_rider_for(c.get('profile','tactical'),serial+attempt,strength)
+        candidate=seq(*(base+[rider]))
+        k=json.dumps(candidate,sort_keys=True,ensure_ascii=False)
+        if k not in _used_actions:
+            c['action']=candidate
+            desc=_describe_steps(base+[rider])
+            if desc: c['effect']=desc
+            _used_actions[k]=c['id']; fixed=True; break
+    if not fixed:
+        # Extremely unlikely fallback: preserve gameplay and vary delayed timing/amount.
+        rider=st('delayed_damage','chosen_other',amount=20+10*(serial%5),turns=1+(serial%2))
+        candidate=seq(*(base+[rider])); c['action']=candidate
+        desc=_describe_steps(base+[rider])
+        if desc: c['effect']=desc
+        _used_actions[json.dumps(candidate,sort_keys=True,ensure_ascii=False)]=c['id']
+
+# Re-run global name de-duplication after meme overrides.
+_seen_names={}
+for c in out:
+    key=c['name'].casefold()
+    if key in _seen_names:
+        c['name']=f"{c['name']} — {c['show']}"
+    _seen_names[c['name'].casefold()]=c['id']
+
 # Final clean-10 pass catches every generated/legacy flat point value after targeted rebalances.
 for c in out:
     c['effect'], c['action'] = normalize_pair(c.get('effect',''), c.get('action'))
+
+
+# Normalization can collapse two near-identical numeric variants into the same clean-10
+# action. Do one last uniqueness repair on the normalized data.
+_final_actions=set(); _final_effects=set()
+for serial,c in enumerate([x for x in out if x.get('generated')]):
+    akey=json.dumps(c.get('action'),sort_keys=True,ensure_ascii=False)
+    ekey=c.get('effect','')
+    if akey not in _final_actions and ekey not in _final_effects:
+        _final_actions.add(akey); _final_effects.add(ekey); continue
+    if c.get('cardType') in ('field','environment'):
+        # Field keys are already unique by show/reference; duplicate text is okay to repair
+        # with the field name without changing the mechanic.
+        c['effect']=c['effect'].rstrip('.')+f' ({c["name"]}).'
+        ekey=c['effect']; _final_actions.add(akey); _final_effects.add(ekey); continue
+    steps=_flat_steps(c.get('action'))
+    if not steps:
+        # Coin/direct fallback: a small armor rider is easy to understand and stays balanced.
+        steps=[st('armor','self',amount=10+10*(serial%4))]
+    base=steps[:2]
+    fixed=False
+    for attempt in range(120):
+        amount=10+10*((serial+attempt)%5)
+        mode=(serial+attempt)%8
+        if mode==0: rider=st('armor','self',amount=amount)
+        elif mode==1: rider=st('heal','self',amount=amount)
+        elif mode==2: rider=st('reduce_next','self',amount=amount)
+        elif mode==3: rider=st('buff_attack','self',amount=amount)
+        elif mode==4: rider=st('mark','chosen_other',amount=amount)
+        elif mode==5: rider=st('delayed_damage','chosen_other',amount=amount+10,turns=1+(attempt%2))
+        elif mode==6: rider=st('buff_attack','chosen_enemy',amount=-amount)
+        else: rider=st('discard_random','chosen_enemy',count=1)
+        candidate=seq(*(base+[rider]))
+        desc=_describe_steps(base+[rider])
+        if not desc: continue
+        desc,candidate=normalize_pair(desc,candidate)
+        k=json.dumps(candidate,sort_keys=True,ensure_ascii=False)
+        if k not in _final_actions and desc not in _final_effects:
+            c['action']=candidate; c['effect']=desc; akey=k; ekey=desc; fixed=True; break
+    if not fixed:
+        # Keep the mechanic and make the text unique as a last resort. This should be rare.
+        c['effect']=c.get('effect','').rstrip('.')+f' [{c.get("canonRef",c["name"])}].'
+        ekey=c['effect']
+    _final_actions.add(akey); _final_effects.add(ekey)
 
 counts=defaultdict(Counter)
 for c in out: counts[c['show']][c['stars']]+=1
@@ -1221,5 +1696,5 @@ assert not any(c.get('generated') and any(x in c['name'].lower() for x in banned
 (ROOT/'cards.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
 (ROOT/'shows.json').write_text(json.dumps(show_names, ensure_ascii=False, indent=2), encoding='utf-8')
 print(f'Generated {len(out)} cards across {len(counts)} shows; pool per show = 15x3★ / 7x4★ / 2x5★.')
-print(f'{sum(c.get("generated",False) for c in out)} generated canon-reference cards; deck requirement remains 10/5/1 per selected show.')
+print(f'{sum(c.get("generated",False) for c in out)} generated canon-reference cards; deck requirement is 10/5/1 plus at least 3 Environments per selected show.')
 

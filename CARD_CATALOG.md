@@ -1,2035 +1,2149 @@
-# Full Card Catalog — Anime Card Bonk!!
+# Card Catalog
 
-**1392 cards · 58 shows**
-
-Each show pool has **15×3★, 7×4★, 2×5★**. A deck selects **10×3★, 5×4★, 1×5★** from each of its three shows.
+1392 cards across 58 shows. Each show has 15×3★, 7×4★, and 2×5★ cards. Environment cards are included in the normal rarity counts.
 
 ## 86 Eighty-Six
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Anju Emma** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
-- **Anju Emma — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then take 10 damage.
-- **Fido** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
-- **Frederica Rosenfort** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor. Also make an opponent’s next attack deal 20 less damage.
-- **Juggernaut** — You and your teammate each get +10 damage on your next attack. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Kurena Kukumila** — Deal 20 damage to both opponents. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
-- **Para-RAID** *(original)* — Give yourself or your teammate +30 damage on their next attack.
-- **Raiden Shuga** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Raiden Shuga — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then take 10 damage.
-- **Shin Nouzen** — Deal 30 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
-- **Shin Nouzen — Pressure** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor; then heal yourself 10 HP; then take 10 damage.
-- **Theoto Rikka** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Theoto Rikka — Overdrive** — Deal 20 damage to both opponents. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then take 10 damage.
-- **Vladilena Milizé** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
-- **Vladilena Milizé — Rally** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then take 10 damage.
+- **Para-RAID** — Give yourself or your teammate +30 damage on their next attack.
+- **Full-Force Attack — Shin Nouzen** — Deal 30 damage to one other player. Mark one other player for +10 damage the next time they take damage. Take 10 damage.
+- **Covering Fire — Vladilena Milizé** — Heal yourself or your teammate 40 HP. Reduce the next damage you or your teammate takes by 20. Take 20 damage.
+- **Rally the Team — Raiden Shuga** — Deal 20 damage to one other player. Give yourself or your teammate 10 armor. Reduce the next damage you or your teammate takes by 10.
+- **Point-Blank — Anju Emma** — Deal 20 damage to one other player. Draw 1 card. Gain 10 armor.
+- **Finishing Blow — Theoto Rikka** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 20. Take 10 damage.
+- **Last Rush — Kurena Kukumila** — Deal 20 damage to both opponents. Gain 20 armor.
+- **Stand Together — Fido** — Heal both members of your team 50 HP. Give yourself or your teammate 20 armor. Yourself discards 2 random cards.
+- **Plan Within a Plan — Frederica Rosenfort** — Draw 2 cards. Yourself discards 1 random card. Reduce your next incoming damage by 10.
+- **Environment: Giad Federacy** *(Environment)* — Set Giad Federacy as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: San Magnolia** *(Environment)* — Set San Magnolia as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: The Reaper** *(Environment)* — Set The Reaper as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Morpho** *(Environment)* — Set Morpho as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Legion** *(Environment)* — Set Legion as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Reginleif** *(Environment)* — Set Reginleif as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Legion** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 20 HP.
-- **Legion — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
-- **Morpho** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Your next attack also gets +40 damage.
-- **Reginleif** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +20 damage on their next attack.
-- **Reginleif — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
-- **San Magnolia** — Choose an opponent. They discard 2 random cards. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
-- **Undertaker** *(original)* — When your teammate dies this card immediately pops, you gain an extra 50 hp (can go over max hp)
+- **Undertaker** — When your teammate dies this card immediately pops, you gain an extra 50 hp (can go over max hp)
+- **No Holding Back — Reginleif** — Deal 60 damage to one other player. Give yourself or your teammate +20 damage on their next attack.
+- **Counterattack — Legion** — Deal 60 damage to one other player. One opponent’s next attack deals 10 less damage.
+- **Point-Blank — Morpho** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Reduce your next incoming damage by 10.
+- **Read the Field — San Magnolia** — One opponent discards 2 random cards. Gain 20 armor.
+- **The Reaper: Back-to-Back** — Give yourself or your teammate +40 damage on their next attack. Draw 1 card. Give yourself or your teammate 10 armor.
+- **Rescue Mission — Spearhead Squadron** — Give yourself or your teammate +40 damage on their next attack. Draw 1 card. Give yourself or your teammate +10 damage on their next attack.
 
 ### 5★
 
-- **Giad Federacy — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then take 20 damage. Also give yourself or your teammate 30 armor.
-- **The Reaper** — Deal 90 damage to one other player. The next damage they take is increased by 30.
+- **The Reaper** — Deal 90 damage to one other player. Mark one other player for +30 damage the next time they take damage.
+- **Perfect Assist — Giad Federacy** — Heal both members of your team 50 HP. Give both members of your team 20 armor. One opponent’s next attack deals 10 less damage.
 
 ## Akame ga Kill!
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Bulat** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Chelsea** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
-- **Leone** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
-- **Leone — Breakthrough** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Lubbock** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
-- **Lubbock — Counteroffensive** — Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +10 damage; then give yourself or your teammate 10 armor; then take 20 damage.
-- **Mine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20. Then take 20 damage.
-- **Mine — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 10 HP; then your next attack gets +10 damage; then take 20 damage.
-- **Murasame** *(original)* — Mark one other player. The next damage they take is increased by 30.
-- **Najenda** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +20 on the next damage they take. Then discard 1 random card from your hand.
-- **Sheele** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor.
-- **Sheele — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +10 damage on their next attack; then take 20 damage.
-- **Susanoo** — Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Tatsumi** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +20 damage.
-- **Tatsumi — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then reduce the next damage you take by 10; then take 20 damage.
+- **Murasame** — Mark one other player. The next damage they take is increased by 30.
+- **Break the Line — Tatsumi** — Deal 20 damage to one other player. Gain 10 armor. Give yourself or your teammate +10 damage on their next attack.
+- **All-In Assault — Mine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Reduce your next incoming damage by 20.
+- **Full-Force Attack — Leone** — Deal 20 damage to one other player. Gain 10 armor. Your next attack gets +10 damage.
+- **No Holding Back — Lubbock** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. One opponent’s next attack deals 10 less damage.
+- **Counterattack — Sheele** — Deal 20 damage to both opponents. Reduce your next incoming damage by 10.
+- **Point-Blank — Najenda** — Deal 20 damage to one other player. Gain 10 armor. Mark one other player for +20 damage the next time they take damage.
+- **Finishing Blow — Chelsea** — Deal 20 damage to one other player. Gain 10 armor. Mark one other player for +10 damage the next time they take damage.
+- **Last Rush — Bulat** — Take 10 damage. Deal 40 damage to one other player. Reduce your next incoming damage by 10.
+- **Environment: Night Raid** *(Environment)* — Set Night Raid as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Esdeath** *(Environment)* — Set Esdeath as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Kurome** *(Environment)* — Set Kurome as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Demon's Extract** *(Environment)* — Set Demon's Extract as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Cross Tail** *(Environment)* — Set Cross Tail as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Incursio** *(Environment)* — Set Incursio as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Cross Tail** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
-- **Cross Tail — Decisive Strike** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack; then gain 10 armor; then your next attack deals 10 less damage.
-- **Demon's Extract** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Esdeath** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
-- **Incursio** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
-- **Incursio — Finisher** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
-- **Kurome** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **All-In Assault — Incursio** — Deal 50 damage to one other player. Draw 1 card. Mark one other player for +10 damage the next time they take damage.
+- **Cross Tail** — Deal 50 damage to one other player. Draw 1 card. One opponent’s next attack deals 10 less damage.
+- **No Holding Back — Demon's Extract** — Deal 50 damage to one other player. Draw 1 card. Give yourself or your teammate +10 damage on their next attack.
+- **Counterattack — Kurome** — Take 20 damage. Deal 80 damage to one other player. Mark one other player for +20 damage the next time they take damage.
+- **Point-Blank — Esdeath** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 10 less damage.
+- **Point-Blank — Night Raid** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Give yourself or your teammate 10 armor.
+- **Finishing Blow — Pumpkin** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. Gain 10 armor.
 
 ### 5★
 
-- **Esdeath — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Night Raid** — You and your teammate each get +30 damage on your next attack, then draw 1 card. Your next attack also gets +30 damage.
+- **Finishing Blow — Night Raid** — Your team gets +30 damage on their next attack. Draw 1 card. Your next attack gets +30 damage.
+- **Last Rush — Esdeath** — Deal 60 damage to both opponents. Your next attack gets +20 damage. One opponent’s next attack deals 10 less damage.
 
 ## Angel Beats!
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Angel beats horrendous gym song** *(original)* — decrease 1 opponent dmg done to 0.75x for 1 turn
-- **Ayato Naoi** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 20. Then take 20 damage.
-- **Hinata Hideki** — Give both members of your team 20 armor. Afterward, heal yourself or your teammate 10 HP. Then take 10 damage. Also give yourself or your teammate 30 armor.
-- **Hinata Hideki — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
-- **Iwasawa Masami** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage. Then discard 2 random cards from your hand. Also draw 1 card.
-- **Iwasawa Masami — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage. Also draw 1 card.
-- **Noda** — Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **Shiina** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
-- **TK** — Draw 1 card. Your next attack gets +10 damage. Afterward, gain 10 armor. Then take 10 damage.
-- **Yui** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
-- **Yui — Quick Shift** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
-- **Yuri Nakamura** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
-- **Yuri Nakamura — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 10 HP; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
-- **Yuzuru Otonashi** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Yuzuru Otonashi — Cover** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **Angel beats horrendous gym song** — decrease 1 opponent dmg done to 0.75x for 1 turn
+- **Perfect Assist — Yuzuru Otonashi** — Deal 20 damage to one other player. Give yourself or your teammate 10 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Calculated Risk — Yuri Nakamura** — Deal 30 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 20.
+- **Last Stand — Hinata Hideki** — Give both members of your team 20 armor. Heal yourself or your teammate 20 HP. Take 10 damage.
+- **Encore — Yui** — Heal yourself 20 HP. Draw 1 card. Your next attack gets +10 damage.
+- **Quick Shift — Iwasawa Masami** — One opponent discards 1 random card. Draw 1 card. Your next attack gets +10 damage.
+- **Forced Move — Ayato Naoi** — Until your next turn, you cannot be targeted. Reduce your next incoming damage by 20. Take 20 damage.
+- **Steal the Tempo — TK** — Draw 1 card. Your next attack gets +10 damage. Gain 10 armor.
+- **Finishing Blow — Noda** — Take 10 damage. Deal 40 damage to one other player. One opponent’s next attack deals 10 less damage.
+- **Environment: SSS Battlefront** *(Environment)* — Set SSS Battlefront as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Kanade Tachibana** *(Environment)* — Set Kanade Tachibana as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Operation Tornado** *(Environment)* — Set Operation Tornado as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Harmonics** *(Environment)* — Set Harmonics as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Distortion** *(Environment)* — Set Distortion as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Hand Sonic** *(Environment)* — Set Hand Sonic as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Distortion** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Also reduce the next damage you take by 30.
-- **Distortion — Perfect Setup** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, give your teammate +10 damage on their next attack; then heal yourself 10 HP; then discard 1 random card from your hand.
-- **Hand Sonic** — Deal 60 damage to one other player. Afterward, your next attack gets +20 damage. Then heal the chosen opponent 10 HP.
-- **Hand Sonic — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then gain 10 armor; then discard 1 random card from your hand.
-- **Harmonics** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then discard 1 random card from your hand.
-- **Operation Tornado** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then give the chosen opponent +20 damage on their next attack.
-- **SSS Battlefront** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **Break the Line — Hand Sonic** — Deal 60 damage to one other player. Your next attack gets +20 damage.
+- **Grand Strategy — Distortion** — Draw 2 cards. Give yourself or your teammate 30 armor. One opponent’s next attack deals 10 less damage.
+- **Encore — Harmonics** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Your next attack gets +20 damage.
+- **Countermeasure — Operation Tornado** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Gain 20 armor.
+- **Rally the Team — SSS Battlefront** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Keep It Going — Kanade Tachibana** — Deal 50 damage to one other player. Draw 1 card. Give yourself or your teammate 10 armor.
+- **Keep It Going — Girls Dead Monster** — Deal 50 damage to one other player. Draw 1 card. Your next attack gets +40 damage.
 
 ### 5★
 
-- **Kanade Tachibana** — Gain 60 armor. The next 2 punches that would damage you deal 0 instead. Also draw 1 card.
-- **SSS Battlefront — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 10; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Steal the Tempo — Kanade Tachibana** — Gain 60 armor. Ignore the next 2 punches. Draw 1 card.
+- **Perfect Assist — SSS Battlefront** — Heal both members of your team 50 HP. Give both members of your team 20 armor. Heal yourself or your teammate 10 HP.
 
 ## Attack on Titan
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Armin Arlert** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
-- **Armin Arlert — Calculated Trap** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 10 HP; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
-- **Connie Springer** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
-- **Connie Springer — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Erwin Smith** — Give both members of your team 20 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then heal the chosen opponent 10 HP.
-- **Hange Zoë** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then take 30 damage. Also reduce the next damage you take by 50.
-- **Hit the Nape** *(original)* — Deal 30 damage to one other player.
-- **Jean Kirstein** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
-- **Jean Kirstein — Breakthrough** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
-- **Mikasa Ackerman** — Deal 20 damage to both opponents. Afterward, give your teammate +20 damage on their next attack. Then take 10 damage.
-- **Mikasa Ackerman — Pressure** — Deal 20 damage to both opponents. Afterward, gain 10 armor; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
-- **Reiner Braun** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
-- **Sasha Blouse** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Your next attack also gets +20 damage.
-- **Sasha Blouse — Overdrive** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then gain 10 armor; then heal the chosen opponent 10 HP.
-- **Titan hardening** *(original)* — Give yourself 30 armor. Armor can exceed max HP.
+- **Hit the Nape** — Deal 30 damage to one other player.
+- **Titan hardening** — Give yourself 30 armor. Armor can exceed max HP.
+- **Finishing Blow — Mikasa Ackerman** — Deal 20 damage to both opponents. Give yourself or your teammate +20 damage on their next attack. Take 10 damage.
+- **False Opening — Armin Arlert** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 20 less damage.
+- **Break the Line — Jean Kirstein** — Deal 20 damage to both opponents. Reduce your next incoming damage by 20.
+- **All-In Assault — Connie Springer** — Take 10 damage. Deal 40 damage to one other player. Reduce your next incoming damage by 20.
+- **Full-Force Attack — Sasha Blouse** — Deal 20 damage to one other player. Draw 1 card. One opponent’s next attack deals 10 less damage.
+- **Countermeasure — Hange Zoë** — Mark one other player for +20 damage the next time they take damage. Gain 40 armor. Take 30 damage.
+- **Rally the Team — Erwin Smith** — Give both members of your team 20 armor. Your team gets +10 damage on their next attack.
+- **Environment: The Rumbling** *(Environment)* — Set The Rumbling as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Founding Titan** *(Environment)* — Set Founding Titan as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Colossal Titan** *(Environment)* — Set Colossal Titan as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Armored Titan** *(Environment)* — Set Armored Titan as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Beast Titan** *(Environment)* — Set Beast Titan as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Levi Ackerman** *(Environment)* — Set Levi Ackerman as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Armored Titan** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Beast Titan** — Deal 60 damage to one other player. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
-- **Beast Titan — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
-- **Colossal Titan** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **Levi Ackerman** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then discard 1 random card from your hand.
-- **Levi Ackerman — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Thunder Spear** *(original)* — Deal 60 damage to one other player.
+- **Thunder Spear** — Deal 60 damage to one other player.
+- **Finishing Blow — Levi Ackerman** — Deal 40 damage to both opponents. Gain 20 armor. Yourself discards 1 random card.
+- **Beast Titan** — Deal 60 damage to one other player. Gain 10 armor.
+- **Armored Titan** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Give yourself or your teammate 20 armor.
+- **Colossal Titan** — Take 20 damage. Deal 80 damage to one other player. One opponent’s next attack deals 10 less damage.
+- **Founding Titan: Point-Blank** — Take 20 damage. Deal 80 damage to one other player. Give yourself or your teammate 10 armor.
+- **ODM Gear: Keep It Going** — Draw 3 cards. Yourself discards 1 random card. Gain 10 armor.
 
 ### 5★
 
-- **Founding Titan** — Deal 50 damage to both opponents. The next damage each takes is increased by 10.
-- **The Rumbling — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Founding Titan** — Deal 50 damage to both opponents. Mark one other player for +10 damage the next time they take damage.
+- **The Rumbling: Last Rush** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Mark one other player for +10 damage the next time they take damage.
 
 ## Birdie Wing
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Amane Shinjo** — Give your teammate +20 damage on their next attack. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
-- **Amane Shinjo — Clutch Play** — You and your teammate each gain 20 armor. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 10 HP; then take 10 damage.
-- **Aoi Amawashi** — Your next attack deals ×1.25 damage. Afterward, your next attack gets +10 damage. Then take 30 damage. Your next attack also gets +50 damage.
-- **Aoi Amawashi — Second Wind** — Draw 2 cards, then discard 1 random card. Afterward, heal yourself 10 HP; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Blue Bullet** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 20 armor. Then take 10 damage.
-- **Eve** — Reduce the next damage you take by 25. Afterward, your next attack gets +10 damage. Then take 10 damage. Your next attack also gets +20 damage.
-- **Eve — Perfect Form** — Your next attack deals ×1.25 damage. Afterward, gain 10 armor; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
-- **Ichina Saotome** — Reduce the next damage you take by 25. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage. Your next attack also gets +20 damage.
-- **Ichina Saotome — Closing Sprint** — Your next attack deals ×1.25 damage. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
-- **Leo Millafoden** — Draw 1 card and gain 20 armor. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Lily Lipman** — Your next attack deals ×1.25 damage. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Your next attack also gets +20 damage.
-- **Lily Lipman — Training Payoff** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, your next attack gets +10 damage; then gain 10 armor; then take 10 damage.
-- **Rainbow Bullet** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
-- **Reiya Amuro** — Your next attack deals ×1.25 damage. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Vipère** — You and your teammate each gain 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +30 damage.
+- **Closing Sprint — Eve** — Reduce your next incoming damage by 40. Your next attack gets +10 damage. Take 10 damage.
+- **Clutch Play — Aoi Amawashi** — Your next attack deals ×1.25 damage. Your next attack gets +50 damage. Take 30 damage.
+- **Second Wind — Ichina Saotome** — Reduce your next incoming damage by 30. Your next attack gets +20 damage. Your next attack gets +20 damage.
+- **Training Pays Off — Lily Lipman** — Your next attack deals ×1.25 damage. Reduce your next incoming damage by 10. Your next attack gets +20 damage.
+- **Photo Finish — Amane Shinjo** — Give yourself or your teammate +20 damage on their next attack. Gain 20 armor.
+- **Peak Condition — Reiya Amuro** — Your next attack deals ×1.25 damage. Your next attack gets +20 damage. Your next attack gets +20 damage.
+- **Championship Point — Leo Millafoden** — Draw 1 card. Gain 20 armor. Reduce your next incoming damage by 10.
+- **Perfect Form — Vipère** — Give both members of your team 50 armor. Reduce your next incoming damage by 10. Take 30 damage.
+- **Closing Sprint — Rainbow Bullet** — Deal 20 damage to one other player. Your next attack gets +10 damage. Gain 10 armor.
+- **Environment: Raiho Girls' Academy** *(Environment)* — Set Raiho Girls' Academy as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Nafrece Underground Golf** *(Environment)* — Set Nafrece Underground Golf as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Evangeline Burton** *(Environment)* — Set Evangeline Burton as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Mizuho Himekawa** *(Environment)* — Set Mizuho Himekawa as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Kaoruko Iijima** *(Environment)* — Set Kaoruko Iijima as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Rose Aleon** *(Environment)* — Set Rose Aleon as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Have you ever played golf with your life on the line?** *(original)* — minus a 20 hp from yourself for a 30+ dmg addition to you’re next attack
-- **Kaoruko Iijima** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Kaoruko Iijima — Photo Finish** — Your next attack deals ×1.5 damage. Draw 1 card. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +10 damage; then take 10 damage.
-- **Mizuho Himekawa** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Nafrece Underground Golf** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then take 30 damage.
-- **Rose Aleon** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then take 10 damage.
-- **Rose Aleon — Peak Condition** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 10; then take 10 damage.
+- **Have you ever played golf with your life on the line?** — minus a 20 hp from yourself for a 30+ dmg addition to you’re next attack
+- **Second Wind — Rose Aleon** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Your next attack gets +20 damage.
+- **Training Pays Off — Kaoruko Iijima** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Your next attack gets +10 damage.
+- **Photo Finish — Mizuho Himekawa** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Give yourself or your teammate +10 damage on their next attack.
+- **Peak Condition — Nafrece Underground Golf** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Heal yourself 10 HP.
+- **Second Wind — Evangeline Burton** — Your next attack deals ×1.5 damage. Draw 1 card. Give yourself or your teammate 10 armor.
+- **Training Pays Off — Blue Bullet** — Heal both members of your team 30 HP. Give both members of your team 20 armor. Give yourself or your teammate +10 damage on their next attack.
 
 ### 5★
 
-- **Evangeline Burton** — Your next attack gets +60 damage, then draw 1 card. Your next attack also gets +20 damage.
-- **Raiho Girls' Academy — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +10 on the next damage they take; then take 10 damage. Also give yourself or your teammate 30 armor.
+- **Championship Point — Evangeline Burton** — Your next attack gets +60 damage. Draw 1 card. Your next attack gets +20 damage.
+- **Raiho Girls' Academy: Perfect Assist** — Heal both members of your team 50 HP. Give both members of your team 20 armor. Give yourself or your teammate +10 damage on their next attack.
 
 ## Bocchi the Rock!
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Eliza Shimizu** — You may punch once after playing this card. Afterward, your next attack gets +20 damage. Then give the chosen opponent +10 damage on their next attack.
-- **Hitori Gotoh** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP. Then take 30 damage. Also draw 1 card.
-- **Hitori Gotoh — Momentum** — You may punch once after playing this card. Afterward, gain 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
-- **Ikuyo Kita** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
-- **Ikuyo Kita — Quick Shift** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage; then heal yourself 10 HP; then take 20 damage.
-- **Kikuri Hiroi** — Deal 20 damage to every other living player. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
-- **Nijika Ijichi** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage.
-- **Nijika Ijichi — Rally** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 10 less damage; then take 10 damage.
-- **Omurice beam** *(original)* — Turn on cam and faithfully recreate the omurice kita scene for a 1.25x dmg boost and 10 healing
-- **PA-san** — Choose an opponent. They discard 1 random card. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP. Also reduce the next damage you take by 30.
-- **Ryo Yamada** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 20 HP. Then give the chosen opponent 20 armor.
-- **Ryo Yamada — Second Beat** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, reduce the next damage you take by 10; then gain 10 armor; then take 20 damage. Also draw 1 card. Also gain 20 armor.
-- **Seika Ijichi** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
-- **Seika Ijichi — Field Plan** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 10; then take 20 damage. Also reduce the next damage you take by 30.
-- **Social Anxiety** *(original)* — until your next turn you can’t be targeted by attacks
+- **Social Anxiety** — until your next turn you can’t be targeted by attacks
+- **Omurice beam** — Turn on cam and faithfully recreate the omurice kita scene for a 1.25x dmg boost and 10 healing
+- **Encore — Hitori Gotoh** — Deal 20 damage to one other player. Draw 1 card. Heal yourself 10 HP.
+- **Covering Fire — Nijika Ijichi** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Reduce the next damage you or your teammate takes by 20.
+- **Second Beat — Ryo Yamada** — One opponent discards 1 random card. Draw 1 card. Heal yourself 10 HP.
+- **Steal the Tempo — Ikuyo Kita** — Draw 2 cards. Yourself discards 1 random card. Mark one other player for +20 damage the next time they take damage.
+- **Field Plan — Seika Ijichi** — Deal 30 delayed damage to one other player at the start of their next turn. One opponent’s next attack deals 10 less damage.
+- **Prepared Response — PA-san** — One opponent discards 1 random card. Reduce your next incoming damage by 10. Reduce your next incoming damage by 30.
+- **Environment: School Festival Live** *(Environment)* — Set School Festival Live as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: STARRY** *(Environment)* — Set STARRY as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Bocchi.exe Has Stopped Responding** *(Meme)* — Until your next turn, you cannot be targeted. Then discard 1 random card.
+- **Environment: That Band** *(Environment)* — Set That Band as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: If I Could Be a Constellation** *(Environment)* — Set If I Could Be a Constellation as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Guitar, Loneliness and the Blue Planet** *(Environment)* — Set Guitar, Loneliness and the Blue Planet as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Bocchi's Bottle Slide** *(Environment)* — Set Bocchi's Bottle Slide as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Bocchi's Bottle Slide** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
-- **Bocchi's Bottle Slide — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Guitar, Loneliness and the Blue Planet** — You and your teammate each get +30 damage on your next attack. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Also draw 1 card. Also gain 20 armor.
-- **If I Could Be a Constellation** — Deal 50 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP. Then take 10 damage.
-- **Kessoku Band** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
-- **Kessoku Band — Rescue** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then your next attack gets +10 damage; then take 20 damage. Also give yourself or your teammate 30 armor.
-- **School Festival Live** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, heal yourself 10 HP. Then take 20 damage. Also draw 1 card.
+- **Hold the Line — Kessoku Band** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Reduce the next damage you or your teammate takes by 20.
+- **No Holding Back — Bocchi's Bottle Slide** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Give yourself or your teammate +20 damage on their next attack.
+- **Second Beat — Guitar, Loneliness and the Blue Planet** — Your team gets +60 damage on their next attack. Mark one other player for +20 damage the next time they take damage. Take 30 damage.
+- **Steal the Tempo — If I Could Be a Constellation** — Deal 50 damage to one other player. Draw 1 card. Heal yourself 10 HP.
+- **School Festival Live** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Heal yourself 10 HP.
+- **Steal the Tempo — That Band** — Your team gets +30 damage on their next attack. Give yourself or your teammate 10 armor. Your next attack gets +10 damage.
+- **Rescue Mission — STARRY** — Give yourself or your teammate +40 damage on their next attack. Draw 1 card. Heal yourself or your teammate 10 HP.
 
 ### 5★
 
-- **School Festival Live — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 10 armor; then take 20 damage.
-- **That Band** — You and your teammate each get +30 damage on your next attack. Draw 2 cards.
+- **Sudden Turn — That Band** — Your team gets +30 damage on their next attack. Draw 2 cards.
+- **School Festival Live: Sudden Turn** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Gain 10 armor.
 
 ## Chainsaw Man
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Aki Hayakawa** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 20 damage. Also reduce the next damage you take by 30.
-- **Aki Hayakawa — Measured Strike** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Denji** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor. Then take 30 damage. Your next attack also gets +20 damage.
-- **Denji — Over the Limit** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage. Your next attack also gets +20 damage.
-- **Fox Devil** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 20 damage. Your next attack also gets +20 damage.
-- **Ghost Devil** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then discard 1 random card from your hand.
-- **Himeno** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Himeno — All In** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
-- **Kishibe** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Kobeni Higashiyama** — Draw 1 card. Your next attack gets +10 damage. Afterward, heal yourself 20 HP. Then take 20 damage.
-- **Kobeni Higashiyama — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +10 damage; then your next attack deals 10 less damage. Also draw 1 card.
-- **Petting Pochita** *(original)* — Heal yourself 40 HP.
-- **Power** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +30 damage.
-- **Power — No Turning Back** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, heal yourself 10 HP; then gain 10 armor; then your next attack deals 10 less damage.
-- **Pull the chord** *(original)* — Take 10 damage, then deal 40 damage to one other player.
+- **Petting Pochita** — Heal yourself 40 HP.
+- **Pull the chord** — Take 10 damage, then deal 40 damage to one other player.
+- **Point of No Return — Denji** — Take 10 damage. Deal 40 damage to one other player. Gain 10 armor.
+- **One Last Shot — Power** — Take 20 damage. Your next attack gets +50 damage. Mark one other player for +10 damage the next time they take damage.
+- **Perfect Setup — Aki Hayakawa** — Mark one other player for +20 damage the next time they take damage. Gain 40 armor. Take 20 damage.
+- **Over the Limit — Himeno** — Take 10 damage. Deal 40 damage to one other player. Take 10 damage.
+- **Kobeni's Car** *(Meme)* — Deal 40 damage to one other player, then take 20 damage.
+- **Read the Situation — Kishibe** — Reduce the next damage you or your teammate takes by 30. Give yourself or your teammate 20 armor.
+- **Fox Devil** — Take 10 damage. Deal 40 damage to one other player. Mark one other player for +10 damage the next time they take damage.
+- **Environment: Easy Revenge** *(Environment)* — Set Easy Revenge as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Chainsaw Devil** *(Environment)* — Set Chainsaw Devil as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Gun Devil** *(Environment)* — Set Gun Devil as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Eternity Devil** *(Environment)* — Set Eternity Devil as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Katana Man** *(Environment)* — Set Katana Man as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Makima** *(Environment)* — Set Makima as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Chainsaw Devil** — Deal 40 damage to both opponents. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
-- **Eternity Devil** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Gun Devil** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Katana Man** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +70 damage.
-- **Katana Man — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
-- **Makima** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 20 armor. Then discard 1 random card from your hand. Your next attack also gets +70 damage.
-- **Makima — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Point of No Return — Makima** — Gain 20 armor. Yourself discards 1 random card. Your next attack gets +70 damage.
+- **One Last Shot — Katana Man** — Mark one other player for +10 damage the next time they take damage. Your next attack gets +70 damage.
+- **Eternity Devil** — Take 20 damage. Deal 80 damage to one other player. One opponent’s next attack deals 20 less damage.
+- **Gun Devil** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Gain 10 armor.
+- **Chainsaw Devil** — Deal 40 damage to both opponents. Mark one other player for +10 damage the next time they take damage.
+- **Burn It All — Easy Revenge** — Give yourself or your teammate 10 armor. Mark one other player for +10 damage the next time they take damage. Your next attack gets +50 damage.
+- **Future Devil: Finishing Blow** — Deal 60 damage to one other player. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 10 armor.
 
 ### 5★
 
-- **Chainsaw Devil — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
-- **Easy Revenge** — Deal 70 damage to one other player, then return one non-5★ card from your discard pile to your hand.
+- **Danger Zone — Easy Revenge** — Deal 70 damage to one other player. Return up to 1 non-5★ card from your discard pile.
+- **Chainsaw Devil: Last Rush** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Gain 10 armor.
 
 ## Code Geass
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **C.C.** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 20 armor. Then take 20 damage.
-- **C.C. — Calculated Trap** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then discard 1 random card from your hand.
-- **Cornelia li Britannia** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Jeremiah Gottwald** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Jeremiah Gottwald — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Kallen Stadtfeld** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
-- **Kallen Stadtfeld — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Lancelot** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
-- **Nunnally Lamperouge** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
-- **Nunnally Lamperouge — Counterplay** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Pizzahut** *(original)* — Heal yourself 40 HP.
-- **Rolo Lamperouge** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then take 30 damage. Also make an opponent’s next attack deal 30 less damage.
-- **Shirley Fenette** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor. Then take 20 damage.
-- **Suzaku Kururugi** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Suzaku Kururugi — Read the Field** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor; then heal yourself 10 HP; then discard 1 random card from your hand.
+- **Pizzahut** — Heal yourself 40 HP.
+- **Read the Field — Suzaku Kururugi** — Choose an opponent. Their next action is a punch against themself. Gain 30 armor. Yourself discards 2 random cards.
+- **False Opening — C.C.** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 20 armor.
+- **Cornered — Kallen Stadtfeld** — Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 10 less damage. One opponent’s next attack deals 20 less damage.
+- **Plan Within a Plan — Nunnally Lamperouge** — Mark one other player for +20 damage the next time they take damage. Reduce your next incoming damage by 10. One opponent’s next attack deals 20 less damage.
+- **Trap Is Set — Jeremiah Gottwald** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. Gain 20 armor.
+- **No Escape — Cornelia li Britannia** — Draw 2 cards. Yourself discards 1 random card. One opponent discards 1 random card.
+- **Forced Move — Shirley Fenette** — One opponent discards 1 random card. Draw 1 card. Gain 10 armor.
+- **Checkmate — Rolo Lamperouge** — Deal 30 delayed damage to one other player at the start of their next turn. Gain 30 armor. Take 30 damage.
+- **Environment: Zero Requiem** *(Environment)* — Set Zero Requiem as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Lelouch vi Britannia** *(Environment)* — Set Lelouch vi Britannia as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Schneizel el Britannia** *(Environment)* — Set Schneizel el Britannia as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Damocles** *(Environment)* — Set Damocles as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: FLEIJA** *(Environment)* — Set FLEIJA as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Shinkiro** *(Environment)* — Set Shinkiro as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Damocles** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent 10 armor. Then take 20 damage.
-- **FLEIJA** — Choose an opponent. They skip their next turn. Then heal the chosen opponent 10 HP. Then take 30 damage. Also make an opponent’s next attack deal 30 less damage.
-- **FLEIJA — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Schneizel el Britannia** — Choose an opponent. They skip their next turn. Then give the chosen opponent +20 damage on their next attack. Then take 30 damage. Also make an opponent’s next attack deal 40 less damage.
-- **Shinkiro** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then discard 2 random cards from your hand. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
-- **Shinkiro — Interference** — Steal 1 random card from an opponent. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Zero Requiem** — Choose an opponent. They skip their next turn. Then discard 2 random cards from your hand. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 60 less damage.
+- **False Opening — Shinkiro** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Yourself discards 2 random cards.
+- **Cornered — FLEIJA** — One opponent skips their next turn. Take 30 damage. One opponent’s next attack deals 30 less damage.
+- **Plan Within a Plan — Damocles** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Take 20 damage.
+- **Trap Is Set — Schneizel el Britannia** — One opponent skips their next turn. Take 30 damage. One opponent’s next attack deals 40 less damage.
+- **Zero Requiem** — One opponent skips their next turn. Yourself discards 2 random cards. Yourself discards 1 random card.
+- **Checkmate — Lelouch vi Britannia** — One opponent discards 2 random cards. Give yourself or your teammate 10 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Read the Field — Guren Mk-II** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Give yourself or your teammate +10 damage on their next attack.
 
 ### 5★
 
-- **Geass** *(original)* — Control an opponent to give you one card of your choice (can be 5 stars)
-- **Zero Requiem — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Geass** — Steal 2 random cards from one opponent’s hand.
+- **Zero Requiem: False Opening** — One opponent skips their next turn. Draw 1 card. One opponent’s next attack deals 20 less damage.
 
 ## Cyberpunk: Edgerunners
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Crippling Depression** *(original)* — Everyone takes 10 damage
-- **David Martinez** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +40 damage.
-- **David Martinez — Over the Limit** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Dorio** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, your next attack gets +10 damage. Then take 10 damage.
-- **Dorio — Burnout** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
-- **Falco** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +20 damage.
-- **Gloria Martinez** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage. Your next attack also gets +20 damage.
-- **Kiwi** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
-- **Lucy Kushinada** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Lucy Kushinada — No Turning Back** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
-- **Maine** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Maine — All In** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Pilar** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
-- **Rebecca** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, reduce the next damage you take by 20. Then take 10 damage. Your next attack also gets +30 damage.
-- **Rebecca — Danger Zone** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Crippling Depression** — Everyone takes 10 damage
+- **No Turning Back — David Martinez** — Take 20 damage. Your next attack gets +40 damage. Mark one other player for +20 damage the next time they take damage.
+- **Danger Zone — Lucy Kushinada** — Draw 3 cards. Yourself discards 2 random cards. Reduce your next incoming damage by 10.
+- **Burn It All — Rebecca** — Reduce your next incoming damage by 20. Take 10 damage. Your next attack gets +30 damage.
+- **Desperate Bet — Maine** — Your next attack gets +20 damage. Your next attack gets +20 damage.
+- **Point of No Return — Dorio** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Your next attack gets +10 damage.
+- **One Last Shot — Kiwi** — Draw 3 cards. Yourself discards 2 random cards. Reduce your next incoming damage by 20.
+- **All In — Falco** — Your next attack deals ×1.4 damage. Your next damage taken is ×1.25. Reduce your next incoming damage by 20.
+- **Over the Limit — Pilar** — Gain 20 armor. Your next attack gets +20 damage.
+- **Environment: The Moon** *(Environment)* — Set The Moon as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Edgerunners** *(Environment)* — Set Edgerunners as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Adam Smasher** *(Environment)* — Set Adam Smasher as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Militech** *(Environment)* — Set Militech as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Arasaka** *(Environment)* — Set Arasaka as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Cyberpsychosis** *(Environment)* — Set Cyberpsychosis as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Adam Smasher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 10 damage.
-- **Arasaka** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 20. Then take 20 damage. Your next attack also gets +70 damage.
-- **Arasaka — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
-- **Cyberpsychosis** — Deal 30 damage to every other living player. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 20 HP.
-- **Cyberpsychosis — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP. Your next attack also gets +50 damage.
-- **Edgerunners** — Take 20 damage, then deal 90 damage to one other player.
-- **Militech** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then take 10 damage.
+- **Danger Zone — Cyberpsychosis** — Deal 30 damage to every other living player. Your next attack gets +10 damage.
+- **Burn It All — Arasaka** — Reduce your next incoming damage by 20. Take 20 damage. Your next attack gets +70 damage.
+- **Desperate Bet — Militech** — Take 20 damage. Deal 80 damage to one other player. Your next attack gets +20 damage.
+- **Break the Line — Adam Smasher** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Gain 20 armor.
+- **One Last Shot — Edgerunners** — Take 20 damage. Deal 90 damage to one other player.
+- **Danger Zone — Edgerunners** — Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack. Your next attack gets +50 damage.
+- **Burn It All — Ripperdoc** — Take 20 damage. Deal 80 damage to one other player. Deal 30 delayed damage to one other player at the start of their next turn.
 
 ### 5★
 
-- **Sandevistan** *(original)* — Have one opponent skip their next turn, you can then punch on the same turn this card was played
-- **The Moon — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then take 10 damage.
+- **Sandevistan** — Have one opponent skip their next turn, you can then punch on the same turn this card was played
+- **The Moon: Desperate Bet** — Take 30 damage. Deal 120 damage to one other player. Your next damage taken is ×1.25.
 
 ## Dandadan
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Acrobatic Silky** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
-- **Aira Shiratori** — Deal 20 damage to both opponents and draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage.
-- **Aira Shiratori — Unseen Hand** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +10 damage on their next attack; then take 10 damage.
-- **Dover Demon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
-- **Jiji** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Momo Ayase** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Also mark one other player for +20 on the next damage they take.
-- **Momo Ayase — Hidden Art** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor; then reduce the next damage you take by 10; then take 10 damage.
-- **Nessie** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +10 damage. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
-- **Okarun** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
-- **Okarun — Arcane Turn** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then your next attack gets +10 damage; then take 10 damage.
-- **Seiko Ayase** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
-- **Seiko Ayase — Forbidden Pattern** — Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 20; then mark one other player for +10 on the next damage they take; then take 10 damage.
-- **Serpo Aliens** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
-- **Turbo Granny** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
-- **Turbo Granny — Resonance** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +20 damage; then give yourself or your teammate 10 armor; then take 10 damage.
+- **Hidden Art — Momo Ayase** — Draw 2 cards. Yourself discards 1 random card. Gain 10 armor.
+- **Forbidden Pattern — Okarun** — One opponent’s next attack deals 20 less damage. Your next attack gets +10 damage. Reduce your next incoming damage by 20.
+- **Resonance — Seiko Ayase** — Until your next turn, you cannot be targeted. Mark one other player for +20 damage the next time they take damage.
+- **Grand Invocation — Turbo Granny** — Your next attack deals ×1.25 damage. Gain 10 armor. Reduce your next incoming damage by 20.
+- **Unseen Hand — Aira Shiratori** — Deal 10 damage to both opponents. Draw 1 card. Mark one other player for +20 damage the next time they take damage.
+- **Arcane Turn — Jiji** — Deal 10 damage to both opponents. Draw 1 card. Reduce your next incoming damage by 10.
+- **Reality Break — Acrobatic Silky** — Draw 2 cards. Yourself discards 1 random card. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Transcendence — Serpo Aliens** — Draw 2 cards. Yourself discards 1 random card. Mark one other player for +10 damage the next time they take damage.
+- **Full-Force Attack — Dover Demon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Your next attack gets +10 damage.
+- **Environment: Cursed House** *(Environment)* — Set Cursed House as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Occult Family** *(Environment)* — Set Occult Family as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Turbo Granny's Speed** *(Environment)* — Set Turbo Granny's Speed as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Psychokinetic Hands** *(Environment)* — Set Psychokinetic Hands as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Taro and Hana** *(Environment)* — Set Taro and Hana as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Evil Eye** *(Environment)* — Set Evil Eye as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Evil Eye — Mystic Shift** — Choose an opponent. They skip their next turn. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
-- **Golden ball 1** *(original)* — does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
-- **Golden ball 2** *(original)* — does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
-- **Occult Family** — Heal both members of your team 30 HP. Also give yourself or your teammate 30 armor.
-- **Psychokinetic Hands** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, your next attack gets +20 damage. Then take 10 damage. Also mark one other player for +20 on the next damage they take.
-- **Taro and Hana** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, your next attack gets +10 damage. Then give the chosen opponent 10 armor.
-- **Taro and Hana — Grand Invocation** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then gain 10 armor; then take 20 damage.
+- **Golden ball 1** — Does nothing by itself. Play Golden ball 2 this turn to heal 70 HP to either teammate and gain ×1.5 damage for 2 turns.
+- **Golden ball 2** — Does nothing by itself. Play Golden ball 1 this turn to heal 70 HP to either teammate and gain ×1.5 damage for 2 turns.
+- **Grand Invocation — Taro and Hana** — Deal 50 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +10 damage.
+- **Unseen Hand — Psychokinetic Hands** — Return up to 2 non-5★ cards from your discard pile. Your next attack gets +30 damage. Take 10 damage.
+- **Occult Family** — Heal both members of your team 30 HP. Give yourself or your teammate 30 armor.
+- **Occult Family: One More Chance** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 20 armor. One opponent’s next attack deals 10 less damage.
+- **Unseen Hand — Nessie** — One opponent skips their next turn. Give yourself or your teammate +20 damage on their next attack. Gain 10 armor.
 
 ### 5★
 
-- **Cursed House — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 10 HP; then take 20 damage.
-- **Evil Eye** — Swap your HP with one other living player. Then take 30 damage. Then discard 1 random card from your hand. Also mark one other player for +30 on the next damage they take.
+- **Resonance — Evil Eye** — Swap your HP with one other living player. Take 30 damage. Yourself discards 1 random card.
+- **Cursed House: Desperate Bet** — Take 30 damage. Deal 120 damage to one other player. Mark one other player for +10 damage the next time they take damage.
 
 ## Darling in the Franxx
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Goro** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
-- **Goro — Backup Plan** — Heal yourself or your teammate 40 HP. Afterward, your next attack gets +20 damage; then give your teammate +10 damage on their next attack; then take 20 damage.
-- **Hiro** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
-- **Hiro — Cover** — Give both members of your team 20 armor. Afterward, gain 20 armor; then your next attack gets +10 damage; then take 20 damage.
-- **Ichigo** — Give yourself or your teammate 30 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Ichigo — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 10 armor; then take 20 damage. Also give yourself or your teammate 30 armor.
-- **Ikuno** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
-- **Kokoro** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then take 10 damage.
-- **Miku** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
-- **Mitsuru** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
-- **Mitsuru — Formation** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
-- **Strelizia** *(original)* — For the next two turns whenever your teammate does damage do an additional 10 damage
-- **Zero Two** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then discard 1 random card from your hand.
-- **Zero Two — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 20 HP; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Zorome** — Your teammate ignores the next punch that would damage them. Afterward, heal yourself or your teammate 10 HP. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Strelizia** — For the next two turns whenever your teammate does damage do an additional 10 damage
+- **Stand Together — Hiro** — Give yourself or your teammate 40 armor. Your team gets +10 damage on their next attack. Take 20 damage.
+- **All-In Assault — Zero Two** — Deal 30 damage to one other player. Gain 20 armor. Yourself discards 1 random card.
+- **Hold the Line — Ichigo** — Give yourself or your teammate 30 armor. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Covering Fire — Goro** — Deal 20 damage to one other player. Give yourself or your teammate 10 armor. Reduce the next damage you or your teammate takes by 20.
+- **Rally the Team — Mitsuru** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 10 armor.
+- **Back-to-Back — Kokoro** — Give yourself or your teammate 30 armor. Your team gets +20 damage on their next attack. Take 10 damage.
+- **Rescue Mission — Zorome** — Ignore the next 1 punch. Heal yourself or your teammate 10 HP. Give yourself or your teammate 30 armor.
+- **Perfect Assist — Miku** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 10 armor.
+- **Environment: The Beast and the Prince** *(Environment)* — Set The Beast and the Prince as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Klaxosaur Princess** *(Environment)* — Set Klaxosaur Princess as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Queen Pike** *(Environment)* — Set Queen Pike as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Argentea** *(Environment)* — Set Argentea as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Genista** *(Environment)* — Set Genista as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Delphinium** *(Environment)* — Set Delphinium as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Argentea** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
-- **Delphinium** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +10 damage on their next attack. Then take 30 damage. Your next attack also gets +20 damage.
-- **Delphinium — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 20 armor; then gain 10 armor; then your next attack deals 10 less damage.
-- **Genista** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
-- **Genista — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Queen Pike** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **The Beast and the Prince** — You and your teammate each get +20 damage on your next attack and gain 10 armor. Also give yourself or your teammate 30 armor.
+- **All-In Assault — Delphinium** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Give yourself or your teammate +10 damage on their next attack.
+- **Full-Force Attack — Genista** — Take 20 damage. Deal 80 damage to one other player. Gain 10 armor.
+- **No Holding Back — Argentea** — Deal 60 damage to one other player. Give yourself or your teammate +10 damage on their next attack.
+- **Counterattack — Queen Pike** — Deal 60 damage to one other player. Mark one other player for +20 damage the next time they take damage.
+- **Rescue Mission — The Beast and the Prince** — Your team gets +20 damage on their next attack. Give both members of your team 10 armor. Give yourself or your teammate 30 armor.
+- **Back-to-Back — The Beast and the Prince** — Give yourself or your teammate +40 damage on their next attack. Draw 1 card. Give yourself or your teammate 20 armor.
+- **Rescue Mission — Futoshi** — Heal both members of your team 40 HP. Give yourself or your teammate +20 damage on their next attack. Heal yourself 10 HP.
 
 ### 5★
 
-- **Klaxosaur Princess** — Swap your HP with one other living player. Then take 20 damage. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
-- **Klaxosaur Princess — Transcendence** — Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 40 damage to you. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
+- **Grand Invocation — Klaxosaur Princess** — Swap your HP with one other living player. Take 20 damage. Mark one other player for +20 damage the next time they take damage.
+- **Arcane Turn — Klaxosaur Princess** — Deal 70 damage to one other player. Until your next turn, no single hit can deal you more than 40 damage. One opponent’s next attack deals 20 less damage.
 
 ## Death Note
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Boredom** *(original)* — Choose an opponent. They draw their top card; if it is 3★, they give it to you. Otherwise they keep it.
-- **L** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
-- **L — Calculated Trap** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 20 HP; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage. Then take 20 damage.
-- **Light Yagami** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Light Yagami — Read the Field** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
-- **Misa Amane** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
-- **Misa Amane — Counterplay** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Rem** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
-- **Rem — Checkmate** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +20 on the next damage they take; then gain 10 armor; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Ryuk** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 30 less damage.
-- **Ryuk — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
-- **Shinigami Eyes** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
-- **Soichiro Yagami** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
-- **Touta Matsuda** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
-- **Watari** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Boredom** — Choose an opponent. They draw their top card; if it is 3★, they give it to you. Otherwise they keep it.
+- **False Opening — Light Yagami** — Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 20 less damage.
+- **Cornered — L** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. Mark one other player for +20 damage the next time they take damage.
+- **Plan Within a Plan — Ryuk** — One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 30. Yourself discards 1 random card.
+- **Trap Is Set — Misa Amane** — Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent’s next attack deals 10 less damage.
+- **No Escape — Rem** — One opponent’s next attack deals 20 less damage. Gain 10 armor. One opponent’s next attack deals 20 less damage.
+- **Forced Move — Soichiro Yagami** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent’s next attack deals 10 less damage.
+- **Checkmate — Touta Matsuda** — Deal 20 damage to one opponent. One opponent discards 1 random card. Gain 10 armor.
+- **Read the Field — Watari** — Choose an opponent. Their next action is a punch against themself. Gain 20 armor. Take 10 damage.
+- **Environment: Yellow Box Warehouse** *(Environment)* — Set Yellow Box Warehouse as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Kira** *(Environment)* — Set Kira as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: The 13-Day Rule** *(Environment)* — Set The 13-Day Rule as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Teru Mikami** *(Environment)* — Set Teru Mikami as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Mello** *(Environment)* — Set Mello as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Near** *(Environment)* — Set Near as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Mello** — Choose an opponent. They skip their next turn. Then take 30 damage. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 30 less damage.
-- **Mello — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 10; then discard 1 random card from your hand.
-- **Near** — Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 20 less damage.
-- **Near — Interference** — Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 20 armor; then heal yourself 10 HP; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Teru Mikami** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP.
-- **The 13-Day Rule** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent +20 damage on their next attack. Then heal the chosen opponent 10 HP.
-- **Yellow Box Warehouse** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Cornered — Near** — One opponent discards 2 random cards. Reduce your next incoming damage by 10. One opponent’s next attack deals 20 less damage.
+- **Plan Within a Plan — Mello** — One opponent skips their next turn. Take 30 damage. One opponent discards 1 random card.
+- **Trap Is Set — Teru Mikami** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 10.
+- **Yellow Box Warehouse** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 10 armor. Take 20 damage.
+- **Forced Move — The 13-Day Rule** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn.
+- **Checkmate — Kira** — One opponent skips their next turn. Give yourself or your teammate 20 armor. Heal yourself 10 HP.
+- **Read the Field — Kira Task Force** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Give yourself or your teammate +20 damage on their next attack.
 
 ### 5★
 
-- **Death Note** *(original)* — write an opponents name in the death note, they will die in 5 turns, but if the person who used the death note dies then the timer disappears
-- **The 13-Day Rule — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +10 damage; then discard 1 random card from your hand.
+- **Death Note** — write an opponents name in the death note, they will die in 5 turns, but if the person who used the death note dies then the timer disappears
+- **False Opening — The 13-Day Rule** — One opponent skips their next turn. Draw 1 card. One opponent cannot heal until the start of their next turn.
 
 ## Demon Slayer
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Breathing Technique** *(original)* — Discard 1 card, then draw 2 cards.
-- **Genya Shinazugawa** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Giyu Tomioka** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 10. Then take 20 damage. Your next attack also gets +20 damage.
-- **Giyu Tomioka — Overdrive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Inosuke Hashibira** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
-- **Inosuke Hashibira — Counteroffensive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, your next attack gets +20 damage; then gain 10 armor; then heal the chosen opponent 10 HP.
-- **Kanao Tsuyuri** — Choose an opponent. They discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Nezuko Kamado** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Nezuko Kamado — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
-- **Shinobu Kocho** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
-- **Tanjiro Kamado** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage.
-- **Tanjiro Kamado — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
-- **Tengen Uzui** — You may play one additional 3★ card this turn. Then take 20 damage. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
-- **Zenitsu Agatsuma** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage. Your next attack also gets +20 damage.
-- **Zenitsu Agatsuma — Breakthrough** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
+- **Breathing Technique** — Discard 1 card, then draw 2 cards.
+- **Point-Blank — Tanjiro Kamado** — Deal 20 damage to one other player. Your next attack gets +10 damage. Mark one other player for +20 damage the next time they take damage.
+- **Finishing Blow — Nezuko Kamado** — Deal 20 damage to one other player. Gain 10 armor. Reduce your next incoming damage by 10.
+- **Last Rush — Zenitsu Agatsuma** — Deal 40 delayed damage to one other player at the start of their next turn. Give yourself or your teammate +20 damage on their next attack. Take 20 damage.
+- **Break the Line — Inosuke Hashibira** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. One opponent’s next attack deals 20 less damage.
+- **All-In Assault — Giyu Tomioka** — Deal 20 damage to one other player. Your next attack gets +10 damage. Reduce your next incoming damage by 10.
+- **Trap Is Set — Shinobu Kocho** — Until your next turn, you cannot be targeted. One opponent’s next attack deals 10 less damage.
+- **Countermeasure — Kanao Tsuyuri** — One opponent discards 1 random card. Gain 20 armor.
+- **Counterattack — Genya Shinazugawa** — Deal 40 delayed damage to one other player at the start of their next turn. Mark one other player for +20 damage the next time they take damage. Yourself discards 1 random card.
+- **Environment: Upper Moons** *(Environment)* — Set Upper Moons as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Sun Breathing** *(Environment)* — Set Sun Breathing as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Muzan Kibutsuji** *(Environment)* — Set Muzan Kibutsuji as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Akaza** *(Environment)* — Set Akaza as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Muichiro Tokito** *(Environment)* — Set Muichiro Tokito as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Kyojuro Rengoku** *(Environment)* — Set Kyojuro Rengoku as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Akaza** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
-- **Hinokami Kagura** *(original)* — Deal 40 damage to both opponents.
-- **Kyojuro Rengoku** — Deal 60 damage to one other player. Afterward, gain 10 armor. Then take 20 damage.
-- **Kyojuro Rengoku — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
-- **Muichiro Tokito** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Muichiro Tokito — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
-- **Upper Moons** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Hinokami Kagura** — Deal 40 damage to both opponents.
+- **Finishing Blow — Kyojuro Rengoku** — Deal 60 damage to one other player. Gain 10 armor. Take 20 damage.
+- **Last Rush — Muichiro Tokito** — Deal 60 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. Yourself discards 2 random cards.
+- **Break the Line — Akaza** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +10 damage.
+- **All-In Assault — Upper Moons** — Take 20 damage. Deal 80 damage to one other player. Mark one other player for +10 damage the next time they take damage.
+- **Point-Blank — Sun Breathing** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Give yourself or your teammate 20 armor.
+- **Rescue Mission — Mitsuri Kanroji** — Give both members of your team 30 armor. Give yourself or your teammate +20 damage on their next attack. Your next attack gets +10 damage.
 
 ### 5★
 
-- **Muzan Kibutsuji — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Sun Breathing** — Take 20 damage, then deal 110 damage to one other player.
+- **Full-Force Attack — Sun Breathing** — Take 20 damage. Deal 110 damage to one other player.
+- **Last Rush — Muzan Kibutsuji** — Deal 60 damage to both opponents. Your next attack gets +20 damage. One opponent’s next attack deals 20 less damage.
 
 ## Digimon
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Crest of Courage** — Deal 20 damage to one other player and gain 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **Digivolve** *(original)* — Discard 1 card, then draw 2 cards.
-- **Izzy and Tentomon** — Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
-- **Izzy and Tentomon — Contingency** — Choose an opponent. They discard 1 random card. Afterward, your next attack gets +20 damage; then heal yourself 10 HP; then take 10 damage.
-- **Joe and Gomamon** — Give yourself or your teammate 30 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Kari and Gatomon** — Reduce the next damage your teammate takes by 25. Afterward, heal yourself or your teammate 10 HP. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Matt and Gabumon** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +20 damage on their next attack.
-- **Matt and Gabumon — Follow-Through** — Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 10 less damage; then take 10 damage.
-- **Mimi and Palmon** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
-- **Mimi and Palmon — Formation** — Heal both members of your team 20 HP. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 10; then take 10 damage.
-- **Sora and Biyomon** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
-- **Sora and Biyomon — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 20; then gain 10 armor; then take 10 damage.
-- **T.K. and Patamon** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent +10 damage on their next attack.
-- **Tai and Agumon** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 10 less damage.
-- **Tai and Agumon — Pressure** — Deal 30 damage to one other player. Afterward, gain 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Digivolve** — Discard 1 card, then draw 2 cards.
+- **No Holding Back — Tai and Agumon** — Deal 10 damage to one other player. Draw 1 card. One opponent’s next attack deals 20 less damage.
+- **Counterattack — Matt and Gabumon** — Deal 30 damage to one other player. Reduce your next incoming damage by 10.
+- **Back-to-Back — Sora and Biyomon** — Draw 1 card. Give yourself or your teammate 20 armor. Reduce the next damage you or your teammate takes by 20.
+- **Field Plan — Izzy and Tentomon** — One opponent’s next attack deals 20 less damage. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 30.
+- **Perfect Assist — Mimi and Palmon** — Draw 1 card. Give yourself or your teammate 20 armor. Heal yourself or your teammate 20 HP.
+- **Stand Together — Joe and Gomamon** — Give yourself or your teammate 30 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Last Stand — T.K. and Patamon** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Reduce the next damage you or your teammate takes by 10.
+- **Hold the Line — Kari and Gatomon** — Reduce the next damage you or your teammate takes by 30. Heal yourself or your teammate 30 HP. Yourself discards 1 random card.
+- **Environment: DigiDestined** *(Environment)* — Set DigiDestined as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Omnimon** *(Environment)* — Set Omnimon as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: WarGreymon** *(Environment)* — Set WarGreymon as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Myotismon** *(Environment)* — Set Myotismon as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Angemon** *(Environment)* — Set Angemon as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: WereGarurumon** *(Environment)* — Set WereGarurumon as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Angemon** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
-- **MetalGreymon** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
-- **MetalGreymon — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then your next attack gets +10 damage; then take 10 damage.
-- **Myotismon** — Steal 1 random card from an opponent. Then discard 1 random card from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 40 less damage.
-- **WarGreymon** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
-- **WereGarurumon** — Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 20 damage.
-- **WereGarurumon — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +10 on the next damage they take; then take 10 damage.
+- **Counterattack — MetalGreymon** — Deal 60 damage to one other player. Gain 20 armor.
+- **Point-Blank — WereGarurumon** — Take 20 damage. Deal 80 damage to one other player. Reduce your next incoming damage by 10.
+- **Finishing Blow — Angemon** — Take 20 damage. Deal 80 damage to one other player. Your next attack gets +10 damage.
+- **False Opening — Myotismon** — Steal 1 random card from one opponent. Yourself discards 1 random card. One opponent’s next attack deals 40 less damage.
+- **Break the Line — WarGreymon** — Deal 60 damage to one other player. Mark one other player for +20 damage the next time they take damage. Take 20 damage.
+- **Back-to-Back — Omnimon** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 20 armor.
+- **Rescue Mission — DigiDestined** — Give yourself or your teammate +40 damage on their next attack. Draw 1 card. Give yourself or your teammate +20 damage on their next attack.
 
 ### 5★
 
-- **Omnimon** — Deal 80 damage to one other player and give yourself or your teammate 30 armor.
-- **WarGreymon — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 10 armor; then take 10 damage.
+- **Last Stand — Omnimon** — Deal 80 damage to one other player. Give yourself or your teammate 30 armor.
+- **Last Rush — WarGreymon** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Your next attack gets +10 damage.
 
 ## Evangelion
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Asuka Langley Soryu** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
-- **Asuka Langley Soryu — Danger Zone** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, reduce the next damage you take by 20; then heal yourself 10 HP; then take 20 damage.
-- **Eva Unit-00** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Eva Unit-02** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage.
-- **Gendo Ikari** — Deal 20 damage to every other living player. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
-- **I mustn’t run away** *(original)* — For your next 2 turns, you cannot play a card; your punch deals 50 damage instead of 20.
-- **Kaworu Nagisa** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Your next attack also gets +40 damage.
-- **Misato Katsuragi** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +30 damage.
-- **Misato Katsuragi — All In** — Take 20 damage. Your next attack gets +40 damage. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 10; then take 20 damage. Your next attack also gets +20 damage.
-- **Rei Ayanami** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then your next attack deals 20 less damage. Your next attack also gets +20 damage.
-- **Rei Ayanami — No Turning Back** — Take 20 damage. Your next attack gets +40 damage. Afterward, heal yourself 20 HP; then gain 10 armor; then take 20 damage. Your next attack also gets +20 damage.
-- **Ritsuko Akagi** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, your next attack gets +10 damage. Then discard 1 random card from your hand. Your next attack also gets +50 damage.
-- **Ritsuko Akagi — Burnout** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +20 damage.
-- **Shinji Ikari** — Deal 20 damage to every other living player. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
-- **Shinji Ikari — Over the Limit** — Deal 20 damage to every other living player. Afterward, gain 20 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **I mustn’t run away** — For your next 2 turns, you cannot play a card; your punch deals 50 damage instead of 20.
+- **All In — Shinji Ikari** — Deal 20 damage to every other living player. Gain 20 armor. Take 10 damage.
+- **Over the Limit — Rei Ayanami** — Draw 3 cards. Yourself discards 2 random cards. Your next attack gets +10 damage.
+- **No Turning Back — Asuka Langley Soryu** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Gain 10 armor.
+- **Danger Zone — Misato Katsuragi** — Take 20 damage. Your next attack gets +50 damage. Your next attack gets +10 damage.
+- **Burn It All — Ritsuko Akagi** — Your next attack gets +10 damage. Yourself discards 1 random card. Your next attack gets +50 damage.
+- **Desperate Bet — Gendo Ikari** — Deal 20 damage to every other living player. Mark one other player for +20 damage the next time they take damage. Take 10 damage.
+- **Point of No Return — Kaworu Nagisa** — Gain 10 armor. Your next attack gets +40 damage.
+- **All-In Assault — Eva Unit-00** — Deal 20 damage to one other player. Draw 1 card. Reduce your next incoming damage by 20.
+- **Environment: A.T. Field** *(Environment)* — Set A.T. Field as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Eva Unit-01** *(Environment)* — Set Eva Unit-01 as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Third Impact** *(Environment)* — Set Third Impact as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Angel Attack** *(Environment)* — Set Angel Attack as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: SEELE** *(Environment)* — Set SEELE as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Spear of Longinus** *(Environment)* — Set Spear of Longinus as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **A.T. Field** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, reduce the next damage you take by 10. Then take 10 damage.
-- **A.T. Field — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Angel Attack** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then take 10 damage.
-- **Berserk** *(original)* — When you next take damage, do that amount of damage back to your opponent up to 50 damage
-- **SEELE** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 20 armor. Then take 30 damage. Your next attack also gets +90 damage.
-- **Spear of Longinus** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then take 10 damage.
-- **Spear of Longinus — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 10 armor; then take 20 damage.
+- **Berserk** — When you next take damage, do that amount of damage back to your opponent up to 50 damage
+- **A.T. Field** — Draw 2 cards. Give yourself or your teammate 30 armor. Reduce your next incoming damage by 10.
+- **Spear of Longinus** — Deal 40 damage to both opponents. One opponent’s next attack deals 10 less damage. Take 10 damage.
+- **Danger Zone — SEELE** — Gain 20 armor. Take 30 damage. Your next attack gets +90 damage.
+- **Angel Attack** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Mark one other player for +10 damage the next time they take damage.
+- **Point-Blank — Eva Unit-01** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Mark one other player for +40 damage the next time they take damage.
+- **Burn It All — NERV** — Give yourself or your teammate +20 damage on their next attack. Give yourself or your teammate 60 armor. Take 20 damage.
 
 ### 5★
 
-- **Eva Unit-01** — Until your next turn, no single hit can deal more than 30 damage to you. Your next attack gets +50 damage. Your next attack also gets +20 damage.
-- **Third Impact — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Last Rush — Eva Unit-01** — Until your next turn, no single hit can deal you more than 30 damage. Your next attack gets +50 damage. Your next attack gets +20 damage.
+- **Desperate Bet — Third Impact** — Take 30 damage. Deal 120 damage to one other player. Your next attack gets +10 damage.
 
 ## Fairy Tail
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Fire Dragon Roar** *(original)* — Deal 20 damage to one opponent and 10 damage to the other opponent.
-- **Gajeel Redfox** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Gajeel Redfox — Overdrive** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
-- **Gray Fullbuster** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
-- **Gray Fullbuster — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then your next attack deals 10 less damage.
-- **Happy** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage. Then take 10 damage.
-- **Happy — Quick Shift** — You may play one additional 3★ card this turn. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage. Then take 20 damage.
-- **Jellal Fernandes** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **Laxus Dreyar** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage. Then take 20 damage.
-- **Lucy Heartfilia** — Return one 3★ card from your discard pile to your hand. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
-- **Lucy Heartfilia — Arcane Turn** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
-- **Mirajane Strauss** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
-- **Natsu Dragneel** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
-- **Natsu Dragneel — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Wendy** *(original)* — Heal yourself or your teammate 40 HP.
+- **Wendy** — Heal yourself or your teammate 40 HP.
+- **Fire Dragon Roar** — Deal 20 damage to one opponent and 10 damage to the other opponent.
+- **Break the Line — Natsu Dragneel** — Deal 30 damage to one other player. Reduce your next incoming damage by 20.
+- **Transcendence — Lucy Heartfilia** — Return up to 1 card from your discard pile. Gain 20 armor.
+- **Full-Force Attack — Gray Fullbuster** — Deal 40 delayed damage to one other player at the start of their next turn. Mark one other player for +20 damage the next time they take damage.
+- **Quick Shift — Happy** — Draw 2 cards. Yourself discards 1 random card. Your next attack gets +20 damage.
+- **Counterattack — Gajeel Redfox** — Deal 20 damage to one other player. Gain 10 armor. Gain 10 armor.
+- **Point-Blank — Laxus Dreyar** — Deal 20 damage to one other player. Draw 1 card. Your next attack gets +10 damage.
+- **Finishing Blow — Mirajane Strauss** — Deal 50 damage to both opponents. Gain 10 armor. Yourself discards 2 random cards.
+- **Environment: Fairy Tail Guild** *(Environment)* — Set Fairy Tail Guild as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Fairy Glitter** *(Environment)* — Set Fairy Glitter as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Grand Chariot** *(Environment)* — Set Grand Chariot as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Urano Metria** *(Environment)* — Set Urano Metria as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Fairy Law** *(Environment)* — Set Fairy Law as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Dragon Force** *(Environment)* — Set Dragon Force as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Dragon Force** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
-- **Dragon Force — Finisher** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
-- **Fairy Law** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent 10 armor. Then your next attack deals 10 less damage.
-- **Fairy Law — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Grand Chariot** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
-- **Requip** *(original)* — Give yourself or your teammate 60 armor.
-- **Urano Metria** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Requip** — Give yourself or your teammate 60 armor.
+- **Break the Line — Dragon Force** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Mark one other player for +20 damage the next time they take damage.
+- **Plan Within a Plan — Fairy Law** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent cannot heal until the start of their next turn.
+- **Full-Force Attack — Urano Metria** — Deal 50 damage to one other player. Draw 1 card. Your next attack gets +10 damage.
+- **No Holding Back — Grand Chariot** — Take 20 damage. Deal 80 damage to one other player. Gain 20 armor.
+- **Fairy Tail Guild: Back-to-Back** — Heal both members of your team 40 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Finishing Blow — Aquarius** — Take 20 damage. Deal 80 damage to one other player. Deal 40 delayed damage to one other player at the start of their next turn.
 
 ### 5★
 
-- **Fairy Glitter — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then discard 1 random card from your hand.
-- **Fairy Tail Guild** — Heal both members of your team 40 HP, then draw 1 card. Also give yourself or your teammate 30 armor.
+- **Fairy Tail Guild** — Heal both members of your team 40 HP. Draw 1 card. Give yourself or your teammate 30 armor.
+- **Last Rush — Fairy Glitter** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Gain 20 armor.
 
 ## Fate/stay night
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Archer** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage. Then give the chosen opponent 20 armor.
-- **Archer — Breakthrough** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then discard 1 random card from your hand.
-- **Command Spell** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then take 20 damage.
-- **Illyasviel von Einzbern** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, reduce the next damage you take by 20. Then take 20 damage.
-- **Kirei Kotomine** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 20 less damage.
-- **Lancer** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
-- **Rider** — You and your teammate each get +10 damage on your next attack. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also draw 1 card.
-- **Rider — Set the Pace** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand.
-- **Rin Tohsaka** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also mark one other player for +30 on the next damage they take.
-- **Rin Tohsaka — Arcane Turn** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
-- **Sakura Matou** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then discard 2 random cards from your hand. Also mark one other player for +30 on the next damage they take.
-- **Sakura Matou — Resonance** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
-- **Shirou Emiya** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Shirou Emiya — Pressure** — Deal 30 damage to one other player. Afterward, gain 10 armor; then heal yourself 20 HP; then discard 1 random card from your hand.
-- **Unlimited Blade Works** *(original)* — The next time you draw at the start of your turn, draw 1 additional card.
+- **Unlimited Blade Works** — The next time you draw at the start of your turn, draw 1 additional card.
+- **Point-Blank — Shirou Emiya** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Give yourself or your teammate +20 damage on their next attack.
+- **Unseen Hand — Rin Tohsaka** — One opponent cannot heal until the start of their next turn. Mark one other player for +30 damage the next time they take damage. Take 30 damage.
+- **Last Rush — Archer** — Deal 20 damage to both opponents. Your next attack gets +20 damage.
+- **Reality Break — Sakura Matou** — Deal 40 delayed damage to one other player at the start of their next turn. Mark one other player for +30 damage the next time they take damage. Yourself discards 2 random cards.
+- **Finale — Rider** — Your team gets +10 damage on their next attack. Gain 10 armor. Draw 1 card.
+- **Full-Force Attack — Lancer** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Gain 20 armor.
+- **Forbidden Pattern — Illyasviel von Einzbern** — Deal 30 damage to one other player. Mark one other player for +10 damage the next time they take damage. Reduce your next incoming damage by 20.
+- **Forced Move — Kirei Kotomine** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent discards 1 random card.
+- **Environment: Gate of Babylon** *(Environment)* — Set Gate of Babylon as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Saber** *(Environment)* — Set Saber as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Gilgamesh** *(Environment)* — Set Gilgamesh as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Berserker** *(Environment)* — Set Berserker as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Avalon** *(Environment)* — Set Avalon as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Gáe Bolg** *(Environment)* — Set Gáe Bolg as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Avalon** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also reduce the next damage you take by 40.
-- **Berserker** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand.
-- **Gate of Babylon** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
-- **Gate of Babylon — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
-- **Gilgamesh** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 20 armor. Then take 20 damage.
-- **Gáe Bolg** — Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
-- **Gáe Bolg — Finisher** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Finishing Blow — Gáe Bolg** — Take 20 damage. Deal 80 damage to one other player. Gain 30 armor.
+- **Last Rush — Gate of Babylon** — Deal 40 damage to both opponents. Gain 10 armor.
+- **Calculated Risk — Avalon** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Gain 10 armor.
+- **One Last Shot — Berserker** — Take 20 damage. Deal 80 damage to one other player. Take 10 damage.
+- **Full-Force Attack — Gilgamesh** — Take 20 damage. Deal 80 damage to one other player. Your next attack gets +30 damage.
+- **Grand Invocation — Saber** — One opponent skips their next turn. Give yourself or your teammate 10 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Field Plan — Rho Aias** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. One opponent’s next attack deals 20 less damage.
 
 ### 5★
 
-- **Excalibur** *(original)* — Deal 100 damage to one other player.
-- **Gilgamesh — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then heal the chosen opponent 10 HP.
+- **Excalibur** — Deal 100 damage to one other player.
+- **Last Rush — Gilgamesh** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Your next attack gets +20 damage.
 
 ## Frieren
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Denken** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then take 30 damage. Also reduce the next damage you take by 40.
-- **Eisen** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Also reduce the next damage you take by 40.
-- **Eisen — Field Plan** — Reduce the next damage you or your teammate takes by 25. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +20 damage on their next attack; then take 10 damage.
-- **Fern** — Deal 30 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
-- **Fern — Pressure** — Deal 30 damage to one other player. Afterward, gain 10 armor; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
-- **Flamme** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +10 damage. Then your next attack deals 20 less damage.
-- **Heiter** — Draw 1 card and give your teammate 20 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Heiter — Backup Plan** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, your next attack gets +10 damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
-- **Himmel** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor.
-- **Himmel — Coordination** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Lawine** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also mark one other player for +20 on the next damage they take.
-- **Stark** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Stark — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 10 HP; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
-- **Zoltraak** *(original)* — Over the next 3 turn do 10 damage to each enemy
-- **Übel** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Zoltraak** — Over the next 3 turn do 10 damage to each enemy
+- **No Holding Back — Fern** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Take 30 damage.
+- **Counterattack — Stark** — Take 10 damage. Deal 40 damage to one other player. Your next attack gets +10 damage.
+- **Back-to-Back — Himmel** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 20 armor.
+- **Rescue Mission — Heiter** — Draw 1 card. Give yourself or your teammate 20 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Prepared Response — Eisen** — One opponent discards 1 random card. One opponent’s next attack deals 10 less damage. Take 30 damage.
+- **Reality Break — Flamme** — Until your next turn, you cannot be targeted. Your next attack gets +10 damage.
+- **Grand Strategy — Denken** — One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 50. Take 30 damage.
+- **Environment: First-Class Mage Exam** *(Environment)* — Set First-Class Mage Exam as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Frieren** *(Environment)* — Set Frieren as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **99% Chance It Is a Mimic** *(Meme)* — Flip a coin. Heads: draw 2 cards. Tails: take 20 damage and draw 1 card.
+- **Environment: Himmel's Statue** *(Environment)* — Set Himmel's Statue as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Serie** *(Environment)* — Set Serie as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Mana Suppression** *(Environment)* — Set Mana Suppression as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Mimic Chest** *(Environment)* — Set Mimic Chest as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Aura, Kill yourself** *(original)* — Select one opponent. Their next action is a punch against themself.
-- **First-Class Mage Exam** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then discard 1 random card from your hand. Also draw 1 card.
-- **Himmel's Statue — Grand Strategy** — Deal 40 damage to one other player, give yourself or your teammate 20 armor, and reduce the next damage you take by 10.
-- **Mana Suppression** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
-- **Mana Suppression — No Escape** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, give your teammate +10 damage on their next attack; then gain 20 armor; then take 10 damage.
-- **Mimic Chest** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, your next attack gets +10 damage. Then take 20 damage. Your next attack also gets +60 damage.
-- **Mimic Chest — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage. Your next attack also gets +50 damage.
+- **Aura, Kill yourself** — Select one opponent. Their next action is a punch against themself.
+- **No Turning Back — Mimic Chest** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Your next attack gets +30 damage.
+- **Checkmate — Mana Suppression** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.
+- **First-Class Mage Exam** — Your team gets +30 damage on their next attack. Gain 40 armor. Yourself discards 1 random card.
+- **Read the Situation — Frieren** — Draw 2 cards. Give yourself or your teammate 30 armor. Give yourself or your teammate 10 armor.
+- **Unseen Hand — Kanne** — Until your next turn, no single hit can deal you more than 30 damage. Give yourself or your teammate +10 damage on their next attack. Gain 20 armor.
+- **Prepared Response — Himmel's Statue** — Deal 40 damage to one other player. Give yourself or your teammate 20 armor. Reduce your next incoming damage by 10.
 
 ### 5★
 
-- **Frieren** — Deal 70 damage to one other player, draw 1 card, and reduce the next damage you take by 25.
-- **Serie** — Swap your HP with one other living player. Then take 30 damage. Then heal the chosen opponent 20 HP. Also mark one other player for +20 on the next damage they take.
+- **Unseen Hand — Serie** — Swap your HP with one other living player. Take 30 damage. Mark one other player for +20 damage the next time they take damage.
+- **Calculated Risk — Frieren** — Deal 70 damage to one other player. Draw 1 card. Reduce your next incoming damage by 30.
 
 ## Fullmetal Alchemist: Brotherhood
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Alex Louis Armstrong** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Also reduce the next damage you take by 30.
-- **Alex Louis Armstrong — Field Plan** — Reduce the next damage you or your teammate takes by 25. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 20 less damage; then take 20 damage.
-- **Alphonse Elric** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Alphonse Elric — Prepared Response** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 10 HP; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Edward Elric** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then take 20 damage. Also reduce the next damage you take by 30.
-- **Edward Elric — Positioning** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor; then your next attack gets +20 damage; then take 10 damage.
-- **Envy** — Choose an opponent. Their next action is a punch against themself. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
-- **Greed** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage. Also reduce the next damage you take by 30.
-- **Ling Yao** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage.
-- **Lust** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
-- **Riza Hawkeye** — Deal 30 damage to one other player. Afterward, your next attack gets +20 damage. Then give the chosen opponent +20 damage on their next attack.
-- **Riza Hawkeye — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +10 damage; then give your teammate +20 damage on their next attack; then take 20 damage.
-- **Scar** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Winry Rockbell** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 10 less damage.
-- **Winry Rockbell — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 20 armor; then take 10 damage.
+- **Grand Strategy — Edward Elric** — Deal 30 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 30. Take 20 damage.
+- **Perfect Setup — Alphonse Elric** — Reduce the next damage you or your teammate takes by 30. One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 30.
+- **Covering Fire — Winry Rockbell** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
+- **Counterattack — Riza Hawkeye** — Deal 30 damage to one other player. Your next attack gets +20 damage.
+- **Read the Situation — Alex Louis Armstrong** — Draw 1 card. Give yourself or your teammate 20 armor. Reduce your next incoming damage by 10.
+- **Keep It Going — Ling Yao** — Heal yourself 20 HP. Draw 1 card. Draw 1 card.
+- **Prepared Response — Greed** — Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 10 less damage. Reduce your next incoming damage by 30.
+- **Break the Line — Scar** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Gain 10 armor.
+- **Environment: The Promised Day** *(Environment)* — Set The Promised Day as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Truth** *(Environment)* — Set Truth as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **It's a Terrible Day for Rain** *(Meme)* — Heal yourself or your teammate 20 HP and reduce their next incoming damage by 20.
+- **Environment: Philosopher's Stone** *(Environment)* — Set Philosopher's Stone as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Van Hohenheim** *(Environment)* — Set Van Hohenheim as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: King Bradley** *(Environment)* — Set King Bradley as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Roy Mustang** *(Environment)* — Set Roy Mustang as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Equivalent Exchange** *(original)* — Discard one 3★ card from your hand, draw 3 cards, then you may play one additional 3★ card this turn.
-- **King Bradley** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
-- **King Bradley — Perfect Setup** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give your teammate +10 damage on their next attack; then heal yourself 20 HP; then take 20 damage. Also reduce the next damage you take by 30.
-- **Roy Mustang** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor.
-- **Roy Mustang — Countermeasure** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor; then gain 20 armor; then take 20 damage. Also reduce the next damage you take by 30.
-- **Shou Tucker** *(original)* — transform a random enemy 4 star card into a useless card for 2 turns
-- **Van Hohenheim** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **Equivalent Exchange** — Discard one 3★ card from your hand, draw 3 cards, then you may play one additional 3★ card this turn.
+- **Shou Tucker** — transform a random enemy 4 star card into a useless card for 2 turns
+- **Countermeasure — Roy Mustang** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Give yourself or your teammate 20 armor.
+- **Contingency — King Bradley** — Deal 40 damage to both opponents. One opponent’s next attack deals 20 less damage.
+- **Read the Situation — Van Hohenheim** — Deal 60 damage to both opponents. Gain 10 armor. Yourself discards 2 random cards.
+- **Truth: Read the Situation** — Draw 2 cards. Give yourself or your teammate 30 armor. Reduce your next incoming damage by 20.
+- **Read the Field — Envy** — One opponent skips their next turn. Give yourself or your teammate +10 damage on their next attack. Heal yourself 20 HP.
 
 ### 5★
 
-- **The Father** *(original)* — Return up to 2 non-5★ cards from your discard pile to your hand, then you may play one additional non-5★ card this turn.
-- **The Promised Day — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 20; then take 20 damage.
+- **The Father** — Return up to 2 non-5★ cards from your discard pile to your hand, then you may play one additional non-5★ card this turn.
+- **Prepared Response — The Promised Day** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. Reduce your next incoming damage by 20.
 
 ## Horimiya
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Honoka Sawada** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
-- **Kakeru Sengoku** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
-- **Kakeru Sengoku — Trust** — Heal your teammate 30 HP and give them 10 armor. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
-- **Kyoko Hori** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Kyoko Hori — Heart-to-Heart** — Heal your teammate 30 HP and give them 10 armor. Afterward, gain 10 armor; then mark one other player for +20 on the next damage they take; then take 20 damage.
-- **Miyamura** *(original)* — If you or your teammate take damage this turn, heal 30
-- **Remi Ayasaki** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 10 less damage.
-- **Remi Ayasaki — Reassurance** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then gain 20 armor; then your next attack deals 10 less damage.
-- **Sakura Kono** — Heal both members of your team 20 HP. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
-- **Shu Iura** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
-- **Sota Hori** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
-- **Toru Ishikawa** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor. Also give yourself or your teammate 30 armor.
-- **Toru Ishikawa — Helping Hand** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 10 HP; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Yuki Yoshikawa** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage.
-- **Yuki Yoshikawa — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
+- **Miyamura** — If you or your teammate take damage this turn, heal 30
+- **Shared Resolve — Kyoko Hori** — Take 20 damage. Heal yourself or your teammate 40 HP. Draw 1 card.
+- **Say It Out Loud — Toru Ishikawa** — Return up to 1 card from your discard pile. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Together Again — Yuki Yoshikawa** — Heal yourself or your teammate 30 HP. Draw 1 card. Give yourself or your teammate 10 armor.
+- **The Big Moment — Kakeru Sengoku** — Heal both members of your team 20 HP. Give yourself or your teammate 10 armor. Take 10 damage.
+- **Promise Kept — Remi Ayasaki** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate 20 armor.
+- **Heart-to-Heart — Sakura Kono** — Heal both members of your team 20 HP. Give yourself or your teammate +20 damage on their next attack.
+- **Trust Fall — Shu Iura** — Take 20 damage. Heal yourself or your teammate 40 HP. Heal yourself or your teammate 10 HP.
+- **One More Chance — Honoka Sawada** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Environment: Hori's House** *(Environment)* — Set Hori's House as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Hori and Miyamura** *(Environment)* — Set Hori and Miyamura as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Graduation Day** *(Environment)* — Set Graduation Day as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Miyamura's Haircut** *(Environment)* — Set Miyamura's Haircut as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Hidden Tattoos** *(Environment)* — Set Hidden Tattoos as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Izumi's Piercings** *(Environment)* — Set Izumi's Piercings as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Graduation Day** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Hidden Tattoos** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage. Also give yourself or your teammate 30 armor.
-- **Hidden Tattoos — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
-- **Hori's House** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor. Also give yourself or your teammate 30 armor.
-- **Izumi's Piercings** — You may play one additional non-5★ card this turn. Then your next attack deals 20 less damage. Then your next attack deals 10 less damage. Also give yourself or your teammate 40 armor.
-- **Izumi's Piercings — Together** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then heal yourself 20 HP; then your next attack deals 10 less damage.
-- **Miyamura's Haircut** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Say It Out Loud — Izumi's Piercings** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate 40 armor.
+- **Together Again — Hidden Tattoos** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 10 armor. Give yourself or your teammate 30 armor.
+- **Hori's House** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 10 armor. Give yourself or your teammate 10 armor.
+- **Promise Kept — Miyamura's Haircut** — Return up to 2 non-5★ cards from your discard pile. Heal yourself or your teammate 40 HP. Yourself discards 1 random card.
+- **Heart-to-Heart — Graduation Day** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 10 armor.
+- **One More Chance — Hori and Miyamura** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Heal yourself or your teammate 20 HP.
+- **Shared Resolve — Kyosuke Hori** — Heal both members of your team 40 HP. Give yourself or your teammate +10 damage on their next attack. Reduce your next incoming damage by 20.
 
 ### 5★
 
-- **Graduation Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +20 damage; then your next attack deals 10 less damage.
-- **Hori and Miyamura** — Heal both members of your team 40 HP. Reduce the next damage your teammate takes by 25. Also give yourself or your teammate 30 armor.
+- **Trust Fall — Hori and Miyamura** — Heal both members of your team 40 HP. Reduce the next damage you or your teammate takes by 30. Give yourself or your teammate 30 armor.
+- **Say It Out Loud — Graduation Day** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 20 armor. Draw 1 card.
 
 ## JoJo's Bizarre Adventure
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Crazy Diamond** — Your teammate ignores the next punch that would damage them. Afterward, you and your teammate each get +20 damage on your next attack. Then heal the chosen opponent 10 HP.
-- **Giorno Giovanna** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, gain 20 armor. Then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
-- **Giorno Giovanna — Unseen Hand** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 20 HP; then discard 1 random card from your hand.
-- **Hamon** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then your next attack deals 20 less damage.
-- **Hermit Purple** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 50 less damage.
-- **Jolyne Cujoh** — Deal 30 damage to one other player. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack.
-- **Jonathan Joestar** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then discard 1 random card from your hand.
-- **Jonathan Joestar — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
-- **Joseph Joestar** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand.
-- **Joseph Joestar — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 10 HP; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
-- **Josuke Higashikata** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Josuke Higashikata — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +10 damage; then gain 20 armor; then discard 1 random card from your hand.
-- **Jotaro Kujo** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
-- **Jotaro Kujo — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
-- **Stone Free** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
+- **Point-Blank — Jonathan Joestar** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Your next attack gets +10 damage.
+- **Field Plan — Joseph Joestar** — Draw 1 card. Give yourself or your teammate 20 armor. Gain 10 armor.
+- **Last Rush — Jotaro Kujo** — Deal 40 delayed damage to one other player at the start of their next turn. Mark one other player for +20 damage the next time they take damage. Take 20 damage.
+- **Stand Together — Josuke Higashikata** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Transcendence — Giorno Giovanna** — One opponent’s next attack deals 20 less damage. Your next attack gets +10 damage. Gain 20 armor.
+- **Full-Force Attack — Jolyne Cujoh** — Deal 30 damage to one other player. Your next attack gets +10 damage.
+- **No Holding Back — Hamon** — Deal 20 damage to one other player. Gain 10 armor. Reduce your next incoming damage by 20.
+- **Forced Move — Hermit Purple** — Mark one other player for +20 damage the next time they take damage. Gain 60 armor. Yourself discards 2 random cards.
+- **Environment: Gold Experience Requiem** *(Environment)* — Set Gold Experience Requiem as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: DIO** *(Environment)* — Set DIO as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **To Be Continued...** *(Meme)* — Choose one other player. At the start of their next turn, deal 40 damage to them. Gain 10 armor.
+- **Environment: Made in Heaven** *(Environment)* — Set Made in Heaven as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: King Crimson** *(Environment)* — Set King Crimson as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Killer Queen** *(Environment)* — Set Killer Queen as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Star Platinum** *(Environment)* — Set Star Platinum as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Gold Experience Requiem** — Choose an opponent. They skip their next turn. Then your next attack deals 10 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Killer Queen** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, your next attack gets +10 damage. Then take 10 damage. Your next attack also gets +40 damage.
-- **Killer Queen — Point of No Return** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +20 damage; then discard 1 random card from your hand. Your next attack also gets +40 damage.
-- **King Crimson** — Steal 1 random card from an opponent. Then give the chosen opponent 20 armor. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 40 less damage.
-- **Made in Heaven** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Star Platinum** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Star Platinum — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 20; then discard 1 random card from your hand.
+- **Star Platinum** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 20 less damage.
+- **Point of No Return — Killer Queen** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Mark one other player for +10 damage the next time they take damage.
+- **Gold Experience Requiem** — One opponent skips their next turn.
+- **Trap Is Set — King Crimson** — Steal 1 random card from one opponent. One opponent’s next attack deals 40 less damage.
+- **Quick Shift — Made in Heaven** — Draw 3 cards. Yourself discards 1 random card. Your next attack gets +20 damage.
+- **Grand Invocation — DIO** — Until your next turn, no single hit can deal you more than 30 damage. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 20.
+- **Stone Free: Finishing Blow** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. Your next attack gets +20 damage.
 
 ### 5★
 
-- **Made in Heaven — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
-- **The World** *(original)* — Both opponents skip their next turn. Then take 40 damage.
+- **The World** — Both opponents skip their next turn. Then take 40 damage.
+- **Sudden Turn — Made in Heaven** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Draw 1 card.
 
 ## Jujutsu Kaisen
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Black Flash** — Deal 20 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
-- **Kento Nanami** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
-- **Kento Nanami — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
-- **Maki Zenin** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
-- **Maki Zenin — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
-- **Megumi Fushiguro** — Return one 3★ card from your discard pile to your hand. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also mark one other player for +20 on the next damage they take.
-- **Megumi Fushiguro — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
-- **Nobara Kugisaki** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP.
-- **Nobara Kugisaki — Breakthrough** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10; then gain 20 armor; then heal the chosen opponent 10 HP.
-- **Panda** — Your teammate ignores the next punch that would damage them. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Sukuna's Finger** *(original)* — flip a coin, tails is a 1.5x dmg increase on your next attack heads is take 40 dmg
-- **Toge Inumaki** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then take 10 damage.
-- **Yuji Itadori** — Deal 30 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
-- **Yuji Itadori — Pressure** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Yuta Okkotsu** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
+- **Sukuna's Finger** — flip a coin, tails is a 1.5x dmg increase on your next attack heads is take 40 dmg
+- **Counterattack — Yuji Itadori** — Deal 30 damage to one other player. One opponent’s next attack deals 20 less damage. Take 20 damage.
+- **Grand Invocation — Megumi Fushiguro** — Return up to 1 card from your discard pile. Gain 10 armor. Mark one other player for +20 damage the next time they take damage.
+- **Finishing Blow — Nobara Kugisaki** — Deal 40 delayed damage to one other player at the start of their next turn. One opponent’s next attack deals 20 less damage.
+- **Last Rush — Kento Nanami** — Deal 20 damage to one other player. Your next attack gets +10 damage. Mark one other player for +10 damage the next time they take damage.
+- **Break the Line — Maki Zenin** — Deal 20 damage to one other player. Your next attack gets +10 damage. Gain 20 armor.
+- **Plan Within a Plan — Toge Inumaki** — Deal 30 delayed damage to one other player at the start of their next turn. Gain 10 armor. Take 10 damage.
+- **Hold the Line — Panda** — Ignore the next 1 punch. Give yourself or your teammate 10 armor. Give yourself or your teammate 30 armor.
+- **Environment: Malevolent Shrine** *(Environment)* — Set Malevolent Shrine as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Domain Expansion** *(Environment)* — Set Domain Expansion as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Ryomen Sukuna** *(Environment)* — Set Ryomen Sukuna as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Satoru Gojo** *(Environment)* — Set Satoru Gojo as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Suguru Geto** *(Environment)* — Set Suguru Geto as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **No Escape — Satoru Gojo** — Until your next turn, you cannot be targeted. Your next attack gets +10 damage. Heal yourself 10 HP.
+- **Environment: Mahito** *(Environment)* — Set Mahito as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Domain Expansion** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage.
-- **Domain Expansion — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then your next attack gets +20 damage; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Mahito** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then give the chosen opponent +20 damage on their next attack.
-- **Mahito — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Malevolent Shrine — Final Push** — Deal 30 damage to both opponents. Your next attack gets +10 damage.
-- **Satoru Gojo** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 20 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 30 less damage.
-- **Suguru Geto** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then discard 1 random card from your hand.
+- **Domain Expansion** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent discards 1 random card.
+- **Read the Field — Mahito** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent’s next attack deals 10 less damage.
+- **False Opening — Suguru Geto** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Yourself discards 1 random card.
+- **Nah, I'd Win** *(Meme)* — Gain 50 armor and +20 damage on your next attack.
+- **Point-Blank — Ryomen Sukuna** — Take 20 damage. Deal 80 damage to one other player. One opponent’s next attack deals 50 less damage.
+- **Cursed Speech: Read the Field** — One opponent skips their next turn. Give yourself or your teammate +10 damage on their next attack. Mark one other player for +20 damage the next time they take damage.
+- **Malevolent Shrine: Last Rush** — Deal 30 damage to both opponents. Your next attack gets +10 damage.
 
 ### 5★
 
-- **Boogie woogie** *(original)* — switch the hp of any two players of your choosing, cannot be used on a dead player
-- **Infinity** *(original)* — Take no damage from the next 2 standard damage attacks that hit you.
+- **Boogie woogie** — switch the hp of any two players of your choosing, cannot be used on a dead player
+- **Infinity** — Take no damage from the next 2 standard damage attacks that hit you.
 
 ## Kaguya-sama: Love Is War
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Ai Hayasaka** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
-- **Chika Fujiwara** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
-- **Chika Fujiwara — Lockdown** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then heal yourself 20 HP; then take 10 damage.
-- **Kaguya Shinomiya** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
-- **Kaguya Shinomiya — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage.
-- **Kei Shirogane** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Love is War** *(original)* — Look at one non five star card your opponent has. They cannot play that card on their turn
-- **Miko Iino** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
-- **Miko Iino — Checkmate** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +20 damage; then take 10 damage.
-- **Miyuki Shirogane** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
-- **Miyuki Shirogane — Calculated Trap** — Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 10 HP; then gain 20 armor; then take 10 damage.
-- **Nagisa Kashiwagi** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Papa Shirogane** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack.
-- **Yu Ishigami** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Yu Ishigami — Counterplay** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 20; then take 10 damage.
+- **Love is War** — Look at one non five star card your opponent has. They cannot play that card on their turn
+- **Plan Within a Plan — Kaguya Shinomiya** — Until your next turn, you cannot be targeted. Mark one other player for +10 damage the next time they take damage.
+- **Trap Is Set — Miyuki Shirogane** — One opponent discards 1 random card. Draw 1 card. Reduce your next incoming damage by 20.
+- **No Escape — Chika Fujiwara** — One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 10. One opponent’s next attack deals 20 less damage.
+- **Forced Move — Yu Ishigami** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent cannot heal until the start of their next turn.
+- **Checkmate — Miko Iino** — One opponent’s next attack deals 20 less damage. Gain 20 armor.
+- **Read the Field — Ai Hayasaka** — Deal 20 damage to one opponent. One opponent discards 1 random card. Gain 20 armor.
+- **False Opening — Kei Shirogane** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent discards 1 random card.
+- **Environment: Moon-Viewing** *(Environment)* — Set Moon-Viewing as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Student Council Room** *(Environment)* — Set Student Council Room as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **O Kawaii Koto** *(Meme)* — Make one opponent’s next attack deal 30 less damage and heal yourself 10 HP.
+- **Environment: First Kiss Never Ends** *(Environment)* — Set First Kiss Never Ends as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Rap Battle** *(Environment)* — Set Rap Battle as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Fireworks** *(Environment)* — Set Fireworks as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Love Detective Chika** *(Environment)* — Set Love Detective Chika as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Fireworks** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
-- **How Cute** *(original)* — Deal 40 damage to both opponents.
-- **Love Detective Chika** — Heal both members of your team 40 HP. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Love Detective Chika — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 10 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Rap Battle** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then take 10 damage.
-- **Student Council Room** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Student Council Room — United Front** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 20 armor; then take 20 damage.
+- **How Cute** — Deal 40 damage to both opponents.
+- **Promise Kept — Love Detective Chika** — Heal both members of your team 40 HP. Give yourself or your teammate +10 damage on their next attack.
+- **Student Council Room** — Heal both members of your team 60 HP. Give yourself or your teammate 10 armor. Take 30 damage.
+- **Counterattack — Fireworks** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +20 damage.
+- **Rap Battle** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Take 10 damage.
+- **One More Chance — First Kiss Never Ends** — Heal both members of your team 40 HP. Give yourself or your teammate 10 armor. Mark one other player for +20 damage the next time they take damage.
+- **Read the Field — Tsubasa Tanuma** — One opponent discards 2 random cards. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 20 armor.
 
 ### 5★
 
-- **Moon-Viewing — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +20 damage on their next attack; then take 20 damage.
-- **Shirogine singing voice** *(original)* — sing a designated song (depending on dylan and matts rating of ur singing bring 3 cards back from graveyard, delay an opponents turn by 1, or both).
+- **Shirogine singing voice** — sing a designated song (depending on dylan and matts rating of ur singing bring 3 cards back from graveyard, delay an opponents turn by 1, or both).
+- **Moon-Viewing: False Opening** — One opponent skips their next turn. Draw 1 card. One opponent discards 1 random card.
 
 ## Komi Can’t Communicate
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Himiko Agari** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Hitohito Tadano** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
-- **Hitohito Tadano — Helping Hand** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then take 20 damage.
-- **Kaede Otori** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then take 30 damage.
-- **Komi** *(original)* — One opponent must deafen on their next turn
-- **Makoto Katai** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself or your teammate 10 HP. Then take 30 damage.
-- **Najimi Osana** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
-- **Najimi Osana — Promise** — Heal both members of your team 20 HP. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then take 20 damage.
-- **Nene Onemine** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Omoharu Nakanaka** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP.
-- **Omoharu Nakanaka — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Ren Yamai** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP.
-- **Ren Yamai — Trust** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then take 20 damage.
-- **Shoko Komi** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand.
-- **Shoko Komi — Heart-to-Heart** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then heal yourself 20 HP; then take 20 damage.
+- **Komi** — One opponent must deafen on their next turn
+- **Shared Resolve — Shoko Komi** — Heal yourself or your teammate 30 HP. Draw 1 card. Draw 1 card.
+- **Say It Out Loud — Hitohito Tadano** — Heal yourself or your teammate 20 HP. Draw 1 card. Give yourself or your teammate 20 armor.
+- **Together Again — Najimi Osana** — Take 20 damage. Heal yourself or your teammate 40 HP. Give yourself or your teammate 10 armor.
+- **The Big Moment — Ren Yamai** — Take 20 damage. Heal yourself or your teammate 40 HP. Give yourself or your teammate 20 armor.
+- **Promise Kept — Omoharu Nakanaka** — Take 20 damage. Heal yourself or your teammate 40 HP. Heal yourself or your teammate 20 HP.
+- **Heart-to-Heart — Himiko Agari** — Give yourself or your teammate 20 armor. Draw 1 card. Give yourself or your teammate +20 damage on their next attack.
+- **Trust Fall — Nene Onemine** — Heal both members of your team 20 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate 30 armor.
+- **One More Chance — Kaede Otori** — Give yourself or your teammate 20 armor. Draw 1 card. Reduce the next damage you or your teammate takes by 20.
+- **Environment: Culture Festival** *(Environment)* — Set Culture Festival as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Communication Disorder** *(Environment)* — Set Communication Disorder as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: 100 Friends** *(Environment)* — Set 100 Friends as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Komi's Notebook** *(Environment)* — Set Komi's Notebook as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Shuko Komi** *(Environment)* — Set Shuko Komi as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Shisuto Naruse** *(Environment)* — Set Shisuto Naruse as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **100 Friends** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
-- **Culture Festival** — You and your teammate each get +30 damage on your next attack. Afterward, heal yourself 10 HP. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
-- **Komi's Notebook** — Choose an opponent. They discard 2 random cards. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Shisuto Naruse** — Heal both members of your team 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Shisuto Naruse — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
-- **Shuko Komi** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Shuko Komi — Shared Resolve** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
+- **Say It Out Loud — Shisuto Naruse** — Heal both members of your team 60 HP. Reduce the next damage you or your teammate takes by 10. Take 30 damage.
+- **Together Again — Shuko Komi** — Return up to 2 non-5★ cards from your discard pile. Heal yourself or your teammate 20 HP. Give yourself or your teammate 30 armor.
+- **Plan Within a Plan — Komi's Notebook** — One opponent discards 2 random cards. Mark one other player for +30 damage the next time they take damage. Take 20 damage.
+- **Promise Kept — 100 Friends** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Culture Festival** — Your team gets +30 damage on their next attack. Heal yourself 10 HP. Draw 1 card.
+- **One More Chance — Communication Disorder** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate 10 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Shared Resolve — Rumiko Manbagi** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate +10 damage on their next attack. One opponent’s next attack deals 20 less damage.
 
 ### 5★
 
-- **Communication Disorder** — Choose an opponent. Their next attack deals 30 less damage and they cannot heal until the start of their next turn. Draw 2 cards.
-- **Culture Festival — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then your next attack deals 10 less damage.
+- **Trust Fall — Communication Disorder** — One opponent’s next attack deals 30 less damage. One opponent cannot heal until the start of their next turn. Draw 2 cards.
+- **Culture Festival: Sudden Turn** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Your next attack gets +10 damage.
 
 ## Lord of Mysteries
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Alger Wilson** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
-- **Alger Wilson — Lockdown** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then your next attack deals 10 less damage. Then take 20 damage.
-- **Audrey Hall** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP.
-- **Audrey Hall — Calculated Trap** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then your next attack deals 10 less damage. Then take 20 damage.
-- **Azik Eggers** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Cattleya** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Derrick Berg** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Derrick Berg — Counterplay** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
-- **Emlyn White** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
-- **Fors Wall** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent +20 damage on their next attack.
-- **Fors Wall — Checkmate** — Choose an opponent. Their next action is a punch against themself. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand.
-- **Klein Moretti** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 10 armor. Then take 10 damage.
-- **Klein Moretti — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor; then heal yourself 20 HP; then your next attack deals 10 less damage. Then take 20 damage.
-- **Leonard Mitchell** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 10 armor. Then give the chosen opponent 10 armor.
-- **Xio Derecha** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
+- **Checkmate — Klein Moretti** — Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 10 armor.
+- **Read the Field — Audrey Hall** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.
+- **False Opening — Alger Wilson** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent’s next attack deals 20 less damage.
+- **Cornered — Derrick Berg** — Deal 20 damage to one opponent. One opponent discards 1 random card. Reduce your next incoming damage by 10.
+- **Plan Within a Plan — Fors Wall** — Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent discards 1 random card.
+- **Trap Is Set — Xio Derecha** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.
+- **No Escape — Leonard Mitchell** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. Gain 10 armor.
+- **Forced Move — Emlyn White** — One opponent’s next attack deals 20 less damage. Mark one other player for +10 damage the next time they take damage. One opponent’s next attack deals 20 less damage.
+- **Checkmate — Cattleya** — Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 10 less damage.
+- **Environment: Sefirah Castle** *(Environment)* — Set Sefirah Castle as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Gehrman Sparrow** *(Environment)* — Set Gehrman Sparrow as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Clown Potion** *(Environment)* — Set Clown Potion as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Seer Pathway** *(Environment)* — Set Seer Pathway as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Tarot Club** *(Environment)* — Set Tarot Club as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: The Fool** *(Environment)* — Set The Fool as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Clown Potion** — Steal 1 random card from an opponent. Then give the chosen opponent 10 armor. Then take 10 damage. Also make an opponent’s next attack deal 30 less damage.
-- **Gehrman Sparrow** — Steal 1 random card from an opponent. Then take 10 damage. Then take 20 damage. Also make an opponent’s next attack deal 50 less damage.
-- **Seer Pathway** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
-- **Tarot Club** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then discard 1 random card from your hand. Then give the chosen opponent 10 armor.
-- **Tarot Club — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
-- **The Fool** — Steal 1 random card from an opponent. Then discard 1 random card from your hand. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 40 less damage.
-- **The Fool — Interference** — Choose an opponent. They skip their next turn. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
+- **The Fool** — Steal 1 random card from one opponent. Yourself discards 1 random card. One opponent’s next attack deals 10 less damage.
+- **Tarot Club** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent discards 1 random card.
+- **Plan Within a Plan — Seer Pathway** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 10 armor.
+- **Trap Is Set — Clown Potion** — Steal 1 random card from one opponent. Take 10 damage. One opponent’s next attack deals 30 less damage.
+- **No Escape — Gehrman Sparrow** — Steal 1 random card from one opponent. Take 10 damage. Take 20 damage.
+- **Sefirah Castle: Checkmate** — One opponent skips their next turn. Give yourself or your teammate 20 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Read the Field — Azik Eggers** — One opponent discards 2 random cards. Give yourself or your teammate +20 damage on their next attack. One opponent’s next attack deals 20 less damage.
 
 ### 5★
 
-- **Gehrman Sparrow — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then discard 1 random card from your hand.
-- **The Place Above the Grey Fog** *(original)* — Draw 3 cards, then you may play one additional non-5★ card this turn.
+- **The Place Above the Grey Fog** — Draw 3 cards, then you may play one additional non-5★ card this turn.
+- **False Opening — Gehrman Sparrow** — One opponent skips their next turn. Draw 1 card. One opponent’s next attack deals 10 less damage.
 
 ## Miss Kobayashi's Dragon Maid
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Dragon’s Loyalty** *(original)* — When your teammate next takes damage you guys split the damage 50/50 instead
-- **Elma** — Deal 30 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Elma — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
-- **Fafnir** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack.
-- **Ilulu** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Kanna Kamui** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
-- **Kanna Kamui — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
-- **Kobayashi** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage.
-- **Kobayashi — Heart-to-Heart** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, gain 20 armor; then reduce the next damage you take by 20; then discard 1 random card from your hand.
-- **Lucoa** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +20 damage on their next attack.
-- **Lucoa — Unseen Hand** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Makoto Takiya** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Riko Saikawa** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
-- **Tohru** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
-- **Tohru — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 20 HP; then your next attack gets +20 damage; then discard 1 random card from your hand.
+- **Dragon’s Loyalty** — When your teammate next takes damage you guys split the damage 50/50 instead
+- **Trust Fall — Kobayashi** — Heal yourself or your teammate 30 HP. Draw 1 card. Reduce the next damage you or your teammate takes by 10.
+- **Point-Blank — Tohru** — Deal 20 damage to one other player. Gain 10 armor. Your next attack gets +20 damage.
+- **Finishing Blow — Kanna Kamui** — Deal 30 damage to one other player. Gain 20 armor.
+- **Last Rush — Elma** — Deal 50 damage to one other player. Give yourself or your teammate +20 damage on their next attack. Yourself discards 2 random cards.
+- **Reality Break — Lucoa** — Draw 2 cards. Yourself discards 1 random card. Gain 20 armor.
+- **One Last Shot — Fafnir** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Take 10 damage.
+- **Full-Force Attack — Ilulu** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 20. Yourself discards 1 random card.
+- **Heart-to-Heart — Riko Saikawa** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 10. Give yourself or your teammate 30 armor.
+- **Environment: Chaos Faction** *(Environment)* — Set Chaos Faction as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: The Dragon Maid** *(Environment)* — Set The Dragon Maid as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Kanna's Lightning** *(Environment)* — Set Kanna's Lightning as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Harmony Faction** *(Environment)* — Set Harmony Faction as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Dragon Transformation** *(Environment)* — Set Dragon Transformation as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Tohru's Tail** *(Environment)* — Set Tohru's Tail as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Chaos Faction** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then give the chosen opponent 10 armor.
-- **Dragon Transformation** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
-- **Dragon Transformation — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then gain 20 armor; then heal the chosen opponent 10 HP.
-- **Harmony Faction** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
-- **Kanna's Lightning** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
-- **Tohru's Tail** — You may play one additional non-5★ card this turn. Then take 10 damage. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 40 armor.
-- **Tohru's Tail — Together** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
+- **Tohru's Tail** — You may play 1 additional 4★ or lower card this turn. Take 10 damage. Give yourself or your teammate 40 armor.
+- **Dragon Transformation** — Take 20 damage. Deal 80 damage to one other player. Mark one other player for +30 damage the next time they take damage.
+- **Chaos Faction** — Take 20 damage. Deal 80 damage to one other player. Take 20 damage.
+- **Harmony Faction** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +20 damage on their next attack.
+- **All-In Assault — Kanna's Lightning** — Deal 40 damage to both opponents. Reduce your next incoming damage by 20.
+- **Point-Blank — The Dragon Maid** — Deal 60 damage to one other player. Give yourself or your teammate 20 armor. One opponent’s next attack deals 20 less damage.
+- **Unseen Hand — Shouta Magatsuchi** — Swap your HP with one other living player. Give yourself or your teammate +10 damage on their next attack. Gain 20 armor.
 
 ### 5★
 
-- **Kanna's Lightning — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
-- **The Dragon Maid** — Give both members of your team 30 armor and heal each 20 HP. Your next attack also gets +30 damage.
+- **Full-Force Attack — The Dragon Maid** — Give both members of your team 30 armor. Heal both members of your team 20 HP. Your next attack gets +30 damage.
+- **Last Rush — Kanna's Lightning** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Mark one other player for +20 damage the next time they take damage.
 
 ## My Dress-Up Darling
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Black Lobelia** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
-- **Cosplay** *(original)* — One opponent must roleplay as an anime character of your choice for the next 3 turns. If they don’t (Jon Goon Discretion), 40 damage.
-- **Liz-kyun** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
-- **Marin Kitagawa** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Marin Kitagawa — Heart-to-Heart** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, gain 20 armor; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
-- **Nowa Sugaya** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 10 HP.
-- **Nowa Sugaya — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 20 less damage; then take 10 damage.
-- **Sajuna Inui** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage.
-- **Sajuna Inui — Promise** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 20 armor; then take 10 damage. Then take 20 damage.
-- **Shinju Inui** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
-- **Shinju Inui — Trust** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, your next attack gets +20 damage; then give your teammate +20 damage on their next attack; then take 10 damage.
-- **Shizuku Kuroe** — Heal your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage.
-- **Veronica** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
-- **Wakana Gojo** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Wakana Gojo — Helping Hand** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, heal yourself 20 HP; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Cosplay** — One opponent must roleplay as an anime character of your choice for the next 3 turns. If they don’t (Jon Goon Discretion), 40 damage.
+- **Heart-to-Heart — Marin Kitagawa** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 10. Give yourself or your teammate 10 armor.
+- **Trust Fall — Wakana Gojo** — Take 20 damage. Heal yourself or your teammate 40 HP. Heal yourself or your teammate 30 HP.
+- **One More Chance — Sajuna Inui** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Heal yourself or your teammate 10 HP.
+- **Shared Resolve — Shinju Inui** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Reduce the next damage you or your teammate takes by 10.
+- **Say It Out Loud — Nowa Sugaya** — Heal yourself or your teammate 30 HP. Draw 1 card. Heal yourself or your teammate 10 HP.
+- **Together Again — Shizuku Kuroe** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Reduce the next damage you or your teammate takes by 10.
+- **The Big Moment — Black Lobelia** — Heal both members of your team 20 HP. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Promise Kept — Veronica** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Give yourself or your teammate 10 armor.
+- **Environment: School Festival Costume** *(Environment)* — Set School Festival Costume as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Haniel** *(Environment)* — Set Haniel as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Love Hotel Studio** *(Environment)* — Set Love Hotel Studio as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Marin's Makeup** *(Environment)* — Set Marin's Makeup as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Gojo's Sewing** *(Environment)* — Set Gojo's Sewing as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Cosplay Photoshoot** *(Environment)* — Set Cosplay Photoshoot as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Cosplay Photoshoot** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, heal yourself 10 HP. Then give the chosen opponent 10 armor.
-- **Cosplay Photoshoot — Acceleration** — You and your teammate each get +30 damage on your next attack. Afterward, give yourself or your teammate 20 armor; then gain 20 armor; then take 10 damage.
-- **Gojo's Sewing** — You may play one additional non-5★ card this turn, then draw 1 card. Then discard 2 random cards from your hand. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card. Also gain 20 armor.
-- **Gojo's Sewing — Showstopper** — You and your teammate each get +30 damage on your next attack. Afterward, give your teammate +20 damage on their next attack; then heal yourself 20 HP; then take 10 damage.
-- **Love Hotel Studio** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 60 armor.
-- **Marin's Makeup** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
-- **School Festival Costume** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage.
+- **Second Beat — Cosplay Photoshoot** — Draw 3 cards. Yourself discards 1 random card. Draw 1 card.
+- **Steal the Tempo — Gojo's Sewing** — You may play 1 additional 4★ or lower card this turn. Draw 1 card. Yourself discards 2 random cards.
+- **Keep It Going — Marin's Makeup** — Deal 50 damage to one other player. Draw 1 card. Gain 10 armor.
+- **Say It Out Loud — Love Hotel Studio** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 60 armor. Yourself discards 2 random cards.
+- **School Festival Costume** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Your next attack gets +10 damage.
+- **One More Chance — Haniel** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 20 armor. Gain 20 armor.
+- **Shared Resolve — Hina Dolls** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Give yourself or your teammate 20 armor.
 
 ### 5★
 
-- **Haniel** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card.
-- **School Festival Costume — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 20; then take 10 damage.
+- **The Big Moment — Haniel** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Yourself discards 1 random card.
+- **School Festival Costume: Sudden Turn** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Your next attack gets +20 damage.
 
 ## My Hero Academia
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Endeavor** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then take 10 damage.
-- **Explosion** *(original)* — Deal 30 damage to one other player.
-- **Hawks** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also draw 1 card.
-- **Izuku Midoriya** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
-- **Izuku Midoriya — Pressure** — Deal 20 damage to one other player and gain 10 armor. Afterward, gain 20 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Katsuki Bakugo** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand.
-- **Katsuki Bakugo — Follow-Through** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 20 HP; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Mirko** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then take 20 damage. Your next attack also gets +20 damage.
-- **Ochaco Uraraka** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 30 less damage.
-- **Ochaco Uraraka — Counterplay** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 20 less damage; then take 20 damage.
-- **Shota Aizawa** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
-- **Shoto Todoroki** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Shoto Todoroki — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20; then give your teammate +20 damage on their next attack; then take 20 damage.
-- **Tenya Iida** — You and your teammate each get +10 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent 10 armor. Also draw 1 card.
-- **Tenya Iida — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +20 on the next damage they take; then gain 20 armor; then take 20 damage. Also draw 1 card.
+- **Explosion** — Deal 30 damage to one other player.
+- **Deku Broke His Arms Again** *(Meme)* — Take 20 damage, then deal 50 damage to one other player.
+- **No Holding Back — Katsuki Bakugo** — Deal 20 damage to one other player. Draw 1 card. Mark one other player for +10 damage the next time they take damage.
+- **Counterattack — Shoto Todoroki** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Mark one other player for +10 damage the next time they take damage.
+- **Checkmate — Ochaco Uraraka** — Mark one other player for +40 damage the next time they take damage. One opponent’s next attack deals 10 less damage. Yourself discards 1 random card.
+- **Keep It Going — Tenya Iida** — Your team gets +10 damage on their next attack. Gain 20 armor. Draw 1 card.
+- **False Opening — Shota Aizawa** — Deal 30 delayed damage to one other player at the start of their next turn. Mark one other player for +10 damage the next time they take damage. Take 10 damage.
+- **Break the Line — Endeavor** — Deal 30 damage to one other player. Gain 20 armor. Take 10 damage.
+- **Finale — Hawks** — One opponent discards 1 random card. Draw 1 card. Mark one other player for +10 damage the next time they take damage.
+- **Environment: Class 1-A** *(Environment)* — Set Class 1-A as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: All Might** *(Environment)* — Set All Might as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: United States of Smash** *(Environment)* — Set United States of Smash as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Dabi** *(Environment)* — Set Dabi as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Tomura Shigaraki** *(Environment)* — Set Tomura Shigaraki as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: All For One** *(Environment)* — Set All For One as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **All For One** — Choose an opponent. They discard 2 random cards. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
-- **All For One — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 20; then take 20 damage.
-- **Dabi** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **One For All** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 10 HP.
-- **One For All — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 20 armor; then heal yourself 20 HP; then take 20 damage.
-- **Tomura Shigaraki** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Your next attack also gets +70 damage.
-- **You’re Next** *(original)* — You and your teammate each get +30 damage on your next attack.
+- **You’re Next** — You and your teammate each get +30 damage on your next attack.
+- **No Holding Back — One For All** — Deal 60 damage to one other player. Mark one other player for +20 damage the next time they take damage. Gain 10 armor.
+- **Forced Move — All For One** — One opponent discards 2 random cards. One opponent’s next attack deals 20 less damage.
+- **Danger Zone — Tomura Shigaraki** — Mark one other player for +20 damage the next time they take damage. Take 20 damage. Your next attack gets +70 damage.
+- **Burn It All — Dabi** — Take 20 damage. Deal 80 damage to one other player. Mark one other player for +40 damage the next time they take damage.
+- **Back-to-Back — All Might** — Give both members of your team 30 armor. Give yourself or your teammate 20 armor. Heal yourself 20 HP.
+- **Rescue Mission — Class 1-A** — Heal both members of your team 40 HP. Give yourself or your teammate +20 damage on their next attack. Reduce your next incoming damage by 20.
 
 ### 5★
 
-- **All Might** — Deal 110 damage to one other player. You and your teammate each get +10 damage on your next attack.
-- **United States of Smash — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +20 damage; then take 20 damage.
+- **Perfect Assist — All Might** — Deal 110 damage to one other player. Your team gets +10 damage on their next attack.
+- **Last Rush — United States of Smash** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Mark one other player for +30 damage the next time they take damage.
 
 ## Naruto
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Gaara** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
-- **Jiraiya** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
-- **Jiraiya — Overdrive** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 20 HP; then your next attack deals 10 less damage. Then take 20 damage.
-- **Kakashi Hatake** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then take 20 damage.
-- **Kakashi Hatake — Contingency** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +20 damage; then gain 20 armor; then your next attack deals 10 less damage.
-- **Naruto Uzumaki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
-- **Naruto Uzumaki — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
-- **Rasengan** *(original)* — Deal 30 damage to one other player.
-- **Rock Lee** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Your next attack also gets +20 damage.
-- **Sakura Haruno** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 20 HP. Then heal the chosen opponent 10 HP.
-- **Sakura Haruno — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
-- **Sasuke Uchiha** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +20 damage. Then give the chosen opponent 10 armor.
-- **Sasuke Uchiha — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 20 HP; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
-- **Shadow Clone Jutsu** — You and your teammate each get +10 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
-- **Tsunade** — Heal both members of your team 20 HP. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Rasengan** — Deal 30 damage to one other player.
+- **Talk no Jutsu** *(Meme)* — Make one opponent’s next attack deal 30 less damage, then draw 1 card.
+- **All-In Assault — Sasuke Uchiha** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Your next attack gets +20 damage.
+- **Hold the Line — Sakura Haruno** — Draw 1 card. Give yourself or your teammate 20 armor. Give yourself or your teammate 10 armor.
+- **Countermeasure — Kakashi Hatake** — Draw 1 card. Give yourself or your teammate 20 armor. One opponent’s next attack deals 10 less damage.
+- **Counterattack — Jiraiya** — Deal 20 damage to one other player. Draw 1 card. Gain 20 armor.
+- **Back-to-Back — Tsunade** — Heal both members of your team 30 HP. Give yourself or your teammate +20 damage on their next attack. Take 20 damage.
+- **Field Plan — Gaara** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. One opponent’s next attack deals 20 less damage.
+- **Last Rush — Rock Lee** — Deal 30 damage to both opponents. One opponent’s next attack deals 10 less damage. Take 30 damage.
+- **Environment: Six Paths Sage Mode** *(Environment)* — Set Six Paths Sage Mode as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Kurama** *(Environment)* — Set Kurama as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Eight Gates** *(Environment)* — Set Eight Gates as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Sage Mode** *(Environment)* — Set Sage Mode as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Pain** *(Environment)* — Set Pain as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Itachi Uchiha** *(Environment)* — Set Itachi Uchiha as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Eight Gates** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Itachi Uchiha** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **Itachi Uchiha — Finisher** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
-- **Kurama** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Pain** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Pain — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +20 damage; then your next attack deals 10 less damage.
-- **Sage Mode** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
+- **All-In Assault — Itachi Uchiha** — Take 20 damage. Deal 80 damage to one other player. Your next attack gets +40 damage.
+- **Full-Force Attack — Pain** — Deal 60 damage to one other player. One opponent’s next attack deals 20 less damage.
+- **Sage Mode** — Take 20 damage. Deal 80 damage to one other player. Give yourself or your teammate +20 damage on their next attack.
+- **Counterattack — Eight Gates** — Deal 50 damage to one other player. Draw 1 card. Your next attack gets +20 damage.
+- **Point-Blank — Kurama** — Deal 40 damage to both opponents. Gain 20 armor.
+- **Six Paths Sage Mode: Point-Blank** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Gain 40 armor.
+- **Finishing Blow — Chidori** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Deal 30 delayed damage to one other player at the start of their next turn.
 
 ### 5★
 
-- **Kurama — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
-- **Six Paths Sage Mode** — Deal 80 damage to one other player and gain 20 armor.
+- **Six Paths Sage Mode** — Deal 80 damage to one other player. Gain 20 armor.
+- **Last Rush — Kurama** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Gain 30 armor.
 
 ## One-Punch Man
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Bang** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then take 10 damage.
-- **Bang — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage; then heal yourself 20 HP; then discard 1 random card from your hand.
-- **Deep Sea King** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage. Then take 30 damage.
-- **Fubuki** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **Fubuki — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 20; then gain 20 armor; then discard 1 random card from your hand.
-- **Genos** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
-- **Genos — Pressure** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 20 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
-- **Hero Association** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 20 less damage.
-- **King** — Choose an opponent. Their next action is a punch against themself. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
-- **King — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 20; then discard 1 random card from your hand.
-- **Monster Association** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Mumen Rider** — Reduce the next damage your teammate takes by 25. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Speed-o'-Sound Sonic** — You may punch once after playing this card. Afterward, heal yourself 10 HP. Then take 10 damage. Also draw 1 card.
-- **Tatsumaki** — Deal 30 damage to one other player. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
-- **Tatsumaki — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
+- **Last Rush — Genos** — Take 10 damage. Deal 40 damage to one other player. Gain 20 armor.
+- **Break the Line — Tatsumaki** — Deal 30 damage to one other player. Gain 10 armor.
+- **All-In Assault — Fubuki** — Take 10 damage. Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage.
+- **Full-Force Attack — Bang** — Deal 20 damage to one other player. Draw 1 card. Your next attack gets +20 damage.
+- **King Engine (Definitely Real)** *(Meme)* — Gain 40 armor. Your next attack deals 10 less damage.
+- **Rally the Team — Mumen Rider** — Reduce the next damage you or your teammate takes by 30. Heal yourself or your teammate 10 HP. Give yourself or your teammate 30 armor.
+- **Steal the Tempo — Speed-o'-Sound Sonic** — You may punch once this turn after playing this card. Heal yourself 20 HP. Take 10 damage.
+- **Finishing Blow — Deep Sea King** — Deal 10 damage to one other player. Draw 1 card. Your next attack gets +20 damage.
+- **Perfect Assist — Hero Association** — Deal 20 damage to one other player. Heal yourself or your teammate 20 HP. Give yourself or your teammate 10 armor.
+- **Environment: Hero Association** *(Environment)* — Set Hero Association as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Monster Association** *(Environment)* — Set Monster Association as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Saitama** *(Environment)* — Set Saitama as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Table Flip** *(Environment)* — Set Table Flip as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Consecutive Normal Punches** *(Environment)* — Set Consecutive Normal Punches as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Serious Punch** *(Environment)* — Set Serious Punch as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Boros** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
-- **Boros — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Consecutive Normal Punches** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then take 20 damage.
-- **Garou** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then discard 1 random card from your hand.
-- **Garou — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then your next attack gets +20 damage; then discard 1 random card from your hand.
-- **One punch** *(original)* — Deal 60 damage to one other player.
-- **Serious Punch** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **One punch** — Deal 60 damage to one other player.
+- **All-In Assault — Garou** — Deal 50 damage to one other player. Draw 1 card. One opponent’s next attack deals 20 less damage.
+- **Full-Force Attack — Boros** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Mark one other player for +30 damage the next time they take damage.
+- **No Holding Back — Serious Punch** — Deal 60 damage to one other player. Gain 20 armor. Gain 10 armor.
+- **Counterattack — Consecutive Normal Punches** — Deal 40 damage to both opponents. Reduce your next incoming damage by 10. Take 20 damage.
+- **Finishing Blow — Saitama** — Deal 40 damage to both opponents. Give yourself or your teammate 20 armor. Your next attack gets +20 damage.
+- **Burn It All — Monster Association** — Take 20 damage. Deal 80 damage to one other player. One opponent’s next attack deals 40 less damage.
 
 ### 5★
 
-- **Saitama** — Deal 120 damage to one other player, then discard 1 random card from your hand.
-- **Table Flip — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
+- **Point-Blank — Saitama** — Deal 120 damage to one other player. Yourself discards 1 random card.
+- **Last Rush — Table Flip** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Your next attack gets +30 damage.
 
 ## Orb: On the Movements of the Earth
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Badeni** — Choose an opponent. They discard 1 random card. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand. Also reduce the next damage you take by 30.
-- **Badeni — Field Plan** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
-- **Draka** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
-- **Gras** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
-- **Gras — Contingency** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Heliocentrical Heresy** *(original)* — Both your opponents take 10 damage, and another 10 if they play a card this next turn.
-- **Hubert** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
-- **Hubert — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 20 HP; then gain 20 armor; then heal the chosen opponent 10 HP.
-- **Jolenta** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
-- **Oczy** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 20 armor. Then take 10 damage.
-- **Oczy — Measured Strike** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 20; then heal yourself 20 HP; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Piast** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
-- **Rafal** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
-- **Rafal — Positioning** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 20 armor; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Schmidt** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Heliocentrical Heresy** — Both your opponents take 10 damage, and another 10 if they play a card this next turn.
+- **Field Plan — Rafal** — Deal 20 damage to one other player. Draw 1 card. Reduce your next incoming damage by 10.
+- **Prepared Response — Hubert** — Mark one other player for +20 damage the next time they take damage. Reduce your next incoming damage by 20.
+- **Calculated Risk — Oczy** — Reduce the next damage you or your teammate takes by 30. Gain 20 armor. Take 10 damage.
+- **Grand Strategy — Gras** — Reduce the next damage you or your teammate takes by 30. One opponent’s next attack deals 20 less damage. Take 10 damage.
+- **Perfect Setup — Badeni** — One opponent discards 1 random card. Give yourself or your teammate 30 armor. Yourself discards 1 random card.
+- **Countermeasure — Jolenta** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. One opponent’s next attack deals 10 less damage.
+- **Contingency — Piast** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 10.
+- **Read the Situation — Draka** — Mark one other player for +20 damage the next time they take damage. Gain 10 armor. Reduce your next incoming damage by 30.
+- **Environment: Heliocentrism** *(Environment)* — Set Heliocentrism as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Printing Press** *(Environment)* — Set Printing Press as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: The Pendant** *(Environment)* — Set The Pendant as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Mars Retrograde** *(Environment)* — Set Mars Retrograde as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Heretic Liberation Front** *(Environment)* — Set Heretic Liberation Front as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Nowak** *(Environment)* — Set Nowak as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Heretic Liberation Front** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **Heretic Liberation Front — Perfect Setup** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 20 armor; then take 10 damage.
-- **Mars Retrograde** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
-- **Nowak** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
-- **Nowak — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Printing Press** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **The Pendant** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
+- **Prepared Response — Nowak** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Reduce your next incoming damage by 20.
+- **Calculated Risk — Heretic Liberation Front** — Deal 40 damage to both opponents. One opponent’s next attack deals 10 less damage.
+- **Grand Strategy — Mars Retrograde** — Deal 50 damage to one other player. Reduce your next incoming damage by 20. Gain 20 armor.
+- **Perfect Setup — The Pendant** — Deal 50 damage to one other player. Reduce your next incoming damage by 20. One opponent’s next attack deals 10 less damage.
+- **Countermeasure — Printing Press** — Deal 50 damage to one other player. Reduce your next incoming damage by 20. Reduce your next incoming damage by 10.
+- **Read the Situation — Heliocentrism** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. One opponent’s next attack deals 30 less damage.
+- **Field Plan — Antoni** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Give yourself or your teammate +20 damage on their next attack.
 
 ### 5★
 
-- **Heliocentrism** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 10 less damage.
-- **Printing Press — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +20 damage on their next attack; then take 10 damage.
+- **Contingency — Heliocentrism** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Reduce your next incoming damage by 10.
+- **Prepared Response — Printing Press** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. Gain 10 armor.
 
 ## Oshi no Ko
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Ai Hoshino** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 20 HP. Then discard 1 random card from your hand. Also draw 1 card.
-- **Ai Hoshino — Second Beat** — You may play one additional 3★ card this turn. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then take 10 damage. Then take 20 damage.
-- **Akane Kurokawa** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself 20 HP. Then discard 1 random card from your hand. Also draw 1 card. Also gain 20 armor.
-- **Akane Kurokawa — Set the Pace** — Gain 20 armor, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Aqua Hoshino** — Heal yourself 20 HP, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
-- **Aqua Hoshino — Momentum** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 20 armor; then heal yourself 20 HP; then take 10 damage. Also draw 1 card.
-- **Ichigo Saito** — Draw 1 card. Your next attack gets +10 damage. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
-- **Kana Arima** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **Kana Arima — Quick Shift** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then take 10 damage. Also draw 1 card.
-- **MEM-cho** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
-- **Miyako Saito** — You may play one additional 3★ card this turn. Then heal the chosen opponent 10 HP. Then take 10 damage.
-- **Ruby Hoshino** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +20 damage. Then give the chosen opponent +10 damage on their next attack.
-- **Ruby Hoshino — Encore** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then take 10 damage.
-- **Skeleton** *(original)* — deal 1.25x dmg to the opponent that attacked your teammate last turn on your next attack
-- **Star Eye** *(original)* — The next time you draw at the start of your turn, draw 1 additional card.
+- **Star Eye** — The next time you draw at the start of your turn, draw 1 additional card.
+- **Skeleton** — deal 1.25x dmg to the opponent that attacked your teammate last turn on your next attack
+- **Steal the Tempo — Aqua Hoshino** — Heal yourself 20 HP. Draw 1 card. Mark one other player for +20 damage the next time they take damage.
+- **Keep It Going — Ruby Hoshino** — Heal yourself 20 HP. Draw 1 card. Your next attack gets +20 damage.
+- **Sudden Turn — Ai Hoshino** — Draw 2 cards. Yourself discards 1 random card. Heal yourself 20 HP.
+- **One More Move — Kana Arima** — One opponent discards 1 random card. Draw 1 card. Draw 1 card.
+- **Finale — Akane Kurokawa** — Return up to 1 card from your discard pile. Yourself discards 1 random card. Heal yourself 30 HP.
+- **Encore — MEM-cho** — Draw 2 cards. Yourself discards 1 random card. Draw 1 card.
+- **Quick Shift — Miyako Saito** — You may play 1 additional 3★ or lower card this turn. Take 10 damage.
+- **Environment: Tokyo Blade** *(Environment)* — Set Tokyo Blade as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: B-Komachi** *(Environment)* — Set B-Komachi as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Ai's Secret** *(Environment)* — Set Ai's Secret as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Aqua's Revenge** *(Environment)* — Set Aqua's Revenge as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Akane's Profiling** *(Environment)* — Set Akane's Profiling as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Idol Performance** *(Environment)* — Set Idol Performance as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Akane's Profiling** — Choose an opponent. They skip their next turn. Then take 30 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 70 less damage.
-- **Aqua's Revenge** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
-- **Idol Performance** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also draw 1 card.
-- **LoveNow** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +20 damage on their next attack.
-- **LoveNow — Together** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then take 20 damage.
-- **Tokyo Blade** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
-- **Tokyo Blade — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then take 20 damage.
+- **One More Chance — LoveNow** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Draw 1 card.
+- **Tokyo Blade** — Deal 40 damage to both opponents. Reduce your next incoming damage by 10.
+- **Sudden Turn — Idol Performance** — Your team gets +30 damage on their next attack. Gain 10 armor. Draw 1 card.
+- **Cornered — Akane's Profiling** — One opponent skips their next turn. Take 30 damage. Yourself discards 2 random cards.
+- **Finale — Aqua's Revenge** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Gain 10 armor.
+- **Steal the Tempo — Ai's Secret** — Deal 50 damage to one other player. Draw 1 card. Give yourself or your teammate 20 armor.
+- **Keep It Going — B-Komachi** — Draw 3 cards. Yourself discards 1 random card. Gain 20 armor.
 
 ### 5★
 
-- **Aqua's Revenge — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then take 20 damage.
-- **Pepper dance** *(original)* — can be played outside off turn when attacked, when attacked half the damage and do that half damage back
+- **Pepper dance** — can be played outside off turn when attacked, when attacked half the damage and do that half damage back
+- **Sudden Turn — Aqua's Revenge** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Gain 20 armor.
 
 ## Overlord
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Ainz Ooal Gown** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
-- **Ainz Ooal Gown — Read the Field** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor; then heal yourself 10 HP; then take 20 damage.
-- **Albedo** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Also reduce the next damage you take by 30.
-- **Albedo — Prepared Response** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then take 20 damage.
-- **Aura Bella Fiora** — Give both members of your team 20 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then give the chosen opponent 10 armor.
-- **Cocytus** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
-- **Cocytus — Overdrive** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
-- **Demiurge** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
-- **Demiurge — Counterplay** — Choose an opponent. Their next attack deals 20 less damage. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
-- **Mare Bello Fiore** — Deal 20 damage to both opponents and draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Meteor fall** *(original)* — do 20 dmg to everyone except you.
-- **Pandora's Actor** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 20 HP. Also make an opponent’s next attack deal 20 less damage.
-- **Sebas Tian** — Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage.
-- **Shalltear Bloodfallen** — Deal 30 damage to one other player. You discard 1 random card. Afterward, your next attack gets +20 damage. Then heal the chosen opponent 20 HP. Your next attack also gets +20 damage.
-- **Shalltear Bloodfallen — Danger Zone** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +40 damage.
+- **Meteor fall** — do 20 dmg to everyone except you.
+- **Trap Is Set — Ainz Ooal Gown** — Draw 2 cards. Yourself discards 1 random card. Reduce your next incoming damage by 20.
+- **Countermeasure — Albedo** — One opponent’s next attack deals 20 less damage. Gain 10 armor. Reduce your next incoming damage by 30.
+- **No Turning Back — Shalltear Bloodfallen** — Deal 30 damage to one other player. Yourself discards 1 random card. Your next attack gets +20 damage.
+- **Checkmate — Demiurge** — Until your next turn, you cannot be targeted. Reduce your next incoming damage by 20.
+- **Finishing Blow — Cocytus** — Deal 20 damage to one other player. Draw 1 card. Mark one other player for +20 damage the next time they take damage.
+- **Perfect Assist — Aura Bella Fiora** — Give both members of your team 20 armor. Your team gets +20 damage on their next attack.
+- **Reality Break — Mare Bello Fiore** — Deal 10 damage to both opponents. Draw 1 card. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Environment: Great Tomb of Nazarick** *(Environment)* — Set Great Tomb of Nazarick as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Staff of Ainz Ooal Gown** *(Environment)* — Set Staff of Ainz Ooal Gown as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Sasuga Ainz-sama** *(Meme)* — Give yourself or your teammate +20 damage on their next attack and 20 armor.
+- **Environment: Momon** *(Environment)* — Set Momon as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Super-Tier Magic** *(Environment)* — Set Super-Tier Magic as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: The Goal of All Life Is Death** *(Environment)* — Set The Goal of All Life Is Death as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Fallen Down** *(Environment)* — Set Fallen Down as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Fallen Down** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Fallen Down — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
-- **Grasp Heart** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
-- **Grasp Heart — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage. Then take 20 damage.
-- **Perfect Warrior** *(original)* — give 1.25x attack and 0.75x dmg taken decrease to your teammate for 2 turns.
-- **The Goal of All Life Is Death** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 10 less damage. Then take 20 damage.
-- **World item** *(original)* — Until your next turn, ignore non-5★ status effects and multipliers targeting you, and gain 20 armor.
+- **World item** — Until your next turn, ignore non-5★ status effects and multipliers targeting you, and gain 20 armor.
+- **Perfect Warrior** — give 1.25x attack and 0.75x dmg taken decrease to your teammate for 2 turns.
+- **No Escape — Grasp Heart** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 20.
+- **Counterattack — Fallen Down** — Take 20 damage. Deal 80 damage to one other player. Gain 40 armor.
+- **Checkmate — The Goal of All Life Is Death** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 10 less damage.
+- **Checkmate — Staff of Ainz Ooal Gown** — One opponent discards 2 random cards. Give yourself or your teammate 10 armor. One opponent’s next attack deals 10 less damage.
+- **Field Plan — Great Tomb of Nazarick** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. One opponent’s next attack deals 10 less damage.
 
 ### 5★
 
-- **Momon — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then your next attack deals 10 less damage.
-- **Staff of Ainz Ooal Gown** — Deal 90 damage to one other player and gain 30 armor.
+- **Read the Field — Staff of Ainz Ooal Gown** — Deal 90 damage to one other player. Gain 30 armor.
+- **Last Rush — Momon** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Gain 40 armor.
 
 ## Planetarian
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Automated War Machine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then take 20 damage. Your next attack also gets +20 damage.
-- **Constant Rain** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
-- **Flowercrest Department Store** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
-- **Flowercrest Department Store — Contingency** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, your next attack gets +10 damage; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
-- **Miss Jena** — You may punch once after playing this card. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
-- **Miss Jena — Second Beat** — Gain 20 armor, then draw 1 card. Afterward, reduce the next damage you take by 10; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
-- **Projector Repair** — Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also reduce the next damage you take by 30.
-- **Scavenger's Pack** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
-- **Star Projection** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
-- **The Junker** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
-- **The Junker — Prepared Response** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, heal yourself 10 HP; then your next attack gets +10 damage; then your next attack deals 10 less damage.
-- **The Planetarium** — Heal your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage your teammate takes by 20. Then discard 1 random card from your hand.
-- **The Planetarium — Reassurance** — Heal both members of your team 20 HP. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Yumemi Hoshino** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Yumemi Hoshino — Heart-to-Heart** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, gain 10 armor; then reduce the next damage you take by 10; then your next attack deals 10 less damage. Then take 20 damage.
+- **Say It Out Loud — Yumemi Hoshino** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate +20 damage on their next attack.
+- **Calculated Risk — The Junker** — Reduce the next damage you or your teammate takes by 30. One opponent’s next attack deals 20 less damage.
+- **Finale — Miss Jena** — You may punch once this turn after playing this card. Gain 10 armor. Draw 1 card.
+- **Perfect Setup — Flowercrest Department Store** — Draw 1 card. Give yourself or your teammate 20 armor. Reduce your next incoming damage by 20.
+- **The Planetarium** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Reduce the next damage you or your teammate takes by 20.
+- **Star Projection** — One opponent discards 1 random card. Draw 1 card. Gain 20 armor.
+- **Read the Situation — Constant Rain** — One opponent discards 1 random card. One opponent’s next attack deals 10 less damage. Reduce your next incoming damage by 30.
+- **Automated War Machine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Your next attack gets +20 damage.
+- **Prepared Response — Scavenger's Pack** — Draw 1 card. Give yourself or your teammate 20 armor. One opponent’s next attack deals 20 less damage.
+- **Environment: The Planetarium** *(Environment)* — Set The Planetarium as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Reverie of a Little Planet** *(Environment)* — Set Reverie of a Little Planet as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Final Escort** *(Environment)* — Set Final Escort as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Memory Card** *(Environment)* — Set Memory Card as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Emergency Battery** *(Environment)* — Set Emergency Battery as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Heaven for Robots** *(Environment)* — Set Heaven for Robots as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **2,500,000th Customer** — You may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 40 armor.
-- **2,500,000th Customer — Together** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Emergency Battery** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
-- **Heaven for Robots** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Heaven for Robots — Shared Resolve** — Heal yourself or your teammate 70 HP. Afterward, give your teammate +10 damage on their next attack; then gain 10 armor; then discard 1 random card from your hand.
-- **Memory Card** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 10 HP. Also reduce the next damage you take by 30.
-- **Seeing stars** *(original)* — Deal 20 damage to one opponent, that opponent's next card is randomly selected out of the ones in their pool.
+- **Seeing stars** — Deal 20 damage to one opponent, that opponent's next card is randomly selected out of the ones in their pool.
+- **The Big Moment — 2,500,000th Customer** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate 40 armor. Heal yourself or your teammate 10 HP.
+- **Promise Kept — Heaven for Robots** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate 30 armor.
+- **Countermeasure — Emergency Battery** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. One opponent’s next attack deals 10 less damage.
+- **Memory Card** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 10.
+- **Shared Resolve — Reverie of a Little Planet** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 10 armor. One opponent’s next attack deals 10 less damage.
+- **Field Plan — Projector Repair** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Give yourself or your teammate +10 damage on their next attack.
 
 ### 5★
 
-- **Final Escort — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 10 HP; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Reverie of a Little Planet** — Heal both members of your team 30 HP and give each 20 armor. Also give yourself or your teammate 30 armor.
+- **One More Chance — Reverie of a Little Planet** — Heal both members of your team 40 HP. Give both members of your team 20 armor. Give yourself or your teammate 30 armor.
+- **Perfect Assist — Final Escort** — Heal both members of your team 50 HP. Give both members of your team 20 armor. Give yourself or your teammate 10 armor.
 
 ## Pokémon
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Brock** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Bulbasaur** — Draw 1 card and give your teammate 20 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then your next attack deals 20 less damage.
-- **Bulbasaur — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
-- **Charizard** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
-- **Charizard — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 10 HP; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Meowth** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Also draw 1 card.
-- **Misty** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Misty — Formation** — Your teammate ignores the next punch that would damage them. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
-- **Pikachu** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Pikachu — Pressure** — Deal 20 damage to both opponents. Afterward, gain 10 armor; then your next attack gets +10 damage; then discard 1 random card from your hand.
-- **Poké Ball** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Pokédex** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
-- **Squirtle** — Your teammate ignores the next punch that would damage them. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
-- **Squirtle — Backup Plan** — Give yourself or your teammate 30 armor. Afterward, your next attack gets +10 damage; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Team Rocket** *(original)* — After 3 turns do 30 damage to each opponent
+- **Team Rocket** — After 3 turns do 30 damage to each opponent
+- **Finishing Blow — Pikachu** — Deal 20 damage to one other player. Your next attack gets +10 damage. Gain 30 armor.
+- **Last Rush — Charizard** — Deal 20 damage to both opponents. Reduce your next incoming damage by 20. Your next attack gets +10 damage.
+- **Stand Together — Bulbasaur** — Draw 1 card. Give yourself or your teammate 10 armor. Your team gets +20 damage on their next attack.
+- **Last Stand — Squirtle** — Ignore the next 1 punch. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate 30 armor.
+- **Hold the Line — Misty** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 10 armor.
+- **Jelly-Filled Donuts** *(Meme)* — Heal yourself or your teammate 40 HP.
+- **Second Beat — Meowth** — Draw 2 cards. Yourself discards 1 random card. Your next attack gets +10 damage.
+- **Poké Ball** — One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 30. Take 10 damage.
+- **Environment: Pokémon League** *(Environment)* — Set Pokémon League as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Gotta Catch 'Em All** *(Environment)* — Set Gotta Catch 'Em All as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Master Ball** *(Environment)* — Set Master Ball as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Legendary Pokémon** *(Environment)* — Set Legendary Pokémon as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Mewtwo** *(Environment)* — Set Mewtwo as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Ash Ketchum** *(Environment)* — Set Ash Ketchum as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Ash Ketchum** — Give both members of your team 30 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage. Also give yourself or your teammate 30 armor.
-- **Ash Ketchum — Rescue** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then gain 10 armor; then heal the chosen opponent 10 HP.
-- **Legendary Pokémon** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage.
-- **Master Ball** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
-- **Mewtwo** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 10 damage. Then take 30 damage.
-- **Mewtwo — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +10 damage on their next attack; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Pokémon League** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +10 damage. Then give the chosen opponent 20 armor.
+- **Perfect Assist — Ash Ketchum** — Give both members of your team 50 armor. Reduce the next damage you or your teammate takes by 10. Take 10 damage.
+- **Cornered — Mewtwo** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent’s next attack deals 20 less damage.
+- **All-In Assault — Legendary Pokémon** — Deal 50 damage to one other player. Draw 1 card. Mark one other player for +20 damage the next time they take damage.
+- **Master Ball** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 20 armor.
+- **Pokémon League** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Gain 10 armor.
+- **Gotta Catch 'Em All: Back-to-Back** — Give both members of your team 30 armor. Give yourself or your teammate 10 armor. Gain 10 armor.
+- **Finishing Blow — Thunderbolt** — Deal 50 damage to one other player. Draw 1 card. Gain 40 armor.
 
 ### 5★
 
-- **Gotta Catch 'Em All** — Draw 3 cards and steal 1 random card from an opponent, then discard 1 random card from your hand.
-- **Pokémon League — Champion Form** — You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP. Your next attack also gets +30 damage.
+- **Gotta Catch 'Em All** — Draw 3 cards. Steal 1 random card from one opponent. Yourself discards 1 random card.
+- **Pokémon League: Photo Finish** — Your next attack deals ×1.4 damage. Give both members of your team 50 armor. One opponent’s next attack deals 10 less damage.
 
 ## Puella Magi Madoka Magica
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Charlotte** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +20 damage.
-- **Grief Seed** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
-- **Homura Akemi** — Choose an opponent. Their next action is a punch against themself. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
-- **Homura Akemi — Calculated Trap** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 10 HP; then give yourself or your teammate 10 armor; then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Kyoko Sakura** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
-- **Kyoko Sakura — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then gain 10 armor; then take 10 damage.
-- **Kyubey** *(original)* — Deal 20 damage to both opponents.
-- **Madoka Kaname** — Give both members of your team 20 armor. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
-- **Madoka Kaname — Cover** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, gain 10 armor; then mark one other player for +10 on the next damage they take; then take 10 damage.
-- **Mami Tomoe** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Mami Tomoe — Counteroffensive** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 10 less damage; then take 10 damage.
-- **Sayaka Miki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
-- **Sayaka Miki — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10; then give your teammate +10 damage on their next attack; then take 10 damage.
-- **Soul Gem** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
-- **Witch's Labyrinth** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
+- **Kyubey** — Deal 20 damage to both opponents.
+- **Back-to-Back — Madoka Kaname** — Give both members of your team 20 armor. Heal yourself or your teammate 20 HP. Heal yourself or your teammate 10 HP.
+- **Read the Field — Homura Akemi** — Choose an opponent. Their next action is a punch against themself. One opponent’s next attack deals 20 less damage. Take 10 damage.
+- **Last Rush — Sayaka Miki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Your next attack gets +30 damage.
+- **Break the Line — Mami Tomoe** — Deal 20 damage to both opponents. One opponent’s next attack deals 20 less damage.
+- **All-In Assault — Kyoko Sakura** — Deal 20 damage to one other player. Gain 10 armor. Gain 20 armor.
+- **All In — Soul Gem** — Take 10 damage. Deal 40 damage to one other player. Your next attack gets +20 damage.
+- **Over the Limit — Grief Seed** — Draw 3 cards. Yourself discards 2 random cards. Gain 20 armor.
+- **Environment: Witch's Labyrinth** *(Environment)* — Set Witch's Labyrinth as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Ultimate Madoka** *(Environment)* — Set Ultimate Madoka as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Being Meguca Is Suffering** *(Meme)* — Draw 2 cards, then take 20 damage.
+- **Environment: The Contract** *(Environment)* — Set The Contract as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Walpurgisnacht** *(Environment)* — Set Walpurgisnacht as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Kyoko's Spear** *(Environment)* — Set Kyoko's Spear as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Sayaka's Swords** *(Environment)* — Set Sayaka's Swords as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Homura's Shield** — Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
-- **Homura's Shield — Interference** — Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 10 armor; then heal yourself 10 HP; then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Kyoko's Spear** — Deal 40 damage to both opponents. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Sayaka's Swords** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
-- **Sayaka's Swords — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 10; then take 10 damage.
-- **The Contract** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +60 damage.
-- **Walpurgisnacht** — Deal 30 damage to every other living player. Afterward, your next attack gets +10 damage. Then give the chosen opponent 10 armor.
+- **Homura's Shield** — One opponent discards 2 random cards. Reduce your next incoming damage by 20.
+- **Last Rush — Sayaka's Swords** — Deal 40 damage to both opponents. Reduce your next incoming damage by 10. Your next attack gets +10 damage.
+- **Kyoko's Spear** — Deal 40 damage to both opponents. Give yourself or your teammate +20 damage on their next attack.
+- **One Last Shot — Walpurgisnacht** — Deal 30 damage to every other living player. Your next attack gets +10 damage. Mark one other player for +10 damage the next time they take damage.
+- **The Contract** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Gain 30 armor.
+- **Danger Zone — Ultimate Madoka** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Give yourself or your teammate 30 armor.
+- **Finishing Blow — Tiro Finale** — Deal 50 damage to one other player. Draw 1 card. Deal 60 delayed damage to one other player at the start of their next turn.
 
 ### 5★
 
-- **The Contract — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +20 damage.
-- **Ultimate Madoka** — Heal both members of your team 50 HP. Your next attack also gets +30 damage.
+- **Over the Limit — Ultimate Madoka** — Heal both members of your team 50 HP. Your next attack gets +30 damage.
+- **The Contract: Desperate Bet** — Take 30 damage. Deal 120 damage to one other player. Take 10 damage.
 
 ## Rascal Does Not Dream of Bunny Girl Senpai
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Bunny Girl** — Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 20 armor. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Kaede Azusagawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
-- **Laplace's Demon** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
-- **Mai Sakurajima** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
-- **Mai Sakurajima — Calculated Trap** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, heal yourself 10 HP; then give your teammate +10 damage on their next attack; then take 20 damage.
-- **Nodoka Toyohama** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
-- **Nodoka Toyohama — Checkmate** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 10 HP; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Puberty Syndrome** *(original)* — on the start of your next turn you and an opponent of your choosing cannot target each other with cards or punches for one full turn
-- **Rio Futaba** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
-- **Rio Futaba — Counterplay** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +10 damage; then gain 10 armor; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Sakuta Azusagawa** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
-- **Sakuta Azusagawa — Read the Field** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor; then give yourself or your teammate 10 armor; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Shoko Makinohara** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
-- **Tomoe Koga** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
-- **Tomoe Koga — Lockdown** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **Puberty Syndrome** — on the start of your next turn you and an opponent of your choosing cannot target each other with cards or punches for one full turn
+- **Forced Move — Sakuta Azusagawa** — One opponent discards 1 random card. Draw 1 card. One opponent cannot heal until the start of their next turn.
+- **Checkmate — Mai Sakurajima** — Until your next turn, you cannot be targeted. One opponent’s next attack deals 20 less damage.
+- **Read the Field — Tomoe Koga** — Mark one other player for +20 damage the next time they take damage. Reduce your next incoming damage by 20. One opponent discards 1 random card.
+- **False Opening — Rio Futaba** — Deal 30 delayed damage to one other player at the start of their next turn. One opponent’s next attack deals 20 less damage.
+- **Cornered — Nodoka Toyohama** — Draw 2 cards. Yourself discards 1 random card. One opponent’s next attack deals 10 less damage.
+- **Plan Within a Plan — Kaede Azusagawa** — Draw 2 cards. Yourself discards 1 random card. One opponent’s next attack deals 20 less damage.
+- **Trap Is Set — Shoko Makinohara** — Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 20.
+- **No Escape — Bunny Girl** — Draw 2 cards. Yourself discards 1 random card. One opponent cannot heal until the start of their next turn.
+- **Environment: Adolescence Syndrome** *(Environment)* — Set Adolescence Syndrome as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Dreaming Girl** *(Environment)* — Set Dreaming Girl as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Kaede's Notebook** *(Environment)* — Set Kaede's Notebook as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Time Loop** *(Environment)* — Set Time Loop as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Invisible Mai** *(Environment)* — Set Invisible Mai as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Body Swap** *(Environment)* — Set Body Swap as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Body Swap** — Steal 1 random card from an opponent. Then give the chosen opponent 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 80 less damage.
-- **Body Swap — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 10; then take 20 damage.
-- **Dreaming Girl** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
-- **Invisible Mai** — Choose an opponent. They discard 2 random cards. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 20 less damage. Also make an opponent’s next attack deal 20 less damage.
-- **Invisible Mai — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +10 damage; then your next attack deals 10 less damage.
-- **Kaede's Notebook** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 30 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
-- **Time Loop** — Choose an opponent. They discard 2 random cards. Afterward, gain 20 armor. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Checkmate — Body Swap** — Steal 1 random card from one opponent. Yourself discards 2 random cards. One opponent’s next attack deals 80 less damage.
+- **Read the Field — Invisible Mai** — One opponent discards 2 random cards. Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 20 less damage.
+- **False Opening — Time Loop** — One opponent discards 2 random cards. Gain 30 armor. Take 10 damage.
+- **Cornered — Kaede's Notebook** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Take 30 damage.
+- **Plan Within a Plan — Dreaming Girl** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.
+- **Checkmate — Adolescence Syndrome** — Steal 1 random card from one opponent. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 10.
+- **Read the Field — Rio's Double** — One opponent skips their next turn. Give yourself or your teammate +10 damage on their next attack. Your next attack gets +10 damage.
 
 ### 5★
 
-- **Adolescence Syndrome** — Choose an opponent. They skip their next turn. Take 20 damage. Also make an opponent’s next attack deal 50 less damage.
-- **Dreaming Girl — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Trap Is Set — Adolescence Syndrome** — One opponent skips their next turn. Take 20 damage. One opponent’s next attack deals 50 less damage.
+- **False Opening — Dreaming Girl** — One opponent skips their next turn. Draw 1 card. One opponent’s next attack deals 30 less damage.
 
 ## Re:Zero
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Beatrice** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Beatrice — Burnout** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
-- **Crusch Karsten** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Your next attack also gets +20 damage.
-- **Emilia** — Deal 20 damage to every other living player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
-- **Emilia — No Turning Back** — Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
-- **Felix Argyle** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Felt** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
-- **Puck** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor.
-- **Ram** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage.
-- **Ram — All In** — Deal 20 damage to every other living player. Afterward, your next attack gets +10 damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Rem — Danger Zone** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10; then gain 10 armor; then your next attack deals 10 less damage. Your next attack also gets +20 damage.
-- **Rem — Re:Zero** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
-- **Roswaal L Mathers** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage. Your next attack also gets +30 damage.
-- **Subaru Natsuki** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +30 damage.
-- **Subaru Natsuki — Over the Limit** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **I Love Emilia** *(Meme)* — Heal yourself or your teammate 40 HP, draw 1 card, then discard 1 random card.
+- **No Turning Back — Emilia** — Deal 20 damage to every other living player. Reduce your next incoming damage by 20.
+- **Danger Zone — Rem** — Deal 40 delayed damage to one other player at the start of their next turn. Gain 20 armor.
+- **Burn It All — Ram** — Draw 3 cards. Yourself discards 2 random cards. Your next attack gets +20 damage.
+- **Desperate Bet — Beatrice** — Your next attack deals ×1.4 damage. Your next damage taken is ×1.25. Mark one other player for +20 damage the next time they take damage.
+- **Point of No Return — Puck** — Draw 3 cards. Yourself discards 2 random cards. Take 10 damage.
+- **One Last Shot — Roswaal L Mathers** — Your next attack deals ×1.4 damage. Your next damage taken is ×1.25. Take 10 damage.
+- **All In — Felt** — Draw 3 cards. Yourself discards 2 random cards. Mark one other player for +10 damage the next time they take damage.
+- **Over the Limit — Crusch Karsten** — Take 20 damage. Your next attack gets +40 damage. Reduce your next incoming damage by 20.
+- **Environment: Unseen Hand** *(Environment)* — Set Unseen Hand as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Satella** *(Environment)* — Set Satella as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Witch of Envy** *(Environment)* — Set Witch of Envy as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Petelgeuse Romanee-Conti** *(Environment)* — Set Petelgeuse Romanee-Conti as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Julius Juukulius** *(Environment)* — Set Julius Juukulius as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Reinhard van Astrea** *(Environment)* — Set Reinhard van Astrea as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Julius Juukulius** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +60 damage.
-- **Julius Juukulius — Point of No Return** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
-- **Petelgeuse Romanee-Conti** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage.
-- **Reinhard van Astrea** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
-- **Reinhard van Astrea — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then your next attack gets +10 damage; then discard 1 random card from your hand. Your next attack also gets +70 damage.
-- **Unseen Hand** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Your next attack also gets +50 damage.
-- **Witch of Envy** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, your next attack gets +20 damage. Then take 20 damage. Your next attack also gets +70 damage.
+- **Danger Zone — Reinhard van Astrea** — Take 20 damage. Deal 80 damage to one other player. Take 30 damage.
+- **Burn It All — Julius Juukulius** — Reduce your next incoming damage by 20. Your next attack gets +60 damage.
+- **Desperate Bet — Petelgeuse Romanee-Conti** — Take 20 damage. Deal 80 damage to one other player. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Point of No Return — Unseen Hand** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Take 10 damage.
+- **One Last Shot — Witch of Envy** — Your next attack gets +20 damage. Take 20 damage. Your next attack gets +70 damage.
+- **Danger Zone — Satella** — Give yourself or your teammate 60 armor. Your next attack gets +10 damage. Yourself discards 1 random card.
+- **Burn It All — Felix Argyle** — Deal 30 damage to every other living player. Give yourself or your teammate +10 damage on their next attack. Mark one other player for +10 damage the next time they take damage.
 
 ### 5★
 
-- **Return by Death** *(original)* — The next time you or your teammate dies, revive that player at 80 HP. In 1v1, this protects you.
-- **Witch of Envy — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 10 armor; then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Return by Death** — The next time you or your teammate dies, revive that player at 80 HP. In 1v1, this protects you.
+- **Desperate Bet — Witch of Envy** — Take 30 damage. Deal 120 damage to one other player. Your next attack gets +20 damage.
 
 ## Rent-a-Girlfriend
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Chizuru Mizuhara** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +20 damage on their next attack.
-- **Chizuru Mizuhara — Heart-to-Heart** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, gain 10 armor; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Diamond Rental** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Kazuya** *(original)* — This card does nothing
-- **Mami Nanami** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
-- **Mami Nanami — Helping Hand** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 10 HP; then gain 10 armor; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Mini Yaemori** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent 20 armor.
-- **Mini Yaemori — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
-- **Nagomi Kinoshita** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
-- **Ruka Sarashina** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
-- **Ruka Sarashina — Promise** — Return one 3★ card from your discard pile to your hand. Afterward, reduce the next damage you take by 10; then heal yourself 10 HP; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Sayuri Ichinose** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
-- **Sumi Sakurasawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage your teammate takes by 10. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Sumi Sakurasawa — Trust** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 10; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Umi Nakano** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
+- **Kazuya** — This card does basically nothing. Draw 1 card because the deck feels bad for you.
+- **Promise Kept — Chizuru Mizuhara** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Give yourself or your teammate 20 armor.
+- **Heart-to-Heart — Mami Nanami** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 10. Take 10 damage.
+- **Trust Fall — Ruka Sarashina** — Take 20 damage. Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor.
+- **One More Chance — Sumi Sakurasawa** — Draw 2 cards. Yourself discards 1 random card. Reduce the next damage you or your teammate takes by 10.
+- **Shared Resolve — Mini Yaemori** — Until your next turn, you cannot be targeted. Reduce the next damage you or your teammate takes by 10.
+- **Say It Out Loud — Nagomi Kinoshita** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Draw 1 card.
+- **Together Again — Sayuri Ichinose** — Heal yourself or your teammate 30 HP. Draw 1 card. Give yourself or your teammate +10 damage on their next attack.
+- **The Big Moment — Umi Nakano** — Return up to 1 card from your discard pile. Give yourself or your teammate +20 damage on their next attack.
+- **Environment: Movie Premiere** *(Environment)* — Set Movie Premiere as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Rental Date** *(Environment)* — Set Rental Date as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Chizuru Ichinose** *(Environment)* — Set Chizuru Ichinose as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Grandmother Pact** *(Environment)* — Set Grandmother Pact as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Acting Dream** *(Environment)* — Set Acting Dream as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Crowdfunded Movie** *(Environment)* — Set Crowdfunded Movie as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Acting Dream** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
-- **Acting Dream — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
-- **Crowdfunded Movie** — You may play one additional non-5★ card this turn. Then give the chosen opponent +20 damage on their next attack. Then take 10 damage. Also give yourself or your teammate 40 armor.
-- **Crowdfunded Movie — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Grandmother Pact** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Movie Premiere** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
-- **Rental Date** — Heal both members of your team 40 HP. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Heart-to-Heart — Crowdfunded Movie** — You may play 1 additional 4★ or lower card this turn. Take 10 damage. Draw 1 card.
+- **Trust Fall — Acting Dream** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Reduce the next damage you or your teammate takes by 20.
+- **One More Chance — Rental Date** — Heal both members of your team 40 HP. Give yourself or your teammate +20 damage on their next attack.
+- **Shared Resolve — Grandmother Pact** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Say It Out Loud — Movie Premiere** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Heal yourself or your teammate 10 HP.
+- **One More Chance — Chizuru Ichinose** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Give yourself or your teammate 30 armor.
+- **Shared Resolve — Aquarium Date** — Heal yourself or your teammate 70 HP. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 10 armor.
 
 ### 5★
 
-- **Chizuru Ichinose** — Heal yourself or your teammate 90 HP, then draw 1 card.
-- **Movie Premiere — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Together Again — Chizuru Ichinose** — Heal yourself or your teammate 90 HP. Draw 1 card.
+- **Together Again — Movie Premiere** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
 
 ## SPY x FAMILY
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Anya Forger** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
-- **Anya Forger — Lockdown** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
-- **Becky Blackbell** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 10 HP.
-- **Becky Blackbell — Reassurance** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then take 10 damage.
-- **Damian Desmond** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage.
-- **Fiona Frost** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
-- **Franky Franklin** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then take 30 damage. Also reduce the next damage you take by 30.
-- **Loid Forger** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Loid Forger — Positioning** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Project Apple** — Mark one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor. Also reduce the next damage you take by 30.
-- **Project Apple — Contingency** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then take 10 damage.
-- **Such elegance** *(original)* — You and your teammate heal 10 hp every time you play a card for the next 3 turns
-- **Yor Forger** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Yor Forger — Follow-Through** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
-- **Yuri Briar** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage you take by 20. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **Such elegance** — You and your teammate heal 10 hp every time you play a card for the next 3 turns
+- **Grand Strategy — Loid Forger** — Draw 1 card. Give yourself or your teammate 20 armor. Gain 20 armor.
+- **Full-Force Attack — Yor Forger** — Deal 40 delayed damage to one other player at the start of their next turn. Give yourself or your teammate +10 damage on their next attack.
+- **No Escape — Anya Forger** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent’s next attack deals 30 less damage.
+- **Project Apple** — Mark one other player for +20 damage the next time they take damage. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 30.
+- **One More Chance — Becky Blackbell** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 10.
+- **Shared Resolve — Damian Desmond** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate 10 armor.
+- **Prepared Response — Yuri Briar** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 20.
+- **Environment: Garden** *(Environment)* — Set Garden as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: The Forger Family** *(Environment)* — Set The Forger Family as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Heh.** *(Meme)* — Draw 2 cards, then discard 1 random card.
+- **Environment: Tonitrus Bolt** *(Environment)* — Set Tonitrus Bolt as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Stella Star** *(Environment)* — Set Stella Star as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: WISE** *(Environment)* — Set WISE as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Operation Strix** *(Environment)* — Set Operation Strix as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Bond Forger** *(original)* — See the abilities of your opponents’ cards for the rest of the game, then draw 2 cards. You still cannot tell your teammate without taking the Tonitrus Bolt penalty.
-- **Garden** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Operation Strix** — Give both members of your team 30 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Operation Strix — Rescue** — Give your teammate +40 damage on their next attack, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
-- **Stella Star** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
-- **WISE** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
-- **WISE — Perfect Setup** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Bond Forger** — See the abilities of your opponents’ cards for the rest of the game, then draw 2 cards. You still cannot tell your teammate without taking the Tonitrus Bolt penalty.
+- **Operation Strix** — Give both members of your team 30 armor. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Countermeasure — WISE** — Draw 2 cards. Give yourself or your teammate 30 armor. One opponent’s next attack deals 20 less damage.
+- **Garden** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 10 armor.
+- **Stella Star** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Give yourself or your teammate 10 armor.
+- **The Forger Family: One More Chance** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 10 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Field Plan — Henry Henderson** — Draw 2 cards. Give yourself or your teammate 30 armor. Give yourself or your teammate +10 damage on their next attack.
 
 ### 5★
 
-- **The Forger Family** — Heal both members of your team 20 HP, give each +20 damage on their next attack, then draw 1 card. Also give yourself or your teammate 30 armor.
-- **Tonitrus Bolt — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then take 10 damage.
+- **The Forger Family** — Heal both members of your team 30 HP. Your team gets +20 damage on their next attack. Draw 1 card.
+- **Tonitrus Bolt: Prepared Response** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. One opponent’s next attack deals 10 less damage.
 
 ## Solo Leveling
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Baek Yoonho** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
-- **Baek Yoonho — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then take 20 damage.
-- **Cha Hae-In** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
-- **Cha Hae-In — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then take 20 damage.
-- **Choi Jong-In** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Go Gunhee** — Your teammate ignores the next punch that would damage them. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
-- **Go Gunhee — Backup Plan** — Heal yourself or your teammate 40 HP. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Igris** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Iron** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage. Also reduce the next damage you take by 30.
-- **Sung Jinwoo** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
-- **Sung Jinwoo — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then heal yourself 10 HP; then take 10 damage.
-- **The System** — You may play one additional 3★ card this turn. Then take 30 damage. Then heal the chosen opponent 20 HP. Also draw 1 card.
-- **Tusk** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
-- **Yoo Jinho** — Give yourself or your teammate 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
-- **Yoo Jinho — Rally** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then take 10 damage.
+- **Last Rush — Sung Jinwoo** — Deal 20 damage to one other player. Gain 10 armor. Gain 30 armor.
+- **Stand Together — Yoo Jinho** — Give yourself or your teammate 30 armor. Reduce the next damage you or your teammate takes by 20.
+- **All-In Assault — Cha Hae-In** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Mark one other player for +20 damage the next time they take damage.
+- **Hold the Line — Go Gunhee** — Ignore the next 1 punch. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate +10 damage on their next attack.
+- **No Holding Back — Baek Yoonho** — Deal 40 delayed damage to one other player at the start of their next turn. One opponent’s next attack deals 20 less damage. Your next attack gets +10 damage.
+- **Counterattack — Choi Jong-In** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Give yourself or your teammate +10 damage on their next attack.
+- **Point-Blank — Igris** — Deal 40 delayed damage to one other player at the start of their next turn. Your next attack gets +40 damage. Yourself discards 2 random cards.
+- **Field Plan — Iron** — Reduce the next damage you or your teammate takes by 30. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 30.
+- **Last Rush — Tusk** — Deal 50 damage to one other player. Reduce your next incoming damage by 10. Take 30 damage.
+- **Environment: Monarch's Domain** *(Environment)* — Set Monarch's Domain as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Shadow Monarch** *(Environment)* — Set Shadow Monarch as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Demon King's Longsword** *(Environment)* — Set Demon King's Longsword as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Ruler's Authority** *(Environment)* — Set Ruler's Authority as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Shadow Exchange** *(Environment)* — Set Shadow Exchange as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Beru** *(Environment)* — Set Beru as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Arise** *(original)* — Return up to 2 non-5★ cards from your discard pile to your hand.
-- **Beru** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Beru — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then take 20 damage.
-- **Monarch's Domain** — Choose an opponent. They skip their next turn. Then give the chosen opponent +10 damage on their next attack. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
-- **Ruler's Authority** — Choose an opponent. They skip their next turn. Then discard 1 random card from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
-- **Shadow Exchange** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
-- **Shadow Exchange — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **Arise** — Return up to 2 non-5★ cards from your discard pile to your hand.
+- **All-In Assault — Beru** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Gain 30 armor.
+- **Full-Force Attack — Shadow Exchange** — Deal 60 damage to one other player. One opponent’s next attack deals 20 less damage. Your next attack gets +10 damage.
+- **Monarch's Domain** — One opponent skips their next turn. Yourself discards 2 random cards. One opponent’s next attack deals 40 less damage.
+- **Forced Move — Ruler's Authority** — One opponent skips their next turn. Yourself discards 1 random card. One opponent’s next attack deals 20 less damage.
+- **Finishing Blow — Shadow Monarch** — Take 20 damage. Deal 80 damage to one other player. Give yourself or your teammate 20 armor.
+- **The System: Keep It Going** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Give yourself or your teammate +20 damage on their next attack.
 
 ### 5★
 
-- **Demon King's Longsword — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then take 20 damage.
-- **Shadow Monarch** — Return up to 3 non-5★ cards from your discard pile to your hand and play one additional non-5★ card this turn. Take 20 damage. Your next attack also gets +20 damage.
+- **Point-Blank — Shadow Monarch** — Return up to 3 non-5★ cards from your discard pile. You may play 1 additional 4★ or lower card this turn. Take 20 damage.
+- **Last Rush — Demon King's Longsword** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Mark one other player for +40 damage the next time they take damage.
 
 ## Steins;Gate
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Faris NyanNyan** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Itaru Hashida** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage.
-- **Itaru Hashida — Counterplay** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +20 damage; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage. Then take 20 damage.
-- **Kurisu Makise** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Kurisu Makise — Calculated Trap** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 20 HP; then your next attack gets +10 damage; then your next attack deals 10 less damage.
-- **Luka Urushibara** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage.
-- **Mayuri Shiina** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
-- **Mayuri Shiina — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
-- **Moeka Kiryu** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor. Then take 10 damage.
-- **Mr. Braun** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
-- **PhoneWave** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 10 HP. Then give the chosen opponent +20 damage on their next attack. Also draw 1 card.
-- **Rintaro Okabe** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
-- **Rintaro Okabe — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor; then reduce the next damage you take by 10; then take 20 damage.
-- **Suzuha Amane** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
-- **Suzuha Amane — Checkmate** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Read the Field — Rintaro Okabe** — Deal 20 damage to one opponent. One opponent discards 1 random card. Mark one other player for +20 damage the next time they take damage.
+- **False Opening — Kurisu Makise** — One opponent discards 1 random card. Draw 1 card. One opponent’s next attack deals 10 less damage.
+- **Cornered — Mayuri Shiina** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent’s next attack deals 40 less damage.
+- **Plan Within a Plan — Itaru Hashida** — Until your next turn, you cannot be targeted. One opponent’s next attack deals 10 less damage. One opponent discards 1 random card.
+- **Trap Is Set — Suzuha Amane** — One opponent’s next attack deals 20 less damage. Gain 40 armor. Take 20 damage.
+- **No Escape — Moeka Kiryu** — Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent cannot heal until the start of their next turn.
+- **Forced Move — Luka Urushibara** — Deal 20 damage to one opponent. Reduce your next incoming damage by 20. Deal 60 delayed damage to one other player at the start of their next turn.
+- **Checkmate — Faris NyanNyan** — Draw 2 cards. Yourself discards 1 random card. One opponent’s next attack deals 30 less damage.
+- **Read the Field — Mr. Braun** — Deal 30 delayed damage to one other player at the start of their next turn. Gain 40 armor. Yourself discards 2 random cards.
+- **Environment: World Line** *(Environment)* — Set World Line as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Steins Gate** *(Environment)* — Set Steins Gate as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: IBN 5100** *(Environment)* — Set IBN 5100 as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Divergence Meter** *(Environment)* — Set Divergence Meter as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Reading Steiner** *(Environment)* — Set Reading Steiner as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: D-Mail** *(Environment)* — Set D-Mail as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **D-Mail** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then give the chosen opponent 20 armor. Also draw 1 card.
-- **D-Mail — Acceleration** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
-- **Divergence Meter** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
-- **IBN 5100** — Choose an opponent. They skip their next turn. Then take 10 damage. Then give the chosen opponent +10 damage on their next attack.
-- **Reading Steiner** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Reading Steiner — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +20 damage on their next attack; then gain 10 armor; then your next attack deals 10 less damage.
-- **World Line** — Steal 1 random card from an opponent. Then discard 2 random cards from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 70 less damage.
+- **One More Move — D-Mail** — Your team gets +30 damage on their next attack. Gain 10 armor. Your next attack gets +10 damage.
+- **Plan Within a Plan — Reading Steiner** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent’s next attack deals 30 less damage.
+- **Trap Is Set — Divergence Meter** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 20 less damage.
+- **No Escape — IBN 5100** — One opponent skips their next turn. Take 10 damage.
+- **World Line** — Steal 1 random card from one opponent. Yourself discards 2 random cards. One opponent’s next attack deals 70 less damage.
+- **Checkmate — Steins Gate** — One opponent skips their next turn. Give yourself or your teammate 20 armor. One opponent’s next attack deals 10 less damage.
+- **Keep It Going — PhoneWave** — Draw 3 cards. Yourself discards 1 random card. Your next attack gets +30 damage.
 
 ### 5★
 
-- **Time Leap Machine** *(original)* — go back in time two turns undoing all the actions of those two turns. All cards will be returned that were used during those turns (everything is reversed)
-- **World Line — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Time Leap Machine** — go back in time two turns undoing all the actions of those two turns. All cards will be returned that were used during those turns (everything is reversed)
+- **World Line: False Opening** — One opponent skips their next turn. Draw 1 card. One opponent’s next attack deals 40 less damage.
 
 ## Sword Art Online
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Agil** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Agil — Backup Plan** — Give both members of your team 20 armor. Afterward, your next attack gets +20 damage; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
-- **Asuna** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
-- **Asuna — Follow-Through** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, heal yourself 20 HP; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
-- **Kirito** — Deal 30 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Kirito — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then your next attack gets +10 damage; then discard 1 random card from your hand.
-- **Klein** — Reduce the next damage your teammate takes by 25. Afterward, you and your teammate each get +20 damage on your next attack. Then heal the chosen opponent 10 HP.
-- **Klein — Coordination** — Heal both members of your team 20 HP. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
-- **Leafa** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
-- **Lisbeth** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 10 less damage.
-- **Overleveled** *(original)* — take -20 dmg from incoming attacks until the start of your next turn
-- **Silica** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
-- **Silica — Formation** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
-- **Sinon** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
-- **Yui — Sword Art Online** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
+- **Overleveled** — take -20 dmg from incoming attacks until the start of your next turn
+- **Point-Blank — Kirito** — Deal 40 damage to one other player. Give yourself or your teammate +10 damage on their next attack. Yourself discards 1 random card.
+- **Finishing Blow — Asuna** — Deal 40 delayed damage to one other player at the start of their next turn. Gain 20 armor. Mark one other player for +10 damage the next time they take damage.
+- **Perfect Assist — Klein** — Reduce the next damage you or your teammate takes by 30. Your team gets +20 damage on their next attack.
+- **Stand Together — Agil** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Take 30 damage.
+- **Last Stand — Silica** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Hold the Line — Lisbeth** — Heal both members of your team 20 HP. Give yourself or your teammate 20 armor.
+- **No Escape — Yui** — Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent’s next attack deals 20 less damage.
+- **Environment: Aincrad** *(Environment)* — Set Aincrad as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: The Black Swordsman** *(Environment)* — Set The Black Swordsman as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Kirito Is Definitely Not Hacking** *(Meme)* — Draw 1 card and get +20 damage on your next attack. Then take 10 damage.
+- **Environment: Heathcliff** *(Environment)* — Set Heathcliff as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Mother's Rosario** *(Environment)* — Set Mother's Rosario as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Starburst Stream** *(Environment)* — Set Starburst Stream as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Dual Blades** *(Environment)* — Set Dual Blades as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Aincrad** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
-- **Dual Blades** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
-- **Dual Blades — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 20 armor; then gain 10 armor; then discard 1 random card from your hand.
-- **Heathcliff** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then take 20 damage. Also reduce the next damage you take by 40.
-- **Mother's Rosario** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 20 HP.
-- **Starburst Stream** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent +10 damage on their next attack.
-- **Starburst Stream — Decisive Strike** — Deal 40 damage to both opponents. Afterward, give your teammate +20 damage on their next attack; then heal yourself 10 HP; then discard 1 random card from your hand.
+- **Finishing Blow — Dual Blades** — Deal 40 damage to both opponents. One opponent’s next attack deals 20 less damage. Take 20 damage.
+- **Starburst Stream** — Take 20 damage. Deal 80 damage to one other player. Deal 50 delayed damage to one other player at the start of their next turn.
+- **Mother's Rosario** — Deal 50 damage to one other player. Draw 1 card. Gain 20 armor.
+- **Grand Strategy — Aincrad** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Gain 10 armor.
+- **Perfect Setup — Heathcliff** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. One opponent’s next attack deals 20 less damage.
+- **Point-Blank — The Black Swordsman** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +50 damage.
+- **Finishing Blow — Elucidator** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Deal 40 delayed damage to one other player at the start of their next turn.
 
 ### 5★
 
-- **Heathcliff — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
-- **The Black Swordsman** — Deal 80 damage to one other player, then you may punch once this turn.
+- **No Holding Back — The Black Swordsman** — Deal 80 damage to one other player. You may punch once this turn after playing this card.
+- **Prepared Response — Heathcliff** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. Reduce your next incoming damage by 10.
 
 ## The Apothecary Diaries
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Ah-Duo** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage. Also reduce the next damage you take by 30.
-- **Gaoshun** — Heal both members of your team 20 HP. Afterward, you and your teammate each get +20 damage on your next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Gaoshun — Coordination** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage you take by 20; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Gyokuyou** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
-- **Gyokuyou — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
-- **Jinshi** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
-- **Jinshi — Calculated Trap** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 20 HP; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
-- **Lihua** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
-- **Lihua — Field Plan** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then gain 10 armor; then heal the chosen opponent 10 HP.
-- **Lishu** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
-- **Maomao** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, gain 20 armor. Then take 20 damage. Also reduce the next damage you take by 30.
-- **Maomao — Positioning** — Choose an opponent. They discard 1 random card. Afterward, gain 20 armor; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Meimei** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Pairin** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
-- **Poison Detection** *(original)* — Neither opponent can heal on their next turn
+- **Poison Detection** — Neither opponent can heal on their next turn
+- **Contingency — Maomao** — Deal 30 delayed damage to one other player at the start of their next turn. Gain 30 armor. Take 20 damage.
+- **Checkmate — Jinshi** — One opponent’s next attack deals 20 less damage. Gain 10 armor. One opponent cannot heal until the start of their next turn.
+- **Rescue Mission — Gaoshun** — Heal both members of your team 20 HP. Your team gets +20 damage on their next attack.
+- **Perfect Assist — Gyokuyou** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
+- **Calculated Risk — Lihua** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Gain 10 armor.
+- **Grand Strategy — Lishu** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Reduce your next incoming damage by 10.
+- **Perfect Setup — Ah-Duo** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Take 20 damage.
+- **Countermeasure — Pairin** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. One opponent’s next attack deals 10 less damage.
+- **Environment: The Rear Palace** *(Environment)* — Set The Rear Palace as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Maomao's Medicine Cabinet** *(Environment)* — Set Maomao's Medicine Cabinet as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Poisoned Face Powder** *(Environment)* — Set Poisoned Face Powder as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Blue Roses** *(Environment)* — Set Blue Roses as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Luomen** *(Environment)* — Set Luomen as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Lakan** *(Environment)* — Set Lakan as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Blue Roses** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
-- **Lakan** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 10. Then take 20 damage.
-- **Lakan — Countermeasure** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, give yourself or your teammate 20 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
-- **Luomen** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
-- **Luomen — United Front** — Give your teammate +40 damage on their next attack, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 10; then take 10 damage.
-- **Poisoned Face Powder** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then heal the chosen opponent 20 HP.
-- **The Rear Palace** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, gain 20 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
+- **Read the Situation — Lakan** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Reduce your next incoming damage by 10.
+- **Rescue Mission — Luomen** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
+- **Prepared Response — Blue Roses** — Deal 40 damage to both opponents. Gain 20 armor. One opponent’s next attack deals 10 less damage.
+- **Cornered — Poisoned Face Powder** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent’s next attack deals 40 less damage.
+- **The Rear Palace** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Gain 20 armor.
+- **Read the Situation — Maomao's Medicine Cabinet** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Reduce your next incoming damage by 30.
+- **Field Plan — Joka** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Gain 30 armor.
 
 ### 5★
 
-- **Maomao's Medicine Cabinet** — Heal yourself or your teammate 60 HP, then draw 2 cards.
-- **The Rear Palace — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +10 damage; then take 10 damage.
+- **Perfect Setup — Maomao's Medicine Cabinet** — Heal yourself or your teammate 60 HP. Draw 2 cards.
+- **The Rear Palace: Prepared Response** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. One opponent’s next attack deals 20 less damage.
 
 ## The Devil Is a Part-Timer!
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Alas Ramus** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +20 damage on their next attack.
-- **Chiho Sasaki** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Chiho Sasaki — Promise** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 10 less damage; then take 10 damage. Then take 20 damage.
-- **Devil's Castle** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then take 30 damage. Your next attack also gets +20 damage.
-- **Emi Yusa** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand.
-- **Emi Yusa — Helping Hand** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself 20 HP; then give your teammate +10 damage on their next attack; then take 10 damage. Then take 20 damage.
-- **Hanzō Urushihara** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor. Then take 20 damage.
-- **Hanzō Urushihara — Reassurance** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 10 HP; then take 10 damage.
-- **MgRonald's** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 10 HP. Then take 10 damage. Also give yourself or your teammate 30 armor.
-- **MgRonald's Worker** *(original)* — make the opponent pay you one 3 star card of your choosing
-- **Sadao Maou** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Sadao Maou — Heart-to-Heart** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 20 armor; then give yourself or your teammate 10 armor; then take 10 damage.
-- **Shiro Ashiya** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Shiro Ashiya — Trust** — Heal both members of your team 20 HP. Afterward, your next attack gets +20 damage; then gain 10 armor; then take 10 damage.
-- **Suzuno Kamazuki** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **MgRonald's Worker** — make the opponent pay you one 3 star card of your choosing
+- **Heart-to-Heart — Sadao Maou** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate +10 damage on their next attack.
+- **Trust Fall — Emi Yusa** — Heal yourself or your teammate 20 HP. Draw 1 card. Give yourself or your teammate +20 damage on their next attack.
+- **One More Chance — Chiho Sasaki** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Draw 1 card.
+- **Shared Resolve — Shiro Ashiya** — Return up to 1 card from your discard pile. Heal yourself or your teammate 10 HP. Give yourself or your teammate 30 armor.
+- **Say It Out Loud — Hanzō Urushihara** — Heal yourself or your teammate 20 HP. Draw 1 card. Give yourself or your teammate 10 armor.
+- **Together Again — Suzuno Kamazuki** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Draw 1 card.
+- **The Big Moment — Alas Ramus** — Until your next turn, you cannot be targeted. Heal yourself or your teammate 10 HP.
+- **Promise Kept — MgRonald's** — Return up to 1 card from your discard pile. Heal yourself or your teammate 20 HP. Take 10 damage.
+- **Environment: Ente Isla** *(Environment)* — Set Ente Isla as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Devil's Castle** *(Environment)* — Set Devil's Castle as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Maou at Work** *(Environment)* — Set Maou at Work as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Holy Magic** *(Environment)* — Set Holy Magic as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Lucifer's Hacking** *(Environment)* — Set Lucifer's Hacking as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Demon King Satan** *(Environment)* — Set Demon King Satan as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Better Half** — You may play one additional non-5★ card this turn. Then your next attack deals 10 less damage. Then your next attack deals 20 less damage. Also give yourself or your teammate 40 armor.
-- **Better Half — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 10; then take 20 damage.
-- **Demon King Satan** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
-- **Hero Emilia** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Hero Emilia — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +10 damage; then take 20 damage.
-- **Holy Magic** — You may play one additional non-5★ card this turn. Then give the chosen opponent +10 damage on their next attack. Then your next attack deals 10 less damage. Also give yourself or your teammate 30 armor.
-- **Lucifer's Hacking** — Steal 1 random card from an opponent. Then heal the chosen opponent 10 HP. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 30 less damage.
+- **Trust Fall — Better Half** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate 40 armor. Draw 1 card.
+- **One More Chance — Hero Emilia** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 10 armor. Heal yourself or your teammate 10 HP.
+- **Finishing Blow — Demon King Satan** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +30 damage.
+- **False Opening — Lucifer's Hacking** — Steal 1 random card from one opponent. One opponent’s next attack deals 30 less damage.
+- **Holy Magic** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate 30 armor.
+- **One More Chance — Maou at Work** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 20 armor. Reduce your next incoming damage by 10.
+- **Shared Resolve — Ente Isla** — Heal both members of your team 40 HP. Give yourself or your teammate +20 damage on their next attack. Your next attack gets +10 damage.
 
 ### 5★
 
-- **Holy Magic — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +10 on the next damage they take; then take 20 damage.
-- **Maou at Work** — Heal both members of your team 30 HP, give each +20 damage on their next attack, then draw 1 card.
+- **The Big Moment — Maou at Work** — Heal both members of your team 30 HP. Your team gets +20 damage on their next attack. Give yourself or your teammate 10 armor.
+- **Holy Magic: Say It Out Loud** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 10 armor.
 
 ## The Fragrant Flower Blooms with Dignity
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Apology** *(original)* — Lose 20 HP, heal your teammate 40 HP, then draw 1 card.
-- **Ayato Yorita** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 10 armor.
-- **Ayato Yorita — Reassurance** — Heal your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
-- **Chidori Public High** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Kaoruko Waguri** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP.
-- **Kaoruko Waguri — Helping Hand** — Heal both members of your team 20 HP. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 10 less damage; then take 20 damage.
-- **Kyoko Tsumugi** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
-- **Rintaro Tsumugi** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
-- **Rintaro Tsumugi — Heart-to-Heart** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, gain 20 armor; then give your teammate +10 damage on their next attack; then take 20 damage.
-- **Saku Natsusawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself or your teammate 10 HP. Then take 20 damage. Also give yourself or your teammate 30 armor.
-- **Saku Natsusawa — Trust** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, your next attack gets +20 damage; then heal yourself 10 HP; then take 20 damage.
-- **Shohei Usami** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand.
-- **Shohei Usami — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20; then gain 10 armor; then take 20 damage.
-- **Subaru Hoshina** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Tsumugi Bakery** — Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Apology** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card.
+- **Promise Kept — Rintaro Tsumugi** — Take 20 damage. Heal yourself or your teammate 40 HP. Heal yourself or your teammate 40 HP.
+- **Heart-to-Heart — Kaoruko Waguri** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Heal yourself or your teammate 10 HP.
+- **Trust Fall — Shohei Usami** — Heal yourself or your teammate 20 HP. Draw 1 card. Draw 1 card.
+- **One More Chance — Saku Natsusawa** — Draw 2 cards. Yourself discards 1 random card. Heal yourself or your teammate 10 HP.
+- **Shared Resolve — Ayato Yorita** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Heal yourself or your teammate 20 HP.
+- **Say It Out Loud — Subaru Hoshina** — Return up to 1 card from your discard pile. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 10 armor.
+- **Together Again — Kyoko Tsumugi** — Give yourself or your teammate 20 armor. Draw 1 card. Draw 1 card.
+- **The Big Moment — Tsumugi Bakery** — Return up to 1 card from your discard pile. Give yourself or your teammate 30 armor. Yourself discards 1 random card.
+- **Environment: The School Divide** *(Environment)* — Set The School Divide as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Kikyo Private Academy** *(Environment)* — Set Kikyo Private Academy as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Fragrant Flower** *(Environment)* — Set Fragrant Flower as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Confession** *(Environment)* — Set Confession as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Rintaro's Kindness** *(Environment)* — Set Rintaro's Kindness as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Study Session** *(Environment)* — Set Study Session as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Confession** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
-- **Kaoruko's Cake** — Heal both members of your team 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
-- **Kaoruko's Cake — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 20 armor; then your next attack gets +10 damage; then your next attack deals 10 less damage.
-- **Rintaro's Kindness** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 60 armor.
-- **Study Session** — You may play one additional non-5★ card this turn, then draw 1 card. Then discard 1 random card from your hand. Then take 10 damage. Also draw 1 card.
-- **Study Session — Showstopper** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
-- **The School Divide** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Heart-to-Heart — Kaoruko's Cake** — Heal both members of your team 40 HP. Reduce the next damage you or your teammate takes by 10. Give yourself or your teammate 30 armor.
+- **Second Beat — Study Session** — You may play 1 additional 4★ or lower card this turn. Draw 1 card. Yourself discards 1 random card.
+- **The School Divide** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate +40 damage on their next attack. Take 20 damage.
+- **Shared Resolve — Rintaro's Kindness** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate +60 damage on their next attack. Yourself discards 2 random cards.
+- **Say It Out Loud — Confession** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Give yourself or your teammate 10 armor.
+- **One More Chance — Fragrant Flower** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 20 armor. Your next attack gets +10 damage.
+- **Kikyo Private Academy: Rescue Mission** — Heal yourself or your teammate 50 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 20 HP.
 
 ### 5★
 
-- **Confession — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
-- **Fragrant Flower** — Heal both members of your team 40 HP, give each 10 armor, then draw 1 card.
+- **Together Again — Fragrant Flower** — Heal both members of your team 40 HP. Give both members of your team 10 armor. Draw 1 card.
+- **Together Again — Confession** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 20 HP.
 
 ## The Quintessential Quintuplets
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Futaro Uesugi** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Futaro Uesugi — Heart-to-Heart** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, gain 20 armor; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
-- **Ichika Nakano** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
-- **Ichika Nakano — Helping Hand** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, heal yourself 20 HP; then gain 10 armor; then your next attack deals 10 less damage.
-- **Isanari Uesugi** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
-- **Itsuki Nakano** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
-- **Maruo Nakano** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
-- **Miku Nakano** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 20 armor.
-- **Miku Nakano — Trust** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 10; then discard 1 random card from your hand.
-- **Nino Nakano** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Nino Nakano — Promise** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage you take by 20; then heal yourself 10 HP; then your next attack deals 10 less damage.
-- **Raiha Uesugi** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
-- **Study Session — The Quintessential Quintuplets** — Draw 1 card. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
-- **Yotsuba Nakano** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent +20 damage on their next attack.
-- **Yotsuba Nakano — Reassurance** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +10 damage; then discard 1 random card from your hand.
+- **The Big Moment — Futaro Uesugi** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate 10 armor.
+- **Promise Kept — Ichika Nakano** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Heal yourself or your teammate 10 HP.
+- **Heart-to-Heart — Nino Nakano** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Heal yourself or your teammate 20 HP.
+- **Trust Fall — Miku Nakano** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Reduce the next damage you or your teammate takes by 20.
+- **One More Chance — Yotsuba Nakano** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Heal yourself or your teammate 30 HP.
+- **Shared Resolve — Itsuki Nakano** — Until your next turn, you cannot be targeted. Reduce the next damage you or your teammate takes by 20. Take 20 damage.
+- **Say It Out Loud — Raiha Uesugi** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 20.
+- **Together Again — Maruo Nakano** — Take 20 damage. Heal yourself or your teammate 40 HP. Give yourself or your teammate 40 armor.
+- **The Big Moment — Isanari Uesugi** — Return up to 1 card from your discard pile. Heal yourself or your teammate 20 HP. Heal yourself or your teammate 10 HP.
+- **Environment: School Festival** *(Environment)* — Set School Festival as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: The Nakano Sisters** *(Environment)* — Set The Nakano Sisters as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Wedding Day** *(Environment)* — Set Wedding Day as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Sisters' War** *(Environment)* — Set Sisters' War as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Scrambled Eggs** *(Environment)* — Set Scrambled Eggs as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Bell Kisser** *(Environment)* — Set Bell Kisser as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Bell Kisser** — You may play one additional non-5★ card this turn. Then take 20 damage. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 40 armor.
-- **Bell Kisser — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 20 armor; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
-- **Quintessential quintuplets** *(original)* — This does not count as a played card, play 2 cards this turn. You can’t place a 5 star as either card
-- **School Festival** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Scrambled Eggs** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
-- **Scrambled Eggs — Shared Resolve** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
-- **Sisters' War** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage.
+- **Heart-to-Heart — Bell Kisser** — You may play 1 additional 4★ or lower card this turn. Take 20 damage. Give yourself or your teammate 40 armor.
+- **Trust Fall — Scrambled Eggs** — Heal yourself or your teammate 70 HP. Reduce the next damage you or your teammate takes by 20.
+- **School Festival** — Deal 50 damage to one other player. Draw 1 card. Draw 1 card.
+- **Shared Resolve — Sisters' War** — Heal yourself or your teammate 70 HP. Reduce the next damage you or your teammate takes by 20. Give yourself or your teammate 10 armor.
+- **One More Chance — The Nakano Sisters** — Heal yourself or your teammate 70 HP. Give yourself or your teammate 20 armor. Mark one other player for +10 damage the next time they take damage.
+- **Keep It Going — Study Session** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Your next attack gets +30 damage.
+- **Say It Out Loud — Wedding Day** — Heal yourself or your teammate 60 HP. Give yourself or your teammate 20 armor.
 
 ### 5★
 
-- **The Nakano Sisters** — Draw 2 cards. You may play one additional non-5★ card this turn, then heal yourself or your teammate 30 HP.
-- **Wedding Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
+- **Quintessential quintuplets** — This card does not count as your normal card play. You may play 2 additional non-5★ cards this turn.
+- **Say It Out Loud — The Nakano Sisters** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Heal yourself or your teammate 30 HP.
 
 ## The Rising of the Shield Hero
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Air Strike Shield** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Filo** — Deal 30 damage to one other player. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
-- **Filo — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
-- **Itsuki Kawasumi** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage. Then give the chosen opponent 20 armor.
-- **Melty Q Melromarc** — Give yourself or your teammate 30 armor. Afterward, heal yourself or your teammate 20 HP. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Melty Q Melromarc — Backup Plan** — Your teammate ignores the next punch that would damage them. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
-- **Motoyasu Kitamura** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
-- **Naofumi Iwatani** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Naofumi Iwatani — Positioning** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, gain 20 armor; then heal yourself 10 HP; then discard 1 random card from your hand.
-- **Rage Shield** *(original)* — Deal 20 damage to both opponents.
-- **Raphtalia** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
-- **Raphtalia — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then discard 1 random card from your hand.
-- **Ren Amaki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
-- **Rishia Ivyred** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
-- **Rishia Ivyred — Formation** — Heal your teammate 30 HP and give them 20 armor. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
+- **Rage Shield** — Deal 20 damage to both opponents.
+- **Calculated Risk — Naofumi Iwatani** — Reduce the next damage you or your teammate takes by 30. One opponent’s next attack deals 10 less damage. Reduce your next incoming damage by 30.
+- **All-In Assault — Raphtalia** — Deal 40 delayed damage to one other player at the start of their next turn. One opponent’s next attack deals 20 less damage. Take 20 damage.
+- **Full-Force Attack — Filo** — Deal 60 damage to one other player. Gain 10 armor. Yourself discards 2 random cards.
+- **Covering Fire — Melty Q Melromarc** — Give yourself or your teammate 30 armor. Heal yourself or your teammate 40 HP. Take 30 damage.
+- **Rally the Team — Rishia Ivyred** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 20 HP.
+- **Point-Blank — Motoyasu Kitamura** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 10.
+- **Finishing Blow — Ren Amaki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Mark one other player for +30 damage the next time they take damage.
+- **Last Rush — Itsuki Kawasumi** — Deal 10 damage to one other player. Draw 1 card. Mark one other player for +10 damage the next time they take damage.
+- **Environment: Legendary Shield** *(Environment)* — Set Legendary Shield as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: L'Arc Berg** *(Environment)* — Set L'Arc Berg as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Glass** *(Environment)* — Set Glass as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Curse Series** *(Environment)* — Set Curse Series as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Blood Sacrifice** *(Environment)* — Set Blood Sacrifice as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Iron Maiden** *(Environment)* — Set Iron Maiden as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Blood Sacrifice** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
-- **Blood Sacrifice — Point of No Return** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
-- **Curse Series** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +80 damage.
-- **Glass** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then take 10 damage.
-- **Iron Maiden** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
-- **Iron Maiden — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
-- **L'Arc Berg** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
+- **All-In Assault — Iron Maiden** — Deal 60 damage to one other player. Gain 20 armor. Your next attack gets +10 damage.
+- **All In — Blood Sacrifice** — Take 20 damage. Deal 80 damage to one other player. Heal yourself 50 HP.
+- **Curse Series** — Reduce your next incoming damage by 10. Your next attack gets +80 damage.
+- **Counterattack — Glass** — Deal 40 damage to both opponents. Gain 10 armor. Take 10 damage.
+- **Point-Blank — L'Arc Berg** — Deal 50 damage to one other player. Draw 1 card. Your next attack gets +30 damage.
+- **Legendary Shield: Read the Situation** — Deal 40 damage to both opponents. Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Shield Prison: Read the Field** — One opponent discards 2 random cards. Give yourself or your teammate +20 damage on their next attack. One opponent’s next attack deals 10 less damage.
 
 ### 5★
 
-- **L'Arc Berg — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then heal the chosen opponent 10 HP.
-- **Legendary Shield** — Give both members of your team 40 armor. Reduce the next damage your teammate takes by 20. Also reduce the next damage you take by 40.
+- **Legendary Shield** — Give both members of your team 40 armor. Reduce the next damage you or your teammate takes by 20. Reduce your next incoming damage by 40.
+- **Last Rush — L'Arc Berg** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Your next attack gets +40 damage.
 
 ## To Be Hero X
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Ahu** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 10 HP. Then discard 1 random card from your hand.
-- **Dragon Boy** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **E-Soul** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10. Then take 20 damage.
-- **E-Soul — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then take 10 damage.
-- **Ghostblade** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Lin Ling / The Commoner** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
-- **Lin Ling / The Commoner — Cover** — Give yourself or your teammate 30 armor. Afterward, gain 10 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
-- **Loli** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 20 less damage.
-- **Loli — Field Plan** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then take 10 damage.
-- **Lucky Cyan** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then discard 2 random cards from your hand. Also draw 1 card. Also gain 50 armor.
-- **Lucky Cyan — Quick Shift** — You and your teammate each get +10 damage on your next attack. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Moon** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
-- **Nice** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
-- **Nice — Follow-Through** — Deal 20 damage to both opponents. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then take 10 damage.
-- **The Johnnies** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, you and your teammate each get +10 damage on your next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Perfect Assist — Lin Ling / The Commoner** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 20 armor.
+- **Break the Line — Nice** — Deal 10 damage to one other player. Draw 1 card. Gain 20 armor.
+- **All-In Assault — E-Soul** — Deal 20 damage to one other player. Draw 1 card. Mark one other player for +30 damage the next time they take damage.
+- **Encore — Lucky Cyan** — Return up to 1 card from your discard pile. Yourself discards 1 random card. Mark one other player for +30 damage the next time they take damage.
+- **Countermeasure — Loli** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Gain 20 armor.
+- **Counterattack — Ghostblade** — Deal 20 damage to one other player. Mark one other player for +10 damage the next time they take damage. Mark one other player for +30 damage the next time they take damage.
+- **Back-to-Back — The Johnnies** — Deal 20 damage to one other player. Heal yourself or your teammate 20 HP. Your team gets +10 damage on their next attack.
+- **Finishing Blow — Dragon Boy** — Deal 40 damage to both opponents. Your next attack gets +20 damage. Yourself discards 2 random cards.
+- **Perfect Assist — Ahu** — Draw 1 card. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
+- **Environment: Heroes Tournament** *(Environment)* — Set Heroes Tournament as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Moon** *(Environment)* — Set Moon as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: X** *(Environment)* — Set X as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Hero Affairs Commission** *(Environment)* — Set Hero Affairs Commission as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Smile** *(Environment)* — Set Smile as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Fear** *(Environment)* — Set Fear as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Fear** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
-- **Fear — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then take 10 damage. Then take 20 damage.
-- **Hero Affairs Commission** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
-- **Queen** *(original)* — Reaction when an opponent attacks: redirect the attack to whichever teammate has higher hp
-- **Smile** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then give the chosen opponent +20 damage on their next attack.
-- **Trust Value** — Choose an opponent. They skip their next turn. Then your next attack deals 10 less damage. Then give the chosen opponent +20 damage on their next attack. Also make an opponent’s next attack deal 20 less damage.
-- **Trust Value — Interference** — Steal 1 random card from an opponent. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then take 10 damage.
+- **Queen** — Reaction when an opponent attacks: redirect the attack to whichever teammate has higher hp
+- **Plan Within a Plan — Trust Value** — One opponent skips their next turn. One opponent’s next attack deals 20 less damage.
+- **Trap Is Set — Fear** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 30 less damage.
+- **No Escape — Smile** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Deal 30 delayed damage to one other player at the start of their next turn.
+- **Forced Move — Hero Affairs Commission** — Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 40 less damage.
+- **Steal the Tempo — X** — You may play 1 additional 4★ or lower card this turn. Draw 1 card. Give yourself or your teammate 10 armor.
+- **Moon: Shared Resolve** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 10 armor.
 
 ### 5★
 
-- **Heroes Tournament — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then take 10 damage.
-- **Snap** *(original)* — Use when an opponent casts a card, negate the effects of that card
+- **Snap** — Use when an opponent casts a card, negate the effects of that card
+- **Heroes Tournament: Sudden Turn** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Gain 30 armor.
 
 ## Tokyo Ghoul
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Anteiku** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
-- **Hideyoshi Nagachika** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
-- **Hideyoshi Nagachika — Coordination** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +20 on the next damage they take; then take 20 damage.
-- **Hinami Fueguchi** — Heal yourself or your teammate 40 HP. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
-- **Hinami Fueguchi — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +10 damage; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Juuzou Suzuya** — Deal 30 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
-- **Kagune** *(original)* — Deal 20 damage to one opponent. If they are below half do 30
-- **Ken Kaneki** — Take 20 damage. Your next attack gets +40 damage. Afterward, gain 20 armor. Then take 20 damage. Your next attack also gets +30 damage.
-- **Ken Kaneki — Over the Limit** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor; then reduce the next damage you take by 20; then take 20 damage. Your next attack also gets +20 damage.
-- **Koutarou Amon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
-- **Nishiki Nishio** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
-- **Nishiki Nishio — Overdrive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +20 damage on their next attack; then take 20 damage.
-- **Shuu Tsukiyama** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Touka Kirishima** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
-- **Touka Kirishima — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 10 HP; then your next attack gets +20 damage; then take 20 damage.
+- **Kagune** — Deal 20 damage to one opponent. If they are below half do 30
+- **Danger Zone — Ken Kaneki** — Take 20 damage. Your next attack gets +40 damage. Gain 20 armor.
+- **Finishing Blow — Touka Kirishima** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 30. Take 30 damage.
+- **Perfect Assist — Hideyoshi Nagachika** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate +30 damage on their next attack.
+- **Stand Together — Hinami Fueguchi** — Heal yourself or your teammate 40 HP. Give yourself or your teammate +20 damage on their next attack.
+- **All-In Assault — Nishiki Nishio** — Deal 20 damage to one other player. Draw 1 card. Gain 30 armor.
+- **All In — Shuu Tsukiyama** — Draw 3 cards. Yourself discards 2 random cards. Mark one other player for +20 damage the next time they take damage.
+- **No Holding Back — Koutarou Amon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Your next attack gets +40 damage.
+- **Counterattack — Juuzou Suzuya** — Deal 30 damage to one other player. Mark one other player for +20 damage the next time they take damage. Take 20 damage.
+- **Environment: Anteiku** *(Environment)* — Set Anteiku as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Half-Ghoul** *(Environment)* — Set Half-Ghoul as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Centipede** *(Environment)* — Set Centipede as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: One-Eyed Owl** *(Environment)* — Set One-Eyed Owl as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Eto Yoshimura** *(Environment)* — Set Eto Yoshimura as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Kishou Arima** *(Environment)* — Set Kishou Arima as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Centipede** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +40 damage.
-- **Eto Yoshimura** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +80 damage.
-- **Kakuja** — Deal 30 damage to every other living player. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Kakuja — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 20 less damage; then take 20 damage.
-- **Kishou Arima** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 10 armor.
-- **Kishou Arima — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then gain 20 armor; then take 20 damage.
-- **One-Eyed Owl** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +70 damage.
+- **Burn It All — Kakuja** — Deal 50 damage to every other living player. Gain 10 armor. Yourself discards 2 random cards.
+- **Last Rush — Kishou Arima** — Deal 50 damage to one other player. Draw 1 card. Mark one other player for +30 damage the next time they take damage.
+- **Point of No Return — Eto Yoshimura** — Mark one other player for +20 damage the next time they take damage. Take 30 damage. Your next attack gets +80 damage.
+- **One Last Shot — One-Eyed Owl** — Gain 10 armor. Your next attack gets +70 damage.
+- **All In — Centipede** — Your next attack deals ×1.75 damage. Your next damage taken is ×1.5. Mark one other player for +30 damage the next time they take damage.
+- **Danger Zone — Half-Ghoul** — Deal 30 damage to every other living player. Give yourself or your teammate 10 armor. One opponent’s next attack deals 20 less damage.
+- **Finishing Blow — Quinque** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. Gain 20 armor.
 
 ### 5★
 
-- **Centipede — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 20 HP; then your next attack deals 10 less damage.
-- **Half-Ghoul** — Take 30 damage, then deal 130 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
+- **Over the Limit — Half-Ghoul** — Take 30 damage. Deal 130 damage to one other player. Mark one other player for +20 damage the next time they take damage.
+- **Desperate Bet — Centipede** — Take 30 damage. Deal 120 damage to one other player. Mark one other player for +20 damage the next time they take damage.
 
 ## Uma Musume
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Agnes Tachyon** *(original)* — Return one 3★ card from your discard pile to your hand, then draw 1 card.
-- **Daiwa Scarlet** — You and your teammate each gain 20 armor. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP. Your next attack also gets +20 damage.
-- **Gold Ship** — Draw 1 card and gain 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
-- **Mejiro McQueen** — Give your teammate +20 damage on their next attack. Afterward, gain 10 armor. Then give the chosen opponent 20 armor. Your next attack also gets +20 damage.
-- **Mejiro McQueen — Training Payoff** — Give your teammate +20 damage on their next attack. Afterward, your next attack gets +10 damage; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
-- **Rice Shower** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Rice Shower — Clutch Play** — Give your teammate +20 damage on their next attack. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
-- **Silence Suzuka** — You and your teammate each gain 20 armor. Afterward, your next attack gets +20 damage. Then give the chosen opponent +20 damage on their next attack.
-- **Silence Suzuka — Second Wind** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, heal yourself 10 HP; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
-- **Special Week** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 20 armor. Then take 20 damage.
-- **Special Week — Perfect Form** — Your next attack deals ×1.25 damage. Afterward, gain 10 armor; then your next attack gets +20 damage; then your next attack deals 10 less damage.
-- **Tokai Teio** — Your teammate may ignore the next punch that would damage them. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage. Your next attack also gets +20 damage.
-- **Tokai Teio — Closing Sprint** — Give your teammate +20 damage on their next attack. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
-- **Vodka** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
-- **Wild Joker** *(original)* — Force your opponent to play the same card they just played on their next turn
+- **Wild Joker** — Force your opponent to play the same card they just played on their next turn
+- **Agnes Tachyon** — Return one 3★ card from your discard pile to your hand, then draw 1 card.
+- **Clutch Play — Special Week** — Heal yourself or your teammate 30 HP. Give yourself or your teammate +10 damage on their next attack. Gain 20 armor.
+- **Second Wind — Silence Suzuka** — Give both members of your team 20 armor. Your next attack gets +20 damage.
+- **Training Pays Off — Tokai Teio** — Ignore the next 1 punch. Give yourself or your teammate +20 damage on their next attack. Take 10 damage.
+- **Photo Finish — Mejiro McQueen** — Give yourself or your teammate +20 damage on their next attack. Gain 10 armor. Your next attack gets +20 damage.
+- **Peak Condition — Rice Shower** — Deal 30 damage to both opponents. Gain 10 armor. Yourself discards 1 random card.
+- **Championship Point — Gold Ship** — Draw 1 card. Gain 20 armor. Gain 10 armor.
+- **Perfect Form — Vodka** — Heal yourself or your teammate 30 HP. Give yourself or your teammate +10 damage on their next attack. Gain 10 armor.
+- **Environment: Tracen Academy** *(Environment)* — Set Tracen Academy as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Dream Trophy** *(Environment)* — Set Dream Trophy as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Satono Diamond** *(Environment)* — Set Satono Diamond as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Kitasan Black** *(Environment)* — Set Kitasan Black as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: URA Finals** *(Environment)* — Set URA Finals as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Winning Live** *(Environment)* — Set Winning Live as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Kitasan Black** — Draw 2 cards and give your teammate +30 damage on their next attack. Afterward, gain 20 armor. Then take 20 damage.
-- **The Gray Monster** *(original)* — You and your teammate each get ×1.25 damage on your next attack. If you are below 30 HP, use ×1.5 instead. This cannot boost a 5★ card.
-- **Tracen Academy** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, heal yourself 10 HP. Then discard 2 random cards from your hand. Also draw 1 card. Also gain 20 armor.
-- **URA Finals** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
-- **URA Finals — Photo Finish** — You and your teammate each get +30 damage on your next attack. Afterward, give your teammate +10 damage on their next attack; then heal yourself 20 HP; then discard 1 random card from your hand. Your next attack also gets +20 damage.
-- **Winning Live** — You may play one additional non-5★ card this turn, then draw 1 card. Then give the chosen opponent 10 armor. Then take 20 damage. Also draw 1 card.
-- **Winning Live — Acceleration** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then gain 20 armor; then your next attack deals 10 less damage.
+- **The Gray Monster** — You and your teammate each get ×1.25 damage on your next attack. If you are below 30 HP, use ×1.5 instead. This cannot boost a 5★ card.
+- **Winning Live** — You may play 1 additional 4★ or lower card this turn. Draw 1 card. Take 20 damage.
+- **URA Finals** — Deal 40 damage to one other player. You may punch once this turn after playing this card. Reduce your next incoming damage by 20.
+- **Tracen Academy** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Draw 1 card.
+- **Photo Finish — Kitasan Black** — Draw 2 cards. Give yourself or your teammate +30 damage on their next attack. Gain 20 armor.
+- **Second Wind — Dream Trophy** — Heal both members of your team 30 HP. Give both members of your team 20 armor. Give yourself or your teammate 10 armor.
+- **Rescue Mission — Team Spica** — Give both members of your team 30 armor. Give yourself or your teammate +10 damage on their next attack. Heal yourself 20 HP.
 
 ### 5★
 
-- **Satono Diamond — Champion Form** — You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 20; then discard 1 random card from your hand. Your next attack also gets +40 damage.
-- **The Overlord of Centuries End** *(original)* — Until the start of your next turn you cannot go below 10 hp, at the start of that next turn do 30 damage to both opponents
+- **The Overlord of Centuries End** — Until the start of your next turn you cannot go below 10 hp, at the start of that next turn do 30 damage to both opponents
+- **Photo Finish — Satono Diamond** — Your next attack deals ×1.4 damage. Give both members of your team 50 armor. Heal yourself 10 HP.
 
 ## Vinland Saga
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Arnheid** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
-- **Askeladd** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, give yourself or your teammate 10 armor. Then take 30 damage. Also reduce the next damage you take by 30.
-- **Askeladd — Prepared Response** — Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 10 HP; then give yourself or your teammate 20 armor; then discard 1 random card from your hand. Also reduce the next damage you take by 30.
-- **Canute** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also reduce the next damage you take by 30.
-- **Canute — Measured Strike** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
-- **Einar** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also reduce the next damage you take by 60.
-- **Einar — Field Plan** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then gain 20 armor; then discard 1 random card from your hand.
-- **Ketil** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
-- **Leif Erikson** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 20 less damage. Then discard 1 random card from your hand.
-- **Snake** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
-- **Thorfinn** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
-- **Thorfinn — Positioning** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand. Also reduce the next damage you take by 30.
-- **Thors** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
-- **Thors — Contingency** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
-- **True Warrior** *(original)* — The next three punches your opponents play against you don’t deal damage.
+- **True Warrior** — The next three punches your opponents play against you don’t deal damage.
+- **Calculated Risk — Thorfinn** — One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 20. Reduce your next incoming damage by 30.
+- **Grand Strategy — Askeladd** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Give yourself or your teammate 10 armor.
+- **Perfect Setup — Canute** — Deal 30 delayed damage to one other player at the start of their next turn. Give yourself or your teammate 40 armor. Take 30 damage.
+- **Countermeasure — Thors** — Your team gets +10 damage on their next attack. Give yourself or your teammate 10 armor. Reduce your next incoming damage by 30.
+- **Contingency — Einar** — Reduce the next damage you or your teammate takes by 30. Gain 50 armor. Yourself discards 2 random cards.
+- **Read the Situation — Arnheid** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. Reduce your next incoming damage by 20.
+- **Field Plan — Snake** — Your team gets +10 damage on their next attack. Give yourself or your teammate 20 armor. Reduce your next incoming damage by 30.
+- **Prepared Response — Leif Erikson** — Deal 30 damage to one other player. Reduce your next incoming damage by 10. One opponent’s next attack deals 20 less damage.
+- **Environment: Vinland** *(Environment)* — Set Vinland as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: The Farm** *(Environment)* — Set The Farm as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Thors' Teaching** *(Environment)* — Set Thors' Teaching as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: A Warrior Needs No Sword** *(Environment)* — Set A Warrior Needs No Sword as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Thorgil** *(Environment)* — Set Thorgil as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Thorkell** *(Environment)* — Set Thorkell as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **A Warrior Needs No Sword** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage.
-- **I have no enemies** *(original)* — Enemy punches deal 10 damage to you for the rest of the game
-- **The Farm** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 10 less damage. Then take 20 damage.
-- **Thorgil** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
-- **Thorgil — Perfect Setup** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
-- **Thorkell** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
-- **Thorkell — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 10 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
+- **I have no enemies** — Enemy punches deal 10 damage to you for the rest of the game
+- **Grand Strategy — Thorkell** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. One opponent’s next attack deals 10 less damage.
+- **Perfect Setup — Thorgil** — Deal 50 damage to one other player. Reduce your next incoming damage by 20. Gain 10 armor.
+- **The Farm** — Draw 2 cards. Give yourself or your teammate 30 armor. Gain 10 armor.
+- **A Warrior Needs No Sword** — Take 20 damage. Deal 80 damage to one other player. Give yourself or your teammate +10 damage on their next attack.
+- **Field Plan — Thors' Teaching** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. Gain 30 armor.
+- **Field Plan — Olmar** — Draw 2 cards. Give yourself or your teammate 30 armor. Gain 20 armor.
 
 ### 5★
 
-- **Thors' Teaching** — The next punch that would damage either member of your team deals 0 instead. Heal both members of your team 20 HP. Also reduce the next damage you take by 50.
-- **Vinland — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
+- **Read the Situation — Thors' Teaching** — Ignore the next 1 punch. Heal both members of your team 20 HP. Reduce your next incoming damage by 50.
+- **Prepared Response — Vinland** — Deal 60 damage to one other player. Give yourself or your teammate 40 armor. Gain 20 armor.
 
 ## Violet Evergarden
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Anne Magnolia** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Auto Memory Doll** *(original)* — Have the opponent reveal what 3 non 5 star cards of their choosing do
-- **Benedict Blue** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 10 HP.
-- **Benedict Blue — Trust** — Heal your teammate 30 HP and give them 10 armor. Afterward, your next attack gets +10 damage; then gain 20 armor; then heal the chosen opponent 10 HP.
-- **Cattleya Baudelaire** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then take 20 damage.
-- **Cattleya Baudelaire — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
-- **Claudia Hodgins** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
-- **Claudia Hodgins — Helping Hand** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself 10 HP; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Erica Brown** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Iris Cannary** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 10 armor.
-- **Iris Cannary — Reassurance** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 20 HP; then take 10 damage.
-- **Leon Stephanotis** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
-- **Luculia Marlborough** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Violet Evergarden** — Give both members of your team 20 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Violet Evergarden — Cover** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
+- **Auto Memory Doll** — Have the opponent reveal what 3 non 5 star cards of their choosing do
+- **Rescue Mission — Violet Evergarden** — Give both members of your team 30 armor. Give yourself or your teammate +10 damage on their next attack. Yourself discards 1 random card.
+- **Say It Out Loud — Claudia Hodgins** — Heal both members of your team 20 HP. Reduce the next damage you or your teammate takes by 20. Heal yourself or your teammate 10 HP.
+- **Together Again — Cattleya Baudelaire** — Heal yourself or your teammate 20 HP. Reduce the next damage you or your teammate takes by 20. Heal yourself or your teammate 20 HP.
+- **The Big Moment — Benedict Blue** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Promise Kept — Iris Cannary** — Heal both members of your team 20 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 10 HP.
+- **Heart-to-Heart — Erica Brown** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Trust Fall — Luculia Marlborough** — Draw 2 cards. Yourself discards 1 random card. Give yourself or your teammate 10 armor.
+- **One More Chance — Leon Stephanotis** — Return up to 1 card from your discard pile. Give yourself or your teammate +30 damage on their next attack. Take 20 damage.
+- **Environment: Fifty Letters** *(Environment)* — Set Fifty Letters as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Violet Evergarden** *(Environment)* — Set Violet Evergarden as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: I Love You** *(Environment)* — Set I Love You as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Typewriter** *(Environment)* — Set Typewriter as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Emerald Brooch** *(Environment)* — Set Emerald Brooch as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Dietfried Bougainvillea** *(Environment)* — Set Dietfried Bougainvillea as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Dietfried Bougainvillea** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then take 30 damage. Also give yourself or your teammate 40 armor.
-- **Dietfried Bougainvillea — Shared Resolve** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +20 damage; then take 10 damage.
-- **Emerald Brooch** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
-- **Fifty Letters** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Gilbert Bougainvillea** — You may play one additional non-5★ card this turn. Then discard 2 random cards from your hand. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 70 armor.
-- **Gilbert Bougainvillea — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 20; then take 10 damage.
-- **Typewriter** — You may play one additional non-5★ card this turn, then draw 1 card. Then give the chosen opponent +10 damage on their next attack. Then your next attack deals 10 less damage.
+- **Say It Out Loud — Gilbert Bougainvillea** — You may play 1 additional 4★ or lower card this turn. Yourself discards 2 random cards. Give yourself or your teammate 70 armor.
+- **Together Again — Dietfried Bougainvillea** — Return up to 2 non-5★ cards from your discard pile. Heal yourself or your teammate 50 HP. Take 30 damage.
+- **Grand Strategy — Emerald Brooch** — One opponent discards 1 random card. One opponent’s next attack deals 20 less damage. Reduce your next incoming damage by 20.
+- **Encore — Typewriter** — You may play 1 additional 4★ or lower card this turn. Draw 1 card.
+- **Quick Shift — Fifty Letters** — Deal 30 damage to one other player. You may punch once this turn after playing this card. Gain 20 armor.
+- **One More Chance — I Love You** — Heal yourself or your teammate 40 HP. Give yourself or your teammate 30 armor. Heal yourself or your teammate 30 HP.
+- **Shared Resolve — Oscar Webster** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate +10 damage on their next attack. Your next attack gets +20 damage.
 
 ### 5★
 
-- **Fifty Letters — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **I Love You** — Heal both members of your team 40 HP, then return one non-5★ card from your discard pile to your hand. Also give yourself or your teammate 30 armor.
+- **Trust Fall — I Love You** — Heal both members of your team 40 HP. Return up to 1 non-5★ card from your discard pile. Give yourself or your teammate 30 armor.
+- **Sudden Turn — Fifty Letters** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Your next attack gets +30 damage.
 
 ## Vivy: Fluorite Eye’s Song
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Antonio** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
-- **Elizabeth** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
-- **Elizabeth — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then heal yourself 20 HP; then take 20 damage.
-- **Estella** — Draw 1 card and give your teammate 20 armor. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage.
-- **Estella — Coordination** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage you take by 10; then gain 20 armor; then take 10 damage.
-- **Grace** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor.
-- **Grace — Formation** — Give yourself or your teammate 30 armor. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 20; then take 20 damage.
-- **Matsumoto** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then take 30 damage.
-- **Matsumoto — Calculated Trap** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 20 less damage; then take 10 damage.
-- **Momoka Kirishima** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent 20 armor.
-- **Ophelia** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage. Then give the chosen opponent 20 armor.
-- **Sunrise** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 10. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
-- **Vivy** — Heal yourself 20 HP, then draw 1 card. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also draw 1 card.
-- **Vivy — Momentum** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 10 armor; then give your teammate +20 damage on their next attack; then take 10 damage. Also draw 1 card.
-- **Yugo Kakitani** — Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Steal the Tempo — Vivy** — Heal yourself 20 HP. Draw 1 card. Gain 20 armor.
+- **Read the Field — Matsumoto** — Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.
+- **Perfect Assist — Estella** — Draw 1 card. Give yourself or your teammate 20 armor. Give yourself or your teammate +10 damage on their next attack.
+- **Break the Line — Elizabeth** — Deal 20 damage to one other player. Your next attack gets +10 damage. Mark one other player for +40 damage the next time they take damage.
+- **Last Stand — Grace** — Heal both members of your team 20 HP. Give yourself or your teammate 10 armor.
+- **Encore — Ophelia** — One opponent discards 1 random card. Draw 1 card. Your next attack gets +20 damage.
+- **No Escape — Antonio** — Deal 30 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 20. Heal yourself 50 HP.
+- **Counterattack — Yugo Kakitani** — Take 10 damage. Deal 40 damage to one other player. Give yourself or your teammate +10 damage on their next attack.
+- **One More Chance — Momoka Kirishima** — Give yourself or your teammate 30 armor. Draw 1 card. Heal yourself or your teammate 10 HP.
+- **Environment: The Singularity** *(Environment)* — Set The Singularity as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Singularity Project** *(Environment)* — Set Singularity Project as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Metal Float** *(Environment)* — Set Metal Float as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Diva** *(Environment)* — Set Diva as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Toak** *(Environment)* — Set Toak as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: The Archive** *(Environment)* — Set The Archive as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
 
 ### 4★
 
-- **Diva** — You and your teammate each get +30 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
-- **Metal Float** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
-- **Metal Float — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then your next attack gets +20 damage; then take 20 damage. Your next attack also gets +60 damage.
-- **Singularity Project** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 20 damage. Then discard 1 random card from your hand.
-- **Singularity Project — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +20 on the next damage they take; then take 20 damage.
-- **The Archive** — Choose an opponent. They discard 2 random cards. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
-- **Toak** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
+- **Metal Float** — Take 20 damage. Deal 80 damage to one other player. Deal 60 delayed damage to one other player at the start of their next turn.
+- **Singularity Project** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Plan Within a Plan — The Archive** — One opponent discards 2 random cards. One opponent’s next attack deals 10 less damage. One opponent’s next attack deals 20 less damage.
+- **Full-Force Attack — Toak** — Deal 50 damage to one other player. Draw 1 card. Gain 30 armor.
+- **Quick Shift — Diva** — Your team gets +30 damage on their next attack. Gain 20 armor. Draw 1 card.
+- **Steal the Tempo — The Singularity** — Draw 3 cards. Yourself discards 1 random card. Gain 30 armor.
+- **Field Plan — Sunrise** — Deal 40 damage to both opponents. Give yourself or your teammate +10 damage on their next attack. Mark one other player for +20 damage the next time they take damage.
 
 ### 5★
 
-- **Diva — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 20 armor; then take 20 damage.
-- **Flourite Eye’s Song** *(original)* — Draw 1 card. Your next attack deals ×1.5 damage, and you may play one additional non-5★ card this turn.
+- **Flourite Eye’s Song** — Draw 1 card. Your next attack deals ×1.5 damage, and you may play one additional non-5★ card this turn.
+- **Sudden Turn — Diva** — Draw 3 cards. You may play 1 additional 4★ or lower card this turn. Gain 40 armor.
 
 ## Wistoria: Wand and Sword
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Colette Loire** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
-- **Colette Loire — Coordination** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage you take by 10; then heal yourself 20 HP; then your next attack deals 10 less damage.
-- **Elfaria Albis Serfort** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, reduce the next damage you take by 10. Then take 10 damage. Also mark one other player for +20 on the next damage they take.
-- **Elfaria Albis Serfort — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then gain 20 armor; then take 20 damage.
-- **Julius Reinberg** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Julius Reinberg — Unseen Hand** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +20 damage; then your next attack deals 10 less damage.
-- **Lihanna Owenzaus** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +20 damage.
-- **Magicless** *(original)* — 0.75x the damage of the next attack targeted at you
-- **Rosty Naumann** — Heal both members of your team 20 HP. Afterward, you and your teammate each get +20 damage on your next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
-- **Sion Ulster** — Deal 30 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
-- **Sion Ulster — Counteroffensive** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
-- **Wignall Lindorr** — Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
-- **Will Serfort** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
-- **Will Serfort — Pressure** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor; then an opponent’s next attack deals 20 less damage; then take 20 damage.
-- **Workner Norgram** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then give the chosen opponent 10 armor.
+- **Magicless** — 0.75x the damage of the next attack targeted at you
+- **Counterattack — Will Serfort** — Deal 20 damage to one other player. Gain 10 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Grand Invocation — Elfaria Albis Serfort** — One opponent’s next attack deals 20 less damage. Your next attack gets +10 damage. Reduce your next incoming damage by 10.
+- **Rescue Mission — Colette Loire** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 30 armor.
+- **Last Rush — Sion Ulster** — Deal 30 damage to one other player. Give yourself or your teammate +10 damage on their next attack.
+- **Reality Break — Julius Reinberg** — Draw 2 cards. Yourself discards 1 random card. Deal 30 delayed damage to one other player at the start of their next turn.
+- **Transcendence — Wignall Lindorr** — Draw 2 cards. Yourself discards 1 random card. Reduce your next incoming damage by 30.
+- **Full-Force Attack — Lihanna Owenzaus** — Deal 20 damage to one other player. Your next attack gets +10 damage. Gain 40 armor.
+- **Covering Fire — Rosty Naumann** — Heal both members of your team 30 HP. Your team gets +20 damage on their next attack. Take 30 damage.
+- **Environment: Rigarden Magical Academy** *(Environment)* — Set Rigarden Magical Academy as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Wand and Sword** *(Environment)* — Set Wand and Sword as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Ice Faction** *(Environment)* — Set Ice Faction as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Magia Vander** *(Environment)* — Set Magia Vander as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Dungeon** *(Environment)* — Set Dungeon as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Wis** *(Environment)* — Set Wis as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Dungeon** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor. Your next attack also gets +50 damage.
-- **Ice Faction** — Choose an opponent. They skip their next turn. Then give the chosen opponent 10 armor. Then give the chosen opponent +10 damage on their next attack.
-- **Magia Vander** — Until your next turn, cap any single damage instance you take at 30. Afterward, gain 20 armor. Then take 10 damage.
-- **Rigarden Magical Academy** — Give both members of your team 30 armor. Afterward, heal yourself or your teammate 20 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Rigarden Magical Academy — United Front** — Give both members of your team 30 armor. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
-- **Wis** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then discard 1 random card from your hand.
-- **Wis — Countermeasure** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 10 armor; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
+- **Read the Situation — Wis** — Heal yourself or your teammate 50 HP. Give yourself or your teammate +30 damage on their next attack. One opponent’s next attack deals 20 less damage.
+- **Rigarden Magical Academy** — Give both members of your team 30 armor. Heal yourself or your teammate 20 HP. Give yourself or your teammate 30 armor.
+- **Desperate Bet — Dungeon** — Mark one other player for +20 damage the next time they take damage. Your next attack gets +50 damage.
+- **Reality Break — Magia Vander** — Until your next turn, no single hit can deal you more than 30 damage. Gain 20 armor. Take 10 damage.
+- **Ice Faction** — One opponent skips their next turn. Mark one other player for +10 damage the next time they take damage.
+- **Wand and Sword: Point-Blank** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. One opponent’s next attack deals 40 less damage.
+- **Rescue Mission — Kiki** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate +10 damage on their next attack. Give yourself or your teammate 20 armor.
 
 ### 5★
 
-- **Ice Faction — Transcendence** — Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 40 damage to you. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
-- **Wand and Sword** — Deal 90 damage to one other player and gain 20 armor.
+- **Wand and Sword** — Deal 90 damage to one other player. Gain 20 armor.
+- **Ice Faction: Arcane Turn** — Deal 70 damage to one other player. Until your next turn, no single hit can deal you more than 40 damage. One opponent’s next attack deals 10 less damage.
 
 ## Witch Hat Atelier
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Agott Arklaum** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
-- **Agott Arklaum — Forbidden Pattern** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then discard 1 random card from your hand.
-- **Brushbuddy** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
-- **Coco** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP. Also mark one other player for +20 on the next damage they take.
-- **Coco — Hidden Art** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor; then heal yourself 20 HP; then your next attack deals 10 less damage.
-- **Euini** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
-- **Nolnoa** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
-- **Olruggio** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor. Also mark one other player for +20 on the next damage they take.
-- **Qifrey** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
-- **Qifrey — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then discard 1 random card from your hand.
-- **Richeh** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
-- **Richeh — Unseen Hand** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
-- **Tartah** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
-- **Tetia** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Also mark one other player for +40 on the next damage they take.
-- **Tetia — Resonance** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
+- **Forbidden Pattern — Coco** — Your next attack deals ×1.25 damage. Gain 10 armor. Mark one other player for +10 damage the next time they take damage.
+- **Resonance — Qifrey** — Deal 30 damage to one other player. Mark one other player for +10 damage the next time they take damage. Reduce your next incoming damage by 10.
+- **Grand Invocation — Agott Arklaum** — Deal 10 damage to both opponents. Draw 1 card. Mark one other player for +10 damage the next time they take damage.
+- **Unseen Hand — Tetia** — Reduce the next damage you or your teammate takes by 60. Your next attack gets +20 damage. Yourself discards 2 random cards.
+- **Arcane Turn — Richeh** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 20.
+- **Reality Break — Olruggio** — Your next attack deals ×1.25 damage. Gain 10 armor. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Transcendence — Brushbuddy** — Until your next turn, you cannot be targeted. Gain 10 armor.
+- **Hidden Art — Tartah** — One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.
+- **Forbidden Pattern — Euini** — Return up to 1 card from your discard pile. Mark one other player for +10 damage the next time they take damage. Mark one other player for +20 damage the next time they take damage.
+- **Environment: Magic Rune Circle** *(Environment)* — Set Magic Rune Circle as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Forbidden Magic** *(Environment)* — Set Forbidden Magic as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Knights Moralis** *(Environment)* — Set Knights Moralis as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Great Hall of Witches** *(Environment)* — Set Great Hall of Witches as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Brimmed Caps** *(Environment)* — Set Brimmed Caps as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Iguin** *(Environment)* — Set Iguin as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Brimmed Caps** — Choose an opponent. They skip their next turn. Then take 20 damage. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
-- **Brimmed Caps — Grand Invocation** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
-- **Forbidden Magic** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then take 10 damage. Your next attack also gets +70 damage.
-- **Great Hall of Witches** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +60 damage.
-- **Iguin** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Also mark one other player for +20 on the next damage they take.
-- **Iguin — Mystic Shift** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
-- **Knights Moralis** — Choose an opponent. They skip their next turn. Then take 20 damage. Then take 30 damage. Also mark one other player for +40 on the next damage they take.
+- **Grand Invocation — Iguin** — Deal 50 damage to one other player. Mark one other player for +20 damage the next time they take damage. Reduce your next incoming damage by 10.
+- **Unseen Hand — Brimmed Caps** — One opponent skips their next turn. Take 20 damage. Mark one other player for +20 damage the next time they take damage.
+- **Desperate Bet — Great Hall of Witches** — Mark one other player for +10 damage the next time they take damage. Your next attack gets +60 damage.
+- **Reality Break — Knights Moralis** — One opponent skips their next turn. Take 20 damage. Take 30 damage.
+- **Forbidden Magic** — Gain 10 armor. Take 10 damage. Your next attack gets +70 damage.
+- **Magic Rune Circle: Read the Situation** — Draw 2 cards. Give yourself or your teammate 30 armor. Reduce your next incoming damage by 30.
+- **Unseen Hand — Nolnoa** — Swap your HP with one other living player. Give yourself or your teammate +10 damage on their next attack. One opponent’s next attack deals 20 less damage.
 
 ### 5★
 
-- **Forbidden Magic — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then discard 1 random card from your hand.
-- **Piss Dragon** *(original)* — Deal 30 damage to both opponents. Until your next turn, your team cannot take more than 50 damage from any single attack.
+- **Piss Dragon** — Deal 30 damage to both opponents. Until your next turn, your team cannot take more than 50 damage from any single attack.
+- **Forbidden Magic: Desperate Bet** — Take 30 damage. Deal 120 damage to one other player. Mark one other player for +30 damage the next time they take damage.
 
 ## You and I Are Polar Opposites
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Aoi Sato** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
-- **Kentaro Yamada** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
-- **Kentaro Yamada — Promise** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Manami Watanabe** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Miyu Suzuki** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
-- **Miyu Suzuki — Heart-to-Heart** — Heal both members of your team 20 HP. Afterward, gain 20 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
-- **Natsumi Nishi** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
-- **Natsumi Nishi — Trust** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP. Then take 20 damage.
-- **Opposites** *(original)* — if you heal during the turn an opponent of your choosing take half the damage as you healed
-- **Rikako Honda** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP.
-- **Shino Azuma** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
-- **Shuji Taira** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
-- **Shuji Taira — Reassurance** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
-- **Yusuke Tani** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 10 less damage.
-- **Yusuke Tani — Helping Hand** — Heal both members of your team 20 HP. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
+- **Opposites** — if you heal during the turn an opponent of your choosing take half the damage as you healed
+- **Promise Kept — Miyu Suzuki** — Until your next turn, you cannot be targeted. Reduce the next damage you or your teammate takes by 20.
+- **Heart-to-Heart — Yusuke Tani** — Until your next turn, you cannot be targeted. Reduce the next damage you or your teammate takes by 10. Draw 1 card.
+- **Trust Fall — Kentaro Yamada** — Heal yourself or your teammate 20 HP. Give yourself or your teammate +20 damage on their next attack. Heal yourself or your teammate 40 HP.
+- **One More Chance — Natsumi Nishi** — Take 20 damage. Heal yourself or your teammate 40 HP. Deal 20 delayed damage to one other player at the start of their next turn.
+- **Shared Resolve — Shuji Taira** — Return up to 1 card from your discard pile. Give yourself or your teammate +10 damage on their next attack. Draw 1 card.
+- **Say It Out Loud — Shino Azuma** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 10 armor. Give yourself or your teammate 20 armor.
+- **Together Again — Aoi Sato** — Draw 2 cards. Yourself discards 1 random card. Give yourself or your teammate +10 damage on their next attack.
+- **The Big Moment — Manami Watanabe** — Heal both members of your team 20 HP. Give yourself or your teammate +10 damage on their next attack. Draw 1 card.
+- **Environment: Polar Opposites Culture Festival** *(Environment)* — Set Polar Opposites Culture Festival as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Suzuki and Tani** *(Environment)* — Set Suzuki and Tani as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Valentine's Day** *(Environment)* — Set Valentine's Day as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: Long-Distance Promise** *(Environment)* — Set Long-Distance Promise as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Matching Keychains** *(Environment)* — Set Matching Keychains as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Read the Situation — Study Session** *(Environment)* — Set Study Session as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
 
 ### 4★
 
-- **Culture Festival — Showstopper** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
-- **Culture Festival — You and I Are Polar Opposites** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, gain 20 armor. Then take 10 damage.
-- **Long-Distance Promise** — Heal both members of your team 40 HP. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
-- **Matching Keychains** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
-- **Study Session — Acceleration** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
-- **Study Session — You and I Are Polar Opposites** — You may play one additional non-5★ card this turn, then draw 1 card. Then take 20 damage. Then discard 1 random card from your hand. Also draw 1 card.
-- **Valentine's Day** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 10 armor.
+- **Quick Shift — Study Session** — You may play 1 additional 4★ or lower card this turn. Draw 1 card. Draw 1 card.
+- **Culture Festival: Another Route 33** — Draw 3 cards. Yourself discards 1 random card. Your next attack gets +10 damage.
+- **One More Chance — Matching Keychains** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 20 armor. Give yourself or your teammate 30 armor.
+- **Shared Resolve — Long-Distance Promise** — Heal both members of your team 50 HP. Give yourself or your teammate +10 damage on their next attack. Yourself discards 1 random card.
+- **Say It Out Loud — Valentine's Day** — Heal yourself or your teammate 70 HP. Reduce the next damage you or your teammate takes by 20. Draw 1 card.
+- **One More Chance — Suzuki and Tani** — Return up to 2 non-5★ cards from your discard pile. Give yourself or your teammate 20 armor. Give yourself or your teammate +20 damage on their next attack.
+- **Shared Resolve — First Date** — You may play 1 additional 4★ or lower card this turn. Give yourself or your teammate +20 damage on their next attack. One opponent’s next attack deals 20 less damage.
 
 ### 5★
 
-- **Suzuki and Tani** — Heal both members of your team 30 HP. You and your teammate each get +20 damage on your next attack. Also give yourself or your teammate 30 armor.
-- **Valentine's Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then take 10 damage.
+- **Together Again — Suzuki and Tani** — Heal both members of your team 30 HP. Your team gets +20 damage on their next attack. Give yourself or your teammate 30 armor.
+- **Together Again — Valentine's Day** — Heal yourself or your teammate 80 HP. Give yourself or your teammate 20 armor. Give yourself or your teammate 20 armor.
 
 ## Yu-Gi-Oh!
 
+Pool: 24 cards · 6 Environments
+
 ### 3★
 
-- **Bakura** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then take 10 damage.
-- **Blue-Eyes White Dragon** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
-- **Dark Magician** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage. Also mark one other player for +20 on the next damage they take.
-- **Joey Wheeler** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
-- **Joey Wheeler — Danger Zone** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20; then mark one other player for +20 on the next damage they take; then take 10 damage.
-- **Monster Reborn** — Your next attack deals ×1.75 damage, but the next damage you take is ×1.5. Your next attack also gets +10 damage, and an opponent gets +10 on their next attack.
-- **Red-Eyes Black Dragon** — Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 10 HP.
-- **Seto Kaiba** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then take 30 damage. Your next attack also gets +20 damage.
-- **Seto Kaiba — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then your next attack gets +20 damage; then take 10 damage.
-- **Tristan Taylor** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
-- **Tristan Taylor — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +20 damage on their next attack; then take 10 damage.
-- **Téa Gardner** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
-- **Téa Gardner — Backup Plan** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, your next attack gets +20 damage; then give yourself or your teammate 20 armor; then take 10 damage.
-- **Yugi Muto** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 50 less damage.
-- **Yugi Muto — Read the Field** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor; then reduce the next damage you take by 20; then take 10 damage. Then take 20 damage.
+- **Plan Within a Plan — Yugi Muto** — One opponent’s next attack deals 20 less damage. Gain 50 armor. Yourself discards 2 random cards.
+- **Full-Force Attack — Seto Kaiba** — Deal 40 delayed damage to one other player at the start of their next turn. Reduce your next incoming damage by 30. Mark one other player for +10 damage the next time they take damage.
+- **Over the Limit — Joey Wheeler** — Your next attack deals ×1.4 damage. Your next damage taken is ×1.25. Gain 20 armor.
+- **Rally the Team — Téa Gardner** — Heal yourself or your teammate 30 HP. Give yourself or your teammate 20 armor. Heal yourself or your teammate 30 HP.
+- **Checkmate — Tristan Taylor** — One opponent’s next attack deals 20 less damage. Gain 40 armor. Yourself discards 1 random card.
+- **Read the Field — Bakura** — Choose an opponent. Their next action is a punch against themself. Gain 10 armor. Take 10 damage.
+- **Arcane Turn — Dark Magician** — Reduce the next damage you or your teammate takes by 30. Your next attack gets +10 damage. Mark one other player for +20 damage the next time they take damage.
+- **Break the Line — Blue-Eyes White Dragon** — Deal 10 damage to one other player. Draw 1 card. Gain 10 armor.
+- **All-In Assault — Red-Eyes Black Dragon** — Take 10 damage. Deal 40 damage to one other player. Gain 30 armor.
+- **Environment: Duel Disk** *(Environment)* — Set Duel Disk as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
+- **Environment: Atem** *(Environment)* — Set Atem as the Environment. At the start of each allied turn, that player gains 10 armor. Playing another Environment replaces it.
+- **Environment: The Winged Dragon of Ra** *(Environment)* — Set The Winged Dragon of Ra as the Environment. Your team’s punches deal +10 damage. Playing another Environment replaces it.
+- **Environment: Obelisk the Tormentor** *(Environment)* — Set Obelisk the Tormentor as the Environment. Your team’s attacks deal +10 damage. Playing another Environment replaces it.
+- **Environment: Slifer the Sky Dragon** *(Environment)* — Set Slifer the Sky Dragon as the Environment. Attacks against your team deal 10 less damage. Playing another Environment replaces it.
+- **Environment: Exodia the Forbidden One** *(Environment)* — Set Exodia the Forbidden One as the Environment. At the start of each allied turn, that player heals 10 HP. Playing another Environment replaces it.
 
 ### 4★
 
-- **Exodia the Forbidden One** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then your next attack deals 10 less damage. Your next attack also gets +60 damage.
-- **Exodia the Forbidden One — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +20 damage on their next attack; then gain 20 armor; then take 20 damage.
-- **Monster Reborn — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage.
-- **Obelisk the Tormentor** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then your next attack deals 10 less damage. Then heal the chosen opponent 20 HP.
-- **Pot of Greed** *(original)* — Draw two 3★ cards from your deck.
-- **Slifer the Sky Dragon** — Deal 50 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage. Then take 30 damage.
-- **The Winged Dragon of Ra** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 20 damage.
+- **Pot of Greed** — Draw two 3★ cards from your deck.
+- **Over the Limit — Exodia the Forbidden One** — Gain 10 armor. Your next attack gets +60 damage.
+- **Counterattack — Slifer the Sky Dragon** — Deal 50 damage to one other player. Draw 1 card. Mark one other player for +40 damage the next time they take damage.
+- **Checkmate — Obelisk the Tormentor** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Deal 40 delayed damage to one other player at the start of their next turn.
+- **Finishing Blow — The Winged Dragon of Ra** — Deal 40 damage to one other player. Mark one other player for +20 damage the next time they take damage. Your next attack gets +40 damage.
+- **Checkmate — Atem** — Steal 1 random card from one opponent. Give yourself or your teammate 20 armor. One opponent’s next attack deals 20 less damage.
+- **Keep It Going — Duel Disk** — Draw 3 cards. Yourself discards 1 random card. Your next attack gets +40 damage.
 
 ### 5★
 
-- **Atem** — Draw 2 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Also make an opponent’s next attack deal 20 less damage.
-- **The Winged Dragon of Ra — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 20 HP; then take 20 damage.
+- **False Opening — Atem** — Draw 2 cards. You may play 1 additional 4★ or lower card this turn. Deal 60 delayed damage to one other player at the start of their next turn.
+- **Last Rush — The Winged Dragon of Ra** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Deal 50 delayed damage to one other player at the start of their next turn.
