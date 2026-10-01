@@ -1,8 +1,8 @@
 {
   "name": "fanmade-anime-tcg",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": true,
-  "description": "Realtime 1v1/2v2 fanmade TCG with 300 HP, custom 48-card three-show decks, expanded show pools, and room codes",
+  "description": "Realtime 1v1/2v2 fanmade TCG with dark UI, 48-card three-show decks, expanded 33-card show pools, environments, and room codes",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

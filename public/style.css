@@ -255,3 +255,101 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   .deck-builder-head { align-items: flex-start; }
 }
 .single-environment { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
+
+/* -------------------------------------------------------------------------
+   Dark version: same beginner-style layout, just black / dark gray.
+   Kept intentionally simple instead of turning it into a polished app theme.
+   ------------------------------------------------------------------------- */
+:root {
+  --blue: #4b7cff;
+  --blue-dark: #2f52b8;
+  --light-blue: #161d2b;
+  --page: #050505;
+  --panel: #111111;
+  --border: #3a3a3a;
+  --text: #f2f2f2;
+  --muted: #a8a8a8;
+  --red: #e05b5b;
+  --green: #5ecb72;
+  --yellow: #e2b84f;
+  --three: #5c8dff;
+  --four: #aa7cff;
+  --five: #e0b83f;
+}
+
+body { background: #050505; color: var(--text); }
+.topbar { background: #000; border-bottom-color: #333; }
+.brand-mark { background: #171717; color: #eee; border-color: #555; }
+.glass, .lobby-card, .waiting-box, .side-panel { background: #111; border-color: #3a3a3a; }
+.hero-copy h1 { color: #f4f4f4; }
+.hero-copy p, .micro, .label, .turn-card p, .target-box small, .action small,
+.team-heading, .hp-number span, .tile-bottom, .discard-mini, .field-row span,
+.field-row small, .vs-2v2, .library-summary, .hand-head small, .hand-head > span {
+  color: #aaa;
+}
+.rule-pills span, .room-chip, .show-preview-meta, .roster-seat, .revealed-hand span,
+.match-banner, .field-row > div, .player-tile, .card-detail-card {
+  background: #161616;
+  color: #eee;
+  border-color: #414141;
+}
+.primary { background: #345fd1; color: #fff; border-color: #5d7fe0; }
+.secondary, .ghost, .filters button, .library-show-tabs button, .show-chip, .action, .icon-btn {
+  background: #1c1c1c;
+  color: #eee;
+  border-color: #555;
+}
+.action.punch { background: #291515; }
+.action.end { background: #121c30; }
+button:hover:not(:disabled) { filter: brightness(1.18); }
+.lobby-card input, .lobby-card select, .library-controls input, .show-search,
+.target-box select, .dialog-target select {
+  background: #0d0d0d;
+  color: #f1f1f1;
+  border-color: #555;
+}
+.divider::before, .divider::after, .deck-builder, .panel-head, .turn-card,
+.target-box, .rules-mini, .log-item { border-color: #333; }
+.show-chip.selected, .selected-show { background: #17233f; border-color: #4b7cff; color: #e7edff; }
+.player-tile.target-flash { background: #2b2512; }
+.hpbar { background: #252525; border-color: #555; }
+.armor { color: #74a9ff; }
+.buff { background: #2a2414; border-color: #6f5e28; color: #f0d881; }
+.center-field { background: #0c0c0c; border-color: #444; }
+.mini-backs i { background: #242d40; border-color: #666; }
+.hand-dock { background: #090909; border-top-color: #333; }
+
+/* Cards are a little larger so the effect text can actually be read. */
+.tcg-card {
+  flex: 0 0 178px;
+  height: 215px;
+  background: #151515;
+  color: #f3f3f3;
+  border-color: #555;
+  padding: 10px;
+}
+.tcg-card:hover { background: #1d1d1d; }
+.tcg-card h4 { font-size: 14px; line-height: 1.25; margin: 7px 0 5px; }
+.tcg-card p {
+  color: #e0e0e0;
+  font-size: 12.5px;
+  line-height: 1.42;
+  margin-top: 8px;
+  -webkit-line-clamp: 7;
+}
+.deck-pool-card.deck-selected { background: #132117; outline-color: #48a65a; }
+.deck-pool-card.deck-unselected { opacity: .68; }
+
+/* Larger text in the full card popup too. */
+dialog { background: #101010; color: #f3f3f3; border-color: #555; }
+.card-detail-card { background: #151515; }
+.card-detail-card p { color: #eee; font-size: 16px; line-height: 1.55; }
+.dialog-target { background: #181818; border-color: #444; }
+.toast { background: #27210e; color: #f5dc91; border-color: #7d6828; }
+.library-grid { grid-template-columns: repeat(auto-fill,minmax(178px,1fr)); }
+.filters button.active, .library-show-tabs button.active { background: #345fd1; color: white; }
+
+@media (max-width: 720px) {
+  .tcg-card { flex-basis: 160px; height: 205px; }
+  .tcg-card p { font-size: 12px; }
+}

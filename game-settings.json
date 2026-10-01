@@ -9,9 +9,9 @@
     "5": 1
   },
   "poolCardsPerShow": {
-    "3": 15,
-    "4": 7,
-    "5": 2
+    "3": 20,
+    "4": 10,
+    "5": 3
   },
   "deckSize": 48,
   "openingTeamSkipsFirstDraw": true,

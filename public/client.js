@@ -15,7 +15,7 @@ const lobby = $('lobby'), waiting = $('waiting'), game = $('game');
 const teamOfSeat = seat => Number(seat) % 2;
 const teamLetter = seat => teamOfSeat(seat) === 0 ? 'A' : 'B';
 const deckNeed = star => Number(state?.config?.cardsPerShow?.[String(star)] ?? ({3:10,4:5,5:1})[star]);
-const poolSize = star => Number(state?.config?.poolCardsPerShow?.[String(star)] ?? ({3:15,4:7,5:2})[star]);
+const poolSize = star => Number(state?.config?.poolCardsPerShow?.[String(star)] ?? ({3:20,4:10,5:3})[star]);
 const minEnvironmentsPerShow = () => Number(state?.config?.minEnvironmentsPerShow ?? 3);
 
 Promise.all([fetch('/api/cards').then(r=>r.json()), fetch('/api/shows').then(r=>r.json())]).then(([c,s]) => {

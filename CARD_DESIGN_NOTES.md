@@ -3,14 +3,17 @@
 ## Numbers
 Flat damage, healing, armor, damage reduction, marks, and flat attack bonuses use multiples of 10. Turn counts, card counts, percentages, and multipliers do not need to be multiples of 10.
 
+## Names
+Original hand-written cards keep their names. Generated cards now use more varied fanmade TCG-style titles. Character references are framed as attacks, plays, moments, bad decisions, or techniques; canon techniques/items/events/locations are used directly or as the main part of the title. The canon reference is still stored in `canonRef`.
+
+## Bigger show pools
+Each show contains 33 available cards: 20×3★, 10×4★, 3×5★. A deck still takes only 10/5/1 from that show. This gives players more actual decisions without making decks larger.
+
 ## Baseline is a budget, not a prison
 Pure-stat cards roughly orbit the original rarity baseline, but special abilities spend some of that budget. Draw, discard, turn denial, extra actions, flexible targeting, resurrection, card recovery, immunity, and teamwide effects are all valuable even when they print little or no damage.
 
-## Balance guardrail
-The generator now runs a rough weighted-power audit. It does not show a score to players and is not intended to make every card mathematically identical. It only catches obvious generated duds and overloaded low-rarity cards.
-
 ## 1v1 vs 2v2
-AoE and team-support cards naturally change value between modes. Balance is aimed at making them playable in both, not identical in both. Ally selectors fall back to yourself in 1v1 where the engine supports it.
+AoE and team-support cards naturally change value between modes. Ally selectors fall back to yourself in 1v1 where the engine supports it.
 
-## Goofy cards are allowed
-Manual/social cards (singing, roleplaying, camera bits, etc.) can stay weird. The goal is a fun fanmade game, not tournament software. When an effect cannot be judged by the server, its text should be clear enough for players to resolve it themselves.
+## Memes are allowed
+Some cards can be jokes as long as the actual effect remains playable and reasonably balanced.

@@ -973,8 +973,8 @@ for show_index, show in enumerate(show_names):
 
 # Expand every show's card POOL beyond the 16 cards that actually go into a deck.
 # Players still build with 10x 3★, 5x 4★, and 1x 5★ from each selected show, but now
-# each show offers 15x 3★, 7x 4★, and 2x 5★ to choose from.
-POOL_TARGETS = {3: 15, 4: 7, 5: 2}
+# each show offers 20x 3★, 10x 4★, and 3x 5★ to choose from.
+POOL_TARGETS = {3: 20, 4: 10, 5: 3}
 for show_index, show in enumerate(show_names):
     refs = SHOW_REFERENCES[show]
     show_profile = PROFILES[show]
@@ -982,12 +982,24 @@ for show_index, show in enumerate(show_names):
     # just making five more character-name cards. The first 10 3★ slots still
     # give characters room to exist, while the optional slots are mostly show concepts.
     variant_specs = [
+        # First wave of alternates (the old expanded pool).
         *[(3, refs[10+i], i) for i in range(5)],
         (4, refs[15], 0),
         (4, refs[9], 1),
         (5, refs[14], 0),
+        # Second wave: more techniques / items / plot-point cards so a show is not
+        # mostly a list of character names. These bring each show to 20/10/3.
+        (3, refs[8], 5),
+        (3, refs[9], 6),
+        (3, refs[11], 7),
+        (3, refs[12], 8),
+        (3, refs[13], 9),
+        (4, refs[10], 2),
+        (4, refs[13], 3),
+        (4, refs[15], 4),
+        (5, refs[15], 1),
     ]
-    for star, ref, variant_index in variant_specs:
+    for spec_serial, (star, ref, variant_index) in enumerate(variant_specs):
         card_profile = reference_profile(show, ref, show_profile)
         titles = VARIANT_TITLES.get(card_profile, VARIANT_TITLES['tactical'])
         title_index = (variant_index + (0 if star == 3 else 5 if star == 4 else 7)) % len(titles)
@@ -1003,11 +1015,18 @@ for show_index, show in enumerate(show_names):
             effect, action = generated_effect(card_profile, star, themed_slot, show_index)
         effect, action = normalize_pair(effect, action)
 
-        variant_serial = show_index * 8 + (variant_index if star == 3 else 5 + variant_index if star == 4 else 7)
-        peffect, paction = add_variant_signature(effect, action, variant_serial)
-        action_key = json.dumps(paction, sort_keys=True, ensure_ascii=False)
-        if peffect in seen_generated_effects or action_key in seen_generated_actions:
-            raise RuntimeError(f'Duplicate alternate ability for {show}: {ref}')
+        variant_serial = show_index * len(variant_specs) + spec_serial
+        # More cards per show means more chances for two deterministic variants to collide.
+        # Walk forward through the signature space until both the text and executable action are unique.
+        attempt = 0
+        while True:
+            peffect, paction = add_variant_signature(effect, action, variant_serial + attempt)
+            action_key = json.dumps(paction, sort_keys=True, ensure_ascii=False)
+            if peffect not in seen_generated_effects and action_key not in seen_generated_actions:
+                break
+            attempt += 1
+            if attempt > 500:
+                raise RuntimeError(f'Unable to make unique alternate ability for {show}: {ref}')
 
         seen_generated_effects.add(peffect)
         seen_generated_actions.add(action_key)
@@ -1249,15 +1268,51 @@ _set_card('Witch Hat Atelier','Piss Dragon',effect='Deal 30 damage to both oppon
 # title while techniques, locations, items, and events keep the canon reference
 # as the core of the title. canonRef remains untouched for traceability.
 TITLE_PHRASES = {
-    'assault': ['Full-Force Attack','No Holding Back','Counterattack','Point-Blank','Finishing Blow','Last Rush','Break the Line','All-In Assault'],
-    'team': ['Hold the Line','Covering Fire','Rally the Team','Back-to-Back','Rescue Mission','Perfect Assist','Stand Together','Last Stand'],
-    'control': ['Trap Is Set','No Escape','Forced Move','Checkmate','Read the Field','False Opening','Cornered','Plan Within a Plan'],
-    'social': ['Promise Kept','Heart-to-Heart','Trust Fall','One More Chance','Shared Resolve','Say It Out Loud','Together Again','The Big Moment'],
-    'tempo': ['Encore','Quick Shift','Second Beat','Steal the Tempo','Keep It Going','Sudden Turn','One More Move','Finale'],
-    'sport': ['Perfect Form','Closing Sprint','Clutch Play','Second Wind','Training Pays Off','Photo Finish','Peak Condition','Championship Point'],
-    'risk': ['All In','Over the Limit','No Turning Back','Danger Zone','Burn It All','Desperate Bet','Point of No Return','One Last Shot'],
-    'mystic': ['Hidden Art','Forbidden Pattern','Resonance','Grand Invocation','Unseen Hand','Arcane Turn','Reality Break','Transcendence'],
-    'tactical': ['Perfect Setup','Countermeasure','Contingency','Read the Situation','Field Plan','Prepared Response','Calculated Risk','Grand Strategy'],
+    'assault': [
+        'Zero Distance','Break Their Guard','One More Hit','No Mercy','Don’t Blink',
+        'Clean Finish','Rushdown','Hit First','Straight Through','Final Exchange',
+        'Full Send','Overkill','Crash In','Last Round','Run Them Down'
+    ],
+    'team': [
+        'Cover Me!','Back Me Up','Don’t Die on Me','We Move Together','Hold This Line',
+        'Tag In','Save Them','One-Two','Same Page','Everybody Move',
+        'Rally Up','Take My Hand','I Got You','Second Wind','All Together Now'
+    ],
+    'control': [
+        'Wrong Move','You Fell For It','Read Like a Book','Not Your Turn','Checkmate',
+        'Trap Set','Try Again','Plan B','Bait Taken','One Step Ahead',
+        'Locked In','Nope','Outplayed','Caught You','Exactly as Planned'
+    ],
+    'social': [
+        'Awkward Silence','Say It Already','Heart-to-Heart','Text Back','Trust Me',
+        'One More Chance','Bad Timing','Good Timing','Confession Arc','Friendship Buff',
+        'The Talk','Actually Communicate','Please Be Normal','Group Chat Disaster','Big Moment'
+    ],
+    'tempo': [
+        'Encore!','Run It Back','Beat Drop','Keep Going','Second Verse',
+        'Steal the Spotlight','No Pause','Last Chorus','Switch Up','One More Take',
+        'Turn It Up','Back on Beat','No Dead Air','Finale','Hit the Cue'
+    ],
+    'sport': [
+        'Final Stretch','Photo Finish','Clutch','Peak Form','One More Lap',
+        'Full Sprint','Perfect Line','Overtake','Game Point','All Out',
+        'No Looking Back','Last Push','Clean Run','Record Pace','Finish Strong'
+    ],
+    'risk': [
+        'This Is a Bad Idea','Full Send','No Brakes','Worth It?','All In',
+        'Burn It All','One Last Shot','Bet Everything','Crash Out','Point of No Return',
+        'Do It Anyway','Absolutely Not Safe','Last Chance','Too Far Now','Go for Broke'
+    ],
+    'mystic': [
+        'Forbidden Technique','Hidden Art','Reality Cracks','Grand Invocation','Resonance',
+        'No Normal Explanation','Spell Stack','Domain Break','Arcane Overload','Transcendence',
+        'Unseal It','Ritual Complete','Beyond the Veil','Secret Art','Impossible Formula'
+    ],
+    'tactical': [
+        'Contingency Plan','Bait and Punish','Calculated','Read the Room','Perfect Setup',
+        'Counterplan','Backup Plan','Outplayed','Two Steps Ahead','Change of Plans',
+        'Set the Trap','Call the Bluff','Emergency Plan','Good Read','Plan Within a Plan'
+    ],
 }
 
 def _reference_index(show, ref):
@@ -1275,19 +1330,26 @@ CONCEPT_WORDS = (
 
 def _title_for_generated(card, serial):
     ref=card.get('canonRef') or card['name']
-    low=ref.casefold()
     phrases=TITLE_PHRASES.get(card.get('profile'), TITLE_PHRASES['tactical'])
     phrase=phrases[serial % len(phrases)]
-    looks_like_concept = any(re.search(r'(?<!\w)'+re.escape(word)+r'(?!\w)', low) for word in CONCEPT_WORDS)
-    # Plain character/creature references put the move/scene first so the card
-    # reads like a TCG card title instead of a character roster entry.
-    if not looks_like_concept:
-        return f'{phrase} — {ref}'
-    # Techniques / items / plot points / places can stand on their own. Alternate
-    # versions add a subtitle so each card is still easy to distinguish.
-    if card.get('variant'):
-        return f'{ref}: {phrase}'
-    return ref
+    idx=_reference_index(card['show'], ref)
+
+    # The back half of each canon list is deliberately technique/item/event/location-heavy.
+    # Let those references be the star of the title instead of burying them after a generic move.
+    if idx >= 8:
+        if card.get('variant'):
+            formats=[f'{ref}: {phrase}', f'{phrase} — {ref}', f'{ref} / {phrase}']
+            return formats[serial % len(formats)]
+        return ref
+
+    # Character cards still exist, but they read more like named plays/moments than roster entries.
+    formats=[
+        f'{phrase} — {ref}',
+        f'{ref}: {phrase}',
+        f'{phrase} ({ref})',
+        f'{ref} — {phrase}',
+    ]
+    return formats[serial % len(formats)]
 
 # Environments are deliberately common. Each show gets SIX Environment cards in its
 # 24-card pool (six 3★), so a legal three-show deck has plenty of
@@ -1682,6 +1744,55 @@ for serial,c in enumerate([x for x in out if x.get('generated')]):
         ekey=c['effect']
     _final_actions.add(akey); _final_effects.add(ekey)
 
+# One last executable-action uniqueness pass. With the larger 20/10/3 pools,
+# a few simplified cards can converge to the same three-step action. Nudge one
+# clean-10 numeric rider rather than leaving two cards mechanically identical.
+_seen_exec = {}
+_seen_text = set()
+for serial, c in enumerate([x for x in out if x.get('generated')]):
+    key=json.dumps(c.get('action'),sort_keys=True,ensure_ascii=False)
+    if key not in _seen_exec and c.get('effect','') not in _seen_text:
+        _seen_exec[key]=c['id']; _seen_text.add(c.get('effect','')); continue
+    if c.get('cardType') in ('field','environment'):
+        continue
+    steps=_flat_steps(c.get('action'))
+    fixed=False
+    if steps:
+        # Prefer changing a delayed/mark/armor/heal rider, then any normal positive amount.
+        order=['delayed_damage','mark','armor','heal','reduce_next','buff_attack','damage']
+        for op in order:
+            for i,step in enumerate(steps):
+                if step.get('op')!=op: continue
+                if op=='damage' and step.get('target')=='self': continue
+                base=int(step.get('amount',0) or 0)
+                if not base: continue
+                for delta in (10,-10,20,-20,30,-30,40,-40,50):
+                    val=base+delta
+                    if val<10: continue
+                    cand=[dict(x) for x in steps]; cand[i]['amount']=val
+                    candidate=seq(*cand)
+                    desc=_describe_steps(cand)
+                    if not desc: continue
+                    desc,candidate=normalize_pair(desc,candidate)
+                    k=json.dumps(candidate,sort_keys=True,ensure_ascii=False)
+                    if k not in _seen_exec and desc not in _seen_text:
+                        c['action']=candidate; c['effect']=desc; key=k; fixed=True; break
+                if fixed: break
+            if fixed: break
+    if not fixed:
+        # Very rare fallback for non-flat special actions: keep the special effect and add
+        # a tiny armor rider through a sequence only when the action is already step-based.
+        if steps:
+            for amount in (10,20,30,40,50):
+                cand=steps+[st('armor','self',amount=amount)]
+                candidate=seq(*cand); desc=_describe_steps(cand)
+                if not desc: continue
+                desc,candidate=normalize_pair(desc,candidate)
+                k=json.dumps(candidate,sort_keys=True,ensure_ascii=False)
+                if k not in _seen_exec and desc not in _seen_text:
+                    c['action']=candidate; c['effect']=desc; key=k; fixed=True; break
+    _seen_exec[key]=c['id']; _seen_text.add(c.get('effect',''))
+
 counts=defaultdict(Counter)
 for c in out: counts[c['show']][c['stars']]+=1
 assert len(counts)==58
@@ -1695,6 +1806,6 @@ assert not any(c.get('generated') and any(x in c['name'].lower() for x in banned
 
 (ROOT/'cards.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
 (ROOT/'shows.json').write_text(json.dumps(show_names, ensure_ascii=False, indent=2), encoding='utf-8')
-print(f'Generated {len(out)} cards across {len(counts)} shows; pool per show = 15x3★ / 7x4★ / 2x5★.')
+print(f'Generated {len(out)} cards across {len(counts)} shows; pool per show = 20x3★ / 10x4★ / 3x5★.')
 print(f'{sum(c.get("generated",False) for c in out)} generated canon-reference cards; deck requirement is 10/5/1 plus at least 3 Environments per selected show.')
 

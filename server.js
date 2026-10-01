@@ -13,7 +13,7 @@ const STARTING_HAND_SIZE = SETTINGS.startingHandSize;
 const SHOWS_PER_DECK = SETTINGS.showsPerDeck;
 const DECK_SIZE = SETTINGS.deckSize;
 const CARDS_PER_SHOW = SETTINGS.cardsPerShow;
-const POOL_CARDS_PER_SHOW = SETTINGS.poolCardsPerShow || { '3': 15, '4': 7, '5': 2 };
+const POOL_CARDS_PER_SHOW = SETTINGS.poolCardsPerShow || { '3': 20, '4': 10, '5': 3 };
 const MIN_ENVIRONMENTS_PER_SHOW = Number(SETTINGS.minEnvironmentsPerShow || 3);
 const SHOWS = [...new Set(CARDS.map(c => c.show || c.origin))].sort();
 // Card-specific gamble effects still use these internal odds; there is no base gamble action.

@@ -10,8 +10,8 @@ for c in cards:
     by_show[c['show']][int(c['stars'])] += 1
 
 errors=[]
-EXPECTED=(15,7,2)
-if len(cards) != 1392: errors.append(f'Expected 1392 cards, got {len(cards)}')
+EXPECTED=(20,10,3)
+if len(cards) != 1914: errors.append(f'Expected 1914 cards, got {len(cards)}')
 if len(by_show) != 58: errors.append(f'Expected 58 shows, got {len(by_show)}')
 for show in SHOW_REFERENCES:
     got=by_show[show]
@@ -69,7 +69,7 @@ print('VALIDATION OK')
 print(f'- {len(cards)} cards')
 print(f'- {len(by_show)} shows')
 print(f'- {len(generated)} generated canon-reference cards')
-print('- every show pool = 15x 3-star / 7x 4-star / 2x 5-star')
+print('- every show pool = 20x 3-star / 10x 4-star / 3x 5-star')
 print('- each deck selects 10x 3-star / 5x 4-star / 1x 5-star per chosen show')
 print('- 6 Environment cards per show (348 total); deck builder requires at least 3 per show / 9 per deck')
 print('- generated effect text unique')
