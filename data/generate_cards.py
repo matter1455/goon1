@@ -74,18 +74,18 @@ def clean_legacy(card):
         'titan hardening': ('Give yourself 30 armor. Armor can exceed max HP.', {'type':'armor','amount':30,'target':'self'}),
         'requip': ('Give yourself or your teammate 60 armor.', {'type':'armor','amount':60,'target':'ally'}),
         'thunder spear': ('Deal 60 damage to one other player.', {'type':'damage','amount':60,'target':'other'}),
-        'hinokami kagura': ('Deal 35 damage to both opponents.', {'type':'split_enemies','amount':35}),
+        'hinokami kagura': ('Deal 40 damage to both opponents.', {'type':'split_enemies','amount':40}),
         'one punch': ('Deal 60 damage to one other player.', {'type':'damage','amount':60,'target':'other'}),
         'equivalent exchange': ('Discard one 3★ card, then draw 2 cards.', {'type':'discard_star_draw','stars':3,'draw':2}),
         'excalibur': ('Deal 100 damage to one other player.', {'type':'damage','amount':100,'target':'other'}),
-        'how cute': ('Deal 35 damage to both opponents.', {'type':'split_enemies','amount':35}),
+        'how cute': ('Deal 40 damage to both opponents.', {'type':'split_enemies','amount':40}),
     }
     if k in simple:
         c['effect'], c['action'] = simple[k]
 
     replacements = {
-      'i mustn’t run away':'For your next 2 turns, you cannot play a card; your punch deals 45 damage instead of 20.',
-      'apology':'Lose 20 HP, heal your teammate 35 HP, then draw 1 card.',
+      'i mustn’t run away':'For your next 2 turns, you cannot play a card; your punch deals 50 damage instead of 20.',
+      'apology':'Lose 20 HP, heal your teammate 40 HP, then draw 1 card.',
       'star eye':'The next time you draw at the start of your turn, draw 1 additional card.',
       'agnes tachyon':'Return one 3★ card from your discard pile to your hand, then draw 1 card.',
       'boredom':'Choose an opponent. They draw their top card; if it is 3★, they give it to you. Otherwise they keep it.',
@@ -93,6 +93,9 @@ def clean_legacy(card):
       'the place above the grey fog':'Draw 5 cards, then you may play one additional card this turn.'
     }
     if k in replacements: c['effect'] = replacements[k]
+    if k == 'fire dragon roar': c['effect'] = 'Deal 20 damage to one opponent and 10 damage to the other opponent.'
+    if k == 'pull the chord': c['effect'] = 'Take 10 damage, then deal 40 damage to one other player.'
+    c['effect'], c['action'] = normalize_pair(c.get('effect',''), c.get('action'))
     return c
 
 def st(op, target=None, **kwargs):
@@ -102,6 +105,53 @@ def st(op, target=None, **kwargs):
     return d
 
 def seq(*steps): return {'type':'sequence','steps':list(steps)}
+
+
+def _round10(value):
+    """Round flat combat-point values to clean multiples of 10.
+
+    Counts/turns/multipliers are intentionally NOT passed through this helper.
+    """
+    if not isinstance(value, (int, float)) or isinstance(value, bool):
+        return value
+    sign = -1 if value < 0 else 1
+    n = abs(float(value))
+    if n == 0:
+        return 0
+    return sign * max(10, int((n + 5) // 10) * 10)
+
+
+def _normalize_action_amounts(node):
+    """Normalize only flat point `amount` fields; leave count/turn/mult values alone."""
+    if isinstance(node, list):
+        return [_normalize_action_amounts(x) for x in node]
+    if not isinstance(node, dict):
+        return node
+    out = {}
+    for k, v in node.items():
+        if k == 'amount' and isinstance(v, (int, float)) and not isinstance(v, bool):
+            out[k] = _round10(v)
+        else:
+            out[k] = _normalize_action_amounts(v)
+    return out
+
+
+def _normalize_effect_text(text):
+    """Keep displayed flat combat values synchronized with the clean-10 action values."""
+    def repl(m):
+        return str(abs(int(_round10(int(m.group(1))))))
+
+    # Values explicitly written with combat units.
+    text = re.sub(r'(?<![\d.])(\d+)(?=\s*(?:HP|hp|armor|damage|dmg)\b)', repl, text)
+    # Flat modifiers that are written without repeating the unit immediately after the number.
+    text = re.sub(r'(?<=\+)(\d+)(?=\s+on the next damage)', repl, text)
+    text = re.sub(r'(?<=increased by )(\d+)(?!\s*%)(?=[\s.,;]|$)', repl, text)
+    text = re.sub(r'(\d+)(?=\s+less damage)', repl, text)
+    return text
+
+
+def normalize_pair(effect, action):
+    return _normalize_effect_text(effect), _normalize_action_amounts(action)
 
 
 # Hand-designed marquee cards. These are intentionally more thematic than the
@@ -646,124 +696,111 @@ def signature_is_redundant(base_action, candidate_action):
     return added in set(_action_ops(base_action))
 
 def add_signature_twist(effect, action, show, ref, stars, profile, attempt=0):
-    """Add a small role-consistent secondary effect so every generated card is mechanically unique.
+    """Give generated cards a mechanically distinct rider without tiny 3/7/12-point values.
 
-    The twist is intentionally modest: the rarity baseline remains the main power budget. The role
-    filter avoids flavor failures such as an obvious attacker randomly becoming a healer.
+    A small clean-10 bonus is paired with a mild cost on most cards. This preserves
+    mechanical uniqueness while keeping the rarity baseline as the main power budget.
     """
     import hashlib
-    h = int(hashlib.sha256(f'{show}|{ref}|{stars}|{attempt}'.encode()).hexdigest()[:12], 16)
+    h = int(hashlib.sha256(f'{show}|{ref}|{stars}|{attempt}|clean10'.encode()).hexdigest()[:16], 16)
     base_ops = set(_action_ops(action))
     high_impact = any(op in {'extra_play','skip_turn','steal_random','swap_hp'} for op in base_ops)
-    base = 3 + (h % 10)
 
-    if high_impact:
-        # High-action-economy/control cards pay a small cost instead of gaining more value.
-        costs = [
-            (st('damage','self',amount=base+2,attack=False), f'Afterward, take {base+2} damage.'),
-            (st('discard_random','self',count=1), 'Afterward, discard 1 random card from your hand.'),
-            (st('buff_attack','self',amount=-(base+1)), f'Afterward, your next attack deals {base+1} less damage.'),
-        ]
-        step, text = costs[(h // 17) % len(costs)]
-    else:
-        choices = {
-            'assault': [
-                (st('buff_attack','self',amount=base), f'Afterward, your next attack gets +{base} damage.'),
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('damage','self',amount=base,attack=False), f'Afterward, take {base} damage.'),
-            ],
-            'risk': [
-                (st('buff_attack','self',amount=base+2), f'Afterward, your next attack gets +{base+2} damage.'),
-                (st('mark','chosen_other',amount=base+1), f'Afterward, mark one other player for +{base+1} on the next damage they take.'),
-                (st('damage','self',amount=base,attack=False), f'Afterward, take {base} damage.'),
-                (st('next_damage_multiplier','self',mult=1.1 + (base % 3)*0.05), f'Afterward, the next damage you take is increased by {int(((1.1 + (base % 3)*0.05)-1)*100)}%.'),
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-            ],
-            'team': [
-                (st('heal','ally',amount=base+3), f'Afterward, heal yourself or your teammate {base+3} HP.'),
-                (st('armor','ally',amount=base+1), f'Afterward, give yourself or your teammate {base+1} armor.'),
-                (st('buff_attack','team',amount=max(3,base//2)), f'Afterward, you and your teammate each get +{max(3,base//2)} damage on your next attack.'),
-                (st('reduce_next','ally',amount=base+3), f'Afterward, reduce the next damage your teammate takes by {base+3}.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','ally',amount=base+1), f'Afterward, give your teammate +{base+1} damage on their next attack.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-            ],
-            'social': [
-                (st('heal','ally',amount=base+4), f'Afterward, heal yourself or your teammate {base+4} HP.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-                (st('reduce_next','ally',amount=base+2), f'Afterward, reduce the next damage your teammate takes by {base+2}.'),
-                (st('heal','self',amount=base+3), f'Afterward, heal yourself {base+3} HP.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','team',amount=max(3,base//2)), f'Afterward, you and your teammate each get +{max(3,base//2)} damage on your next attack.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-            ],
-            'tempo': [
-                (st('buff_attack','self',amount=base), f'Afterward, your next attack gets +{base} damage.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','team',amount=max(3,base//2)), f'Afterward, you and your teammate each get +{max(3,base//2)} damage on your next attack.'),
-                (st('reduce_next','self',amount=base+1), f'Afterward, reduce the next damage you take by {base+1}.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('heal','ally',amount=base+2), f'Afterward, heal yourself or your teammate {base+2} HP.'),
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-            ],
-            'sport': [
-                (st('buff_attack','self',amount=base+1), f'Afterward, your next attack gets +{base+1} damage.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('buff_attack','team',amount=max(3,base//2)), f'Afterward, you and your teammate each get +{max(3,base//2)} damage on your next attack.'),
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-            ],
-            'control': [
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('buff_attack','self',amount=base), f'Afterward, your next attack gets +{base} damage.'),
-            ],
-            'mystic': [
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-                (st('reduce_next','self',amount=base+2), f'Afterward, reduce the next damage you take by {base+2}.'),
-                (st('buff_attack','self',amount=base), f'Afterward, your next attack gets +{base} damage.'),
-                (st('armor','self',amount=base), f'Afterward, gain {base} armor.'),
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('buff_attack','ally',amount=base), f'Afterward, give your teammate +{base} damage on their next attack.'),
-            ],
-            'tactical': [
-                (st('armor','self',amount=base+1), f'Afterward, gain {base+1} armor.'),
-                (st('reduce_next','self',amount=base+3), f'Afterward, reduce the next damage you take by {base+3}.'),
-                (st('buff_attack','chosen_enemy',amount=-base), f'Afterward, an opponent’s next attack deals {base} less damage.'),
-                (st('armor','ally',amount=base), f'Afterward, give yourself or your teammate {base} armor.'),
-                (st('heal','self',amount=base+2), f'Afterward, heal yourself {base+2} HP.'),
-                (st('heal','ally',amount=base+2), f'Afterward, heal yourself or your teammate {base+2} HP.'),
-                (st('buff_attack','self',amount=base), f'Afterward, your next attack gets +{base} damage.'),
-                (st('mark','chosen_other',amount=base), f'Afterward, mark one other player for +{base} on the next damage they take.'),
-            ],
-        }
-        pool = choices.get(profile, choices['tactical'])
-        # Prefer a secondary mechanic not already in the card's main sequence.
-        ordered = [pool[(h // 17 + i) % len(pool)] for i in range(len(pool))]
-        pick = next((x for x in ordered if x[0].get('op') not in base_ops), ordered[0])
-        step, text = pick
-    return effect.rstrip('.') + '. ' + text, {'type':'bundle','main':action,'after':[step]}
+    bonus_amount = 10 if ((h >> 2) & 1) == 0 else 20
+    cost_amount = 10 if ((h >> 3) & 1) == 0 else 20
+
+    role_bonus = {
+        'assault': [
+            ('buff_attack','self', f'Afterward, your next attack gets +{{a}} damage.'),
+            ('mark','chosen_other', f'Afterward, mark one other player for +{{a}} on the next damage they take.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+            ('buff_attack','chosen_enemy', f'Afterward, an opponent’s next attack deals {{a}} less damage.'),
+            ('buff_attack','ally', f'Afterward, give your teammate +{{a}} damage on their next attack.'),
+        ],
+        'risk': [
+            ('buff_attack','self', f'Afterward, your next attack gets +{{a}} damage.'),
+            ('mark','chosen_other', f'Afterward, mark one other player for +{{a}} on the next damage they take.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+        ],
+        'team': [
+            ('heal','ally', f'Afterward, heal yourself or your teammate {{a}} HP.'),
+            ('armor','ally', f'Afterward, give yourself or your teammate {{a}} armor.'),
+            ('buff_attack','ally', f'Afterward, give your teammate +{{a}} damage on their next attack.'),
+            ('reduce_next','ally', f'Afterward, reduce the next damage your teammate takes by {{a}}.'),
+            ('buff_attack','team', f'Afterward, you and your teammate each get +{{a}} damage on your next attack.'),
+        ],
+        'social': [
+            ('heal','ally', f'Afterward, heal yourself or your teammate {{a}} HP.'),
+            ('armor','ally', f'Afterward, give yourself or your teammate {{a}} armor.'),
+            ('buff_attack','ally', f'Afterward, give your teammate +{{a}} damage on their next attack.'),
+            ('reduce_next','ally', f'Afterward, reduce the next damage your teammate takes by {{a}}.'),
+        ],
+        'tempo': [
+            ('buff_attack','self', f'Afterward, your next attack gets +{{a}} damage.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+            ('heal','self', f'Afterward, heal yourself {{a}} HP.'),
+            ('mark','chosen_other', f'Afterward, mark one other player for +{{a}} on the next damage they take.'),
+        ],
+        'sport': [
+            ('buff_attack','self', f'Afterward, your next attack gets +{{a}} damage.'),
+            ('buff_attack','ally', f'Afterward, give your teammate +{{a}} damage on their next attack.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+        ],
+        'control': [
+            ('buff_attack','chosen_enemy', f'Afterward, an opponent’s next attack deals {{a}} less damage.'),
+            ('mark','chosen_other', f'Afterward, mark one other player for +{{a}} on the next damage they take.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+        ],
+        'mystic': [
+            ('mark','chosen_other', f'Afterward, mark one other player for +{{a}} on the next damage they take.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+            ('buff_attack','self', f'Afterward, your next attack gets +{{a}} damage.'),
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+        ],
+        'tactical': [
+            ('armor','self', f'Afterward, gain {{a}} armor.'),
+            ('reduce_next','self', f'Afterward, reduce the next damage you take by {{a}}.'),
+            ('buff_attack','chosen_enemy', f'Afterward, an opponent’s next attack deals {{a}} less damage.'),
+            ('armor','ally', f'Afterward, give yourself or your teammate {{a}} armor.'),
+        ],
+    }
+    pool = role_bonus.get(profile, role_bonus['tactical'])
+    # Cycle through role bonuses deterministically and avoid duplicating a main op when possible.
+    ordered = [pool[((h // 17) + attempt + i) % len(pool)] for i in range(len(pool))]
+    op, target, template = next((x for x in ordered if x[0] not in base_ops), ordered[0])
+    bonus_step = st(op, target, amount=(-bonus_amount if op == 'buff_attack' and target == 'chosen_enemy' else bonus_amount))
+    bonus_text = template.format(a=bonus_amount)
+
+    costs = [
+        (st('damage','self',amount=10,attack=False), 'Take 10 damage.'),
+        (st('damage','self',amount=20,attack=False), 'Take 20 damage.'),
+        (st('damage','self',amount=30,attack=False), 'Take 30 damage.'),
+        (st('buff_attack','self',amount=-10), 'Your next attack deals 10 less damage.'),
+        (st('buff_attack','self',amount=-20), 'Your next attack deals 20 less damage.'),
+        (st('discard_random','self',count=1), 'Discard 1 random card from your hand.'),
+        (st('discard_random','self',count=2), 'Discard 2 random cards from your hand.'),
+        (st('heal','chosen_enemy',amount=10), 'Heal the chosen opponent 10 HP.'),
+        (st('heal','chosen_enemy',amount=20), 'Heal the chosen opponent 20 HP.'),
+        (st('armor','chosen_enemy',amount=10), 'Give the chosen opponent 10 armor.'),
+        (st('armor','chosen_enemy',amount=20), 'Give the chosen opponent 20 armor.'),
+        (st('buff_attack','chosen_enemy',amount=10), 'Give the chosen opponent +10 damage on their next attack.'),
+        (st('buff_attack','chosen_enemy',amount=20), 'Give the chosen opponent +20 damage on their next attack.'),
+    ]
+    ci=((h // 97) + attempt) % len(costs)
+    cj=((h // 193) + attempt*3 + 1) % len(costs)
+    if cj == ci: cj=(cj+1) % len(costs)
+    cost_step, cost_text = costs[ci]
+    cost2_step, cost2_text = costs[cj]
+
+    # High-impact action-economy/control effects pay two clean drawbacks. Normal cards get
+    # one role-consistent bonus and one drawback so uniqueness does not come from tiny numbers.
+    after = [cost_step, cost2_step] if high_impact else [bonus_step, cost_step]
+    text = f'Then {cost_text[0].lower()+cost_text[1:]} Then {cost2_text[0].lower()+cost2_text[1:]}' if high_impact else f'{bonus_text} Then {cost_text[0].lower()+cost_text[1:]}'
+    return effect.rstrip('.') + '. ' + text, {'type':'bundle','main':action,'after':after}
 
 
 VARIANT_TITLES = {
@@ -780,25 +817,19 @@ VARIANT_TITLES = {
 
 
 def alternate_five_effect(profile, show_index):
-    """Second marquee option for each show.
-
-    This deliberately uses a different mechanical shape from the show's original 5★ while
-    staying in the same broad 5★ power budget.  The small per-show numeric offset is only
-    there to keep decks from feeling mechanically cloned.
-    """
-    j = show_index % 4
+    """Second marquee option for each show using clean 10-point combat values."""
     if profile == 'assault':
-        return (f'Deal {50+j*2} damage to both opponents. Your next attack gets +20 damage.',
-                seq(st('damage','enemies',amount=50+j*2), st('buff_attack','self',amount=20)))
+        return ('Deal 60 damage to both opponents. Your next attack gets +20 damage.',
+                seq(st('damage','enemies',amount=60), st('buff_attack','self',amount=20)))
     if profile == 'team':
-        return ('Heal both members of your team 35 HP and give each 25 armor.',
-                seq(st('heal','team',amount=35), st('armor','team',amount=25)))
+        return ('Heal both members of your team 40 HP and give each 20 armor.',
+                seq(st('heal','team',amount=40), st('armor','team',amount=20)))
     if profile == 'control':
         return ('Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage.',
                 seq(st('skip_turn','chosen_enemy',count=1), st('draw','self',count=1), st('buff_attack','chosen_enemy',amount=-20)))
     if profile == 'social':
-        return ('Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card.',
-                seq(st('heal','ally',amount=75), st('armor','ally',amount=20), st('draw','self',count=1)))
+        return ('Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card.',
+                seq(st('heal','ally',amount=80), st('armor','ally',amount=20), st('draw','self',count=1)))
     if profile == 'tempo':
         return ('Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card.',
                 seq(st('draw','self',count=3), st('extra_play','self',count=1,maxStars=4), st('discard_random','self',count=1)))
@@ -806,39 +837,55 @@ def alternate_five_effect(profile, show_index):
         return ('You and your teammate each get ×1.4 damage on your next attack and 20 armor.',
                 seq(st('attack_multiplier','team',mult=1.4), st('armor','team',amount=20)))
     if profile == 'risk':
-        return ('Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%.',
-                seq(st('damage','self',amount=25,attack=False), st('damage','chosen_other',amount=120), st('next_damage_multiplier','self',mult=1.25)))
+        return ('Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%.',
+                seq(st('damage','self',amount=30,attack=False), st('damage','chosen_other',amount=120), st('next_damage_multiplier','self',mult=1.25)))
     if profile == 'mystic':
-        return ('Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 35 damage to you.',
-                seq(st('damage','chosen_other',amount=70), st('damage_cap','self',amount=35)))
-    return ('Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20.',
-            seq(st('damage','chosen_other',amount=55), st('armor','ally',amount=35), st('reduce_next','self',amount=20)))
+        return ('Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 40 damage to you.',
+                seq(st('damage','chosen_other',amount=70), st('damage_cap','self',amount=40)))
+    return ('Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20.',
+            seq(st('damage','chosen_other',amount=60), st('armor','ally',amount=40), st('reduce_next','self',amount=20)))
 
 
 def add_variant_signature(effect, action, serial):
-    """Add a small, executable, mechanically unique rider to an alternate card.
+    """Clean-10 mechanically distinct rider for alternate pool cards."""
+    bonus_ops = [
+        ('armor','self'), ('heal','self'), ('reduce_next','self'), ('buff_attack','self'),
+        ('mark','chosen_other'), ('armor','ally'), ('buff_attack','ally'), ('buff_attack','chosen_enemy'),
+    ]
+    def make_bonus(op,target,amount):
+        actual=-amount if op=='buff_attack' and target=='chosen_enemy' else amount
+        step=st(op,target,amount=actual)
+        if op=='armor' and target=='self': text=f'gain {amount} armor'
+        elif op=='heal': text=f'heal yourself {amount} HP'
+        elif op=='reduce_next': text=f'reduce the next damage you take by {amount}'
+        elif op=='buff_attack' and target=='self': text=f'your next attack gets +{amount} damage'
+        elif op=='mark': text=f'mark one other player for +{amount} on the next damage they take'
+        elif op=='armor' and target=='ally': text=f'give yourself or your teammate {amount} armor'
+        elif op=='buff_attack' and target=='ally': text=f'give your teammate +{amount} damage on their next attack'
+        else: text=f'an opponent’s next attack deals {amount} less damage'
+        return step,text
 
-    12x12 combinations across four rider families provide 576 distinct signatures while
-    keeping the extra value small (1-12 points per rider) so the base rarity budget still
-    drives balance.
-    """
-    family = serial // 144
-    within = serial % 144
-    a = 1 + (within % 12)
-    b = 1 + ((within // 12) % 12)
-    if family == 0:
-        after = [st('armor','self',amount=a), st('buff_attack','self',amount=b)]
-        text = f'Afterward, gain {a} armor and your next attack gets +{b} damage.'
-    elif family == 1:
-        after = [st('heal','self',amount=a), st('reduce_next','self',amount=b)]
-        text = f'Afterward, heal yourself {a} HP and reduce the next damage you take by {b}.'
-    elif family == 2:
-        after = [st('buff_attack','chosen_enemy',amount=-a), st('armor','self',amount=b)]
-        text = f'Afterward, an opponent’s next attack deals {a} less damage and you gain {b} armor.'
+    i=serial % len(bonus_ops)
+    j=(serial // len(bonus_ops) + i + 1) % len(bonus_ops)
+    if j==i: j=(j+1)%len(bonus_ops)
+    amount1=10 if ((serial // 64) % 2 == 0) else 20
+    amount2=10 if ((serial // 128) % 2 == 0) else 20
+    b1,t1=make_bonus(*bonus_ops[i],amount1)
+    b2,t2=make_bonus(*bonus_ops[j],amount2)
+
+    cost_mode=(serial // 7) % 5
+    if cost_mode==0:
+        cost=st('damage','self',amount=10,attack=False); cost_text='take 10 damage'
+    elif cost_mode==1:
+        cost=st('damage','self',amount=20,attack=False); cost_text='take 20 damage'
+    elif cost_mode==2:
+        cost=st('buff_attack','self',amount=-10); cost_text='your next attack deals 10 less damage'
+    elif cost_mode==3:
+        cost=st('discard_random','self',count=1); cost_text='discard 1 random card from your hand'
     else:
-        after = [st('mark','chosen_other',amount=a), st('heal','self',amount=b)]
-        text = f'Afterward, mark one other player for +{a} on the next damage they take and heal yourself {b} HP.'
-    return effect.rstrip('.') + '. ' + text, {'type':'bundle','main':action,'after':after}
+        cost=st('heal','chosen_enemy',amount=10); cost_text='heal the chosen opponent 10 HP'
+    return effect.rstrip('.') + f'. Afterward, {t1}; then {t2}; then {cost_text}.', {'type':'bundle','main':action,'after':[b1,b2,cost]}
+
 
 legacy_clean = [clean_legacy(c) for c in legacy]
 by_show = defaultdict(lambda: defaultdict(list))
@@ -876,6 +923,7 @@ for show_index, show in enumerate(show_names):
             # show/profile do not all inherit the same positional template.
             themed_slot = themed_slot_for(show, ref, star, card_profile)
             effect, action=generated_effect(card_profile,star,themed_slot,show_index)
+            effect, action=normalize_pair(effect, action)
             # 3★/4★ generated cards receive a small mechanically real signature twist so
             # no two generated cards are cloned templates. 5★ cards use hand-designed
             # show-specific marquee effects above.
@@ -944,6 +992,7 @@ for show_index, show in enumerate(show_names):
             # Hash a variant-only label so the alternate card does not simply reuse the base slot.
             themed_slot = themed_slot_for(show, f'{ref} | alternate {variant_index+1}', star, card_profile)
             effect, action = generated_effect(card_profile, star, themed_slot, show_index)
+        effect, action = normalize_pair(effect, action)
 
         variant_serial = show_index * 8 + (variant_index if star == 3 else 5 + variant_index if star == 4 else 7)
         peffect, paction = add_variant_signature(effect, action, variant_serial)
@@ -960,6 +1009,203 @@ for show_index, show in enumerate(show_names):
         })
         next_id += 1
         used_names.add(name.casefold())
+
+# Rarity audit for effects whose utility is much stronger than their raw numbers imply.
+# Preserve each show's 15/7/2 pool by pairing every promotion with a tuned demotion.
+def _find_card(show, name):
+    for card in out:
+        if card['show'] == show and card['name'].casefold() == name.casefold():
+            return card
+    raise RuntimeError(f'Card not found for rebalance: {show} / {name}')
+
+def _set_card(show, name, stars=None, effect=None, action=None):
+    c=_find_card(show,name)
+    if stars is not None: c['stars']=stars
+    if effect is not None: c['effect']=effect
+    if action is not None: c['action']=action
+    if effect is not None or action is not None:
+        c['effect'], c['action'] = normalize_pair(c['effect'], c.get('action'))
+    return c
+
+# HP swapping is a 5★-level effect because it can create enormous life swings independent of damage baselines.
+_set_card('Jujutsu Kaisen','Boogie woogie',stars=5)
+_set_card('Jujutsu Kaisen','Malevolent Shrine — Final Push',stars=4,
+          effect='Deal 30 damage to both opponents. Your next attack gets +10 damage.',
+          action=seq(st('damage','enemies',amount=30),st('buff_attack','self',amount=10)))
+
+_set_card('Dandadan','Evil Eye',stars=5)
+_set_card('Dandadan','Occult Family',stars=4,
+          effect='Heal both members of your team 30 HP.', action=seq(st('heal','team',amount=30)))
+
+_set_card('Darling in the Franxx','Klaxosaur Princess',stars=5)
+_set_card('Darling in the Franxx','The Beast and the Prince',stars=4,
+          effect='You and your teammate each get +20 damage on your next attack and gain 10 armor.',
+          action=seq(st('buff_attack','team',amount=20),st('armor','team',amount=10)))
+
+_set_card('Frieren','Serie',stars=5)
+_set_card('Frieren',"Himmel's Statue — Grand Strategy",stars=4,
+          effect='Deal 40 damage to one other player, give yourself or your teammate 20 armor, and reduce the next damage you take by 10.',
+          action=seq(st('damage','chosen_other',amount=40),st('armor','ally',amount=20),st('reduce_next','self',amount=10)))
+
+# Sandevistan combines a full skipped turn with an extra punch, so it is also 5★ utility.
+_set_card('Cyberpunk: Edgerunners','Sandevistan',stars=5)
+_set_card('Cyberpunk: Edgerunners','Edgerunners',stars=4,
+          effect='Take 20 damage, then deal 90 damage to one other player.',
+          action=seq(st('damage','self',amount=20,attack=False),st('damage','chosen_other',amount=90)))
+
+# --- Broader balance audit -------------------------------------------------
+# The original generated pool had some cards whose drawbacks stacked so hard that a 3★
+# could be worth almost nothing, and a few 5★ utility cards were far below the 5★ budget.
+# This lightweight score is not the game rule; it is only a sanity check used while building
+# the pool. It values multi-target effects more in 2v2, and values card/turn economy separately.
+def _target_factor(target):
+    return {
+        'self':1.0, 'ally':1.0, 'chosen_other':1.0, 'chosen_enemy':1.0,
+        'team':1.6, 'enemies':1.6, 'all_others':2.1,
+    }.get(target,1.0)
+
+def _step_power(step):
+    op=step.get('op'); target=step.get('target','self'); f=_target_factor(target)
+    amount=float(step.get('amount',0) or 0)
+    if op=='damage':
+        return -amount if target=='self' else amount*f
+    if op=='heal':
+        return (-0.75*amount if target=='chosen_enemy' else 0.75*amount*f)
+    if op=='armor':
+        return (-0.70*amount if target=='chosen_enemy' else 0.70*amount*f)
+    if op=='reduce_next': return 0.65*amount*f
+    if op=='buff_attack':
+        value=0.75*amount*f
+        return -value if target=='chosen_enemy' else value
+    if op=='mark': return 0.75*amount*f
+    if op=='draw': return 22*(int(step.get('count',1) or 1))
+    if op=='discard_random':
+        value=20*(int(step.get('count',1) or 1))*f
+        return -value if target=='self' else value
+    if op=='discard_star': return -18*(int(step.get('count',1) or 1))
+    if op=='delayed_damage': return 0.80*amount*f
+    if op=='extra_play': return 45*(int(step.get('count',1) or 1))
+    if op=='return_discard': return 18*(int(step.get('count',1) or 1))
+    if op=='attack_multiplier': return 45*(float(step.get('mult',1))-1)*f
+    if op=='prevent_heal': return 22*f
+    if op=='skip_turn': return 65*(int(step.get('count',1) or 1))*f
+    if op=='untargetable': return 40*f
+    if op=='next_damage_multiplier': return 30*(1-float(step.get('mult',1)))*f
+    if op=='extra_punch': return 20
+    if op=='steal_random': return 42*(int(step.get('count',1) or 1))*f
+    if op=='punch_immunity': return 16*(int(step.get('charges',1) or 1))*f
+    if op=='force_self_punch': return 42*f
+    if op=='damage_cap': return 42*f
+    if op=='swap_hp': return 110
+    if op=='bonus_draw': return 22*(int(step.get('count',1) or 1))
+    return 0
+
+def _action_power(action):
+    if not action: return 0
+    if isinstance(action,list): return sum(_action_power(x) for x in action)
+    if not isinstance(action,dict): return 0
+    typ=action.get('type')
+    if typ=='sequence': return sum(_step_power(x) for x in action.get('steps',[]))
+    if typ=='bundle': return _action_power(action.get('main')) + sum(_step_power(x) for x in action.get('after',[]))
+    if typ=='coin': return 0.5*_action_power(action.get('heads',[])) + 0.5*_action_power(action.get('tails',[]))
+    # Old direct action shapes are mostly legacy, but scoring them makes the audit readable.
+    if typ=='damage': return float(action.get('amount',0) or 0)
+    if typ=='split_enemies': return float(action.get('amount',0) or 0)*1.6
+    if typ=='heal': return float(action.get('amount',0) or 0)*0.75
+    if typ=='armor': return float(action.get('amount',0) or 0)*0.70
+    if typ=='discard_draw': return -18 + 22*int(action.get('draw',2) or 2)
+    if typ=='discard_star_draw': return -18 + 22*int(action.get('draw',2) or 2)
+    return 0
+
+def _append_step(card, step, sentence):
+    action=card.get('action')
+    if not action:
+        card['action']=seq(step)
+    elif action.get('type')=='bundle':
+        action.setdefault('after',[]).append(step)
+    elif action.get('type')=='sequence':
+        action.setdefault('steps',[]).append(step)
+    else:
+        card['action']={'type':'bundle','main':action,'after':[step]}
+    card['effect']=card['effect'].rstrip('.') + '. ' + sentence.rstrip('.') + '.'
+    card['balancePatched']=True
+
+# Minimum/maximum sanity bands. These intentionally overlap the PDF baselines instead of
+# forcing every card to be a pure-stat clone. Cards with setup/risk can sit near an edge.
+_POWER_BANDS={3:(20,55),4:(45,95),5:(80,145)}
+for c in out:
+    if not c.get('generated') or not c.get('action'): continue
+    lo,hi=_POWER_BANDS[int(c['stars'])]
+    power=_action_power(c['action'])
+
+    # If a card is genuinely below its rarity floor, add one meaningful rider sized to the
+    # actual deficit. This preserves the card's unique core ability without stacking a pile of
+    # tiny +10 fixes.
+    if power < lo:
+        deficit=lo-power
+        profile=c.get('profile','tactical')
+        if profile in ('assault','risk','sport'):
+            amount=max(20,min(100,int(((deficit/0.75)+9)//10*10)))
+            _append_step(c,st('buff_attack','self',amount=amount),f'Your next attack also gets +{amount} damage')
+        elif profile in ('team','social'):
+            amount=max(30,min(100,int(((deficit/0.70)+9)//10*10)))
+            _append_step(c,st('armor','ally',amount=amount),f'Also give yourself or your teammate {amount} armor')
+        elif profile=='control':
+            amount=max(20,min(100,int(((deficit/0.75)+9)//10*10)))
+            _append_step(c,st('buff_attack','chosen_enemy',amount=-amount),f'Also make an opponent’s next attack deal {amount} less damage')
+        elif profile=='tempo':
+            _append_step(c,st('draw','self',count=1),'Also draw 1 card')
+            power=_action_power(c['action'])
+            if power < lo:
+                amount=max(20,min(80,int((((lo-power)/0.70)+9)//10*10)))
+                _append_step(c,st('armor','self',amount=amount),f'Also gain {amount} armor')
+        elif profile=='mystic':
+            amount=max(20,min(100,int(((deficit/0.75)+9)//10*10)))
+            _append_step(c,st('mark','chosen_other',amount=amount),f'Also mark one other player for +{amount} on the next damage they take')
+        else:
+            amount=max(30,min(100,int(((deficit/0.65)+9)//10*10)))
+            _append_step(c,st('reduce_next','self',amount=amount),f'Also reduce the next damage you take by {amount}')
+        power=_action_power(c['action'])
+
+    # If future generator edits make a generated card cross the ceiling, make the drawback
+    # explicit rather than silently shaving numbers off the fun part of the card.
+    if power > hi:
+        excess=power-hi
+        if int(c['stars'])<5:
+            amount=max(20,min(60,int((excess+9)//10*10)))
+            _append_step(c,st('damage','self',amount=amount,attack=False),f'Then take {amount} damage')
+        else:
+            _append_step(c,st('discard_random','self',count=1),'Then discard 1 random card from your hand')
+
+# Targeted legacy fixes where the effect itself was mismatched to its rarity or to the 300 HP rules.
+_set_card('86 Eighty-Six','Para-RAID',effect='Give yourself or your teammate +30 damage on their next attack.',
+          action=seq(st('buff_attack','ally',amount=30)))
+_set_card('Akame ga Kill!','Murasame',effect='Mark one other player. The next damage they take is increased by 30.',
+          action=seq(st('mark','chosen_other',amount=30)))
+_set_card('Fullmetal Alchemist: Brotherhood','Equivalent Exchange',
+          effect='Discard one 3★ card from your hand, draw 3 cards, then you may play one additional 3★ card this turn.',
+          action=seq(st('discard_star','self',stars=3,count=1),st('draw','self',count=3),st('extra_play','self',count=1,maxStars=3)))
+_set_card('Solo Leveling','Arise',effect='Return up to 2 non-5★ cards from your discard pile to your hand.',
+          action=seq(st('return_discard','self',count=2,maxStars=4)))
+_set_card('Yu-Gi-Oh!','Pot of Greed',stars=4,effect='Draw two 3★ cards from your deck.')
+_set_card('Yu-Gi-Oh!','Monster Reborn',stars=3,
+          effect='Your next attack deals ×1.75 damage, but the next damage you take is ×1.5. Your next attack also gets +10 damage, and an opponent gets +10 on their next attack.',
+          action=seq(st('attack_multiplier','self',mult=1.75),st('next_damage_multiplier','self',mult=1.5),st('buff_attack','self',amount=10),st('buff_attack','chosen_enemy',amount=10)))
+_set_card('My Hero Academia','You’re Next',effect='You and your teammate each get +30 damage on your next attack.')
+_set_card('Uma Musume','The Gray Monster',effect='You and your teammate each get ×1.25 damage on your next attack. If you are below 30 HP, use ×1.5 instead. This cannot boost a 5★ card.')
+_set_card('SPY x FAMILY','Bond Forger',effect='See the abilities of your opponents’ cards for the rest of the game, then draw 2 cards. You still cannot tell your teammate without taking the Tonitrus Bolt penalty.')
+_set_card('Overlord','World item',effect='Until your next turn, ignore non-5★ status effects and multipliers targeting you, and gain 20 armor.')
+_set_card('Lord of Mysteries','The Place Above the Grey Fog',effect='Draw 3 cards, then you may play one additional non-5★ card this turn.')
+_set_card('Fullmetal Alchemist: Brotherhood','The Father',effect='Return up to 2 non-5★ cards from your discard pile to your hand, then you may play one additional non-5★ card this turn.')
+_set_card('Re:Zero','Return by Death',effect='The next time you or your teammate dies, revive that player at 80 HP. In 1v1, this protects you.')
+_set_card('Jujutsu Kaisen','Infinity',effect='Take no damage from the next 2 standard damage attacks that hit you.')
+_set_card("JoJo's Bizarre Adventure",'The World',effect='Both opponents skip their next turn. Then take 40 damage.')
+_set_card('Vivy: Fluorite Eye’s Song','Flourite Eye’s Song',effect='Draw 1 card. Your next attack deals ×1.5 damage, and you may play one additional non-5★ card this turn.')
+_set_card('Witch Hat Atelier','Piss Dragon',effect='Deal 30 damage to both opponents. Until your next turn, your team cannot take more than 50 damage from any single attack.')
+
+# Final clean-10 pass catches every generated/legacy flat point value after targeted rebalances.
+for c in out:
+    c['effect'], c['action'] = normalize_pair(c.get('effect',''), c.get('action'))
 
 counts=defaultdict(Counter)
 for c in out: counts[c['show']][c['stars']]+=1

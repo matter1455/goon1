@@ -3,58 +3,55 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Anime Clash TCG — 1v1 & 2v2</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <title>Anime Card Bonk!! — 1v1 & 2v2</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
   <div class="noise"></div>
   <header class="topbar">
-    <div class="brand"><span class="brand-mark">AC</span><span>ANIME CLASH <b>TCG</b> <small id="brandMode">1v1 / 2v2</small></span></div>
-    <button id="libraryBtn" class="ghost small">Card Library</button>
+    <div class="brand"><span class="brand-mark">💥</span><span>ANIME CARD <b>BONK!!</b> <small id="brandMode">1v1 / 2v2</small></span></div>
+    <button id="libraryBtn" class="ghost small">BIG CARD PILE</button>
   </header>
 
   <main>
     <section id="lobby" class="lobby shell">
       <div class="hero-copy">
-        <div class="eyebrow">REAL-TIME 1V1 / 2V2 FANMADE CARD BATTLE</div>
-        <h1>300 HP each.<br><span>Three shows build your deck.</span></h1>
-        <p>Choose 1v1 or 2v2, create a private room, and send the code to the other player(s). Each player picks exactly three shows, then chooses 10 three-star, 5 four-star, and 1 five-star card from each show for a 48-card deck.</p>
+        <div class="eyebrow">⚠️ EXTREMELY SERIOUS CARDBOARD BUSINESS ⚠️</div>
+        <h1>pick 3 shows.<br><span>bonk your friends.</span></h1>
+        <p>Grab three anime, make a 48-card pile of nonsense, and settle arguments the normal way: with cardboard and suspiciously specific effects.</p>
         <div class="rule-pills">
-          <span>1v1 or 2v2</span><span>300 HP</span><span>20 punch</span><span>5-card opening hand</span><span>Draw each turn</span><span>48-card decks</span><span>Friendly fire</span>
+          <span>👊 1v1 / 2v2</span><span>❤️ 300 HP</span><span>💢 20 BONK</span><span>🃏 start with 5</span><span>🎁 draw each turn</span><span>📦 48 cards</span><span>😈 friendly fire</span>
         </div>
       </div>
 
       <div class="lobby-card glass">
-        <label>Display name</label>
-        <input id="nameInput" maxlength="24" placeholder="Player name" value="Player" />
-        <label>Game mode</label>
-        <select id="modeSelect" class="mode-select"><option value="2v2" selected>2v2 — four players</option><option value="1v1">1v1 — two players</option></select>
-        <button id="createBtn" class="primary">Create room</button>
-        <div class="divider"><span>or join</span></div>
-        <div class="join-row"><input id="roomInput" maxlength="5" placeholder="ROOM CODE" /><button id="joinBtn" class="secondary">Join</button></div>
-        <p class="micro">Everyone uses the same room code. The room creator chooses 1v1 or 2v2. No account required.</p>
+        <label>your extremely important gamer name</label>
+        <input id="nameInput" maxlength="24" placeholder="ex: Cardboard Goblin" value="Player" />
+        <label>how many victims?</label>
+        <select id="modeSelect" class="mode-select"><option value="2v2" selected>2v2 — bring 3 other nerds</option><option value="1v1">1v1 — personal beef</option></select>
+        <button id="createBtn" class="primary">MAKE A ROOM 🎲</button>
+        <div class="divider"><span>or invade somebody else</span></div>
+        <div class="join-row"><input id="roomInput" maxlength="5" placeholder="SECRET CODE" /><button id="joinBtn" class="secondary">BARGE IN 🚪</button></div>
+        <p class="micro">Same code for everybody. No accounts. No ranked ladder. No esports contract. probably.</p>
       </div>
     </section>
 
     <section id="waiting" class="waiting shell hidden">
       <div class="glass waiting-box deck-waiting-box">
         <div class="eyebrow" id="waitingModeLabel">ROOM</div>
-        <h2>Build your deck</h2>
+        <h2>assemble the nonsense</h2>
         <div class="room-code" id="waitingCode">-----</div>
-        <button id="copyCodeBtn" class="secondary">Copy room code</button>
-        <p id="waitingStatus">Waiting for players and decks…</p>
+        <button id="copyCodeBtn" class="secondary">COPY THE SECRET NUMBER</button>
+        <p id="waitingStatus">waiting for the other goblins…</p>
         <div id="waitingRoster" class="waiting-roster"></div>
 
         <div class="deck-builder">
           <div class="deck-builder-head">
-            <div><span class="label">YOUR 48-CARD DECK</span><h3 id="deckSelectionTitle">0 / 3 shows selected</h3></div>
-            <button id="readyDeckBtn" class="primary" disabled>Lock deck & ready</button>
+            <div><span class="label">YOUR 48-PIECE CARDBOARD LASAGNA</span><h3 id="deckSelectionTitle">0 / 3 anime acquired</h3></div>
+            <button id="readyDeckBtn" class="primary" disabled>LOCK IT IN 🔒</button>
           </div>
-          <p class="micro">Each show now has a 24-card pool: 15× 3★, 7× 4★, 2× 5★. Pick exactly three shows, then choose 10× 3★, 5× 4★, and 1× 5★ from each show.</p>
-          <input id="showSearch" class="show-search" placeholder="Search shows…" />
+          <p class="micro">Pick 3 shows. From EACH one: 10×3★, 5×4★, 1×5★. Yes, the math is mandatory.</p>
+          <input id="showSearch" class="show-search" placeholder="find your anime…" />
           <div id="showPicker" class="show-picker"></div>
           <div id="selectedShows" class="selected-shows"></div>
           <div id="showPreviewMeta" class="show-preview-meta"></div>
@@ -68,46 +65,46 @@
         <aside class="side-panel left-panel glass">
           <div class="room-chip">ROOM <b id="roomCode">-----</b></div>
           <div class="turn-card">
-            <span class="label">TURN</span>
+            <span class="label">WHO'S UP?</span>
             <strong id="turnNumber">1</strong>
             <p id="turnText">Waiting…</p>
           </div>
 
           <div class="target-box">
-            <label for="targetSelect">ACTION TARGET</label>
+            <label for="targetSelect">WHO GETS BONKED?</label>
             <select id="targetSelect"></select>
-            <small>Single-target damage can hit any other living player. In 2v2, that includes your teammate.</small>
+            <small>Yes, you can hit your teammate. Friendship is optional.</small>
           </div>
 
           <div class="action-stack">
-            <button id="punchBtn" class="action punch"><span>✦</span><div><b>Punch</b><small>20 base damage</small></div></button>
-            <button id="endBtn" class="action end"><span>→</span><div><b>End turn</b><small>Pass control</small></div></button>
+            <button id="punchBtn" class="action punch"><span>✦</span><div><b>BONK</b><small>20 damage, no paperwork</small></div></button>
+            <button id="endBtn" class="action end"><span>→</span><div><b>I'M DONE</b><small>hand the braincell over</small></div></button>
           </div>
           <div class="rules-mini">
-            <h3>Main turn rule</h3>
-            <p>At the start of your turn, draw 1 card. Then normally choose either one card or one punch. Special cards can grant extra plays. The side that wins the opening coin flip goes first, but the player taking the very first turn does not draw a card. After that, turns draw normally.</p>
+            <h3>legally binding nonsense</h3>
+            <p>Draw 1 at the start of your turn. Normally: play ONE card OR BONK. Weird cards may break the law. The very first player does not draw on turn 1, because free stuff for going first was busted.</p>
           </div>
         </aside>
 
         <section class="board">
-          <div class="team-heading enemy-heading"><span>TEAM <b id="enemyTeamLetter">B</b></span><small>ENEMIES</small></div>
+          <div class="team-heading enemy-heading"><span>TEAM <b id="enemyTeamLetter">B</b></span><small>THE BAD GUYS</small></div>
           <div id="enemyGrid" class="players-grid enemies-grid"></div>
           <div class="center-field">
             <div id="matchBanner" class="match-banner">Waiting for action</div>
             <div id="vsMode" class="vs-2v2">2 <span>VS</span> 2</div>
           </div>
-          <div class="team-heading ally-heading"><span>TEAM <b id="yourTeamLetter">A</b></span><small>YOUR TEAM</small></div>
+          <div class="team-heading ally-heading"><span>TEAM <b id="yourTeamLetter">A</b></span><small>YOUR GREMLINS</small></div>
           <div id="allyGrid" class="players-grid allies-grid"></div>
         </section>
 
         <aside class="side-panel right-panel glass">
-          <div class="panel-head"><div><span class="label">MATCH FEED</span><h3>Battle log</h3></div><button id="clearToastBtn" class="icon-btn">×</button></div>
+          <div class="panel-head"><div><span class="label">YAP LOG</span><h3>what just happened</h3></div><button id="clearToastBtn" class="icon-btn">×</button></div>
           <div id="battleLog" class="battle-log"></div>
         </aside>
       </div>
 
       <div class="hand-dock">
-        <div class="hand-head"><div><span class="label">YOUR HAND</span><b id="handCount">0 cards</b><small id="deckCount">48 deck</small></div><span id="actionHint">Choose an action</span></div>
+        <div class="hand-head"><div><span class="label">YOUR CARDBOARD</span><b id="handCount">0 cards</b><small id="deckCount">48 deck</small></div><span id="actionHint">do something stupid</span></div>
         <div id="yourHand" class="hand"></div>
       </div>
     </section>
@@ -116,9 +113,9 @@
   <div id="toast" class="toast hidden"></div>
 
   <dialog id="libraryDialog" class="library-dialog">
-    <div class="library-top"><div><div class="eyebrow">SHOW CATALOG</div><h2>Card Library</h2></div><button id="closeLibraryBtn" class="icon-btn">×</button></div>
+    <div class="library-top"><div><div class="eyebrow">THE HOARD</div><h2>big card pile</h2></div><button id="closeLibraryBtn" class="icon-btn">×</button></div>
     <div id="libraryShowTabs" class="library-show-tabs"></div>
-    <div class="library-controls"><input id="cardSearch" placeholder="Search cards or shows…" /><div class="filters"><button data-star="all" class="active">All</button><button data-star="3">3★</button><button data-star="4">4★</button><button data-star="5">5★</button></div></div>
+    <div class="library-controls"><input id="cardSearch" placeholder="find a card / anime / bad decision…" /><div class="filters"><button data-star="all" class="active">All</button><button data-star="3">3★</button><button data-star="4">4★</button><button data-star="5">5★</button></div></div>
     <div id="librarySummary" class="library-summary"></div>
     <div id="libraryGrid" class="library-grid"></div>
   </dialog>
@@ -129,7 +126,7 @@
       <label for="cardTargetSelect">Target</label>
       <select id="cardTargetSelect"></select>
     </div>
-    <div class="dialog-actions"><button id="cancelCardBtn" class="ghost">Cancel</button><button id="playCardBtn" class="primary">Play card</button></div>
+    <div class="dialog-actions"><button id="cancelCardBtn" class="ghost">nah</button><button id="playCardBtn" class="primary">SEND IT 💥</button></div>
   </dialog>
 
   <script src="/socket.io/socket.io.js"></script>

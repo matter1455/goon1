@@ -1,48 +1,16 @@
 # Card Design Notes
 
-This build follows four design rules for new cards:
+## Numbers
+Flat damage, healing, armor, damage reduction, marks, and flat attack bonuses use multiples of 10. Turn counts, card counts, percentages, and multipliers do not need to be multiples of 10.
 
-1. **The source reference belongs to its listed show.** Added cards are tied to the canon references in `data/canon_references.py`.
-2. **Card subtitles and mechanics are fanmade.** An alternate card can reuse a character/object/concept as its canon source while giving it a new fanmade TCG subtitle and effect.
-3. **Abilities are mechanically unique.** Validation checks generated printed effects and structured action data for duplicates.
-4. **Rarity baselines are power budgets, not hard caps.** Utility and denial reduce raw stats; delayed/conditional effects and drawbacks can increase them.
+## Baseline is a budget, not a prison
+Pure-stat cards roughly orbit the original rarity baseline, but special abilities spend some of that budget. Draw, discard, turn denial, extra actions, flexible targeting, resurrection, card recovery, immunity, and teamwide effects are all valuable even when they print little or no damage.
 
-## Pool/deck structure
+## Balance guardrail
+The generator now runs a rough weighted-power audit. It does not show a score to players and is not intended to make every card mathematically identical. It only catches obvious generated duds and overloaded low-rarity cards.
 
-Every show offers:
+## 1v1 vs 2v2
+AoE and team-support cards naturally change value between modes. Balance is aimed at making them playable in both, not identical in both. Ally selectors fall back to yourself in 1v1 where the engine supports it.
 
-- 15 three-star cards
-- 7 four-star cards
-- 2 five-star cards
-
-A deck selects only 10/5/1 from that pool. This creates real deck-building choices while preserving the 16-cards-per-show / 48-card-deck rule.
-
-## Examples of budget logic
-
-### 3★
-A straightforward attack can sit near 30 damage. A lower-damage attack may also draw, mark, add armor, or set up the next attack. A delayed or drawback-heavy effect can exceed 30.
-
-### 4★
-Straight damage is normally around 55–60. Strong utility such as skipping a turn or stealing a card gets much less direct damage. Risk cards can exceed the line when they also hurt the user or have setup.
-
-### 5★
-The 100-damage / 100-heal / 80-armor line is a reference point. Marquee cards can instead manipulate turns, recur cards, grant extra plays, affect teams, cap damage, or trade self-damage for a larger hit.
-
-## Automated validation
-
-Run:
-
-```bash
-python data/generate_cards.py
-python data/validate_cards.py
-```
-
-Validation checks:
-
-- 58 shows;
-- 1,392 total cards;
-- every show pool = 15×3★ / 7×4★ / 2×5★;
-- unique card names;
-- generated canon references belong to the correct show's reference list;
-- generated effect text is unique;
-- generated structured action data is unique.
+## Goofy cards are allowed
+Manual/social cards (singing, roleplaying, camera bits, etc.) can stay weird. The goal is a fun fanmade game, not tournament software. When an effect cannot be judged by the server, its text should be clear enough for players to resolve it themselves.

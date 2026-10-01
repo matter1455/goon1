@@ -30,11 +30,11 @@ $('joinBtn').onclick = () => socket.emit('joinRoom', { code: $('roomInput').valu
 $('roomInput').addEventListener('keydown', e => { if (e.key === 'Enter') $('joinBtn').click(); });
 $('punchBtn').onclick = () => {
   const targetSeat = getPunchTargetSeat();
-  if (targetSeat == null) return toast('Choose another living player first.');
+  if (targetSeat == null) return toast('pick somebody to BONK first 😭');
   socket.emit('punch', { targetSeat });
 };
 $('endBtn').onclick = () => socket.emit('endTurn');
-$('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('Room code copied.'); };
+$('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('secret room number yoinked 📋'); };
 $('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); };
 $('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); };
 $('showSearch').oninput = renderShowPicker;
@@ -66,11 +66,11 @@ function renderState() {
     const need = state.requiredPlayers || 4;
     const ready = (state.players || []).filter(p => p.ready).length;
     $('waitingStatus').textContent = count < need
-      ? `Waiting for ${need-count} more player${need-count===1?'':'s'} · ${ready}/${count} decks ready`
-      : `${ready}/${need} decks ready — match starts automatically when everyone locks a deck.`;
+      ? `need ${need-count} more goblin${need-count===1?'':'s'} · ${ready}/${count} decks locked`
+      : `${ready}/${need} decks locked — everybody ready = immediate violence.`;
     renderWaitingRoster(); renderShowPicker(); renderSelectedShows(); renderShowPreview();
     $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
-    $('readyDeckBtn').textContent = state.you.ready ? 'Deck locked ✓' : 'Lock deck & ready';
+    $('readyDeckBtn').textContent = state.you.ready ? 'CARDBOARD LOCKED ✓' : 'LOCK IT IN 🔒';
     return;
   }
 
@@ -79,8 +79,8 @@ function renderState() {
   $('turnNumber').textContent = state.turn.number;
   $('vsMode').innerHTML = state.mode === '1v1' ? '1 <span>VS</span> 1' : '2 <span>VS</span> 2';
   const myTurn = state.turn.seat === state.you.seat && state.phase === 'playing';
-  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'Your turn' : `${state.turn.currentName}'s turn`;
-  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `Waiting for ${state.turn.currentName}`;
+  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN, DO A THING' : `${state.turn.currentName} has the braincell`;
+  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN 🔥' : `waiting on ${state.turn.currentName}...`;
   $('yourTeamLetter').textContent = teamLetter(state.you.seat);
   $('enemyTeamLetter').textContent = teamLetter(state.you.seat) === 'A' ? 'B' : 'A';
   renderTargets(); renderBoard(); renderHand(state.you.hand || [], myTurn); renderLog();
@@ -88,10 +88,10 @@ function renderState() {
 
   $('punchBtn').disabled = !myTurn || (state.turn.mainActionUsed && !state.turn.extraPunchAllowed);
   $('endBtn').disabled = !myTurn;
-  $('actionHint').textContent = !myTurn ? 'Another player is choosing…'
-    : state.turn.goldenPairRequired ? `Must play ${state.turn.goldenPairRequired}`
+  $('actionHint').textContent = !myTurn ? 'somebody else is cooking…'
+    : state.turn.goldenPairRequired ? `you MUST play ${state.turn.goldenPairRequired} lol`
     : state.turn.cardsPlayed < state.turn.cardPlayLimit ? `${state.turn.cardPlayLimit - state.turn.cardsPlayed} card play${state.turn.cardPlayLimit - state.turn.cardsPlayed === 1 ? '' : 's'} available`
-    : !state.turn.mainActionUsed ? 'Choose one card or punch' : 'Main action used — end turn when ready';
+    : !state.turn.mainActionUsed ? 'play ONE card or BONK somebody' : 'you did the thing. end turn.';
   if (state.phase === 'finished') $('punchBtn').disabled = $('endBtn').disabled = true;
 }
 
@@ -105,7 +105,7 @@ function renderWaitingRoster() {
     el.appendChild(d);
   });
   for(let i=(state.players||[]).length;i<need;i++){
-    const d=document.createElement('div'); d.className='roster-seat empty'; d.innerHTML='<span>OPEN SEAT</span><b>Waiting…</b>'; el.appendChild(d);
+    const d=document.createElement('div'); d.className='roster-seat empty'; d.innerHTML='<span>EMPTY CHAIR</span><b>somebody get in here</b>'; el.appendChild(d);
   }
 }
 
@@ -124,8 +124,8 @@ function removeShowCards(show) {
   showCards(show).forEach(c=>selectedCardIds.delete(c.id));
 }
 function deckProblem() {
-  if (selectedShows.length !== 3) return 'Choose exactly 3 shows.';
-  if (selectedCardIds.size !== 48) return `Your deck needs exactly 48 cards. You currently have ${selectedCardIds.size}.`;
+  if (selectedShows.length !== 3) return 'pick exactly 3 shows, coward.';
+  if (selectedCardIds.size !== 48) return `48 cards means 48 cards 😭 you have ${selectedCardIds.size}.`;
   for (const show of selectedShows) {
     for (const star of [3,4,5]) {
       const got = selectedCount(show,star), need = deckNeed(star);
@@ -137,12 +137,12 @@ function deckProblem() {
 function toggleDeckCard(card) {
   if (state?.you?.ready) return;
   const show = card.show || card.origin;
-  if (!selectedShows.includes(show)) return toast('Select this show first.');
+  if (!selectedShows.includes(show)) return toast('pick the show first, THEN steal its cards');
   if (selectedCardIds.has(card.id)) selectedCardIds.delete(card.id);
   else {
     const current = selectedCount(show,card.stars);
     const max = deckNeed(card.stars);
-    if (current >= max) return toast(`You already selected ${max} ${card.stars}★ cards from ${show}. Remove one first.`);
+    if (current >= max) return toast(`too many ${card.stars}★ from ${show}. kick one out first.`);
     selectedCardIds.add(card.id);
   }
   renderSelectedShows(); renderShowPreview();
@@ -160,7 +160,7 @@ function renderShowPicker(){
       if (!state?.you?.ready) {
         if(selectedShows.includes(show)) { selectedShows=selectedShows.filter(x=>x!==show); removeShowCards(show); }
         else if(selectedShows.length<3) { selectedShows.push(show); autoSelectShow(show); }
-        else toast('You can only choose 3 shows.');
+        else toast('three shows. THREE. put one back 😭');
       }
       renderShowPicker(); renderSelectedShows(); renderShowPreview();
       if (state?.phase==='waiting') $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
@@ -176,18 +176,18 @@ function renderSelectedShows(){
     s.textContent=`${show} · ${showCards(show).filter(c=>selectedCardIds.has(c.id)).length}/16`;
     el.appendChild(s);
   });
-  $('deckSelectionTitle').textContent=`${selectedShows.length} / 3 shows · ${selectedCardIds.size} / 48 cards`;
+  $('deckSelectionTitle').textContent=`${selectedShows.length} / 3 anime acquired · ${selectedCardIds.size} / 48 cardboard rectangles`;
 }
 
 function renderShowPreview(){
   const el=$('showPreview'); if(!el)return; el.innerHTML='';
   const meta=$('showPreviewMeta'); if(meta) meta.innerHTML='';
   const show=previewShow || selectedShows[selectedShows.length-1];
-  if(!show){ el.innerHTML='<p class="micro">Click a show to preview its 24-card pool.</p>'; return; }
+  if(!show){ el.innerHTML='<p class="micro">click an anime and rummage through its card pile 👀</p>'; return; }
   const isChosen=selectedShows.includes(show);
   if(meta){
     const parts=[3,4,5].map(star=>`${selectedCount(show,star)}/${deckNeed(star)} selected from ${poolSize(star)} ${star}★`);
-    meta.innerHTML=`<b>${escapeHtml(show)}</b><span>${parts.join(' · ')}</span><small>${isChosen?'Click a card to add/remove it from your 16-card show package.':'Select this show above before choosing cards.'}</small>`;
+    meta.innerHTML=`<b>${escapeHtml(show)}</b><span>${parts.join(' · ')}</span><small>${isChosen?'click cards to throw them in/out of your 16-card pile.':'pick this anime up top before touching its cards.'}</small>`;
   }
   showCards(show).forEach(c=>{
     const n=makeCard(c);
@@ -268,6 +268,6 @@ function renderLibrary(){
   if(!cards.length)return; const q=($('cardSearch')?.value||'').toLowerCase();
   const list=cards.filter(c=>(libraryStar==='all'||String(c.stars)===libraryStar)&&(libraryShow==='all'||(c.show||c.origin)===libraryShow)&&`${c.name} ${c.show||c.origin} ${c.effect}`.toLowerCase().includes(q));
   const grid=$('libraryGrid');grid.innerHTML='';list.forEach(c=>{const n=makeCard(c);n.onclick=()=>showCard(c,false);grid.appendChild(n);});
-  $('librarySummary').textContent=libraryShow==='all'?`${list.length} cards across ${shows.length} shows`:`${libraryShow}: ${list.length} shown · pool 15×3★, 7×4★, 2×5★ · deck picks 10/5/1`;
+  $('librarySummary').textContent=libraryShow==='all'?`${list.length} cards across ${shows.length} anime. good luck reading all that.`:`${libraryShow}: ${list.length} cards · bring 10/5/1 or the math police arrive`;
 }
 function escapeHtml(s){return String(s??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));}

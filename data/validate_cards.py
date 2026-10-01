@@ -34,6 +34,21 @@ banned=('opening move','crossfire','guard stance','momentum shift','series final
 for c in generated:
     if any(x in c['name'].casefold() for x in banned): errors.append(f"Generic filler name remains: {c['name']}")
 
+
+# Flat combat `amount` values must stay on clean 10-point increments.
+def walk_amounts(node, card_name):
+    if isinstance(node, list):
+        for x in node: walk_amounts(x, card_name)
+    elif isinstance(node, dict):
+        for k,v in node.items():
+            if k == 'amount' and isinstance(v,(int,float)) and not isinstance(v,bool):
+                if int(v) % 10 != 0:
+                    errors.append(f"{card_name}: non-10 flat amount {v}")
+            else:
+                walk_amounts(v, card_name)
+for c in cards:
+    walk_amounts(c.get('action'), c['name'])
+
 if errors:
     print('VALIDATION FAILED')
     for e in errors: print('-',e)
@@ -47,3 +62,4 @@ print('- every show pool = 15x 3-star / 7x 4-star / 2x 5-star')
 print('- each deck still selects 10x 3-star / 5x 4-star / 1x 5-star per chosen show')
 print('- generated effect text unique')
 print('- generated structured actions unique')
+print('- all structured flat amount values use multiples of 10')

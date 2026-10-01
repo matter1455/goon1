@@ -67,7 +67,7 @@ function blankBuffs() {
     punchesTakeOne: false,
     infinityCharges: 0,
     berserkReflect: false,
-    reviveAt50: false,
+    reviveAt80: false,
     cannotHealTurns: 0,
     damageCap: null,
     damageCapUntilOwnTurn: false,
@@ -258,10 +258,10 @@ function summarizeBuffs(b) {
   if (b.nextAttackMultiplier !== 1) out.push(`Next attack ×${b.nextAttackMultiplier}`);
   if (b.nextAttackFlatBonus) out.push(`+${b.nextAttackFlatBonus} next attack`);
   if (b.punchImmunityCharges) out.push(`Punch blocks: ${b.punchImmunityCharges}`);
-  if (b.punchesTakeOne) out.push('Punches deal 1');
+  if (b.punchesTakeOne) out.push('Punches deal 10');
   if (b.infinityCharges) out.push(`Infinity: ${b.infinityCharges}`);
   if (b.berserkReflect) out.push('Berserk armed');
-  if (b.reviveAt50) out.push('Return by Death armed');
+  if (b.reviveAt80) out.push('Return by Death armed');
   if (b.cannotHealTurns) out.push('Healing blocked');
   if (b.damageCap) out.push(`Damage cap ${b.damageCap}`);
   if (b.cannotDropBelowOne) out.push('Cannot drop below 1');
@@ -337,7 +337,7 @@ function applyDamage(room, source, target, baseAmount, opts = {}) {
     log(room, `${target.name}'s True Warrior blocked the punch.`);
     return 0;
   }
-  if (isPunch && target.buffs.punchesTakeOne) amount = 1;
+  if (isPunch && target.buffs.punchesTakeOne) amount = 10;
   if (isAttack && target.buffs.infinityCharges > 0) {
     target.buffs.infinityCharges -= 1;
     log(room, `${target.name}'s Infinity blocked the attack.`);
@@ -363,7 +363,7 @@ function applyDamage(room, source, target, baseAmount, opts = {}) {
     target.buffs.nextDamageFlatReduction = 0;
   }
   if (target.buffs.damageTakenMultiplierTurns > 0) amount *= target.buffs.persistentDamageTakenMultiplier;
-  if (target.buffs.overleveledUntilOwnTurn) amount = Math.max(0, amount - 15);
+  if (target.buffs.overleveledUntilOwnTurn) amount = Math.max(0, amount - 20);
   if (target.buffs.damageCap != null) amount = Math.min(amount, target.buffs.damageCap);
   amount = Math.round(amount);
 
@@ -405,10 +405,10 @@ function handleDeath(room, p) {
     }
   }
 
-  if (p.buffs.reviveAt50) {
-    p.buffs.reviveAt50 = false;
-    p.hp = 50;
-    log(room, `${p.name} activated Return by Death and revived at 50 HP.`);
+  if (p.buffs.reviveAt80) {
+    p.buffs.reviveAt80 = false;
+    p.hp = 80;
+    log(room, `${p.name} activated Return by Death and revived at 80 HP.`);
     return;
   }
 
@@ -454,7 +454,7 @@ function startOfTurn(room, p) {
   if (p.buffs.zoltraakTicks > 0) { applyDamage(room, null, p, 7, { isAttack:false }); p.buffs.zoltraakTicks -= 1; }
   for (const delayed of p.buffs.delayedTeamRocket) delayed.turns -= 1;
   const due = p.buffs.delayedTeamRocket.filter(x => x.turns <= 0);
-  for (const _ of due) applyDamage(room, null, p, 25, { isAttack:false });
+  for (const _ of due) applyDamage(room, null, p, 30, { isAttack:false });
   p.buffs.delayedTeamRocket = p.buffs.delayedTeamRocket.filter(x => x.turns > 0);
   if (p.buffs.skipTurns > 0 && room.phase === 'playing') { p.buffs.skipTurns -= 1; log(room, `${p.name}'s turn was skipped.`); setTimeout(() => advanceTurn(room), 250); return false; }
 
@@ -546,6 +546,17 @@ function structuredStep(room, p, card, targetSeat, step) {
     for (const t of targets) { t.armor += amount; log(room, `${t.name} gained ${amount} armor (${card.name}).`); }
   } else if (step.op === 'draw') {
     const gained = drawCards(p, Number(step.count) || 1); log(room, `${p.name} drew ${gained.length} card${gained.length === 1 ? '' : 's'} (${card.name}).`);
+  } else if (step.op === 'discard_star') {
+    const stars = Number(step.stars);
+    const count = Math.max(1, Number(step.count) || 1);
+    for (const t of targets) {
+      for (let i=0;i<count;i++) {
+        const idx = t.hand.findIndex(id => getCard(id)?.stars === stars);
+        if (idx < 0) break;
+        const [id] = t.hand.splice(idx,1); t.discard.push(id);
+        log(room, `${t.name} discarded ${getCard(id)?.name || `a ${stars}★ card`} (${card.name}).`);
+      }
+    }
   } else if (step.op === 'discard_random') {
     for (const t of targets) {
       const count = Math.min(Number(step.count) || 1, t.hand.length);
@@ -666,10 +677,10 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   if (n === 'zoltraak') { aliveEnemies(room, p).forEach(x => x.buffs.zoltraakTicks = Math.max(x.buffs.zoltraakTicks, 3)); }
   else if (n === 'kyubey' || n === 'rage shield') damageEnemies(20);
   else if (n === 'team rocket') aliveEnemies(room, p).forEach(x => x.buffs.delayedTeamRocket.push({ turns: 3 }));
-  else if (n === 'i mustn’t run away') { p.buffs.punchDamageOverrideTurns = 2; p.buffs.punchDamageOverride = 45; p.buffs.mustPunchTurns = Math.max(p.buffs.mustPunchTurns, 2); }
+  else if (n === 'i mustn’t run away') { p.buffs.punchDamageOverrideTurns = 2; p.buffs.punchDamageOverride = 50; p.buffs.mustPunchTurns = Math.max(p.buffs.mustPunchTurns, 2); }
   else if (n === 'explosion') damage(30);
   else if (n === 'social anxiety') p.buffs.untargetableUntilOwnTurn = true;
-  else if (n === 'apology') { applyDamage(room, p, p, 20, { isAttack:false }); if (mate) heal(room, mate, 35, card.name); drawCards(p,1); }
+  else if (n === 'apology') { applyDamage(room, p, p, 20, { isAttack:false }); if (mate) heal(room, mate, 40, card.name); drawCards(p,1); }
   else if (n === 'star eye' || n === 'unlimited blade works') { p.buffs.bonusNextDraw += 1; }
   else if (n === 'boredom') {
     const t = opp; const id = t ? drawCard(t) : null;
@@ -684,7 +695,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
     if (Math.random() < 0.5) { p.buffs.nextAttackMultiplier *= 1.5; log(room, `${p.name} flipped tails: next attack ×1.5.`); }
     else { log(room, `${p.name} flipped heads and takes 40.`); applyDamage(room, p, p, 40, { isAttack: false }); }
   }
-  else if (n === 'fire dragon roar') { damage(20); aliveEnemies(room, p).filter(x => !opp || x.seat !== opp.seat).forEach(x => damage(5, x)); }
+  else if (n === 'fire dragon roar') { damage(20); aliveEnemies(room, p).filter(x => !opp || x.seat !== opp.seat).forEach(x => damage(10, x)); }
   else if (n === 'meteor fall') room.players.filter(x => x.socketId !== p.socketId && x.hp > 0).forEach(x => applyDamage(room, p, x, 20, { isAttack: true }));
   else if (n === 'crippling depression') room.players.filter(x => x.hp > 0).forEach(x => applyDamage(room, p, x, 10, { isAttack: false }));
   else if (n === 'overleveled') p.buffs.overleveledUntilOwnTurn = true;
@@ -702,7 +713,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   else if (n === 'rassengan' || n === 'rasengan' || n === 'hit the nape') damage(30);
   else if (n === 'titan hardening') { p.armor += 30; log(room, `${p.name} gained 30 armor.`); }
   else if (n === 'heliocentrical heresy') { aliveEnemies(room, p).forEach(x => { damage(10, x); x.buffs.heliocentricPunish = true; }); }
-  else if (n === 'pull the chord') { applyDamage(room, p, p, 10, { isAttack: false }); damage(35); }
+  else if (n === 'pull the chord') { applyDamage(room, p, p, 10, { isAttack: false }); damage(40); }
   else if (n === 'agnes tachyon') {
     const restored = restoreFromDiscard(p, 1, c => c.stars === 3);
     drawCards(p, 1);
@@ -715,15 +726,15 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   else if (n === 'requip') { p.armor += 60; log(room, `${p.name} gained 60 armor.`); }
   else if (n === 'boogie woogie') { const target = chosenAny && chosenAny.hp > 0 ? chosenAny : opp; if (target) { const a = p.hp; p.hp = target.hp; target.hp = a; log(room, `${p.name} swapped HP with ${target.name}.`); } }
   else if (n === 'i have no enemies') p.buffs.punchesTakeOne = true;
-  else if (n === 'how cute') damageEnemies(35);
+  else if (n === 'how cute') damageEnemies(40);
   else if (n === 'sandevistan') { opp.buffs.skipTurns += 1; room.turn.extraPunchAllowed = true; }
   else if (n === 'thunder spear') damage(60);
   else if (n === 'arise') { const r = restoreFromDiscard(p, 3, c => c.stars < 5); log(room, `${p.name} restored ${r.length} cards.`); }
-  else if (n === 'you’re next' || n === "you're next") { p.buffs.nextAttackMultiplier *= 1.5; if (mate) mate.buffs.nextAttackMultiplier *= 1.5; }
+  else if (n === 'you’re next' || n === "you're next") { p.buffs.nextAttackFlatBonus += 30; if (mate) mate.buffs.nextAttackFlatBonus += 30; }
   else if (n === 'berserk') p.buffs.berserkReflect = true;
-  else if (n === 'the gray monster') { const mult = p.hp < 30 ? 2 : 1.5; p.buffs.nextAttackMultiplier *= mult; if (mate) mate.buffs.nextAttackMultiplier *= mult; }
+  else if (n === 'the gray monster') { const mult = p.hp < 30 ? 1.5 : 1.25; p.buffs.nextAttackMultiplier *= mult; if (mate) mate.buffs.nextAttackMultiplier *= mult; }
   else if (n === 'undertaker') p.buffs.undertakerArmed = true;
-  else if (n === 'hinokami kagura') damageEnemies(35);
+  else if (n === 'hinokami kagura') damageEnemies(40);
   else if (n === 'one punch') damage(60);
   else if (n === 'quintessential quintuplets') {
     room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, 2);
@@ -731,7 +742,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
     room.turn.firstCardWasQuintessential = true;
     log(room, `${p.name} may play two additional non-5-star cards this turn.`);
   }
-  else if (n === 'seeing stars') { damage(15); if (selectedDamageTarget) selectedDamageTarget.buffs.randomNextCard = true; }
+  else if (n === 'seeing stars') { damage(20); if (selectedDamageTarget) selectedDamageTarget.buffs.randomNextCard = true; }
   else if (n === 'aura, kill yourself') opp.buffs.forceSelfPunch = true;
   else if (n === 'golden ball 1' || n === 'golden ball 2') {
     const counterpart = n.endsWith('1') ? 'Golden ball 2' : 'Golden ball 1';
@@ -757,7 +768,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
     }
   }
   else if (n === 'death note') { opp.buffs.deathNoteTurns = 5; opp.buffs.deathNoteSourceSeat = p.seat; log(room, `${opp.name} will die in 5 of their turns unless ${p.name} dies first.`); }
-  else if (n === 'return by death') { p.buffs.reviveAt50 = true; if (mate) mate.buffs.reviveAt50 = true; }
+  else if (n === 'return by death') { p.buffs.reviveAt80 = true; if (mate) mate.buffs.reviveAt80 = true; }
   else if (n === 'excalibur') damage(100);
   else if (n === 'time leap machine') {
     const snap = room.history.length >= 2 ? room.history[room.history.length - 2] : room.history[0];
@@ -768,28 +779,31 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
     }
   }
   else if (n === 'flourite eye’s song' || n === "flourite eye's song") {
+    drawCards(p, 1);
     p.buffs.nextAttackMultiplier *= 1.5;
     room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, room.turn.cardsPlayed + 1);
-    room.turn.extraGambleAllowed = true;
-    log(room, `${p.name} may play one additional card this turn.`);
+    room.turn.extraCardMaxStars = 4;
+    log(room, `${p.name} drew 1 card, gained ×1.5 on their next attack, and may play one additional non-5★ card this turn.`);
   }
-  else if (n === 'infinity') p.buffs.infinityCharges += 3;
+  else if (n === 'infinity') p.buffs.infinityCharges += 2;
   else if (n === 'the place above the grey fog') {
-    const gained = drawCards(p, 5);
+    const gained = drawCards(p, 3);
     room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, room.turn.cardsPlayed + 1);
-    log(room, `${p.name} drew ${gained.length} cards and may play another card.`);
+    room.turn.extraCardMaxStars = 4;
+    log(room, `${p.name} drew ${gained.length} cards and may play one additional non-5★ card.`);
   }
   else if (n === 'the overlord of centuries end') { p.buffs.cannotDropBelowOne = true; p.buffs.cannotDropBelowOneUntilOwnTurn = true; }
   else if (n === 'the father') {
-    const restored = restoreFromDiscard(p, 3, c => c.stars < 5);
+    const restored = restoreFromDiscard(p, 2, c => c.stars < 5);
     room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, room.turn.cardsPlayed + 1);
-    log(room, `${p.name} restored ${restored.length} cards and may play one extra card.`);
+    room.turn.extraCardMaxStars = 4;
+    log(room, `${p.name} restored ${restored.length} cards and may play one additional non-5★ card.`);
   }
-  else if (n === 'piss dragon') { damageEnemies(30); [p, mate].filter(Boolean).forEach(x => { x.buffs.damageCap = 30; x.buffs.damageCapUntilOwnTurn = true; }); }
-  else if (n === 'the world') { aliveEnemies(room, p).forEach(x => x.buffs.skipTurns += 1); }
-  else if (n === 'bond forger') { p.buffs.bondForger = true; log(room, `${p.name} can now inspect both opponents' card abilities.`); }
-  else if (n === 'world item') { p.buffs.worldItemUntilOwnTurn = true; log(room, `${p.name} is protected from status/multiplier effects until their next turn (manual edge cases may remain).`); }
-  else if (n === 'have you ever played golf with your life on the line?') { applyDamage(room, p, p, 15, { isAttack: false }); p.buffs.nextAttackFlatBonus += 30; }
+  else if (n === 'piss dragon') { damageEnemies(30); [p, mate].filter(Boolean).forEach(x => { x.buffs.damageCap = 50; x.buffs.damageCapUntilOwnTurn = true; }); }
+  else if (n === 'the world') { aliveEnemies(room, p).forEach(x => x.buffs.skipTurns += 1); applyDamage(room, p, p, 40, { isAttack:false }); }
+  else if (n === 'bond forger') { p.buffs.bondForger = true; drawCards(p,2); log(room, `${p.name} can inspect opponents' card abilities for the rest of the game and drew 2 cards.`); }
+  else if (n === 'world item') { p.buffs.worldItemUntilOwnTurn = true; p.armor += 20; log(room, `${p.name} is protected from non-5★ status/multiplier effects until their next turn and gained 20 armor.`); }
+  else if (n === 'have you ever played golf with your life on the line?') { applyDamage(room, p, p, 20, { isAttack: false }); p.buffs.nextAttackFlatBonus += 30; }
   else if (n === 'perfect warrior') { const t = mate || p; t.buffs.persistentAttackMultiplier = 1.25; t.buffs.persistentDamageTakenMultiplier = 0.75; t.buffs.attackBoostTurns = Math.max(t.buffs.attackBoostTurns, 2); t.buffs.damageTakenMultiplierTurns = Math.max(t.buffs.damageTakenMultiplierTurns, 2); log(room, `${t.name} gains 1.25× attack and takes 0.75× damage for their next 2 turns.`); }
   else manual(room, p, card);
   return 'ok';

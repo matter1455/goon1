@@ -1,2035 +1,2035 @@
-# Anime Clash TCG — Full Card Catalog
+# Full Card Catalog — Anime Card Bonk!!
 
-**1392 cards across 58 shows.**
+**1392 cards · 58 shows**
 
-Each show has a **24-card pool**: 15×3★, 7×4★, 2×5★. A legal deck selects 10×3★, 5×4★, and 1×5★ from each of exactly three shows (48 cards total).
+Each show pool has **15×3★, 7×4★, 2×5★**. A deck selects **10×3★, 5×4★, 1×5★** from each of its three shows.
 
 ## 86 Eighty-Six
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Para-RAID**: On your teammates next 2 attacks add an extra 10 damage per attack
-- **Shin Nouzen**: Deal 28 damage to one other player. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Shin Nouzen
-- **Vladilena Milizé**: Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 8. — canon reference: Vladilena Milizé
-- **Raiden Shuga**: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage your teammate takes by 10. — canon reference: Raiden Shuga
-- **Anju Emma**: Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +12 damage. — canon reference: Anju Emma
-- **Theoto Rikka**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, reduce the next damage you take by 12. — canon reference: Theoto Rikka
-- **Kurena Kukumila**: Deal 15 damage to both opponents. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Kurena Kukumila
-- **Fido**: Heal both members of your team 20 HP. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Fido
-- **Frederica Rosenfort**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 11 HP. — canon reference: Frederica Rosenfort
-- **Juggernaut**: You and your teammate each get +10 damage on your next attack. Afterward, heal yourself 10 HP. — canon reference: Juggernaut
-- **Shin Nouzen — Pressure** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 1 armor and your next attack gets +1 damage. — canon reference: Shin Nouzen
-- **Vladilena Milizé — Rally** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, gain 2 armor and your next attack gets +1 damage. — canon reference: Vladilena Milizé
-- **Raiden Shuga — Coordination** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, gain 3 armor and your next attack gets +1 damage. — canon reference: Raiden Shuga
-- **Anju Emma — Counteroffensive** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, gain 4 armor and your next attack gets +1 damage. — canon reference: Anju Emma
-- **Theoto Rikka — Overdrive** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, gain 5 armor and your next attack gets +1 damage. — canon reference: Theoto Rikka
+- **Anju Emma** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
+- **Anju Emma — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then take 10 damage.
+- **Fido** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
+- **Frederica Rosenfort** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor. Also make an opponent’s next attack deal 20 less damage.
+- **Juggernaut** — You and your teammate each get +10 damage on your next attack. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Kurena Kukumila** — Deal 20 damage to both opponents. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Para-RAID** *(original)* — Give yourself or your teammate +30 damage on their next attack.
+- **Raiden Shuga** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Raiden Shuga — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then take 10 damage.
+- **Shin Nouzen** — Deal 30 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
+- **Shin Nouzen — Pressure** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor; then heal yourself 10 HP; then take 10 damage.
+- **Theoto Rikka** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Theoto Rikka — Overdrive** — Deal 20 damage to both opponents. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then take 10 damage.
+- **Vladilena Milizé** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
+- **Vladilena Milizé — Rally** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then take 10 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Undertaker**: When your teammate dies this card immediately pops, you gain an extra 50 hp (can go over max hp)
-- **Reginleif**: Deal 56 damage to one other player. Afterward, gain 5 armor. — canon reference: Reginleif
-- **Legion**: Deal 56 damage to one other player. Afterward, your next attack gets +5 damage. — canon reference: Legion
-- **Morpho**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. — canon reference: Morpho
-- **San Magnolia**: Choose an opponent. They discard 2 random cards. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: San Magnolia
-- **Reginleif — Finisher** *(alternate pool option)*: Deal 56 damage to one other player. Afterward, gain 6 armor and your next attack gets +1 damage. — canon reference: Reginleif
-- **Legion — Decisive Strike** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, gain 7 armor and your next attack gets +1 damage. — canon reference: Legion
+- **Legion** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 20 HP.
+- **Legion — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Morpho** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Your next attack also gets +40 damage.
+- **Reginleif** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +20 damage on their next attack.
+- **Reginleif — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
+- **San Magnolia** — Choose an opponent. They discard 2 random cards. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
+- **Undertaker** *(original)* — When your teammate dies this card immediately pops, you gain an extra 50 hp (can go over max hp)
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Reaper**: Deal 85 damage to one other player. The next damage they take is increased by 25. — canon reference: The Reaper
-- **Giad Federacy — Last Stand** *(alternate pool option)*: Heal both members of your team 35 HP and give each 25 armor. Afterward, gain 8 armor and your next attack gets +1 damage. — canon reference: Giad Federacy
+- **Giad Federacy — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then take 20 damage. Also give yourself or your teammate 30 armor.
+- **The Reaper** — Deal 90 damage to one other player. The next damage they take is increased by 30.
 
 ## Akame ga Kill!
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Murasame**: Mark an opponent, when they next take damage do an additional 20
-- **Tatsumi**: Deal 18 damage to one other player and gain 12 armor. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Tatsumi
-- **Mine**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, give yourself or your teammate 7 armor. — canon reference: Mine
-- **Leone**: Deal 18 damage to one other player and gain 12 armor. Afterward, reduce the next damage you take by 12. — canon reference: Leone
-- **Lubbock**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor. — canon reference: Lubbock
-- **Sheele**: Deal 15 damage to both opponents. Afterward, give your teammate +5 damage on their next attack. — canon reference: Sheele
-- **Najenda**: Deal 18 damage to one other player and gain 12 armor. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Najenda
-- **Chelsea**: Deal 18 damage to one other player and gain 12 armor. Afterward, reduce the next damage you take by 14. — canon reference: Chelsea
-- **Bulat**: Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor. — canon reference: Bulat
-- **Susanoo**: Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +12 damage on their next attack. — canon reference: Susanoo
-- **Tatsumi — Pressure** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 9 armor and your next attack gets +1 damage. — canon reference: Tatsumi
-- **Mine — Follow-Through** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 10 armor and your next attack gets +1 damage. — canon reference: Mine
-- **Leone — Breakthrough** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, gain 11 armor and your next attack gets +1 damage. — canon reference: Leone
-- **Lubbock — Counteroffensive** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, gain 12 armor and your next attack gets +1 damage. — canon reference: Lubbock
-- **Sheele — Overdrive** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, gain 1 armor and your next attack gets +2 damage. — canon reference: Sheele
+- **Bulat** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Chelsea** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
+- **Leone** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
+- **Leone — Breakthrough** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Lubbock** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
+- **Lubbock — Counteroffensive** — Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +10 damage; then give yourself or your teammate 10 armor; then take 20 damage.
+- **Mine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20. Then take 20 damage.
+- **Mine — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 10 HP; then your next attack gets +10 damage; then take 20 damage.
+- **Murasame** *(original)* — Mark one other player. The next damage they take is increased by 30.
+- **Najenda** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +20 on the next damage they take. Then discard 1 random card from your hand.
+- **Sheele** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor.
+- **Sheele — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +10 damage on their next attack; then take 20 damage.
+- **Susanoo** — Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Tatsumi** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +20 damage.
+- **Tatsumi — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then reduce the next damage you take by 10; then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Incursio**: Deal 45 damage to one other player, then draw 1 card. Afterward, your next attack gets +4 damage. — canon reference: Incursio
-- **Cross Tail**: Deal 45 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 8 armor. — canon reference: Cross Tail
-- **Demon's Extract**: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Demon's Extract
-- **Kurome**: Take 15 damage, then deal 75 damage to one other player. Afterward, give your teammate +8 damage on their next attack. — canon reference: Kurome
-- **Esdeath**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +9 damage on their next attack. — canon reference: Esdeath
-- **Incursio — Finisher** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, gain 2 armor and your next attack gets +2 damage. — canon reference: Incursio
-- **Cross Tail — Decisive Strike** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, gain 3 armor and your next attack gets +2 damage. — canon reference: Cross Tail
+- **Cross Tail** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
+- **Cross Tail — Decisive Strike** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack; then gain 10 armor; then your next attack deals 10 less damage.
+- **Demon's Extract** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Esdeath** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
+- **Incursio** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
+- **Incursio — Finisher** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **Kurome** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Night Raid**: You and your teammate each get +30 damage on your next attack, then draw 1 card. — canon reference: Night Raid
-- **Esdeath — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 4 armor and your next attack gets +2 damage. — canon reference: Esdeath
+- **Esdeath — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Night Raid** — You and your teammate each get +30 damage on your next attack, then draw 1 card. Your next attack also gets +30 damage.
 
 ## Angel Beats!
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Angel beats horrendous gym song**: decrease 1 opponent dmg done to 0.75x for 1 turn
-- **Yuzuru Otonashi**: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, heal yourself or your teammate 7 HP. — canon reference: Yuzuru Otonashi
-- **Yuri Nakamura**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 11. — canon reference: Yuri Nakamura
-- **Hinata Hideki**: Give both members of your team 15 armor. Afterward, give your teammate +7 damage on their next attack. — canon reference: Hinata Hideki
-- **Yui**: Heal yourself 20 HP, then draw 1 card. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Yui
-- **Iwasawa Masami**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor. — canon reference: Iwasawa Masami
-- **Ayato Naoi**: Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +12 damage. — canon reference: Ayato Naoi
-- **TK**: Draw 1 card. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 8. — canon reference: TK
-- **Noda**: Take 10 damage, then deal 40 damage to one other player. Afterward, give yourself or your teammate 11 armor. — canon reference: Noda
-- **Shiina**: Deal 15 damage to both opponents. Afterward, give yourself or your teammate 6 armor. — canon reference: Shiina
-- **Yuzuru Otonashi — Cover** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, gain 5 armor and your next attack gets +2 damage. — canon reference: Yuzuru Otonashi
-- **Yuri Nakamura — Prepared Response** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, gain 6 armor and your next attack gets +2 damage. — canon reference: Yuri Nakamura
-- **Hinata Hideki — Coordination** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, gain 7 armor and your next attack gets +2 damage. — canon reference: Hinata Hideki
-- **Yui — Quick Shift** *(alternate pool option)*: Heal yourself 20 HP, then draw 1 card. Afterward, gain 8 armor and your next attack gets +2 damage. — canon reference: Yui
-- **Iwasawa Masami — Set the Pace** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 9 armor and your next attack gets +2 damage. — canon reference: Iwasawa Masami
+- **Angel beats horrendous gym song** *(original)* — decrease 1 opponent dmg done to 0.75x for 1 turn
+- **Ayato Naoi** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 20. Then take 20 damage.
+- **Hinata Hideki** — Give both members of your team 20 armor. Afterward, heal yourself or your teammate 10 HP. Then take 10 damage. Also give yourself or your teammate 30 armor.
+- **Hinata Hideki — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
+- **Iwasawa Masami** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage. Then discard 2 random cards from your hand. Also draw 1 card.
+- **Iwasawa Masami — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage. Also draw 1 card.
+- **Noda** — Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **Shiina** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
+- **TK** — Draw 1 card. Your next attack gets +10 damage. Afterward, gain 10 armor. Then take 10 damage.
+- **Yui** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
+- **Yui — Quick Shift** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Yuri Nakamura** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
+- **Yuri Nakamura — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 10 HP; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Yuzuru Otonashi** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Yuzuru Otonashi — Cover** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then your next attack gets +10 damage; then your next attack deals 10 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Hand Sonic**: Deal 60 damage to one other player. Afterward, give your teammate +6 damage on their next attack. — canon reference: Hand Sonic
-- **Distortion**: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, reduce the next damage you take by 13. — canon reference: Distortion
-- **Harmonics**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +9 damage. — canon reference: Harmonics
-- **Operation Tornado**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Operation Tornado
-- **SSS Battlefront**: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, give your teammate +7 damage on their next attack. — canon reference: SSS Battlefront
-- **Hand Sonic — Finisher** *(alternate pool option)*: Deal 60 damage to one other player. Afterward, gain 10 armor and your next attack gets +2 damage. — canon reference: Hand Sonic
-- **Distortion — Perfect Setup** *(alternate pool option)*: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, gain 11 armor and your next attack gets +2 damage. — canon reference: Distortion
+- **Distortion** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Distortion — Perfect Setup** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, give your teammate +10 damage on their next attack; then heal yourself 10 HP; then discard 1 random card from your hand.
+- **Hand Sonic** — Deal 60 damage to one other player. Afterward, your next attack gets +20 damage. Then heal the chosen opponent 10 HP.
+- **Hand Sonic — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then gain 10 armor; then discard 1 random card from your hand.
+- **Harmonics** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then discard 1 random card from your hand.
+- **Operation Tornado** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then give the chosen opponent +20 damage on their next attack.
+- **SSS Battlefront** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 10 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Kanade Tachibana**: Gain 60 armor. The next 2 punches that would damage you deal 0 instead. — canon reference: Kanade Tachibana
-- **SSS Battlefront — Last Stand** *(alternate pool option)*: Heal both members of your team 35 HP and give each 25 armor. Afterward, gain 12 armor and your next attack gets +2 damage. — canon reference: SSS Battlefront
+- **Kanade Tachibana** — Gain 60 armor. The next 2 punches that would damage you deal 0 instead. Also draw 1 card.
+- **SSS Battlefront — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 10; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
 
 ## Attack on Titan
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Hit the Nape**: Deal 30 damage to one other player.
-- **Titan hardening**: Give yourself 30 armor. Armor can exceed max HP.
-- **Mikasa Ackerman**: Deal 15 damage to both opponents. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Mikasa Ackerman
-- **Armin Arlert**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 7. — canon reference: Armin Arlert
-- **Jean Kirstein**: Deal 15 damage to both opponents. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Jean Kirstein
-- **Connie Springer**: Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +3 damage on their next attack. — canon reference: Connie Springer
-- **Sasha Blouse**: Deal 20 damage to one other player, then draw 1 card. Afterward, give your teammate +3 damage on their next attack. — canon reference: Sasha Blouse
-- **Hange Zoë**: Mark one other player. The next damage they take is increased by 20. Afterward, gain 4 armor. — canon reference: Hange Zoë
-- **Erwin Smith**: Give both members of your team 15 armor. Afterward, reduce the next damage you take by 13. — canon reference: Erwin Smith
-- **Reiner Braun**: You and your teammate each get +10 damage on your next attack. Afterward, reduce the next damage you take by 8. — canon reference: Reiner Braun
-- **Mikasa Ackerman — Pressure** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, gain 1 armor and your next attack gets +3 damage. — canon reference: Mikasa Ackerman
-- **Armin Arlert — Calculated Trap** *(alternate pool option)*: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 2 armor and your next attack gets +3 damage. — canon reference: Armin Arlert
-- **Jean Kirstein — Breakthrough** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 3 armor and your next attack gets +3 damage. — canon reference: Jean Kirstein
-- **Connie Springer — Counteroffensive** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, gain 4 armor and your next attack gets +3 damage. — canon reference: Connie Springer
-- **Sasha Blouse — Overdrive** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, gain 5 armor and your next attack gets +3 damage. — canon reference: Sasha Blouse
+- **Armin Arlert** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
+- **Armin Arlert — Calculated Trap** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 10 HP; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
+- **Connie Springer** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
+- **Connie Springer — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Erwin Smith** — Give both members of your team 20 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then heal the chosen opponent 10 HP.
+- **Hange Zoë** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then take 30 damage. Also reduce the next damage you take by 50.
+- **Hit the Nape** *(original)* — Deal 30 damage to one other player.
+- **Jean Kirstein** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
+- **Jean Kirstein — Breakthrough** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
+- **Mikasa Ackerman** — Deal 20 damage to both opponents. Afterward, give your teammate +20 damage on their next attack. Then take 10 damage.
+- **Mikasa Ackerman — Pressure** — Deal 20 damage to both opponents. Afterward, gain 10 armor; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
+- **Reiner Braun** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
+- **Sasha Blouse** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Your next attack also gets +20 damage.
+- **Sasha Blouse — Overdrive** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Titan hardening** *(original)* — Give yourself 30 armor. Armor can exceed max HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Thunder Spear**: Deal 60 damage to one other player.
-- **Levi Ackerman**: Deal 35 damage to both opponents. Afterward, give yourself or your teammate 10 armor. — canon reference: Levi Ackerman
-- **Beast Titan**: Deal 56 damage to one other player. Afterward, gain 9 armor. — canon reference: Beast Titan
-- **Armored Titan**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, reduce the next damage you take by 15. — canon reference: Armored Titan
-- **Colossal Titan**: Take 15 damage, then deal 75 damage to one other player. Afterward, reduce the next damage you take by 9. — canon reference: Colossal Titan
-- **Levi Ackerman — Finisher** *(alternate pool option)*: Deal 56 damage to one other player. Afterward, gain 6 armor and your next attack gets +3 damage. — canon reference: Levi Ackerman
-- **Beast Titan — Decisive Strike** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, gain 7 armor and your next attack gets +3 damage. — canon reference: Beast Titan
+- **Armored Titan** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Beast Titan** — Deal 60 damage to one other player. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
+- **Beast Titan — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
+- **Colossal Titan** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **Levi Ackerman** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then discard 1 random card from your hand.
+- **Levi Ackerman — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 10 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Thunder Spear** *(original)* — Deal 60 damage to one other player.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Founding Titan**: Deal 50 damage to both opponents. The next damage each takes is increased by 10. — canon reference: Founding Titan
-- **The Rumbling — Final Push** *(alternate pool option)*: Deal 56 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 8 armor and your next attack gets +3 damage. — canon reference: The Rumbling
+- **Founding Titan** — Deal 50 damage to both opponents. The next damage each takes is increased by 10.
+- **The Rumbling — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
 
 ## Birdie Wing
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Eve**: Reduce the next damage you take by 25. Afterward, gain 7 armor. — canon reference: Eve
-- **Aoi Amawashi**: Your next attack deals ×1.25 damage. Afterward, give yourself or your teammate 9 armor. — canon reference: Aoi Amawashi
-- **Ichina Saotome**: Reduce the next damage you take by 25. Afterward, give your teammate +6 damage on their next attack. — canon reference: Ichina Saotome
-- **Lily Lipman**: Your next attack deals ×1.25 damage. Afterward, heal yourself 14 HP. — canon reference: Lily Lipman
-- **Amane Shinjo**: Give your teammate +20 damage on their next attack. Afterward, heal yourself 13 HP. — canon reference: Amane Shinjo
-- **Reiya Amuro**: Your next attack deals ×1.25 damage. Afterward, give your teammate +5 damage on their next attack. — canon reference: Reiya Amuro
-- **Leo Millafoden**: Draw 1 card and gain 15 armor. Afterward, reduce the next damage you take by 7. — canon reference: Leo Millafoden
-- **Vipère**: You and your teammate each gain 15 armor. Afterward, your next attack gets +6 damage. — canon reference: Vipère
-- **Rainbow Bullet**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 9. — canon reference: Rainbow Bullet
-- **Blue Bullet**: Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Blue Bullet
-- **Eve — Perfect Form** *(alternate pool option)*: Your next attack deals ×1.25 damage. Afterward, gain 9 armor and your next attack gets +3 damage. — canon reference: Eve
-- **Aoi Amawashi — Second Wind** *(alternate pool option)*: Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor and your next attack gets +3 damage. — canon reference: Aoi Amawashi
-- **Ichina Saotome — Closing Sprint** *(alternate pool option)*: Your next attack deals ×1.25 damage. Afterward, gain 11 armor and your next attack gets +3 damage. — canon reference: Ichina Saotome
-- **Lily Lipman — Training Payoff** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 12 armor and your next attack gets +3 damage. — canon reference: Lily Lipman
-- **Amane Shinjo — Clutch Play** *(alternate pool option)*: You and your teammate each gain 15 armor. Afterward, gain 1 armor and your next attack gets +4 damage. — canon reference: Amane Shinjo
+- **Amane Shinjo** — Give your teammate +20 damage on their next attack. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Amane Shinjo — Clutch Play** — You and your teammate each gain 20 armor. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 10 HP; then take 10 damage.
+- **Aoi Amawashi** — Your next attack deals ×1.25 damage. Afterward, your next attack gets +10 damage. Then take 30 damage. Your next attack also gets +50 damage.
+- **Aoi Amawashi — Second Wind** — Draw 2 cards, then discard 1 random card. Afterward, heal yourself 10 HP; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Blue Bullet** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 20 armor. Then take 10 damage.
+- **Eve** — Reduce the next damage you take by 25. Afterward, your next attack gets +10 damage. Then take 10 damage. Your next attack also gets +20 damage.
+- **Eve — Perfect Form** — Your next attack deals ×1.25 damage. Afterward, gain 10 armor; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Ichina Saotome** — Reduce the next damage you take by 25. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage. Your next attack also gets +20 damage.
+- **Ichina Saotome — Closing Sprint** — Your next attack deals ×1.25 damage. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Leo Millafoden** — Draw 1 card and gain 20 armor. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Lily Lipman** — Your next attack deals ×1.25 damage. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Your next attack also gets +20 damage.
+- **Lily Lipman — Training Payoff** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, your next attack gets +10 damage; then gain 10 armor; then take 10 damage.
+- **Rainbow Bullet** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
+- **Reiya Amuro** — Your next attack deals ×1.25 damage. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Vipère** — You and your teammate each gain 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +30 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Have you ever played golf with your life on the line?**: minus a 15 hp from yourself for a 30+ dmg addition to you’re next attack
-- **Rose Aleon**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, heal yourself 10 HP. — canon reference: Rose Aleon
-- **Kaoruko Iijima**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Kaoruko Iijima
-- **Mizuho Himekawa**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, reduce the next damage you take by 10. — canon reference: Mizuho Himekawa
-- **Nafrece Underground Golf**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Nafrece Underground Golf
-- **Rose Aleon — Peak Condition** *(alternate pool option)*: Deal 40 damage to one other player, then you may punch once this turn. Afterward, gain 2 armor and your next attack gets +4 damage. — canon reference: Rose Aleon
-- **Kaoruko Iijima — Photo Finish** *(alternate pool option)*: Your next attack deals ×1.5 damage. Draw 1 card. Afterward, gain 3 armor and your next attack gets +4 damage. — canon reference: Kaoruko Iijima
+- **Have you ever played golf with your life on the line?** *(original)* — minus a 20 hp from yourself for a 30+ dmg addition to you’re next attack
+- **Kaoruko Iijima** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Kaoruko Iijima — Photo Finish** — Your next attack deals ×1.5 damage. Draw 1 card. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +10 damage; then take 10 damage.
+- **Mizuho Himekawa** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Nafrece Underground Golf** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then take 30 damage.
+- **Rose Aleon** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then take 10 damage.
+- **Rose Aleon — Peak Condition** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 10; then take 10 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Evangeline Burton**: Your next attack gets +60 damage, then draw 1 card. — canon reference: Evangeline Burton
-- **Raiho Girls' Academy — Last Stand** *(alternate pool option)*: Heal both members of your team 35 HP and give each 25 armor. Afterward, gain 4 armor and your next attack gets +4 damage. — canon reference: Raiho Girls' Academy
+- **Evangeline Burton** — Your next attack gets +60 damage, then draw 1 card. Your next attack also gets +20 damage.
+- **Raiho Girls' Academy — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +10 on the next damage they take; then take 10 damage. Also give yourself or your teammate 30 armor.
 
 ## Bocchi the Rock!
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Social Anxiety**: until your next turn you can’t be targeted by attacks
-- **Omurice beam**: Turn on cam and faithfully recreate the omurice kita scene for a 1.25x dmg boost and 10 healing
-- **Hitori Gotoh**: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself or your teammate 5 HP. — canon reference: Hitori Gotoh
-- **Nijika Ijichi**: Heal your teammate 25 HP and give them 15 armor. Afterward, give your teammate +11 damage on their next attack. — canon reference: Nijika Ijichi
-- **Ryo Yamada**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself or your teammate 12 HP. — canon reference: Ryo Yamada
-- **Ikuyo Kita**: Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Ikuyo Kita
-- **Seika Ijichi**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Seika Ijichi
-- **PA-san**: Choose an opponent. They discard 1 random card. Afterward, gain 11 armor. — canon reference: PA-san
-- **Kikuri Hiroi**: Deal 20 damage to every other living player. Afterward, the next damage you take is increased by 15%. — canon reference: Kikuri Hiroi
-- **Eliza Shimizu**: You may punch once after playing this card. Afterward, gain 9 armor. — canon reference: Eliza Shimizu
-- **Hitori Gotoh — Momentum** *(alternate pool option)*: You may punch once after playing this card. Afterward, gain 5 armor and your next attack gets +4 damage. — canon reference: Hitori Gotoh
-- **Nijika Ijichi — Rally** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, gain 6 armor and your next attack gets +4 damage. — canon reference: Nijika Ijichi
-- **Ryo Yamada — Second Beat** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 7 armor and your next attack gets +4 damage. — canon reference: Ryo Yamada
-- **Ikuyo Kita — Quick Shift** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 8 armor and your next attack gets +4 damage. — canon reference: Ikuyo Kita
-- **Seika Ijichi — Field Plan** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, gain 9 armor and your next attack gets +4 damage. — canon reference: Seika Ijichi
+- **Eliza Shimizu** — You may punch once after playing this card. Afterward, your next attack gets +20 damage. Then give the chosen opponent +10 damage on their next attack.
+- **Hitori Gotoh** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP. Then take 30 damage. Also draw 1 card.
+- **Hitori Gotoh — Momentum** — You may punch once after playing this card. Afterward, gain 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
+- **Ikuyo Kita** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
+- **Ikuyo Kita — Quick Shift** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage; then heal yourself 10 HP; then take 20 damage.
+- **Kikuri Hiroi** — Deal 20 damage to every other living player. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
+- **Nijika Ijichi** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage.
+- **Nijika Ijichi — Rally** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Omurice beam** *(original)* — Turn on cam and faithfully recreate the omurice kita scene for a 1.25x dmg boost and 10 healing
+- **PA-san** — Choose an opponent. They discard 1 random card. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP. Also reduce the next damage you take by 30.
+- **Ryo Yamada** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 20 HP. Then give the chosen opponent 20 armor.
+- **Ryo Yamada — Second Beat** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, reduce the next damage you take by 10; then gain 10 armor; then take 20 damage. Also draw 1 card. Also gain 20 armor.
+- **Seika Ijichi** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
+- **Seika Ijichi — Field Plan** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 10; then take 20 damage. Also reduce the next damage you take by 30.
+- **Social Anxiety** *(original)* — until your next turn you can’t be targeted by attacks
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Kessoku Band**: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Kessoku Band
-- **Bocchi's Bottle Slide**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 9 armor. — canon reference: Bocchi's Bottle Slide
-- **Guitar, Loneliness and the Blue Planet**: You and your teammate each get +25 damage on your next attack. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Guitar, Loneliness and the Blue Planet
-- **If I Could Be a Constellation**: Deal 45 damage to one other player, then draw 1 card. Afterward, mark one other player for +3 on the next damage they take. — canon reference: If I Could Be a Constellation
-- **School Festival Live**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, gain 5 armor. — canon reference: School Festival Live
-- **Kessoku Band — Rescue** *(alternate pool option)*: Heal both members of your team 35 HP. Afterward, gain 10 armor and your next attack gets +4 damage. — canon reference: Kessoku Band
-- **Bocchi's Bottle Slide — Decisive Strike** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, gain 11 armor and your next attack gets +4 damage. — canon reference: Bocchi's Bottle Slide
+- **Bocchi's Bottle Slide** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
+- **Bocchi's Bottle Slide — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Guitar, Loneliness and the Blue Planet** — You and your teammate each get +30 damage on your next attack. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Also draw 1 card. Also gain 20 armor.
+- **If I Could Be a Constellation** — Deal 50 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP. Then take 10 damage.
+- **Kessoku Band** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
+- **Kessoku Band — Rescue** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then your next attack gets +10 damage; then take 20 damage. Also give yourself or your teammate 30 armor.
+- **School Festival Live** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, heal yourself 10 HP. Then take 20 damage. Also draw 1 card.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **That Band**: You and your teammate each get +25 damage on your next attack. Draw 2 cards. — canon reference: That Band
-- **School Festival Live — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, gain 12 armor and your next attack gets +4 damage. — canon reference: School Festival Live
+- **School Festival Live — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 10 armor; then take 20 damage.
+- **That Band** — You and your teammate each get +30 damage on your next attack. Draw 2 cards.
 
 ## Chainsaw Man
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Petting Pochita**: Heal yourself 40 HP.
-- **Pull the chord**: do 10 damage to yourself then 35 to one opponent
-- **Denji**: Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Denji
-- **Power**: Take 15 damage. Your next attack gets +35 damage. Afterward, the next damage you take is increased by 15%. — canon reference: Power
-- **Aki Hayakawa**: Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. — canon reference: Aki Hayakawa
-- **Himeno**: Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 12. — canon reference: Himeno
-- **Kobeni Higashiyama**: Draw 1 card. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 9. — canon reference: Kobeni Higashiyama
-- **Kishibe**: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself or your teammate 10 HP. — canon reference: Kishibe
-- **Fox Devil**: Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +8 damage. — canon reference: Fox Devil
-- **Ghost Devil**: Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 14. — canon reference: Ghost Devil
-- **Denji — Over the Limit** *(alternate pool option)*: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 1 armor and your next attack gets +5 damage. — canon reference: Denji
-- **Power — No Turning Back** *(alternate pool option)*: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, gain 2 armor and your next attack gets +5 damage. — canon reference: Power
-- **Aki Hayakawa — Measured Strike** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, gain 3 armor and your next attack gets +5 damage. — canon reference: Aki Hayakawa
-- **Himeno — All In** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 4 armor and your next attack gets +5 damage. — canon reference: Himeno
-- **Kobeni Higashiyama — Set the Pace** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 5 armor and your next attack gets +5 damage. — canon reference: Kobeni Higashiyama
+- **Aki Hayakawa** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 20 damage. Also reduce the next damage you take by 30.
+- **Aki Hayakawa — Measured Strike** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Denji** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor. Then take 30 damage. Your next attack also gets +20 damage.
+- **Denji — Over the Limit** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage. Your next attack also gets +20 damage.
+- **Fox Devil** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 20 damage. Your next attack also gets +20 damage.
+- **Ghost Devil** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then discard 1 random card from your hand.
+- **Himeno** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Himeno — All In** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
+- **Kishibe** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Kobeni Higashiyama** — Draw 1 card. Your next attack gets +10 damage. Afterward, heal yourself 20 HP. Then take 20 damage.
+- **Kobeni Higashiyama — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +10 damage; then your next attack deals 10 less damage. Also draw 1 card.
+- **Petting Pochita** *(original)* — Heal yourself 40 HP.
+- **Power** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +30 damage.
+- **Power — No Turning Back** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, heal yourself 10 HP; then gain 10 armor; then your next attack deals 10 less damage.
+- **Pull the chord** *(original)* — Take 10 damage, then deal 40 damage to one other player.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Makima**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, reduce the next damage you take by 13. — canon reference: Makima
-- **Katana Man**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, give your teammate +5 damage on their next attack. — canon reference: Katana Man
-- **Eternity Devil**: Take 15 damage, then deal 75 damage to one other player. Afterward, give yourself or your teammate 5 armor. — canon reference: Eternity Devil
-- **Gun Devil**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Gun Devil
-- **Chainsaw Devil**: Deal 35 damage to both opponents. Afterward, gain 12 armor. — canon reference: Chainsaw Devil
-- **Makima — Desperation** *(alternate pool option)*: Take 20 damage, then deal 80 damage to one other player. Afterward, gain 6 armor and your next attack gets +5 damage. — canon reference: Makima
-- **Katana Man — Point of No Return** *(alternate pool option)*: Deal 30 damage to every other living player. Afterward, gain 7 armor and your next attack gets +5 damage. — canon reference: Katana Man
+- **Chainsaw Devil** — Deal 40 damage to both opponents. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
+- **Eternity Devil** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Gun Devil** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Katana Man** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +70 damage.
+- **Katana Man — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
+- **Makima** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 20 armor. Then discard 1 random card from your hand. Your next attack also gets +70 damage.
+- **Makima — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Easy Revenge**: Deal 65 damage to one other player, then return one non-5★ card from your discard pile to your hand. — canon reference: Easy Revenge
-- **Chainsaw Devil — Final Push** *(alternate pool option)*: Deal 54 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 8 armor and your next attack gets +5 damage. — canon reference: Chainsaw Devil
+- **Chainsaw Devil — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Easy Revenge** — Deal 70 damage to one other player, then return one non-5★ card from your discard pile to your hand.
 
 ## Code Geass
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Pizzahut**: Heal yourself 40 HP.
-- **Suzaku Kururugi**: Choose an opponent. Their next action is a punch against themself. Afterward, heal yourself 9 HP. — canon reference: Suzaku Kururugi
-- **C.C.**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, give your teammate +12 damage on their next attack. — canon reference: C.C.
-- **Kallen Stadtfeld**: Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 7. — canon reference: Kallen Stadtfeld
-- **Nunnally Lamperouge**: Mark one other player. The next damage they take is increased by 20. Afterward, your next attack gets +6 damage. — canon reference: Nunnally Lamperouge
-- **Jeremiah Gottwald**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 5 HP. — canon reference: Jeremiah Gottwald
-- **Cornelia li Britannia**: Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 6 armor. — canon reference: Cornelia li Britannia
-- **Shirley Fenette**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 13 HP. — canon reference: Shirley Fenette
-- **Rolo Lamperouge**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, give your teammate +4 damage on their next attack. — canon reference: Rolo Lamperouge
-- **Lancelot**: Choose an opponent. Their next action is a punch against themself. Afterward, gain 6 armor. — canon reference: Lancelot
-- **Suzaku Kururugi — Read the Field** *(alternate pool option)*: Choose an opponent. Their next action is a punch against themself. Afterward, gain 9 armor and your next attack gets +5 damage. — canon reference: Suzaku Kururugi
-- **C.C. — Calculated Trap** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor and your next attack gets +5 damage. — canon reference: C.C.
-- **Kallen Stadtfeld — Lockdown** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 11 armor and your next attack gets +5 damage. — canon reference: Kallen Stadtfeld
-- **Nunnally Lamperouge — Counterplay** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 12 armor and your next attack gets +5 damage. — canon reference: Nunnally Lamperouge
-- **Jeremiah Gottwald — Checkmate** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 1 armor and your next attack gets +6 damage. — canon reference: Jeremiah Gottwald
+- **C.C.** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 20 armor. Then take 20 damage.
+- **C.C. — Calculated Trap** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then discard 1 random card from your hand.
+- **Cornelia li Britannia** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Jeremiah Gottwald** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Jeremiah Gottwald — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Kallen Stadtfeld** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
+- **Kallen Stadtfeld — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Lancelot** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
+- **Nunnally Lamperouge** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
+- **Nunnally Lamperouge — Counterplay** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Pizzahut** *(original)* — Heal yourself 40 HP.
+- **Rolo Lamperouge** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then take 30 damage. Also make an opponent’s next attack deal 30 less damage.
+- **Shirley Fenette** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor. Then take 20 damage.
+- **Suzaku Kururugi** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Suzaku Kururugi — Read the Field** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor; then heal yourself 10 HP; then discard 1 random card from your hand.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Shinkiro**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 14 damage. — canon reference: Shinkiro
-- **FLEIJA**: Choose an opponent. They skip their next turn. Afterward, take 12 damage. — canon reference: FLEIJA
-- **Damocles**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 10 damage. — canon reference: Damocles
-- **Schneizel el Britannia**: Choose an opponent. They skip their next turn. Afterward, your next attack deals 13 less damage. — canon reference: Schneizel el Britannia
-- **Zero Requiem**: Choose an opponent. They skip their next turn. Afterward, take 10 damage. — canon reference: Zero Requiem
-- **Shinkiro — Interference** *(alternate pool option)*: Steal 1 random card from an opponent. Afterward, gain 2 armor and your next attack gets +6 damage. — canon reference: Shinkiro
-- **FLEIJA — No Escape** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, gain 3 armor and your next attack gets +6 damage. — canon reference: FLEIJA
+- **Damocles** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent 10 armor. Then take 20 damage.
+- **FLEIJA** — Choose an opponent. They skip their next turn. Then heal the chosen opponent 10 HP. Then take 30 damage. Also make an opponent’s next attack deal 30 less damage.
+- **FLEIJA — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Schneizel el Britannia** — Choose an opponent. They skip their next turn. Then give the chosen opponent +20 damage on their next attack. Then take 30 damage. Also make an opponent’s next attack deal 40 less damage.
+- **Shinkiro** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then discard 2 random cards from your hand. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
+- **Shinkiro — Interference** — Steal 1 random card from an opponent. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Zero Requiem** — Choose an opponent. They skip their next turn. Then discard 2 random cards from your hand. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 60 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Geass**: Control an opponent to give you one card of your choice (can be 5 stars)
-- **Zero Requiem — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, gain 4 armor and your next attack gets +6 damage. — canon reference: Zero Requiem
+- **Geass** *(original)* — Control an opponent to give you one card of your choice (can be 5 stars)
+- **Zero Requiem — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then heal the chosen opponent 10 HP.
 
 ## Cyberpunk: Edgerunners
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Crippling Depression**: Everyone takes 10 damage
-- **David Martinez**: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 8 armor. — canon reference: David Martinez
-- **Lucy Kushinada**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +6 damage. — canon reference: Lucy Kushinada
-- **Rebecca**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, the next damage you take is increased by 10%. — canon reference: Rebecca
-- **Maine**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, gain 9 armor. — canon reference: Maine
-- **Dorio**: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, gain 6 armor. — canon reference: Dorio
-- **Kiwi**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, give your teammate +8 damage on their next attack. — canon reference: Kiwi
-- **Falco**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, give your teammate +4 damage on their next attack. — canon reference: Falco
-- **Pilar**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, reduce the next damage you take by 11. — canon reference: Pilar
-- **Gloria Martinez**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, give your teammate +3 damage on their next attack. — canon reference: Gloria Martinez
-- **David Martinez — Over the Limit** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 5 armor and your next attack gets +6 damage. — canon reference: David Martinez
-- **Lucy Kushinada — No Turning Back** *(alternate pool option)*: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 6 armor and your next attack gets +6 damage. — canon reference: Lucy Kushinada
-- **Rebecca — Danger Zone** *(alternate pool option)*: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 7 armor and your next attack gets +6 damage. — canon reference: Rebecca
-- **Maine — All In** *(alternate pool option)*: Draw 3 cards, then discard 2 random cards from your hand. Afterward, gain 8 armor and your next attack gets +6 damage. — canon reference: Maine
-- **Dorio — Burnout** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 9 armor and your next attack gets +6 damage. — canon reference: Dorio
+- **Crippling Depression** *(original)* — Everyone takes 10 damage
+- **David Martinez** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +40 damage.
+- **David Martinez — Over the Limit** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Dorio** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, your next attack gets +10 damage. Then take 10 damage.
+- **Dorio — Burnout** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
+- **Falco** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +20 damage.
+- **Gloria Martinez** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage. Your next attack also gets +20 damage.
+- **Kiwi** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
+- **Lucy Kushinada** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Lucy Kushinada — No Turning Back** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
+- **Maine** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Maine — All In** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Pilar** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Rebecca** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, reduce the next damage you take by 20. Then take 10 damage. Your next attack also gets +30 damage.
+- **Rebecca — Danger Zone** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Sandevistan**: Have one opponent skip their next turn, you can then punch on the same turn this card was played
-- **Cyberpsychosis**: Deal 30 damage to every other living player. Afterward, gain 5 armor. — canon reference: Cyberpsychosis
-- **Arasaka**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Arasaka
-- **Militech**: Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Militech
-- **Adam Smasher**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 5 armor. — canon reference: Adam Smasher
-- **Cyberpsychosis — Desperation** *(alternate pool option)*: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, gain 10 armor and your next attack gets +6 damage. — canon reference: Cyberpsychosis
-- **Arasaka — Point of No Return** *(alternate pool option)*: Deal 30 damage to every other living player. Afterward, gain 11 armor and your next attack gets +6 damage. — canon reference: Arasaka
+- **Adam Smasher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 10 damage.
+- **Arasaka** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 20. Then take 20 damage. Your next attack also gets +70 damage.
+- **Arasaka — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Cyberpsychosis** — Deal 30 damage to every other living player. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 20 HP.
+- **Cyberpsychosis — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP. Your next attack also gets +50 damage.
+- **Edgerunners** — Take 20 damage, then deal 90 damage to one other player.
+- **Militech** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then take 10 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Edgerunners**: Take 30 damage, then deal 130 damage to one other player. — canon reference: Edgerunners
-- **The Moon — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, gain 12 armor and your next attack gets +6 damage. — canon reference: The Moon
+- **Sandevistan** *(original)* — Have one opponent skip their next turn, you can then punch on the same turn this card was played
+- **The Moon — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then take 10 damage.
 
 ## Dandadan
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Momo Ayase**: Draw 2 cards, then discard 1 random card. Afterward, give your teammate +12 damage on their next attack. — canon reference: Momo Ayase
-- **Okarun**: Choose an opponent. Their next attack deals 15 less damage; your next attack gets +10. Afterward, give yourself or your teammate 9 armor. — canon reference: Okarun
-- **Seiko Ayase**: Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 9 less damage. — canon reference: Seiko Ayase
-- **Turbo Granny**: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 9 HP. — canon reference: Turbo Granny
-- **Aira Shiratori**: Deal 15 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 10. — canon reference: Aira Shiratori
-- **Jiji**: Deal 15 damage to both opponents and draw 1 card. Afterward, give your teammate +6 damage on their next attack. — canon reference: Jiji
-- **Acrobatic Silky**: Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 14. — canon reference: Acrobatic Silky
-- **Serpo Aliens**: Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 12. — canon reference: Serpo Aliens
-- **Dover Demon**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 10. — canon reference: Dover Demon
-- **Nessie**: Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 7 armor. — canon reference: Nessie
-- **Momo Ayase — Hidden Art** *(alternate pool option)*: Draw 2 cards, then discard 1 random card. Afterward, gain 1 armor and your next attack gets +7 damage. — canon reference: Momo Ayase
-- **Okarun — Arcane Turn** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 2 armor and your next attack gets +7 damage. — canon reference: Okarun
-- **Seiko Ayase — Forbidden Pattern** *(alternate pool option)*: Draw 2 cards, then discard 1 random card. Afterward, gain 3 armor and your next attack gets +7 damage. — canon reference: Seiko Ayase
-- **Turbo Granny — Resonance** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, gain 4 armor and your next attack gets +7 damage. — canon reference: Turbo Granny
-- **Aira Shiratori — Unseen Hand** *(alternate pool option)*: Deal 25 damage to one other player and mark them for +10 on the next damage they take. Afterward, gain 5 armor and your next attack gets +7 damage. — canon reference: Aira Shiratori
+- **Acrobatic Silky** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
+- **Aira Shiratori** — Deal 20 damage to both opponents and draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage.
+- **Aira Shiratori — Unseen Hand** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +10 damage on their next attack; then take 10 damage.
+- **Dover Demon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
+- **Jiji** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Momo Ayase** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Also mark one other player for +20 on the next damage they take.
+- **Momo Ayase — Hidden Art** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor; then reduce the next damage you take by 10; then take 10 damage.
+- **Nessie** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +10 damage. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
+- **Okarun** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
+- **Okarun — Arcane Turn** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then your next attack gets +10 damage; then take 10 damage.
+- **Seiko Ayase** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
+- **Seiko Ayase — Forbidden Pattern** — Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 20; then mark one other player for +10 on the next damage they take; then take 10 damage.
+- **Serpo Aliens** — Draw 2 cards, then discard 1 random card. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
+- **Turbo Granny** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
+- **Turbo Granny — Resonance** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +20 damage; then give yourself or your teammate 10 armor; then take 10 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Golden ball 1**: does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
-- **Golden ball 2**: does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
-- **Evil Eye**: Swap your HP with one other living player. Afterward, discard 1 random card from your hand. — canon reference: Evil Eye
-- **Taro and Hana**: Deal 50 damage to one other player and mark them for +15 on the next damage they take. Afterward, reduce the next damage you take by 7. — canon reference: Taro and Hana
-- **Psychokinetic Hands**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, reduce the next damage you take by 14. — canon reference: Psychokinetic Hands
-- **Evil Eye — Mystic Shift** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, gain 6 armor and your next attack gets +7 damage. — canon reference: Evil Eye
-- **Taro and Hana — Grand Invocation** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, gain 7 armor and your next attack gets +7 damage. — canon reference: Taro and Hana
+- **Evil Eye — Mystic Shift** — Choose an opponent. They skip their next turn. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **Golden ball 1** *(original)* — does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
+- **Golden ball 2** *(original)* — does nothing on own, must use both in one turn, heal 30 hp to either teammate and gain 1.5x dmg for 2 turns
+- **Occult Family** — Heal both members of your team 30 HP. Also give yourself or your teammate 30 armor.
+- **Psychokinetic Hands** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, your next attack gets +20 damage. Then take 10 damage. Also mark one other player for +20 on the next damage they take.
+- **Taro and Hana** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, your next attack gets +10 damage. Then give the chosen opponent 10 armor.
+- **Taro and Hana — Grand Invocation** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then gain 10 armor; then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Occult Family**: Heal both members of your team 35 HP and give each 15 armor. — canon reference: Occult Family
-- **Cursed House — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, gain 8 armor and your next attack gets +7 damage. — canon reference: Cursed House
+- **Cursed House — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 10 HP; then take 20 damage.
+- **Evil Eye** — Swap your HP with one other living player. Then take 30 damage. Then discard 1 random card from your hand. Also mark one other player for +30 on the next damage they take.
 
 ## Darling in the Franxx
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Strelizia**: For the next two turns whenever your teammate does damage do an additional 10 damage
-- **Hiro**: Give yourself or your teammate 30 armor. Afterward, reduce the next damage your teammate takes by 14. — canon reference: Hiro
-- **Zero Two**: Deal 29 damage to one other player. Afterward, gain 8 armor. — canon reference: Zero Two
-- **Ichigo**: Give yourself or your teammate 30 armor. Afterward, give your teammate +6 damage on their next attack. — canon reference: Ichigo
-- **Goro**: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Goro
-- **Mitsuru**: Heal your teammate 25 HP and give them 15 armor. Afterward, give your teammate +8 damage on their next attack. — canon reference: Mitsuru
-- **Kokoro**: Give yourself or your teammate 30 armor. Afterward, give your teammate +9 damage on their next attack. — canon reference: Kokoro
-- **Zorome**: Your teammate ignores the next punch that would damage them. Afterward, heal yourself or your teammate 8 HP. — canon reference: Zorome
-- **Miku**: Heal yourself or your teammate 40 HP. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Miku
-- **Ikuno**: Heal yourself or your teammate 40 HP. Afterward, you and your teammate each get +6 damage on your next attack. — canon reference: Ikuno
-- **Hiro — Cover** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, gain 9 armor and your next attack gets +7 damage. — canon reference: Hiro
-- **Zero Two — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor and your next attack gets +7 damage. — canon reference: Zero Two
-- **Ichigo — Coordination** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, gain 11 armor and your next attack gets +7 damage. — canon reference: Ichigo
-- **Goro — Backup Plan** *(alternate pool option)*: Heal yourself or your teammate 40 HP. Afterward, gain 12 armor and your next attack gets +7 damage. — canon reference: Goro
-- **Mitsuru — Formation** *(alternate pool option)*: Deal 20 damage to one other player; your teammate heals 15 HP. Afterward, gain 1 armor and your next attack gets +8 damage. — canon reference: Mitsuru
+- **Goro** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
+- **Goro — Backup Plan** — Heal yourself or your teammate 40 HP. Afterward, your next attack gets +20 damage; then give your teammate +10 damage on their next attack; then take 20 damage.
+- **Hiro** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Hiro — Cover** — Give both members of your team 20 armor. Afterward, gain 20 armor; then your next attack gets +10 damage; then take 20 damage.
+- **Ichigo** — Give yourself or your teammate 30 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Ichigo — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 10 armor; then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Ikuno** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
+- **Kokoro** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then take 10 damage.
+- **Miku** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
+- **Mitsuru** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
+- **Mitsuru — Formation** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
+- **Strelizia** *(original)* — For the next two turns whenever your teammate does damage do an additional 10 damage
+- **Zero Two** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then discard 1 random card from your hand.
+- **Zero Two — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 20 HP; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Zorome** — Your teammate ignores the next punch that would damage them. Afterward, heal yourself or your teammate 10 HP. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Delphinium**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Delphinium
-- **Genista**: Take 15 damage, then deal 75 damage to one other player. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Genista
-- **Argentea**: Deal 58 damage to one other player. Afterward, gain 12 armor. — canon reference: Argentea
-- **Queen Pike**: Deal 58 damage to one other player. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Queen Pike
-- **Klaxosaur Princess**: Swap your HP with one other living player. Afterward, take 10 damage. — canon reference: Klaxosaur Princess
-- **Delphinium — Finisher** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 2 armor and your next attack gets +8 damage. — canon reference: Delphinium
-- **Genista — Decisive Strike** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 3 armor and your next attack gets +8 damage. — canon reference: Genista
+- **Argentea** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
+- **Delphinium** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +10 damage on their next attack. Then take 30 damage. Your next attack also gets +20 damage.
+- **Delphinium — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 20 armor; then gain 10 armor; then your next attack deals 10 less damage.
+- **Genista** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
+- **Genista — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Queen Pike** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **The Beast and the Prince** — You and your teammate each get +20 damage on your next attack and gain 10 armor. Also give yourself or your teammate 30 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Beast and the Prince**: You and your teammate each get +30 damage on your next attack and gain 20 armor. — canon reference: The Beast and the Prince
-- **Klaxosaur Princess — Transcendence** *(alternate pool option)*: Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 35 damage to you. Afterward, gain 4 armor and your next attack gets +8 damage. — canon reference: Klaxosaur Princess
+- **Klaxosaur Princess** — Swap your HP with one other living player. Then take 20 damage. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
+- **Klaxosaur Princess — Transcendence** — Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 40 damage to you. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
 
 ## Death Note
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Boredom**: Choose an opponent. They draw their top card; if it is 3★, they give it to you. Otherwise they keep it.
-- **Light Yagami**: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 6 HP. — canon reference: Light Yagami
-- **L**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, give yourself or your teammate 7 armor. — canon reference: L
-- **Ryuk**: Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Ryuk
-- **Misa Amane**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Misa Amane
-- **Rem**: Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 13. — canon reference: Rem
-- **Soichiro Yagami**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Soichiro Yagami
-- **Touta Matsuda**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Touta Matsuda
-- **Watari**: Choose an opponent. Their next action is a punch against themself. Afterward, give your teammate +9 damage on their next attack. — canon reference: Watari
-- **Shinigami Eyes**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Shinigami Eyes
-- **Light Yagami — Read the Field** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, gain 5 armor and your next attack gets +8 damage. — canon reference: Light Yagami
-- **L — Calculated Trap** *(alternate pool option)*: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 6 armor and your next attack gets +8 damage. — canon reference: L
-- **Ryuk — Lockdown** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 7 armor and your next attack gets +8 damage. — canon reference: Ryuk
-- **Misa Amane — Counterplay** *(alternate pool option)*: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 8 armor and your next attack gets +8 damage. — canon reference: Misa Amane
-- **Rem — Checkmate** *(alternate pool option)*: Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 9 armor and your next attack gets +8 damage. — canon reference: Rem
+- **Boredom** *(original)* — Choose an opponent. They draw their top card; if it is 3★, they give it to you. Otherwise they keep it.
+- **L** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **L — Calculated Trap** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 20 HP; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage. Then take 20 damage.
+- **Light Yagami** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Light Yagami — Read the Field** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Misa Amane** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
+- **Misa Amane — Counterplay** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Rem** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
+- **Rem — Checkmate** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +20 on the next damage they take; then gain 10 armor; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Ryuk** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 30 less damage.
+- **Ryuk — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Shinigami Eyes** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
+- **Soichiro Yagami** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Touta Matsuda** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
+- **Watari** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Near**: Choose an opponent. They discard 2 random cards. Afterward, heal yourself 11 HP. — canon reference: Near
-- **Mello**: Choose an opponent. They skip their next turn. Afterward, discard 1 random card from your hand. — canon reference: Mello
-- **Teru Mikami**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 13. — canon reference: Teru Mikami
-- **Yellow Box Warehouse**: Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 5 armor. — canon reference: Yellow Box Warehouse
-- **The 13-Day Rule**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, discard 1 random card from your hand. — canon reference: The 13-Day Rule
-- **Near — Interference** *(alternate pool option)*: Choose an opponent. They discard 2 random cards. Afterward, gain 10 armor and your next attack gets +8 damage. — canon reference: Near
-- **Mello — No Escape** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, gain 11 armor and your next attack gets +8 damage. — canon reference: Mello
+- **Mello** — Choose an opponent. They skip their next turn. Then take 30 damage. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 30 less damage.
+- **Mello — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 10; then discard 1 random card from your hand.
+- **Near** — Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 20 less damage.
+- **Near — Interference** — Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 20 armor; then heal yourself 10 HP; then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Teru Mikami** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP.
+- **The 13-Day Rule** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent +20 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **Yellow Box Warehouse** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then take 20 damage. Also give yourself or your teammate 30 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Death Note**: write an opponents name in the death note, they will die in 5 turns, but if the person who used the death note dies then the timer disappears
-- **The 13-Day Rule — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, gain 12 armor and your next attack gets +8 damage. — canon reference: The 13-Day Rule
+- **Death Note** *(original)* — write an opponents name in the death note, they will die in 5 turns, but if the person who used the death note dies then the timer disappears
+- **The 13-Day Rule — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +10 damage; then discard 1 random card from your hand.
 
 ## Demon Slayer
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Breathing Technique**: Discard 1 card, then draw 2 cards.
-- **Tanjiro Kamado**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, give yourself or your teammate 6 armor. — canon reference: Tanjiro Kamado
-- **Nezuko Kamado**: Deal 18 damage to one other player and gain 12 armor. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Nezuko Kamado
-- **Zenitsu Agatsuma**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Zenitsu Agatsuma
-- **Inosuke Hashibira**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 3 less damage. — canon reference: Inosuke Hashibira
-- **Giyu Tomioka**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, give yourself or your teammate 11 armor. — canon reference: Giyu Tomioka
-- **Shinobu Kocho**: Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 14. — canon reference: Shinobu Kocho
-- **Kanao Tsuyuri**: Choose an opponent. They discard 1 random card. Afterward, give yourself or your teammate 4 armor. — canon reference: Kanao Tsuyuri
-- **Genya Shinazugawa**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, your next attack gets +10 damage. — canon reference: Genya Shinazugawa
-- **Tengen Uzui**: You may play one additional 3★ card this turn. Afterward, your next attack deals 4 less damage. — canon reference: Tengen Uzui
-- **Tanjiro Kamado — Pressure** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, gain 1 armor and your next attack gets +9 damage. — canon reference: Tanjiro Kamado
-- **Nezuko Kamado — Follow-Through** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 2 armor and your next attack gets +9 damage. — canon reference: Nezuko Kamado
-- **Zenitsu Agatsuma — Breakthrough** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, gain 3 armor and your next attack gets +9 damage. — canon reference: Zenitsu Agatsuma
-- **Inosuke Hashibira — Counteroffensive** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 4 armor and your next attack gets +9 damage. — canon reference: Inosuke Hashibira
-- **Giyu Tomioka — Overdrive** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 5 armor and your next attack gets +9 damage. — canon reference: Giyu Tomioka
+- **Breathing Technique** *(original)* — Discard 1 card, then draw 2 cards.
+- **Genya Shinazugawa** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Giyu Tomioka** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 10. Then take 20 damage. Your next attack also gets +20 damage.
+- **Giyu Tomioka — Overdrive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Inosuke Hashibira** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
+- **Inosuke Hashibira — Counteroffensive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, your next attack gets +20 damage; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Kanao Tsuyuri** — Choose an opponent. They discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Nezuko Kamado** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Nezuko Kamado — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
+- **Shinobu Kocho** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
+- **Tanjiro Kamado** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage.
+- **Tanjiro Kamado — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
+- **Tengen Uzui** — You may play one additional 3★ card this turn. Then take 20 damage. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
+- **Zenitsu Agatsuma** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage. Your next attack also gets +20 damage.
+- **Zenitsu Agatsuma — Breakthrough** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Hinokami Kagura**: Deal 35 damage to both opponents.
-- **Kyojuro Rengoku**: Deal 56 damage to one other player. Afterward, reduce the next damage you take by 7. — canon reference: Kyojuro Rengoku
-- **Muichiro Tokito**: Deal 35 damage to both opponents. Afterward, gain 7 armor. — canon reference: Muichiro Tokito
-- **Akaza**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 4 armor. — canon reference: Akaza
-- **Upper Moons**: Take 15 damage, then deal 75 damage to one other player. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Upper Moons
-- **Kyojuro Rengoku — Finisher** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, gain 6 armor and your next attack gets +9 damage. — canon reference: Kyojuro Rengoku
-- **Muichiro Tokito — Decisive Strike** *(alternate pool option)*: Deal 56 damage to one other player. Afterward, gain 7 armor and your next attack gets +9 damage. — canon reference: Muichiro Tokito
+- **Akaza** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
+- **Hinokami Kagura** *(original)* — Deal 40 damage to both opponents.
+- **Kyojuro Rengoku** — Deal 60 damage to one other player. Afterward, gain 10 armor. Then take 20 damage.
+- **Kyojuro Rengoku — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
+- **Muichiro Tokito** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Muichiro Tokito — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Upper Moons** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Sun Breathing**: Take 15 damage, then deal 110 damage to one other player. — canon reference: Sun Breathing
-- **Muzan Kibutsuji — Final Push** *(alternate pool option)*: Deal 50 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 8 armor and your next attack gets +9 damage. — canon reference: Muzan Kibutsuji
+- **Muzan Kibutsuji — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Sun Breathing** — Take 20 damage, then deal 110 damage to one other player.
 
 ## Digimon
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Digivolve**: Discard 1 card, then draw 2 cards.
-- **Tai and Agumon**: Deal 20 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 5 armor. — canon reference: Tai and Agumon
-- **Matt and Gabumon**: Deal 29 damage to one other player. Afterward, give your teammate +8 damage on their next attack. — canon reference: Matt and Gabumon
-- **Sora and Biyomon**: Draw 1 card and give your teammate 15 armor. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: Sora and Biyomon
-- **Izzy and Tentomon**: Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Izzy and Tentomon
-- **Mimi and Palmon**: Draw 1 card and give your teammate 15 armor. Afterward, reduce the next damage your teammate takes by 14. — canon reference: Mimi and Palmon
-- **Joe and Gomamon**: Give yourself or your teammate 30 armor. Afterward, give your teammate +4 damage on their next attack. — canon reference: Joe and Gomamon
-- **T.K. and Patamon**: Heal your teammate 25 HP and give them 15 armor. Afterward, reduce the next damage you take by 11. — canon reference: T.K. and Patamon
-- **Kari and Gatomon**: Reduce the next damage your teammate takes by 25. Afterward, gain 11 armor. — canon reference: Kari and Gatomon
-- **Crest of Courage**: Deal 18 damage to one other player and gain 12 armor. Afterward, your next attack gets +6 damage. — canon reference: Crest of Courage
-- **Tai and Agumon — Pressure** *(alternate pool option)*: Deal 29 damage to one other player. Afterward, gain 9 armor and your next attack gets +9 damage. — canon reference: Tai and Agumon
-- **Matt and Gabumon — Follow-Through** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor and your next attack gets +9 damage. — canon reference: Matt and Gabumon
-- **Sora and Biyomon — Coordination** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, gain 11 armor and your next attack gets +9 damage. — canon reference: Sora and Biyomon
-- **Izzy and Tentomon — Contingency** *(alternate pool option)*: Choose an opponent. They discard 1 random card. Afterward, gain 12 armor and your next attack gets +9 damage. — canon reference: Izzy and Tentomon
-- **Mimi and Palmon — Formation** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, gain 1 armor and your next attack gets +10 damage. — canon reference: Mimi and Palmon
+- **Crest of Courage** — Deal 20 damage to one other player and gain 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **Digivolve** *(original)* — Discard 1 card, then draw 2 cards.
+- **Izzy and Tentomon** — Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
+- **Izzy and Tentomon — Contingency** — Choose an opponent. They discard 1 random card. Afterward, your next attack gets +20 damage; then heal yourself 10 HP; then take 10 damage.
+- **Joe and Gomamon** — Give yourself or your teammate 30 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Kari and Gatomon** — Reduce the next damage your teammate takes by 25. Afterward, heal yourself or your teammate 10 HP. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Matt and Gabumon** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +20 damage on their next attack.
+- **Matt and Gabumon — Follow-Through** — Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Mimi and Palmon** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
+- **Mimi and Palmon — Formation** — Heal both members of your team 20 HP. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 10; then take 10 damage.
+- **Sora and Biyomon** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage your teammate takes by 20. Then take 10 damage.
+- **Sora and Biyomon — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 20; then gain 10 armor; then take 10 damage.
+- **T.K. and Patamon** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent +10 damage on their next attack.
+- **Tai and Agumon** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 10 less damage.
+- **Tai and Agumon — Pressure** — Deal 30 damage to one other player. Afterward, gain 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **MetalGreymon**: Deal 58 damage to one other player. Afterward, give your teammate +4 damage on their next attack. — canon reference: MetalGreymon
-- **WereGarurumon**: Take 15 damage, then deal 75 damage to one other player. Afterward, your next attack gets +6 damage. — canon reference: WereGarurumon
-- **Angemon**: Take 15 damage, then deal 75 damage to one other player. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Angemon
-- **Myotismon**: Steal 1 random card from an opponent. Afterward, your next attack deals 6 less damage. — canon reference: Myotismon
-- **WarGreymon**: Deal 58 damage to one other player. Afterward, give yourself or your teammate 8 armor. — canon reference: WarGreymon
-- **MetalGreymon — Finisher** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, gain 2 armor and your next attack gets +10 damage. — canon reference: MetalGreymon
-- **WereGarurumon — Decisive Strike** *(alternate pool option)*: Take 15 damage, then deal 75 damage to one other player. Afterward, gain 3 armor and your next attack gets +10 damage. — canon reference: WereGarurumon
+- **Angemon** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
+- **MetalGreymon** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
+- **MetalGreymon — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then your next attack gets +10 damage; then take 10 damage.
+- **Myotismon** — Steal 1 random card from an opponent. Then discard 1 random card from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 40 less damage.
+- **WarGreymon** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
+- **WereGarurumon** — Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 20 damage.
+- **WereGarurumon — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +10 on the next damage they take; then take 10 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Omnimon**: Deal 80 damage to one other player and give yourself or your teammate 30 armor. — canon reference: Omnimon
-- **WarGreymon — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 4 armor and your next attack gets +10 damage. — canon reference: WarGreymon
+- **Omnimon** — Deal 80 damage to one other player and give yourself or your teammate 30 armor.
+- **WarGreymon — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 10 armor; then take 10 damage.
 
 ## Evangelion
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **I mustn’t run away**: For your next 2 turns, you cannot play a card; your punch deals 45 damage instead of 20.
-- **Shinji Ikari**: Deal 20 damage to every other living player. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Shinji Ikari
-- **Rei Ayanami**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, gain 12 armor. — canon reference: Rei Ayanami
-- **Asuka Langley Soryu**: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, the next damage you take is increased by 10%. — canon reference: Asuka Langley Soryu
-- **Misato Katsuragi**: Take 15 damage. Your next attack gets +35 damage. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Misato Katsuragi
-- **Ritsuko Akagi**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, the next damage you take is increased by 20%. — canon reference: Ritsuko Akagi
-- **Gendo Ikari**: Deal 20 damage to every other living player. Afterward, the next damage you take is increased by 10%. — canon reference: Gendo Ikari
-- **Kaworu Nagisa**: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, the next damage you take is increased by 15%. — canon reference: Kaworu Nagisa
-- **Eva Unit-00**: Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10. — canon reference: Eva Unit-00
-- **Eva Unit-02**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, your next attack gets +7 damage. — canon reference: Eva Unit-02
-- **Shinji Ikari — Over the Limit** *(alternate pool option)*: Deal 20 damage to every other living player. Afterward, gain 5 armor and your next attack gets +10 damage. — canon reference: Shinji Ikari
-- **Rei Ayanami — No Turning Back** *(alternate pool option)*: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 6 armor and your next attack gets +10 damage. — canon reference: Rei Ayanami
-- **Asuka Langley Soryu — Danger Zone** *(alternate pool option)*: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, gain 7 armor and your next attack gets +10 damage. — canon reference: Asuka Langley Soryu
-- **Misato Katsuragi — All In** *(alternate pool option)*: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 8 armor and your next attack gets +10 damage. — canon reference: Misato Katsuragi
-- **Ritsuko Akagi — Burnout** *(alternate pool option)*: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 9 armor and your next attack gets +10 damage. — canon reference: Ritsuko Akagi
+- **Asuka Langley Soryu** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
+- **Asuka Langley Soryu — Danger Zone** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, reduce the next damage you take by 20; then heal yourself 10 HP; then take 20 damage.
+- **Eva Unit-00** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Eva Unit-02** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage.
+- **Gendo Ikari** — Deal 20 damage to every other living player. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
+- **I mustn’t run away** *(original)* — For your next 2 turns, you cannot play a card; your punch deals 50 damage instead of 20.
+- **Kaworu Nagisa** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Your next attack also gets +40 damage.
+- **Misato Katsuragi** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +30 damage.
+- **Misato Katsuragi — All In** — Take 20 damage. Your next attack gets +40 damage. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 10; then take 20 damage. Your next attack also gets +20 damage.
+- **Rei Ayanami** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then your next attack deals 20 less damage. Your next attack also gets +20 damage.
+- **Rei Ayanami — No Turning Back** — Take 20 damage. Your next attack gets +40 damage. Afterward, heal yourself 20 HP; then gain 10 armor; then take 20 damage. Your next attack also gets +20 damage.
+- **Ritsuko Akagi** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, your next attack gets +10 damage. Then discard 1 random card from your hand. Your next attack also gets +50 damage.
+- **Ritsuko Akagi — Burnout** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +20 damage.
+- **Shinji Ikari** — Deal 20 damage to every other living player. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
+- **Shinji Ikari — Over the Limit** — Deal 20 damage to every other living player. Afterward, gain 20 armor; then an opponent’s next attack deals 10 less damage; then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Berserk**: When you next take damage, do that amount of damage back to your opponent up to 50 damage
-- **A.T. Field**: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, your next attack gets +7 damage. — canon reference: A.T. Field
-- **Spear of Longinus**: Deal 35 damage to both opponents. Afterward, give your teammate +3 damage on their next attack. — canon reference: Spear of Longinus
-- **SEELE**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, your next attack gets +6 damage. — canon reference: SEELE
-- **Angel Attack**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. — canon reference: Angel Attack
-- **A.T. Field — Countermeasure** *(alternate pool option)*: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, gain 10 armor and your next attack gets +10 damage. — canon reference: A.T. Field
-- **Spear of Longinus — Decisive Strike** *(alternate pool option)*: Deal 60 damage to one other player. Afterward, gain 11 armor and your next attack gets +10 damage. — canon reference: Spear of Longinus
+- **A.T. Field** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, reduce the next damage you take by 10. Then take 10 damage.
+- **A.T. Field — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Angel Attack** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then take 10 damage.
+- **Berserk** *(original)* — When you next take damage, do that amount of damage back to your opponent up to 50 damage
+- **SEELE** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 20 armor. Then take 30 damage. Your next attack also gets +90 damage.
+- **Spear of Longinus** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then take 10 damage.
+- **Spear of Longinus — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 10 armor; then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Eva Unit-01**: Until your next turn, no single hit can deal more than 30 damage to you. Your next attack gets +50 damage. — canon reference: Eva Unit-01
-- **Third Impact — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, gain 12 armor and your next attack gets +10 damage. — canon reference: Third Impact
+- **Eva Unit-01** — Until your next turn, no single hit can deal more than 30 damage to you. Your next attack gets +50 damage. Your next attack also gets +20 damage.
+- **Third Impact — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
 
 ## Fairy Tail
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Wendy**: Heal yourself or your teammate 40 HP.
-- **Fire Dragon Roar**: deal 20 damage to 1 opponent and 5 to the other
-- **Natsu Dragneel**: Deal 28 damage to one other player. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Natsu Dragneel
-- **Lucy Heartfilia**: Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +7 damage on their next attack. — canon reference: Lucy Heartfilia
-- **Gray Fullbuster**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Gray Fullbuster
-- **Happy**: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Happy
-- **Gajeel Redfox**: Deal 18 damage to one other player and gain 12 armor. Afterward, reduce the next damage you take by 7. — canon reference: Gajeel Redfox
-- **Laxus Dreyar**: Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Laxus Dreyar
-- **Mirajane Strauss**: Deal 15 damage to both opponents. Afterward, your next attack gets +9 damage. — canon reference: Mirajane Strauss
-- **Jellal Fernandes**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, give yourself or your teammate 6 armor. — canon reference: Jellal Fernandes
-- **Natsu Dragneel — Pressure** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, gain 1 armor and your next attack gets +11 damage. — canon reference: Natsu Dragneel
-- **Lucy Heartfilia — Arcane Turn** *(alternate pool option)*: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, gain 2 armor and your next attack gets +11 damage. — canon reference: Lucy Heartfilia
-- **Gray Fullbuster — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, gain 3 armor and your next attack gets +11 damage. — canon reference: Gray Fullbuster
-- **Happy — Quick Shift** *(alternate pool option)*: You may play one additional 3★ card this turn. Afterward, gain 4 armor and your next attack gets +11 damage. — canon reference: Happy
-- **Gajeel Redfox — Overdrive** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, gain 5 armor and your next attack gets +11 damage. — canon reference: Gajeel Redfox
+- **Fire Dragon Roar** *(original)* — Deal 20 damage to one opponent and 10 damage to the other opponent.
+- **Gajeel Redfox** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Gajeel Redfox — Overdrive** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
+- **Gray Fullbuster** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
+- **Gray Fullbuster — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **Happy** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage. Then take 10 damage.
+- **Happy — Quick Shift** — You may play one additional 3★ card this turn. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage. Then take 20 damage.
+- **Jellal Fernandes** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Laxus Dreyar** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage. Then take 20 damage.
+- **Lucy Heartfilia** — Return one 3★ card from your discard pile to your hand. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **Lucy Heartfilia — Arcane Turn** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
+- **Mirajane Strauss** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
+- **Natsu Dragneel** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
+- **Natsu Dragneel — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Wendy** *(original)* — Heal yourself or your teammate 40 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Requip**: Give yourself or your teammate 60 armor.
-- **Dragon Force**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, your next attack gets +4 damage. — canon reference: Dragon Force
-- **Fairy Law**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 4 less damage. — canon reference: Fairy Law
-- **Urano Metria**: Deal 45 damage to one other player, then draw 1 card. Afterward, your next attack gets +6 damage. — canon reference: Urano Metria
-- **Grand Chariot**: Take 15 damage, then deal 75 damage to one other player. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Grand Chariot
-- **Dragon Force — Finisher** *(alternate pool option)*: Take 15 damage, then deal 75 damage to one other player. Afterward, gain 6 armor and your next attack gets +11 damage. — canon reference: Dragon Force
-- **Fairy Law — No Escape** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, gain 7 armor and your next attack gets +11 damage. — canon reference: Fairy Law
+- **Dragon Force** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
+- **Dragon Force — Finisher** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
+- **Fairy Law** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then give the chosen opponent 10 armor. Then your next attack deals 10 less damage.
+- **Fairy Law — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Grand Chariot** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand.
+- **Requip** *(original)* — Give yourself or your teammate 60 armor.
+- **Urano Metria** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Fairy Tail Guild**: Heal both members of your team 40 HP, then draw 1 card. — canon reference: Fairy Tail Guild
-- **Fairy Glitter — Final Push** *(alternate pool option)*: Deal 56 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 8 armor and your next attack gets +11 damage. — canon reference: Fairy Glitter
+- **Fairy Glitter — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then discard 1 random card from your hand.
+- **Fairy Tail Guild** — Heal both members of your team 40 HP, then draw 1 card. Also give yourself or your teammate 30 armor.
 
 ## Fate/stay night
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Unlimited Blade Works**: The next time you draw at the start of your turn, draw 1 additional card.
-- **Shirou Emiya**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give yourself or your teammate 3 armor. — canon reference: Shirou Emiya
-- **Rin Tohsaka**: Choose an opponent. They cannot heal until the start of their next turn. Afterward, your next attack gets +7 damage. — canon reference: Rin Tohsaka
-- **Archer**: Deal 15 damage to both opponents. Afterward, your next attack gets +11 damage. — canon reference: Archer
-- **Sakura Matou**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, your next attack gets +8 damage. — canon reference: Sakura Matou
-- **Rider**: You and your teammate each get +10 damage on your next attack. Afterward, reduce the next damage you take by 7. — canon reference: Rider
-- **Lancer**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +6 damage on their next attack. — canon reference: Lancer
-- **Illyasviel von Einzbern**: Deal 25 damage to one other player and mark them for +10 on the next damage they take. Afterward, give your teammate +8 damage on their next attack. — canon reference: Illyasviel von Einzbern
-- **Kirei Kotomine**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, give your teammate +8 damage on their next attack. — canon reference: Kirei Kotomine
-- **Command Spell**: Until your next turn, you cannot be targeted by attacks. Afterward, gain 8 armor. — canon reference: Command Spell
-- **Shirou Emiya — Pressure** *(alternate pool option)*: Deal 29 damage to one other player. Afterward, gain 9 armor and your next attack gets +11 damage. — canon reference: Shirou Emiya
-- **Rin Tohsaka — Arcane Turn** *(alternate pool option)*: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, gain 10 armor and your next attack gets +11 damage. — canon reference: Rin Tohsaka
-- **Archer — Breakthrough** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, gain 11 armor and your next attack gets +11 damage. — canon reference: Archer
-- **Sakura Matou — Resonance** *(alternate pool option)*: Choose an opponent. Their next attack deals 15 less damage; your next attack gets +10. Afterward, gain 12 armor and your next attack gets +11 damage. — canon reference: Sakura Matou
-- **Rider — Set the Pace** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 1 armor and your next attack gets +12 damage. — canon reference: Rider
+- **Archer** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage. Then give the chosen opponent 20 armor.
+- **Archer — Breakthrough** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then discard 1 random card from your hand.
+- **Command Spell** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then take 20 damage.
+- **Illyasviel von Einzbern** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, reduce the next damage you take by 20. Then take 20 damage.
+- **Kirei Kotomine** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 20 less damage.
+- **Lancer** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
+- **Rider** — You and your teammate each get +10 damage on your next attack. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also draw 1 card.
+- **Rider — Set the Pace** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand.
+- **Rin Tohsaka** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also mark one other player for +30 on the next damage they take.
+- **Rin Tohsaka — Arcane Turn** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
+- **Sakura Matou** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then discard 2 random cards from your hand. Also mark one other player for +30 on the next damage they take.
+- **Sakura Matou — Resonance** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
+- **Shirou Emiya** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Shirou Emiya — Pressure** — Deal 30 damage to one other player. Afterward, gain 10 armor; then heal yourself 20 HP; then discard 1 random card from your hand.
+- **Unlimited Blade Works** *(original)* — The next time you draw at the start of your turn, draw 1 additional card.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Gáe Bolg**: Take 15 damage, then deal 75 damage to one other player. Afterward, reduce the next damage you take by 12. — canon reference: Gáe Bolg
-- **Gate of Babylon**: Deal 35 damage to both opponents. Afterward, your next attack gets +4 damage. — canon reference: Gate of Babylon
-- **Avalon**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, reduce the next damage you take by 6. — canon reference: Avalon
-- **Berserker**: Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +6 damage on their next attack. — canon reference: Berserker
-- **Gilgamesh**: Take 15 damage, then deal 75 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. — canon reference: Gilgamesh
-- **Gáe Bolg — Finisher** *(alternate pool option)*: Take 15 damage, then deal 75 damage to one other player. Afterward, gain 2 armor and your next attack gets +12 damage. — canon reference: Gáe Bolg
-- **Gate of Babylon — Decisive Strike** *(alternate pool option)*: Take 15 damage, then deal 75 damage to one other player. Afterward, gain 3 armor and your next attack gets +12 damage. — canon reference: Gate of Babylon
+- **Avalon** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also reduce the next damage you take by 40.
+- **Berserker** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand.
+- **Gate of Babylon** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
+- **Gate of Babylon — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
+- **Gilgamesh** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 20 armor. Then take 20 damage.
+- **Gáe Bolg** — Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
+- **Gáe Bolg — Finisher** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Excalibur**: Deal 100 damage to one other player.
-- **Gilgamesh — Final Push** *(alternate pool option)*: Deal 50 damage to both opponents. Your next attack gets +20 damage. Afterward, gain 4 armor and your next attack gets +12 damage. — canon reference: Gilgamesh
+- **Excalibur** *(original)* — Deal 100 damage to one other player.
+- **Gilgamesh — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then heal the chosen opponent 10 HP.
 
 ## Frieren
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Zoltraak**: Over the next 3 turn do 7 damage to each enemy
-- **Fern**: Deal 30 damage to one other player. Afterward, reduce the next damage you take by 8. — canon reference: Fern
-- **Stark**: Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +10 damage. — canon reference: Stark
-- **Himmel**: Heal yourself or your teammate 40 HP. Afterward, gain 7 armor. — canon reference: Himmel
-- **Heiter**: Draw 1 card and give your teammate 15 armor. Afterward, heal yourself 5 HP. — canon reference: Heiter
-- **Eisen**: Choose an opponent. They discard 1 random card. Afterward, reduce the next damage you take by 8. — canon reference: Eisen
-- **Flamme**: Until your next turn, you cannot be targeted by attacks. Afterward, give yourself or your teammate 12 armor. — canon reference: Flamme
-- **Denken**: Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 3 armor. — canon reference: Denken
-- **Übel**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 11 armor. — canon reference: Übel
-- **Lawine**: Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +5 on the next damage they take. — canon reference: Lawine
-- **Fern — Pressure** *(alternate pool option)*: Deal 30 damage to one other player. Afterward, gain 5 armor and your next attack gets +12 damage. — canon reference: Fern
-- **Stark — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 6 armor and your next attack gets +12 damage. — canon reference: Stark
-- **Himmel — Coordination** *(alternate pool option)*: Draw 1 card and give your teammate 15 armor. Afterward, gain 7 armor and your next attack gets +12 damage. — canon reference: Himmel
-- **Heiter — Backup Plan** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, gain 8 armor and your next attack gets +12 damage. — canon reference: Heiter
-- **Eisen — Field Plan** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, gain 9 armor and your next attack gets +12 damage. — canon reference: Eisen
+- **Denken** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then take 30 damage. Also reduce the next damage you take by 40.
+- **Eisen** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Also reduce the next damage you take by 40.
+- **Eisen — Field Plan** — Reduce the next damage you or your teammate takes by 25. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +20 damage on their next attack; then take 10 damage.
+- **Fern** — Deal 30 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
+- **Fern — Pressure** — Deal 30 damage to one other player. Afterward, gain 10 armor; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
+- **Flamme** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +10 damage. Then your next attack deals 20 less damage.
+- **Heiter** — Draw 1 card and give your teammate 20 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Heiter — Backup Plan** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, your next attack gets +10 damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
+- **Himmel** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor.
+- **Himmel — Coordination** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Lawine** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also mark one other player for +20 on the next damage they take.
+- **Stark** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Stark — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 10 HP; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
+- **Zoltraak** *(original)* — Over the next 3 turn do 10 damage to each enemy
+- **Übel** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Aura, Kill yourself**: Select one opponent. Their next action is a punch against themself.
-- **Mimic Chest**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, reduce the next damage you take by 9. — canon reference: Mimic Chest
-- **Mana Suppression**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Mana Suppression
-- **Serie**: Swap your HP with one other living player. Afterward, take 12 damage. — canon reference: Serie
-- **First-Class Mage Exam**: You and your teammate each get +25 damage on your next attack. Afterward, reduce the next damage you take by 10. — canon reference: First-Class Mage Exam
-- **Mimic Chest — Desperation** *(alternate pool option)*: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, gain 10 armor and your next attack gets +12 damage. — canon reference: Mimic Chest
-- **Mana Suppression — No Escape** *(alternate pool option)*: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 11 armor and your next attack gets +12 damage. — canon reference: Mana Suppression
+- **Aura, Kill yourself** *(original)* — Select one opponent. Their next action is a punch against themself.
+- **First-Class Mage Exam** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then discard 1 random card from your hand. Also draw 1 card.
+- **Himmel's Statue — Grand Strategy** — Deal 40 damage to one other player, give yourself or your teammate 20 armor, and reduce the next damage you take by 10.
+- **Mana Suppression** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
+- **Mana Suppression — No Escape** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, give your teammate +10 damage on their next attack; then gain 20 armor; then take 10 damage.
+- **Mimic Chest** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, your next attack gets +10 damage. Then take 20 damage. Your next attack also gets +60 damage.
+- **Mimic Chest — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage. Your next attack also gets +50 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Frieren**: Deal 65 damage to one other player, draw 1 card, and reduce the next damage you take by 25. — canon reference: Frieren
-- **Himmel's Statue — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, gain 12 armor and your next attack gets +12 damage. — canon reference: Himmel's Statue
+- **Frieren** — Deal 70 damage to one other player, draw 1 card, and reduce the next damage you take by 25.
+- **Serie** — Swap your HP with one other living player. Then take 30 damage. Then heal the chosen opponent 20 HP. Also mark one other player for +20 on the next damage they take.
 
 ## Fullmetal Alchemist: Brotherhood
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Edward Elric**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself or your teammate 5 HP. — canon reference: Edward Elric
-- **Alphonse Elric**: Reduce the next damage you or your teammate takes by 25. Afterward, gain 5 armor. — canon reference: Alphonse Elric
-- **Winry Rockbell**: Heal your teammate 25 HP and give them 15 armor. Afterward, give your teammate +6 damage on their next attack. — canon reference: Winry Rockbell
-- **Riza Hawkeye**: Deal 28 damage to one other player. Afterward, reduce the next damage you take by 13. — canon reference: Riza Hawkeye
-- **Alex Louis Armstrong**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, heal yourself 11 HP. — canon reference: Alex Louis Armstrong
-- **Ling Yao**: Heal yourself 20 HP, then draw 1 card. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Ling Yao
-- **Greed**: Mark one other player. The next damage they take is increased by 20. Afterward, gain 9 armor. — canon reference: Greed
-- **Scar**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 8. — canon reference: Scar
-- **Lust**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +3 damage on their next attack. — canon reference: Lust
-- **Envy**: Choose an opponent. Their next action is a punch against themself. Afterward, give your teammate +11 damage on their next attack. — canon reference: Envy
-- **Edward Elric — Positioning** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 1 HP and reduce the next damage you take by 1. — canon reference: Edward Elric
-- **Alphonse Elric — Prepared Response** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 2 HP and reduce the next damage you take by 1. — canon reference: Alphonse Elric
-- **Winry Rockbell — Coordination** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, heal yourself 3 HP and reduce the next damage you take by 1. — canon reference: Winry Rockbell
-- **Riza Hawkeye — Counteroffensive** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, heal yourself 4 HP and reduce the next damage you take by 1. — canon reference: Riza Hawkeye
-- **Alex Louis Armstrong — Field Plan** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 5 HP and reduce the next damage you take by 1. — canon reference: Alex Louis Armstrong
+- **Alex Louis Armstrong** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Alex Louis Armstrong — Field Plan** — Reduce the next damage you or your teammate takes by 25. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 20 less damage; then take 20 damage.
+- **Alphonse Elric** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Alphonse Elric — Prepared Response** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 10 HP; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Edward Elric** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then take 20 damage. Also reduce the next damage you take by 30.
+- **Edward Elric — Positioning** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor; then your next attack gets +20 damage; then take 10 damage.
+- **Envy** — Choose an opponent. Their next action is a punch against themself. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
+- **Greed** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage. Also reduce the next damage you take by 30.
+- **Ling Yao** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage.
+- **Lust** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Riza Hawkeye** — Deal 30 damage to one other player. Afterward, your next attack gets +20 damage. Then give the chosen opponent +20 damage on their next attack.
+- **Riza Hawkeye — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +10 damage; then give your teammate +20 damage on their next attack; then take 20 damage.
+- **Scar** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Winry Rockbell** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 10 less damage.
+- **Winry Rockbell — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 20 armor; then take 10 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Equivalent Exchange**: Discard one 3★ card, then draw 2 cards.
-- **Shou Tucker**: transform a random enemy 4 star card into a useless card for 2 turns
-- **Roy Mustang**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Roy Mustang
-- **King Bradley**: Deal 35 damage to both opponents. Afterward, your next attack gets +7 damage. — canon reference: King Bradley
-- **Van Hohenheim**: Deal 35 damage to both opponents. Afterward, gain 11 armor. — canon reference: Van Hohenheim
-- **Roy Mustang — Countermeasure** *(alternate pool option)*: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, heal yourself 6 HP and reduce the next damage you take by 1. — canon reference: Roy Mustang
-- **King Bradley — Perfect Setup** *(alternate pool option)*: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, heal yourself 7 HP and reduce the next damage you take by 1. — canon reference: King Bradley
+- **Equivalent Exchange** *(original)* — Discard one 3★ card from your hand, draw 3 cards, then you may play one additional 3★ card this turn.
+- **King Bradley** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
+- **King Bradley — Perfect Setup** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give your teammate +10 damage on their next attack; then heal yourself 20 HP; then take 20 damage. Also reduce the next damage you take by 30.
+- **Roy Mustang** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor.
+- **Roy Mustang — Countermeasure** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor; then gain 20 armor; then take 20 damage. Also reduce the next damage you take by 30.
+- **Shou Tucker** *(original)* — transform a random enemy 4 star card into a useless card for 2 turns
+- **Van Hohenheim** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Father**: Bring 3 non five star cards back from your discard pile and play one instantly
-- **The Promised Day — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, heal yourself 8 HP and reduce the next damage you take by 1. — canon reference: The Promised Day
+- **The Father** *(original)* — Return up to 2 non-5★ cards from your discard pile to your hand, then you may play one additional non-5★ card this turn.
+- **The Promised Day — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 20; then take 20 damage.
 
 ## Horimiya
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Miyamura**: If you or your teammate take damage this turn, heal 30
-- **Kyoko Hori**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, gain 4 armor. — canon reference: Kyoko Hori
-- **Toru Ishikawa**: Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 6 armor. — canon reference: Toru Ishikawa
-- **Yuki Yoshikawa**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, gain 8 armor. — canon reference: Yuki Yoshikawa
-- **Kakeru Sengoku**: Heal both members of your team 20 HP. Afterward, gain 10 armor. — canon reference: Kakeru Sengoku
-- **Remi Ayasaki**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +12 damage on their next attack. — canon reference: Remi Ayasaki
-- **Sakura Kono**: Heal both members of your team 20 HP. Afterward, give yourself or your teammate 7 armor. — canon reference: Sakura Kono
-- **Shu Iura**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage you take by 6. — canon reference: Shu Iura
-- **Honoka Sawada**: Heal your teammate 25 HP and give them 10 armor. Afterward, give your teammate +11 damage on their next attack. — canon reference: Honoka Sawada
-- **Sota Hori**: Heal both members of your team 20 HP. Afterward, give your teammate +9 damage on their next attack. — canon reference: Sota Hori
-- **Kyoko Hori — Heart-to-Heart** *(alternate pool option)*: Heal your teammate 25 HP and give them 10 armor. Afterward, heal yourself 9 HP and reduce the next damage you take by 1. — canon reference: Kyoko Hori
-- **Toru Ishikawa — Helping Hand** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 10 HP and reduce the next damage you take by 1. — canon reference: Toru Ishikawa
-- **Yuki Yoshikawa — Promise** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 11 HP and reduce the next damage you take by 1. — canon reference: Yuki Yoshikawa
-- **Kakeru Sengoku — Trust** *(alternate pool option)*: Heal your teammate 25 HP and give them 10 armor. Afterward, heal yourself 12 HP and reduce the next damage you take by 1. — canon reference: Kakeru Sengoku
-- **Remi Ayasaki — Reassurance** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, heal yourself 1 HP and reduce the next damage you take by 2. — canon reference: Remi Ayasaki
+- **Honoka Sawada** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
+- **Kakeru Sengoku** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
+- **Kakeru Sengoku — Trust** — Heal your teammate 30 HP and give them 10 armor. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
+- **Kyoko Hori** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Kyoko Hori — Heart-to-Heart** — Heal your teammate 30 HP and give them 10 armor. Afterward, gain 10 armor; then mark one other player for +20 on the next damage they take; then take 20 damage.
+- **Miyamura** *(original)* — If you or your teammate take damage this turn, heal 30
+- **Remi Ayasaki** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 10 less damage.
+- **Remi Ayasaki — Reassurance** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then gain 20 armor; then your next attack deals 10 less damage.
+- **Sakura Kono** — Heal both members of your team 20 HP. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
+- **Shu Iura** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
+- **Sota Hori** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
+- **Toru Ishikawa** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor. Also give yourself or your teammate 30 armor.
+- **Toru Ishikawa — Helping Hand** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 10 HP; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Yuki Yoshikawa** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage.
+- **Yuki Yoshikawa — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Izumi's Piercings**: You may play one additional non-5★ card this turn. Afterward, take 7 damage. — canon reference: Izumi's Piercings
-- **Hidden Tattoos**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, reduce the next damage you take by 12. — canon reference: Hidden Tattoos
-- **Hori's House**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, reduce the next damage your teammate takes by 11. — canon reference: Hori's House
-- **Miyamura's Haircut**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Miyamura's Haircut
-- **Graduation Day**: Heal yourself or your teammate 70 HP. Afterward, gain 6 armor. — canon reference: Graduation Day
-- **Izumi's Piercings — Together** *(alternate pool option)*: Heal both members of your team 35 HP. Afterward, heal yourself 2 HP and reduce the next damage you take by 2. — canon reference: Izumi's Piercings
-- **Hidden Tattoos — Shared Resolve** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, heal yourself 3 HP and reduce the next damage you take by 2. — canon reference: Hidden Tattoos
+- **Graduation Day** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Hidden Tattoos** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage. Also give yourself or your teammate 30 armor.
+- **Hidden Tattoos — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
+- **Hori's House** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor. Also give yourself or your teammate 30 armor.
+- **Izumi's Piercings** — You may play one additional non-5★ card this turn. Then your next attack deals 20 less damage. Then your next attack deals 10 less damage. Also give yourself or your teammate 40 armor.
+- **Izumi's Piercings — Together** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then heal yourself 20 HP; then your next attack deals 10 less damage.
+- **Miyamura's Haircut** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Hori and Miyamura**: Heal both members of your team 35 HP. Reduce the next damage your teammate takes by 25. — canon reference: Hori and Miyamura
-- **Graduation Day — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, heal yourself 4 HP and reduce the next damage you take by 2. — canon reference: Graduation Day
+- **Graduation Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +20 damage; then your next attack deals 10 less damage.
+- **Hori and Miyamura** — Heal both members of your team 40 HP. Reduce the next damage your teammate takes by 25. Also give yourself or your teammate 30 armor.
 
 ## JoJo's Bizarre Adventure
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Jonathan Joestar**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 4 armor. — canon reference: Jonathan Joestar
-- **Joseph Joestar**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, reduce the next damage you take by 12. — canon reference: Joseph Joestar
-- **Jotaro Kujo**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, take 3 damage. — canon reference: Jotaro Kujo
-- **Josuke Higashikata**: Heal your teammate 25 HP and give them 15 armor. Afterward, give your teammate +13 damage on their next attack. — canon reference: Josuke Higashikata
-- **Giorno Giovanna**: Choose an opponent. Their next attack deals 15 less damage; your next attack gets +10. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Giorno Giovanna
-- **Jolyne Cujoh**: Deal 30 damage to one other player. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Jolyne Cujoh
-- **Hamon**: Deal 18 damage to one other player and gain 12 armor. Afterward, reduce the next damage you take by 11. — canon reference: Hamon
-- **Hermit Purple**: Mark one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 3 armor. — canon reference: Hermit Purple
-- **Crazy Diamond**: Your teammate ignores the next punch that would damage them. Afterward, reduce the next damage you take by 13. — canon reference: Crazy Diamond
-- **Stone Free**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +8 on the next damage they take. — canon reference: Stone Free
-- **Jonathan Joestar — Pressure** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, heal yourself 5 HP and reduce the next damage you take by 2. — canon reference: Jonathan Joestar
-- **Joseph Joestar — Prepared Response** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 6 HP and reduce the next damage you take by 2. — canon reference: Joseph Joestar
-- **Jotaro Kujo — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 7 HP and reduce the next damage you take by 2. — canon reference: Jotaro Kujo
-- **Josuke Higashikata — Backup Plan** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, heal yourself 8 HP and reduce the next damage you take by 2. — canon reference: Josuke Higashikata
-- **Giorno Giovanna — Unseen Hand** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 9 HP and reduce the next damage you take by 2. — canon reference: Giorno Giovanna
+- **Crazy Diamond** — Your teammate ignores the next punch that would damage them. Afterward, you and your teammate each get +20 damage on your next attack. Then heal the chosen opponent 10 HP.
+- **Giorno Giovanna** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, gain 20 armor. Then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
+- **Giorno Giovanna — Unseen Hand** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 20 HP; then discard 1 random card from your hand.
+- **Hamon** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then your next attack deals 20 less damage.
+- **Hermit Purple** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 50 less damage.
+- **Jolyne Cujoh** — Deal 30 damage to one other player. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack.
+- **Jonathan Joestar** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 20 armor. Then discard 1 random card from your hand.
+- **Jonathan Joestar — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
+- **Joseph Joestar** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand.
+- **Joseph Joestar — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 10 HP; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
+- **Josuke Higashikata** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Josuke Higashikata — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +10 damage; then gain 20 armor; then discard 1 random card from your hand.
+- **Jotaro Kujo** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
+- **Jotaro Kujo — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
+- **Stone Free** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Star Platinum**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Star Platinum
-- **Killer Queen**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, give your teammate +8 damage on their next attack. — canon reference: Killer Queen
-- **Gold Experience Requiem**: Choose an opponent. They skip their next turn. Afterward, take 7 damage. — canon reference: Gold Experience Requiem
-- **King Crimson**: Steal 1 random card from an opponent. Afterward, take 10 damage. — canon reference: King Crimson
-- **Made in Heaven**: Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, reduce the next damage you take by 10. — canon reference: Made in Heaven
-- **Star Platinum — Finisher** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, heal yourself 10 HP and reduce the next damage you take by 2. — canon reference: Star Platinum
-- **Killer Queen — Point of No Return** *(alternate pool option)*: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, heal yourself 11 HP and reduce the next damage you take by 2. — canon reference: Killer Queen
+- **Gold Experience Requiem** — Choose an opponent. They skip their next turn. Then your next attack deals 10 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Killer Queen** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, your next attack gets +10 damage. Then take 10 damage. Your next attack also gets +40 damage.
+- **Killer Queen — Point of No Return** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +20 damage; then discard 1 random card from your hand. Your next attack also gets +40 damage.
+- **King Crimson** — Steal 1 random card from an opponent. Then give the chosen opponent 20 armor. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 40 less damage.
+- **Made in Heaven** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Star Platinum** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Star Platinum — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 20; then discard 1 random card from your hand.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The World**: skip both of your opponents next turn
-- **Made in Heaven — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, heal yourself 12 HP and reduce the next damage you take by 2. — canon reference: Made in Heaven
+- **Made in Heaven — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
+- **The World** *(original)* — Both opponents skip their next turn. Then take 40 damage.
 
 ## Jujutsu Kaisen
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Sukuna's Finger**: flip a coin, tails is a 1.5x dmg increase on your next attack heads is take 40 dmg
-- **Yuji Itadori**: Deal 28 damage to one other player. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Yuji Itadori
-- **Megumi Fushiguro**: Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Megumi Fushiguro
-- **Nobara Kugisaki**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, your next attack gets +5 damage. — canon reference: Nobara Kugisaki
-- **Kento Nanami**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Kento Nanami
-- **Maki Zenin**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, give yourself or your teammate 10 armor. — canon reference: Maki Zenin
-- **Toge Inumaki**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 9 less damage. — canon reference: Toge Inumaki
-- **Panda**: Your teammate ignores the next punch that would damage them. Afterward, gain 8 armor. — canon reference: Panda
-- **Yuta Okkotsu**: Choose an opponent. They cannot heal until the start of their next turn. Afterward, give yourself or your teammate 12 armor. — canon reference: Yuta Okkotsu
-- **Black Flash**: Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage. — canon reference: Black Flash
-- **Yuji Itadori — Pressure** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 1 HP and reduce the next damage you take by 3. — canon reference: Yuji Itadori
-- **Megumi Fushiguro — Arcane Turn** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 2 HP and reduce the next damage you take by 3. — canon reference: Megumi Fushiguro
-- **Nobara Kugisaki — Breakthrough** *(alternate pool option)*: Deal 28 damage to one other player. Afterward, heal yourself 3 HP and reduce the next damage you take by 3. — canon reference: Nobara Kugisaki
-- **Kento Nanami — Counteroffensive** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, heal yourself 4 HP and reduce the next damage you take by 3. — canon reference: Kento Nanami
-- **Maki Zenin — Overdrive** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 5 HP and reduce the next damage you take by 3. — canon reference: Maki Zenin
+- **Black Flash** — Deal 20 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
+- **Kento Nanami** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
+- **Kento Nanami — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
+- **Maki Zenin** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
+- **Maki Zenin — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
+- **Megumi Fushiguro** — Return one 3★ card from your discard pile to your hand. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also mark one other player for +20 on the next damage they take.
+- **Megumi Fushiguro — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
+- **Nobara Kugisaki** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP.
+- **Nobara Kugisaki — Breakthrough** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10; then gain 20 armor; then heal the chosen opponent 10 HP.
+- **Panda** — Your teammate ignores the next punch that would damage them. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Sukuna's Finger** *(original)* — flip a coin, tails is a 1.5x dmg increase on your next attack heads is take 40 dmg
+- **Toge Inumaki** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then take 10 damage.
+- **Yuji Itadori** — Deal 30 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
+- **Yuji Itadori — Pressure** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Yuta Okkotsu** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Boogie woogie**: switch the hp of any two players of your choosing, cannot be used on a dead player
-- **Domain Expansion**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Domain Expansion
-- **Mahito**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 8 less damage. — canon reference: Mahito
-- **Suguru Geto**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 7 damage. — canon reference: Suguru Geto
-- **Satoru Gojo**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 5 less damage. — canon reference: Satoru Gojo
-- **Domain Expansion — Interference** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, heal yourself 6 HP and reduce the next damage you take by 3. — canon reference: Domain Expansion
-- **Mahito — No Escape** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, heal yourself 7 HP and reduce the next damage you take by 3. — canon reference: Mahito
+- **Domain Expansion** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then take 10 damage.
+- **Domain Expansion — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then your next attack gets +20 damage; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Mahito** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then give the chosen opponent +20 damage on their next attack.
+- **Mahito — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Malevolent Shrine — Final Push** — Deal 30 damage to both opponents. Your next attack gets +10 damage.
+- **Satoru Gojo** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 20 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 30 less damage.
+- **Suguru Geto** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then discard 1 random card from your hand.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Infinity**: The person who used this card will take no damage from the next 3 standard damage attacks they take
-- **Malevolent Shrine — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 8 HP and reduce the next damage you take by 3. — canon reference: Malevolent Shrine
+- **Boogie woogie** *(original)* — switch the hp of any two players of your choosing, cannot be used on a dead player
+- **Infinity** *(original)* — Take no damage from the next 2 standard damage attacks that hit you.
 
 ## Kaguya-sama: Love Is War
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Love is War**: Look at one non five star card your opponent has. They cannot play that card on their turn
-- **Kaguya Shinomiya**: Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 9. — canon reference: Kaguya Shinomiya
-- **Miyuki Shirogane**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, give yourself or your teammate 6 armor. — canon reference: Miyuki Shirogane
-- **Chika Fujiwara**: Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 4 armor. — canon reference: Chika Fujiwara
-- **Yu Ishigami**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 7 HP. — canon reference: Yu Ishigami
-- **Miko Iino**: Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 5 armor. — canon reference: Miko Iino
-- **Ai Hayasaka**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Ai Hayasaka
-- **Kei Shirogane**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +5 on the next damage they take. — canon reference: Kei Shirogane
-- **Papa Shirogane**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, gain 6 armor. — canon reference: Papa Shirogane
-- **Nagisa Kashiwagi**: Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +10 damage. — canon reference: Nagisa Kashiwagi
-- **Kaguya Shinomiya — Read the Field** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 9 HP and reduce the next damage you take by 3. — canon reference: Kaguya Shinomiya
-- **Miyuki Shirogane — Calculated Trap** *(alternate pool option)*: Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 10 HP and reduce the next damage you take by 3. — canon reference: Miyuki Shirogane
-- **Chika Fujiwara — Lockdown** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 11 HP and reduce the next damage you take by 3. — canon reference: Chika Fujiwara
-- **Yu Ishigami — Counterplay** *(alternate pool option)*: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 12 HP and reduce the next damage you take by 3. — canon reference: Yu Ishigami
-- **Miko Iino — Checkmate** *(alternate pool option)*: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 1 HP and reduce the next damage you take by 4. — canon reference: Miko Iino
+- **Ai Hayasaka** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
+- **Chika Fujiwara** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
+- **Chika Fujiwara — Lockdown** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then heal yourself 20 HP; then take 10 damage.
+- **Kaguya Shinomiya** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
+- **Kaguya Shinomiya — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage.
+- **Kei Shirogane** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Love is War** *(original)* — Look at one non five star card your opponent has. They cannot play that card on their turn
+- **Miko Iino** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
+- **Miko Iino — Checkmate** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +20 damage; then take 10 damage.
+- **Miyuki Shirogane** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
+- **Miyuki Shirogane — Calculated Trap** — Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 10 HP; then gain 20 armor; then take 10 damage.
+- **Nagisa Kashiwagi** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Papa Shirogane** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +20 damage on their next attack.
+- **Yu Ishigami** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Yu Ishigami — Counterplay** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 20; then take 10 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **How Cute**: Deal 35 damage to both opponents.
-- **Love Detective Chika**: Heal both members of your team 35 HP. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Love Detective Chika
-- **Student Council Room**: Heal both members of your team 35 HP. Afterward, gain 11 armor. — canon reference: Student Council Room
-- **Fireworks**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 4 armor. — canon reference: Fireworks
-- **Rap Battle**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 8 damage. — canon reference: Rap Battle
-- **Love Detective Chika — Together** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, heal yourself 2 HP and reduce the next damage you take by 4. — canon reference: Love Detective Chika
-- **Student Council Room — United Front** *(alternate pool option)*: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, heal yourself 3 HP and reduce the next damage you take by 4. — canon reference: Student Council Room
+- **Fireworks** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **How Cute** *(original)* — Deal 40 damage to both opponents.
+- **Love Detective Chika** — Heal both members of your team 40 HP. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Love Detective Chika — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 10 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Rap Battle** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then take 10 damage.
+- **Student Council Room** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Student Council Room — United Front** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 20 armor; then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Shirogine singing voice**: sing a designated song (depending on dylan and matts rating of ur singing bring 3 cards back from graveyard, delay an opponents turn by 1, or both).
-- **Moon-Viewing — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, heal yourself 4 HP and reduce the next damage you take by 4. — canon reference: Moon-Viewing
+- **Moon-Viewing — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +20 damage on their next attack; then take 20 damage.
+- **Shirogine singing voice** *(original)* — sing a designated song (depending on dylan and matts rating of ur singing bring 3 cards back from graveyard, delay an opponents turn by 1, or both).
 
 ## Komi Can’t Communicate
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Komi**: One opponent must deafen on their next turn
-- **Shoko Komi**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, give yourself or your teammate 6 armor. — canon reference: Shoko Komi
-- **Hitohito Tadano**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage you take by 14. — canon reference: Hitohito Tadano
-- **Najimi Osana**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, gain 6 armor. — canon reference: Najimi Osana
-- **Ren Yamai**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Ren Yamai
-- **Omoharu Nakanaka**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage you take by 10. — canon reference: Omoharu Nakanaka
-- **Himiko Agari**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Himiko Agari
-- **Nene Onemine**: Heal both members of your team 20 HP. Afterward, you and your teammate each get +5 damage on your next attack. — canon reference: Nene Onemine
-- **Kaede Otori**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, heal yourself 13 HP. — canon reference: Kaede Otori
-- **Makoto Katai**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, heal yourself or your teammate 15 HP. — canon reference: Makoto Katai
-- **Shoko Komi — Heart-to-Heart** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, heal yourself 5 HP and reduce the next damage you take by 4. — canon reference: Shoko Komi
-- **Hitohito Tadano — Helping Hand** *(alternate pool option)*: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, heal yourself 6 HP and reduce the next damage you take by 4. — canon reference: Hitohito Tadano
-- **Najimi Osana — Promise** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, heal yourself 7 HP and reduce the next damage you take by 4. — canon reference: Najimi Osana
-- **Ren Yamai — Trust** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 8 HP and reduce the next damage you take by 4. — canon reference: Ren Yamai
-- **Omoharu Nakanaka — Reassurance** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 9 HP and reduce the next damage you take by 4. — canon reference: Omoharu Nakanaka
+- **Himiko Agari** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Hitohito Tadano** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
+- **Hitohito Tadano — Helping Hand** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then take 20 damage.
+- **Kaede Otori** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then take 30 damage.
+- **Komi** *(original)* — One opponent must deafen on their next turn
+- **Makoto Katai** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself or your teammate 10 HP. Then take 30 damage.
+- **Najimi Osana** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
+- **Najimi Osana — Promise** — Heal both members of your team 20 HP. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then take 20 damage.
+- **Nene Onemine** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Omoharu Nakanaka** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP.
+- **Omoharu Nakanaka — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Ren Yamai** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP.
+- **Ren Yamai — Trust** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then take 20 damage.
+- **Shoko Komi** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand.
+- **Shoko Komi — Heart-to-Heart** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then heal yourself 20 HP; then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Shisuto Naruse**: Heal both members of your team 35 HP. Afterward, gain 10 armor. — canon reference: Shisuto Naruse
-- **Shuko Komi**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +4 damage on their next attack. — canon reference: Shuko Komi
-- **Komi's Notebook**: Choose an opponent. They discard 2 random cards. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Komi's Notebook
-- **100 Friends**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: 100 Friends
-- **Culture Festival**: You and your teammate each get +25 damage on your next attack. Afterward, gain 11 armor. — canon reference: Culture Festival
-- **Shisuto Naruse — Together** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, heal yourself 10 HP and reduce the next damage you take by 4. — canon reference: Shisuto Naruse
-- **Shuko Komi — Shared Resolve** *(alternate pool option)*: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself 11 HP and reduce the next damage you take by 4. — canon reference: Shuko Komi
+- **100 Friends** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
+- **Culture Festival** — You and your teammate each get +30 damage on your next attack. Afterward, heal yourself 10 HP. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
+- **Komi's Notebook** — Choose an opponent. They discard 2 random cards. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Shisuto Naruse** — Heal both members of your team 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Shisuto Naruse — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
+- **Shuko Komi** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Shuko Komi — Shared Resolve** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Communication Disorder**: Choose an opponent. Their next attack deals 30 less damage and they cannot heal until the start of their next turn. Draw 2 cards. — canon reference: Communication Disorder
-- **Culture Festival — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, heal yourself 12 HP and reduce the next damage you take by 4. — canon reference: Culture Festival
+- **Communication Disorder** — Choose an opponent. Their next attack deals 30 less damage and they cannot heal until the start of their next turn. Draw 2 cards.
+- **Culture Festival — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then your next attack deals 10 less damage.
 
 ## Lord of Mysteries
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Klein Moretti**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 13 HP. — canon reference: Klein Moretti
-- **Audrey Hall**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 12 HP. — canon reference: Audrey Hall
-- **Alger Wilson**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 12 armor. — canon reference: Alger Wilson
-- **Derrick Berg**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, heal yourself 7 HP. — canon reference: Derrick Berg
-- **Fors Wall**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Fors Wall
-- **Xio Derecha**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, give your teammate +3 damage on their next attack. — canon reference: Xio Derecha
-- **Leonard Mitchell**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 4 armor. — canon reference: Leonard Mitchell
-- **Emlyn White**: Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Emlyn White
-- **Cattleya**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 12. — canon reference: Cattleya
-- **Azik Eggers**: Mark one other player. The next damage they take is increased by 20. Afterward, gain 7 armor. — canon reference: Azik Eggers
-- **Klein Moretti — Read the Field** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 1 HP and reduce the next damage you take by 5. — canon reference: Klein Moretti
-- **Audrey Hall — Calculated Trap** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, heal yourself 2 HP and reduce the next damage you take by 5. — canon reference: Audrey Hall
-- **Alger Wilson — Lockdown** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, heal yourself 3 HP and reduce the next damage you take by 5. — canon reference: Alger Wilson
-- **Derrick Berg — Counterplay** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 4 HP and reduce the next damage you take by 5. — canon reference: Derrick Berg
-- **Fors Wall — Checkmate** *(alternate pool option)*: Choose an opponent. Their next action is a punch against themself. Afterward, heal yourself 5 HP and reduce the next damage you take by 5. — canon reference: Fors Wall
+- **Alger Wilson** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 20 armor. Then your next attack deals 20 less damage.
+- **Alger Wilson — Lockdown** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then your next attack deals 10 less damage. Then take 20 damage.
+- **Audrey Hall** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 20 HP.
+- **Audrey Hall — Calculated Trap** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then your next attack deals 10 less damage. Then take 20 damage.
+- **Azik Eggers** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Cattleya** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Derrick Berg** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Derrick Berg — Counterplay** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
+- **Emlyn White** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
+- **Fors Wall** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent +20 damage on their next attack.
+- **Fors Wall — Checkmate** — Choose an opponent. Their next action is a punch against themself. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand.
+- **Klein Moretti** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 10 armor. Then take 10 damage.
+- **Klein Moretti — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor; then heal yourself 20 HP; then your next attack deals 10 less damage. Then take 20 damage.
+- **Leonard Mitchell** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 10 armor. Then give the chosen opponent 10 armor.
+- **Xio Derecha** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **The Fool**: Steal 1 random card from an opponent. Afterward, discard 1 random card from your hand. — canon reference: The Fool
-- **Tarot Club**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 9 less damage. — canon reference: Tarot Club
-- **Seer Pathway**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Seer Pathway
-- **Clown Potion**: Steal 1 random card from an opponent. Afterward, take 13 damage. — canon reference: Clown Potion
-- **Gehrman Sparrow**: Steal 1 random card from an opponent. Afterward, your next attack deals 13 less damage. — canon reference: Gehrman Sparrow
-- **The Fool — Interference** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, heal yourself 6 HP and reduce the next damage you take by 5. — canon reference: The Fool
-- **Tarot Club — No Escape** *(alternate pool option)*: Steal 1 random card from an opponent. Afterward, heal yourself 7 HP and reduce the next damage you take by 5. — canon reference: Tarot Club
+- **Clown Potion** — Steal 1 random card from an opponent. Then give the chosen opponent 10 armor. Then take 10 damage. Also make an opponent’s next attack deal 30 less damage.
+- **Gehrman Sparrow** — Steal 1 random card from an opponent. Then take 10 damage. Then take 20 damage. Also make an opponent’s next attack deal 50 less damage.
+- **Seer Pathway** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
+- **Tarot Club** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then discard 1 random card from your hand. Then give the chosen opponent 10 armor.
+- **Tarot Club — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
+- **The Fool** — Steal 1 random card from an opponent. Then discard 1 random card from your hand. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 40 less damage.
+- **The Fool — Interference** — Choose an opponent. They skip their next turn. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Place Above the Grey Fog**: Draw 5 cards, then you may play one additional card this turn.
-- **Gehrman Sparrow — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, heal yourself 8 HP and reduce the next damage you take by 5. — canon reference: Gehrman Sparrow
+- **Gehrman Sparrow — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then discard 1 random card from your hand.
+- **The Place Above the Grey Fog** *(original)* — Draw 3 cards, then you may play one additional non-5★ card this turn.
 
 ## Miss Kobayashi's Dragon Maid
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Dragon’s Loyalty**: When your teammate next takes damage you guys split the damage 50/50 instead
-- **Kobayashi**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: Kobayashi
-- **Tohru**: Deal 18 damage to one other player and gain 12 armor. Afterward, your next attack gets +12 damage. — canon reference: Tohru
-- **Kanna Kamui**: Deal 29 damage to one other player. Afterward, give your teammate +7 damage on their next attack. — canon reference: Kanna Kamui
-- **Elma**: Deal 29 damage to one other player. Afterward, give yourself or your teammate 11 armor. — canon reference: Elma
-- **Lucoa**: Draw 2 cards, then discard 1 random card. Afterward, heal yourself 14 HP. — canon reference: Lucoa
-- **Fafnir**: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, your next attack gets +10 damage. — canon reference: Fafnir
-- **Ilulu**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Ilulu
-- **Riko Saikawa**: Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 11. — canon reference: Riko Saikawa
-- **Makoto Takiya**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, you and your teammate each get +5 damage on your next attack. — canon reference: Makoto Takiya
-- **Kobayashi — Heart-to-Heart** *(alternate pool option)*: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, heal yourself 9 HP and reduce the next damage you take by 5. — canon reference: Kobayashi
-- **Tohru — Follow-Through** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, heal yourself 10 HP and reduce the next damage you take by 5. — canon reference: Tohru
-- **Kanna Kamui — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, heal yourself 11 HP and reduce the next damage you take by 5. — canon reference: Kanna Kamui
-- **Elma — Counteroffensive** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, heal yourself 12 HP and reduce the next damage you take by 5. — canon reference: Elma
-- **Lucoa — Unseen Hand** *(alternate pool option)*: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, heal yourself 1 HP and reduce the next damage you take by 6. — canon reference: Lucoa
+- **Dragon’s Loyalty** *(original)* — When your teammate next takes damage you guys split the damage 50/50 instead
+- **Elma** — Deal 30 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Elma — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
+- **Fafnir** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack.
+- **Ilulu** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Kanna Kamui** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
+- **Kanna Kamui — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
+- **Kobayashi** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage.
+- **Kobayashi — Heart-to-Heart** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, gain 20 armor; then reduce the next damage you take by 20; then discard 1 random card from your hand.
+- **Lucoa** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +20 damage on their next attack.
+- **Lucoa — Unseen Hand** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Makoto Takiya** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Riko Saikawa** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
+- **Tohru** — Deal 20 damage to one other player and gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Your next attack also gets +20 damage.
+- **Tohru — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 20 HP; then your next attack gets +20 damage; then discard 1 random card from your hand.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Tohru's Tail**: You may play one additional non-5★ card this turn. Afterward, discard 1 random card from your hand. — canon reference: Tohru's Tail
-- **Dragon Transformation**: Take 15 damage, then deal 75 damage to one other player. Afterward, give your teammate +6 damage on their next attack. — canon reference: Dragon Transformation
-- **Chaos Faction**: Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 10. — canon reference: Chaos Faction
-- **Harmony Faction**: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, give your teammate +12 damage on their next attack. — canon reference: Harmony Faction
-- **Kanna's Lightning**: Deal 35 damage to both opponents. Afterward, give yourself or your teammate 11 armor. — canon reference: Kanna's Lightning
-- **Tohru's Tail — Together** *(alternate pool option)*: Heal both members of your team 35 HP. Afterward, heal yourself 2 HP and reduce the next damage you take by 6. — canon reference: Tohru's Tail
-- **Dragon Transformation — Decisive Strike** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, heal yourself 3 HP and reduce the next damage you take by 6. — canon reference: Dragon Transformation
+- **Chaos Faction** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then give the chosen opponent 10 armor.
+- **Dragon Transformation** — Take 20 damage, then deal 80 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
+- **Dragon Transformation — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then gain 20 armor; then heal the chosen opponent 10 HP.
+- **Harmony Faction** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
+- **Kanna's Lightning** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
+- **Tohru's Tail** — You may play one additional non-5★ card this turn. Then take 10 damage. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 40 armor.
+- **Tohru's Tail — Together** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Dragon Maid**: Give both members of your team 30 armor and heal each 20 HP. — canon reference: The Dragon Maid
-- **Kanna's Lightning — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 4 HP and reduce the next damage you take by 6. — canon reference: Kanna's Lightning
+- **Kanna's Lightning — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
+- **The Dragon Maid** — Give both members of your team 30 armor and heal each 20 HP. Your next attack also gets +30 damage.
 
 ## My Dress-Up Darling
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Cosplay**: One opponent must roleplay as an anime character of your choice for the next 3 turns. If they don’t (Jon Goon Discretion), 35 damage.
-- **Marin Kitagawa**: Heal both members of your team 20 HP. Afterward, give yourself or your teammate 3 armor. — canon reference: Marin Kitagawa
-- **Wakana Gojo**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. — canon reference: Wakana Gojo
-- **Sajuna Inui**: Heal your teammate 25 HP and give them 10 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Sajuna Inui
-- **Shinju Inui**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. — canon reference: Shinju Inui
-- **Nowa Sugaya**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage you take by 6. — canon reference: Nowa Sugaya
-- **Shizuku Kuroe**: Heal your teammate 25 HP and give them 10 armor. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: Shizuku Kuroe
-- **Black Lobelia**: Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. — canon reference: Black Lobelia
-- **Veronica**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage your teammate takes by 13. — canon reference: Veronica
-- **Liz-kyun**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 12 HP. — canon reference: Liz-kyun
-- **Marin Kitagawa — Heart-to-Heart** *(alternate pool option)*: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, heal yourself 5 HP and reduce the next damage you take by 6. — canon reference: Marin Kitagawa
-- **Wakana Gojo — Helping Hand** *(alternate pool option)*: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, heal yourself 6 HP and reduce the next damage you take by 6. — canon reference: Wakana Gojo
-- **Sajuna Inui — Promise** *(alternate pool option)*: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, heal yourself 7 HP and reduce the next damage you take by 6. — canon reference: Sajuna Inui
-- **Shinju Inui — Trust** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 8 HP and reduce the next damage you take by 6. — canon reference: Shinju Inui
-- **Nowa Sugaya — Reassurance** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, heal yourself 9 HP and reduce the next damage you take by 6. — canon reference: Nowa Sugaya
+- **Black Lobelia** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
+- **Cosplay** *(original)* — One opponent must roleplay as an anime character of your choice for the next 3 turns. If they don’t (Jon Goon Discretion), 40 damage.
+- **Liz-kyun** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
+- **Marin Kitagawa** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Marin Kitagawa — Heart-to-Heart** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, gain 20 armor; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
+- **Nowa Sugaya** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 10 HP.
+- **Nowa Sugaya — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 20 less damage; then take 10 damage.
+- **Sajuna Inui** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage.
+- **Sajuna Inui — Promise** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 20 armor; then take 10 damage. Then take 20 damage.
+- **Shinju Inui** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
+- **Shinju Inui — Trust** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, your next attack gets +20 damage; then give your teammate +20 damage on their next attack; then take 10 damage.
+- **Shizuku Kuroe** — Heal your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage.
+- **Veronica** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
+- **Wakana Gojo** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Wakana Gojo — Helping Hand** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, heal yourself 20 HP; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Cosplay Photoshoot**: Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, reduce the next damage you take by 12. — canon reference: Cosplay Photoshoot
-- **Gojo's Sewing**: You may play one additional non-5★ card this turn, then draw 1 card. Afterward, take 6 damage. — canon reference: Gojo's Sewing
-- **Marin's Makeup**: Deal 45 damage to one other player, then draw 1 card. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Marin's Makeup
-- **Love Hotel Studio**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself 11 HP. — canon reference: Love Hotel Studio
-- **School Festival Costume**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, reduce the next damage you take by 12. — canon reference: School Festival Costume
-- **Cosplay Photoshoot — Acceleration** *(alternate pool option)*: You and your teammate each get +25 damage on your next attack. Afterward, heal yourself 10 HP and reduce the next damage you take by 6. — canon reference: Cosplay Photoshoot
-- **Gojo's Sewing — Showstopper** *(alternate pool option)*: You and your teammate each get +25 damage on your next attack. Afterward, heal yourself 11 HP and reduce the next damage you take by 6. — canon reference: Gojo's Sewing
+- **Cosplay Photoshoot** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, heal yourself 10 HP. Then give the chosen opponent 10 armor.
+- **Cosplay Photoshoot — Acceleration** — You and your teammate each get +30 damage on your next attack. Afterward, give yourself or your teammate 20 armor; then gain 20 armor; then take 10 damage.
+- **Gojo's Sewing** — You may play one additional non-5★ card this turn, then draw 1 card. Then discard 2 random cards from your hand. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card. Also gain 20 armor.
+- **Gojo's Sewing — Showstopper** — You and your teammate each get +30 damage on your next attack. Afterward, give your teammate +20 damage on their next attack; then heal yourself 20 HP; then take 10 damage.
+- **Love Hotel Studio** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 60 armor.
+- **Marin's Makeup** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
+- **School Festival Costume** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +20 damage. Then your next attack deals 20 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Haniel**: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. — canon reference: Haniel
-- **School Festival Costume — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, heal yourself 12 HP and reduce the next damage you take by 6. — canon reference: School Festival Costume
+- **Haniel** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card.
+- **School Festival Costume — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 20; then take 10 damage.
 
 ## My Hero Academia
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Explosion**: Deal 30 damage to one other player.
-- **Izuku Midoriya**: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. — canon reference: Izuku Midoriya
-- **Katsuki Bakugo**: Deal 20 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 10 armor. — canon reference: Katsuki Bakugo
-- **Shoto Todoroki**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +6 damage. — canon reference: Shoto Todoroki
-- **Ochaco Uraraka**: Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 14. — canon reference: Ochaco Uraraka
-- **Tenya Iida**: You and your teammate each get +10 damage on your next attack. Afterward, reduce the next damage you take by 4. — canon reference: Tenya Iida
-- **Shota Aizawa**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Shota Aizawa
-- **Endeavor**: Deal 28 damage to one other player. Afterward, reduce the next damage you take by 12. — canon reference: Endeavor
-- **Hawks**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 5 HP. — canon reference: Hawks
-- **Mirko**: Deal 15 damage to both opponents. Afterward, an opponent’s next attack deals 4 less damage. — canon reference: Mirko
-- **Izuku Midoriya — Pressure** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, heal yourself 1 HP and reduce the next damage you take by 7. — canon reference: Izuku Midoriya
-- **Katsuki Bakugo — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 2 HP and reduce the next damage you take by 7. — canon reference: Katsuki Bakugo
-- **Shoto Todoroki — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 3 HP and reduce the next damage you take by 7. — canon reference: Shoto Todoroki
-- **Ochaco Uraraka — Counterplay** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself 4 HP and reduce the next damage you take by 7. — canon reference: Ochaco Uraraka
-- **Tenya Iida — Set the Pace** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself 5 HP and reduce the next damage you take by 7. — canon reference: Tenya Iida
+- **Endeavor** — Deal 30 damage to one other player. Afterward, gain 20 armor. Then take 10 damage.
+- **Explosion** *(original)* — Deal 30 damage to one other player.
+- **Hawks** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Also draw 1 card.
+- **Izuku Midoriya** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
+- **Izuku Midoriya — Pressure** — Deal 20 damage to one other player and gain 10 armor. Afterward, gain 20 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Katsuki Bakugo** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand.
+- **Katsuki Bakugo — Follow-Through** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 20 HP; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Mirko** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then take 20 damage. Your next attack also gets +20 damage.
+- **Ochaco Uraraka** — Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 30 less damage.
+- **Ochaco Uraraka — Counterplay** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 20 less damage; then take 20 damage.
+- **Shota Aizawa** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
+- **Shoto Todoroki** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Shoto Todoroki — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 20; then give your teammate +20 damage on their next attack; then take 20 damage.
+- **Tenya Iida** — You and your teammate each get +10 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent 10 armor. Also draw 1 card.
+- **Tenya Iida — Set the Pace** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +20 on the next damage they take; then gain 20 armor; then take 20 damage. Also draw 1 card.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **You’re Next**: Your team’s next attack does 1.5x damage
-- **One For All**: Deal 56 damage to one other player. Afterward, your next attack gets +8 damage. — canon reference: One For All
-- **All For One**: Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 8 armor. — canon reference: All For One
-- **Tomura Shigaraki**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, give your teammate +10 damage on their next attack. — canon reference: Tomura Shigaraki
-- **Dabi**: Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 9 less damage. — canon reference: Dabi
-- **One For All — Finisher** *(alternate pool option)*: Deal 56 damage to one other player. Afterward, heal yourself 6 HP and reduce the next damage you take by 7. — canon reference: One For All
-- **All For One — No Escape** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, heal yourself 7 HP and reduce the next damage you take by 7. — canon reference: All For One
+- **All For One** — Choose an opponent. They discard 2 random cards. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
+- **All For One — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 20; then take 20 damage.
+- **Dabi** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **One For All** — Deal 60 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 10 HP.
+- **One For All — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 20 armor; then heal yourself 20 HP; then take 20 damage.
+- **Tomura Shigaraki** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage. Your next attack also gets +70 damage.
+- **You’re Next** *(original)* — You and your teammate each get +30 damage on your next attack.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **All Might**: Deal 105 damage to one other player. You and your teammate each get +10 damage on your next attack. — canon reference: All Might
-- **United States of Smash — Final Push** *(alternate pool option)*: Deal 56 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 8 HP and reduce the next damage you take by 7. — canon reference: United States of Smash
+- **All Might** — Deal 110 damage to one other player. You and your teammate each get +10 damage on your next attack.
+- **United States of Smash — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +20 damage; then take 20 damage.
 
 ## Naruto
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Rasengan**: Deal 30 damage to one other player.
-- **Naruto Uzumaki**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Naruto Uzumaki
-- **Sasuke Uchiha**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 8 armor. — canon reference: Sasuke Uchiha
-- **Sakura Haruno**: Draw 1 card and give your teammate 15 armor. Afterward, heal yourself 12 HP. — canon reference: Sakura Haruno
-- **Kakashi Hatake**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, heal yourself or your teammate 12 HP. — canon reference: Kakashi Hatake
-- **Jiraiya**: Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 8. — canon reference: Jiraiya
-- **Tsunade**: Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 15. — canon reference: Tsunade
-- **Gaara**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Gaara
-- **Rock Lee**: Deal 15 damage to both opponents. Afterward, gain 11 armor. — canon reference: Rock Lee
-- **Shadow Clone Jutsu**: You and your teammate each get +10 damage on your next attack. Afterward, heal yourself 5 HP. — canon reference: Shadow Clone Jutsu
-- **Naruto Uzumaki — Pressure** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, heal yourself 9 HP and reduce the next damage you take by 7. — canon reference: Naruto Uzumaki
-- **Sasuke Uchiha — Follow-Through** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, heal yourself 10 HP and reduce the next damage you take by 7. — canon reference: Sasuke Uchiha
-- **Sakura Haruno — Coordination** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, heal yourself 11 HP and reduce the next damage you take by 7. — canon reference: Sakura Haruno
-- **Kakashi Hatake — Contingency** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself 12 HP and reduce the next damage you take by 7. — canon reference: Kakashi Hatake
-- **Jiraiya — Overdrive** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 1 HP and reduce the next damage you take by 8. — canon reference: Jiraiya
+- **Gaara** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
+- **Jiraiya** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
+- **Jiraiya — Overdrive** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 20 HP; then your next attack deals 10 less damage. Then take 20 damage.
+- **Kakashi Hatake** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then take 20 damage.
+- **Kakashi Hatake — Contingency** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +20 damage; then gain 20 armor; then your next attack deals 10 less damage.
+- **Naruto Uzumaki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
+- **Naruto Uzumaki — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
+- **Rasengan** *(original)* — Deal 30 damage to one other player.
+- **Rock Lee** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then take 30 damage. Your next attack also gets +20 damage.
+- **Sakura Haruno** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 20 HP. Then heal the chosen opponent 10 HP.
+- **Sakura Haruno — Coordination** — Give both members of your team 20 armor. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
+- **Sasuke Uchiha** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +20 damage. Then give the chosen opponent 10 armor.
+- **Sasuke Uchiha — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 20 HP; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
+- **Shadow Clone Jutsu** — You and your teammate each get +10 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
+- **Tsunade** — Heal both members of your team 20 HP. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Itachi Uchiha**: Take 15 damage, then deal 75 damage to one other player. Afterward, give yourself or your teammate 11 armor. — canon reference: Itachi Uchiha
-- **Pain**: Deal 58 damage to one other player. Afterward, reduce the next damage you take by 7. — canon reference: Pain
-- **Sage Mode**: Take 15 damage, then deal 75 damage to one other player. Afterward, gain 9 armor. — canon reference: Sage Mode
-- **Eight Gates**: Deal 45 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 4 armor. — canon reference: Eight Gates
-- **Kurama**: Deal 35 damage to both opponents. Afterward, give yourself or your teammate 3 armor. — canon reference: Kurama
-- **Itachi Uchiha — Finisher** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, heal yourself 2 HP and reduce the next damage you take by 8. — canon reference: Itachi Uchiha
-- **Pain — Decisive Strike** *(alternate pool option)*: Deal 58 damage to one other player. Afterward, heal yourself 3 HP and reduce the next damage you take by 8. — canon reference: Pain
+- **Eight Gates** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Itachi Uchiha** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Itachi Uchiha — Finisher** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
+- **Kurama** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Pain** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Pain — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +20 damage; then your next attack deals 10 less damage.
+- **Sage Mode** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Six Paths Sage Mode**: Deal 80 damage to one other player and gain 20 armor. — canon reference: Six Paths Sage Mode
-- **Kurama — Final Push** *(alternate pool option)*: Deal 50 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 4 HP and reduce the next damage you take by 8. — canon reference: Kurama
+- **Kurama — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
+- **Six Paths Sage Mode** — Deal 80 damage to one other player and gain 20 armor.
 
 ## One-Punch Man
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Genos**: Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Genos
-- **Tatsumaki**: Deal 30 damage to one other player. Afterward, your next attack gets +10 damage. — canon reference: Tatsumaki
-- **Fubuki**: Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Fubuki
-- **Bang**: Deal 20 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 3 armor. — canon reference: Bang
-- **King**: Choose an opponent. Their next action is a punch against themself. Afterward, your next attack gets +10 damage. — canon reference: King
-- **Mumen Rider**: Reduce the next damage your teammate takes by 25. Afterward, heal yourself 10 HP. — canon reference: Mumen Rider
-- **Speed-o'-Sound Sonic**: You may punch once after playing this card. Afterward, your next attack gets +4 damage. — canon reference: Speed-o'-Sound Sonic
-- **Deep Sea King**: Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 7. — canon reference: Deep Sea King
-- **Hero Association**: Deal 20 damage to one other player; your teammate heals 15 HP. Afterward, give yourself or your teammate 11 armor. — canon reference: Hero Association
-- **Monster Association**: Take 15 damage. Your next attack gets +35 damage. Afterward, the next damage you take is increased by 10%. — canon reference: Monster Association
-- **Genos — Pressure** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 5 HP and reduce the next damage you take by 8. — canon reference: Genos
-- **Tatsumaki — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 6 HP and reduce the next damage you take by 8. — canon reference: Tatsumaki
-- **Fubuki — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 7 HP and reduce the next damage you take by 8. — canon reference: Fubuki
-- **Bang — Counteroffensive** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, heal yourself 8 HP and reduce the next damage you take by 8. — canon reference: Bang
-- **King — Checkmate** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself 9 HP and reduce the next damage you take by 8. — canon reference: King
+- **Bang** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then take 10 damage.
+- **Bang — Counteroffensive** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage; then heal yourself 20 HP; then discard 1 random card from your hand.
+- **Deep Sea King** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage. Then take 30 damage.
+- **Fubuki** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Fubuki — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 20; then gain 20 armor; then discard 1 random card from your hand.
+- **Genos** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 20 armor. Then give the chosen opponent 10 armor.
+- **Genos — Pressure** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 20 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
+- **Hero Association** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 20 less damage.
+- **King** — Choose an opponent. Their next action is a punch against themself. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
+- **King — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 20; then discard 1 random card from your hand.
+- **Monster Association** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Mumen Rider** — Reduce the next damage your teammate takes by 25. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Speed-o'-Sound Sonic** — You may punch once after playing this card. Afterward, heal yourself 10 HP. Then take 10 damage. Also draw 1 card.
+- **Tatsumaki** — Deal 30 damage to one other player. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
+- **Tatsumaki — Follow-Through** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **One punch**: Deal 60 damage to one other player.
-- **Garou**: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Garou
-- **Boros**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 11 armor. — canon reference: Boros
-- **Serious Punch**: Deal 60 damage to one other player. Afterward, gain 11 armor. — canon reference: Serious Punch
-- **Consecutive Normal Punches**: Deal 35 damage to both opponents. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Consecutive Normal Punches
-- **Garou — Finisher** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, heal yourself 10 HP and reduce the next damage you take by 8. — canon reference: Garou
-- **Boros — Decisive Strike** *(alternate pool option)*: Take 15 damage, then deal 75 damage to one other player. Afterward, heal yourself 11 HP and reduce the next damage you take by 8. — canon reference: Boros
+- **Boros** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
+- **Boros — Decisive Strike** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Consecutive Normal Punches** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then take 20 damage.
+- **Garou** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then discard 1 random card from your hand.
+- **Garou — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then your next attack gets +20 damage; then discard 1 random card from your hand.
+- **One punch** *(original)* — Deal 60 damage to one other player.
+- **Serious Punch** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Saitama**: Deal 120 damage to one other player, then discard 1 random card from your hand. — canon reference: Saitama
-- **Table Flip — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 12 HP and reduce the next damage you take by 8. — canon reference: Table Flip
+- **Saitama** — Deal 120 damage to one other player, then discard 1 random card from your hand.
+- **Table Flip — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
 
 ## Orb: On the Movements of the Earth
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Heliocentrical Heresy**: Both your opponents take 10 damage, and another 10 if they play a card this next turn.
-- **Rafal**: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 8 HP. — canon reference: Rafal
-- **Hubert**: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself or your teammate 7 HP. — canon reference: Hubert
-- **Oczy**: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 9 HP. — canon reference: Oczy
-- **Gras**: Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 8 less damage. — canon reference: Gras
-- **Badeni**: Choose an opponent. They discard 1 random card. Afterward, reduce the next damage you take by 10. — canon reference: Badeni
-- **Jolenta**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, your next attack gets +11 damage. — canon reference: Jolenta
-- **Piast**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, your next attack gets +3 damage. — canon reference: Piast
-- **Draka**: Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. — canon reference: Draka
-- **Schmidt**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, your next attack gets +9 damage. — canon reference: Schmidt
-- **Rafal — Positioning** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 1 HP and reduce the next damage you take by 9. — canon reference: Rafal
-- **Hubert — Prepared Response** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 2 HP and reduce the next damage you take by 9. — canon reference: Hubert
-- **Oczy — Measured Strike** *(alternate pool option)*: Draw 1 card and give yourself or your teammate 15 armor. Afterward, heal yourself 3 HP and reduce the next damage you take by 9. — canon reference: Oczy
-- **Gras — Contingency** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 4 HP and reduce the next damage you take by 9. — canon reference: Gras
-- **Badeni — Field Plan** *(alternate pool option)*: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, heal yourself 5 HP and reduce the next damage you take by 9. — canon reference: Badeni
+- **Badeni** — Choose an opponent. They discard 1 random card. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand. Also reduce the next damage you take by 30.
+- **Badeni — Field Plan** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
+- **Draka** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
+- **Gras** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
+- **Gras — Contingency** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Heliocentrical Heresy** *(original)* — Both your opponents take 10 damage, and another 10 if they play a card this next turn.
+- **Hubert** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
+- **Hubert — Prepared Response** — Reduce the next damage you or your teammate takes by 25. Afterward, heal yourself 20 HP; then gain 20 armor; then heal the chosen opponent 10 HP.
+- **Jolenta** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
+- **Oczy** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 20 armor. Then take 10 damage.
+- **Oczy — Measured Strike** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 20; then heal yourself 20 HP; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Piast** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
+- **Rafal** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **Rafal — Positioning** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 20 armor; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Schmidt** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor. Then take 30 damage. Also reduce the next damage you take by 30.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Nowak**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, gain 4 armor. — canon reference: Nowak
-- **Heretic Liberation Front**: Deal 35 damage to both opponents. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Heretic Liberation Front
-- **Mars Retrograde**: Deal 45 damage to one other player, then reduce the next damage you take by 20. Afterward, your next attack gets +7 damage. — canon reference: Mars Retrograde
-- **The Pendant**: Deal 45 damage to one other player, then reduce the next damage you take by 20. Afterward, give yourself or your teammate 12 armor. — canon reference: The Pendant
-- **Printing Press**: Deal 45 damage to one other player, then reduce the next damage you take by 20. Afterward, your next attack gets +12 damage. — canon reference: Printing Press
-- **Nowak — Countermeasure** *(alternate pool option)*: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, heal yourself 6 HP and reduce the next damage you take by 9. — canon reference: Nowak
-- **Heretic Liberation Front — Perfect Setup** *(alternate pool option)*: Deal 45 damage to one other player, then reduce the next damage you take by 20. Afterward, heal yourself 7 HP and reduce the next damage you take by 9. — canon reference: Heretic Liberation Front
+- **Heretic Liberation Front** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **Heretic Liberation Front — Perfect Setup** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 20 armor; then take 10 damage.
+- **Mars Retrograde** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **Nowak** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
+- **Nowak — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 20 armor; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Printing Press** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **The Pendant** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 20 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Heliocentrism**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 10 less damage. — canon reference: Heliocentrism
-- **Printing Press — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, heal yourself 8 HP and reduce the next damage you take by 9. — canon reference: Printing Press
+- **Heliocentrism** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 10 less damage.
+- **Printing Press — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +20 damage on their next attack; then take 10 damage.
 
 ## Oshi no Ko
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Star Eye**: The next time you draw at the start of your turn, draw 1 additional card.
-- **Skeleton**: deal 1.25x dmg to the opponent that attacked your teammate last turn on your next attack
-- **Aqua Hoshino**: Heal yourself 20 HP, then draw 1 card. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Aqua Hoshino
-- **Ruby Hoshino**: Heal yourself 20 HP, then draw 1 card. Afterward, an opponent’s next attack deals 3 less damage. — canon reference: Ruby Hoshino
-- **Ai Hoshino**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself or your teammate 14 HP. — canon reference: Ai Hoshino
-- **Kana Arima**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +9 damage. — canon reference: Kana Arima
-- **Akane Kurokawa**: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself or your teammate 6 HP. — canon reference: Akane Kurokawa
-- **MEM-cho**: Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 9 armor. — canon reference: MEM-cho
-- **Miyako Saito**: You may play one additional 3★ card this turn. Afterward, take 9 damage. — canon reference: Miyako Saito
-- **Ichigo Saito**: Draw 1 card. Your next attack gets +10 damage. Afterward, gain 6 armor. — canon reference: Ichigo Saito
-- **Aqua Hoshino — Momentum** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself 9 HP and reduce the next damage you take by 9. — canon reference: Aqua Hoshino
-- **Ruby Hoshino — Encore** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 10 HP and reduce the next damage you take by 9. — canon reference: Ruby Hoshino
-- **Ai Hoshino — Second Beat** *(alternate pool option)*: You may play one additional 3★ card this turn. Afterward, heal yourself 11 HP and reduce the next damage you take by 9. — canon reference: Ai Hoshino
-- **Kana Arima — Quick Shift** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself 12 HP and reduce the next damage you take by 9. — canon reference: Kana Arima
-- **Akane Kurokawa — Set the Pace** *(alternate pool option)*: Gain 20 armor, then draw 1 card. Afterward, heal yourself 1 HP and reduce the next damage you take by 10. — canon reference: Akane Kurokawa
+- **Ai Hoshino** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 20 HP. Then discard 1 random card from your hand. Also draw 1 card.
+- **Ai Hoshino — Second Beat** — You may play one additional 3★ card this turn. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then take 10 damage. Then take 20 damage.
+- **Akane Kurokawa** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, heal yourself 20 HP. Then discard 1 random card from your hand. Also draw 1 card. Also gain 20 armor.
+- **Akane Kurokawa — Set the Pace** — Gain 20 armor, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Aqua Hoshino** — Heal yourself 20 HP, then draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
+- **Aqua Hoshino — Momentum** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 20 armor; then heal yourself 20 HP; then take 10 damage. Also draw 1 card.
+- **Ichigo Saito** — Draw 1 card. Your next attack gets +10 damage. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **Kana Arima** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Kana Arima — Quick Shift** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then take 10 damage. Also draw 1 card.
+- **MEM-cho** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
+- **Miyako Saito** — You may play one additional 3★ card this turn. Then heal the chosen opponent 10 HP. Then take 10 damage.
+- **Ruby Hoshino** — Heal yourself 20 HP, then draw 1 card. Afterward, your next attack gets +20 damage. Then give the chosen opponent +10 damage on their next attack.
+- **Ruby Hoshino — Encore** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then take 10 damage.
+- **Skeleton** *(original)* — deal 1.25x dmg to the opponent that attacked your teammate last turn on your next attack
+- **Star Eye** *(original)* — The next time you draw at the start of your turn, draw 1 additional card.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **LoveNow**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 5. — canon reference: LoveNow
-- **Tokyo Blade**: Deal 35 damage to both opponents. Afterward, give your teammate +8 damage on their next attack. — canon reference: Tokyo Blade
-- **Idol Performance**: You and your teammate each get +25 damage on your next attack. Afterward, gain 3 armor. — canon reference: Idol Performance
-- **Akane's Profiling**: Choose an opponent. They skip their next turn. Afterward, your next attack deals 5 less damage. — canon reference: Akane's Profiling
-- **Aqua's Revenge**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +8 on the next damage they take. — canon reference: Aqua's Revenge
-- **LoveNow — Together** *(alternate pool option)*: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself 2 HP and reduce the next damage you take by 10. — canon reference: LoveNow
-- **Tokyo Blade — Decisive Strike** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, heal yourself 3 HP and reduce the next damage you take by 10. — canon reference: Tokyo Blade
+- **Akane's Profiling** — Choose an opponent. They skip their next turn. Then take 30 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 70 less damage.
+- **Aqua's Revenge** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
+- **Idol Performance** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Also draw 1 card.
+- **LoveNow** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +20 damage on their next attack.
+- **LoveNow — Together** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then take 20 damage.
+- **Tokyo Blade** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
+- **Tokyo Blade — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Pepper dance**: can be played outside off turn when attacked, when attacked half the damage and do that half damage back
-- **Aqua's Revenge — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, heal yourself 4 HP and reduce the next damage you take by 10. — canon reference: Aqua's Revenge
+- **Aqua's Revenge — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then take 20 damage.
+- **Pepper dance** *(original)* — can be played outside off turn when attacked, when attacked half the damage and do that half damage back
 
 ## Overlord
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Meteor fall**: do 20 dmg to everyone except you.
-- **Ainz Ooal Gown**: Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 4 armor. — canon reference: Ainz Ooal Gown
-- **Albedo**: Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 4 armor. — canon reference: Albedo
-- **Shalltear Bloodfallen**: Deal 30 damage to one other player. You discard 1 random card. Afterward, the next damage you take is increased by 20%. — canon reference: Shalltear Bloodfallen
-- **Demiurge**: Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +6 damage. — canon reference: Demiurge
-- **Cocytus**: Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +3 damage. — canon reference: Cocytus
-- **Aura Bella Fiora**: Give both members of your team 15 armor. Afterward, reduce the next damage your teammate takes by 13. — canon reference: Aura Bella Fiora
-- **Mare Bello Fiore**: Deal 15 damage to both opponents and draw 1 card. Afterward, give yourself or your teammate 9 armor. — canon reference: Mare Bello Fiore
-- **Sebas Tian**: Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +5 damage. — canon reference: Sebas Tian
-- **Pandora's Actor**: Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 12. — canon reference: Pandora's Actor
-- **Ainz Ooal Gown — Read the Field** *(alternate pool option)*: Choose an opponent. Their next action is a punch against themself. Afterward, heal yourself 5 HP and reduce the next damage you take by 10. — canon reference: Ainz Ooal Gown
-- **Albedo — Prepared Response** *(alternate pool option)*: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, heal yourself 6 HP and reduce the next damage you take by 10. — canon reference: Albedo
-- **Shalltear Bloodfallen — Danger Zone** *(alternate pool option)*: Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 25 damage. Afterward, heal yourself 7 HP and reduce the next damage you take by 10. — canon reference: Shalltear Bloodfallen
-- **Demiurge — Counterplay** *(alternate pool option)*: Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 8 HP and reduce the next damage you take by 10. — canon reference: Demiurge
-- **Cocytus — Overdrive** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, heal yourself 9 HP and reduce the next damage you take by 10. — canon reference: Cocytus
+- **Ainz Ooal Gown** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
+- **Ainz Ooal Gown — Read the Field** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor; then heal yourself 10 HP; then take 20 damage.
+- **Albedo** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Also reduce the next damage you take by 30.
+- **Albedo — Prepared Response** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then take 20 damage.
+- **Aura Bella Fiora** — Give both members of your team 20 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then give the chosen opponent 10 armor.
+- **Cocytus** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
+- **Cocytus — Overdrive** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
+- **Demiurge** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
+- **Demiurge — Counterplay** — Choose an opponent. Their next attack deals 20 less damage. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Mare Bello Fiore** — Deal 20 damage to both opponents and draw 1 card. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Meteor fall** *(original)* — do 20 dmg to everyone except you.
+- **Pandora's Actor** — Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 20 HP. Also make an opponent’s next attack deal 20 less damage.
+- **Sebas Tian** — Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage.
+- **Shalltear Bloodfallen** — Deal 30 damage to one other player. You discard 1 random card. Afterward, your next attack gets +20 damage. Then heal the chosen opponent 20 HP. Your next attack also gets +20 damage.
+- **Shalltear Bloodfallen — Danger Zone** — Flip a coin: heads, your next attack deals ×1.5 damage; tails, take 30 damage. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +40 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **World item**: Become immune to any multipliers or status effects for 1 turn ( only 1 teammate and cannot work on 5 stars)
-- **Perfect Warrior**: give 1.25x attack and 0.75x dmg taken decrease to your teammate for 2 turns.
-- **Grasp Heart**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Grasp Heart
-- **Fallen Down**: Take 15 damage, then deal 75 damage to one other player. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Fallen Down
-- **The Goal of All Life Is Death**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, heal yourself 13 HP. — canon reference: The Goal of All Life Is Death
-- **Grasp Heart — Interference** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, heal yourself 10 HP and reduce the next damage you take by 10. — canon reference: Grasp Heart
-- **Fallen Down — Decisive Strike** *(alternate pool option)*: Deal 60 damage to one other player. Afterward, heal yourself 11 HP and reduce the next damage you take by 10. — canon reference: Fallen Down
+- **Fallen Down** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Fallen Down — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
+- **Grasp Heart** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
+- **Grasp Heart — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage. Then take 20 damage.
+- **Perfect Warrior** *(original)* — give 1.25x attack and 0.75x dmg taken decrease to your teammate for 2 turns.
+- **The Goal of All Life Is Death** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 10 less damage. Then take 20 damage.
+- **World item** *(original)* — Until your next turn, ignore non-5★ status effects and multipliers targeting you, and gain 20 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Staff of Ainz Ooal Gown**: Deal 85 damage to one other player and gain 30 armor. — canon reference: Staff of Ainz Ooal Gown
-- **Momon — Final Push** *(alternate pool option)*: Deal 50 damage to both opponents. Your next attack gets +20 damage. Afterward, heal yourself 12 HP and reduce the next damage you take by 10. — canon reference: Momon
+- **Momon — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then your next attack deals 10 less damage.
+- **Staff of Ainz Ooal Gown** — Deal 90 damage to one other player and gain 30 armor.
 
 ## Planetarian
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Yumemi Hoshino**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 6 armor. — canon reference: Yumemi Hoshino
-- **The Junker**: Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: The Junker
-- **Miss Jena**: You may punch once after playing this card. Afterward, heal yourself or your teammate 5 HP. — canon reference: Miss Jena
-- **Flowercrest Department Store**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Flowercrest Department Store
-- **The Planetarium**: Heal your teammate 25 HP and give them 10 armor. Afterward, reduce the next damage your teammate takes by 6. — canon reference: The Planetarium
-- **Star Projection**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself or your teammate 8 HP. — canon reference: Star Projection
-- **Constant Rain**: Choose an opponent. They discard 1 random card. Afterward, your next attack gets +4 damage. — canon reference: Constant Rain
-- **Automated War Machine**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 6 armor. — canon reference: Automated War Machine
-- **Scavenger's Pack**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, your next attack gets +4 damage. — canon reference: Scavenger's Pack
-- **Projector Repair**: Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 5 armor. — canon reference: Projector Repair
-- **Yumemi Hoshino — Heart-to-Heart** *(alternate pool option)*: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, heal yourself 1 HP and reduce the next damage you take by 11. — canon reference: Yumemi Hoshino
-- **The Junker — Prepared Response** *(alternate pool option)*: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, heal yourself 2 HP and reduce the next damage you take by 11. — canon reference: The Junker
-- **Miss Jena — Second Beat** *(alternate pool option)*: Gain 20 armor, then draw 1 card. Afterward, heal yourself 3 HP and reduce the next damage you take by 11. — canon reference: Miss Jena
-- **Flowercrest Department Store — Contingency** *(alternate pool option)*: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, heal yourself 4 HP and reduce the next damage you take by 11. — canon reference: Flowercrest Department Store
-- **The Planetarium — Reassurance** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, heal yourself 5 HP and reduce the next damage you take by 11. — canon reference: The Planetarium
+- **Automated War Machine** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then take 20 damage. Your next attack also gets +20 damage.
+- **Constant Rain** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
+- **Flowercrest Department Store** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
+- **Flowercrest Department Store — Contingency** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, your next attack gets +10 damage; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
+- **Miss Jena** — You may punch once after playing this card. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
+- **Miss Jena — Second Beat** — Gain 20 armor, then draw 1 card. Afterward, reduce the next damage you take by 10; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
+- **Projector Repair** — Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also reduce the next damage you take by 30.
+- **Scavenger's Pack** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **Star Projection** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
+- **The Junker** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
+- **The Junker — Prepared Response** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, heal yourself 10 HP; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **The Planetarium** — Heal your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage your teammate takes by 20. Then discard 1 random card from your hand.
+- **The Planetarium — Reassurance** — Heal both members of your team 20 HP. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Yumemi Hoshino** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Yumemi Hoshino — Heart-to-Heart** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, gain 10 armor; then reduce the next damage you take by 10; then your next attack deals 10 less damage. Then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Seeing stars**: Deal 15 damage to one opponent, that opponent's next card is randomly selected out of the ones in their pool.
-- **2,500,000th Customer**: You may play one additional non-5★ card this turn. Afterward, your next attack deals 12 less damage. — canon reference: 2,500,000th Customer
-- **Heaven for Robots**: Heal yourself or your teammate 70 HP. Afterward, gain 11 armor. — canon reference: Heaven for Robots
-- **Emergency Battery**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Emergency Battery
-- **Memory Card**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, heal yourself 6 HP. — canon reference: Memory Card
-- **2,500,000th Customer — Together** *(alternate pool option)*: Heal yourself or your teammate 70 HP. Afterward, heal yourself 6 HP and reduce the next damage you take by 11. — canon reference: 2,500,000th Customer
-- **Heaven for Robots — Shared Resolve** *(alternate pool option)*: Heal yourself or your teammate 70 HP. Afterward, heal yourself 7 HP and reduce the next damage you take by 11. — canon reference: Heaven for Robots
+- **2,500,000th Customer** — You may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 40 armor.
+- **2,500,000th Customer — Together** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Emergency Battery** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
+- **Heaven for Robots** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Heaven for Robots — Shared Resolve** — Heal yourself or your teammate 70 HP. Afterward, give your teammate +10 damage on their next attack; then gain 10 armor; then discard 1 random card from your hand.
+- **Memory Card** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 10 HP. Also reduce the next damage you take by 30.
+- **Seeing stars** *(original)* — Deal 20 damage to one opponent, that opponent's next card is randomly selected out of the ones in their pool.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Reverie of a Little Planet**: Heal both members of your team 30 HP and give each 20 armor. — canon reference: Reverie of a Little Planet
-- **Final Escort — Last Stand** *(alternate pool option)*: Heal both members of your team 35 HP and give each 25 armor. Afterward, heal yourself 8 HP and reduce the next damage you take by 11. — canon reference: Final Escort
+- **Final Escort — Last Stand** — Heal both members of your team 40 HP and give each 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 10 HP; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Reverie of a Little Planet** — Heal both members of your team 30 HP and give each 20 armor. Also give yourself or your teammate 30 armor.
 
 ## Pokémon
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Team Rocket**: After 3 turns do 25 damage to each opponent
-- **Pikachu**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, give yourself or your teammate 3 armor. — canon reference: Pikachu
-- **Charizard**: Deal 15 damage to both opponents. Afterward, your next attack gets +10 damage. — canon reference: Charizard
-- **Bulbasaur**: Draw 1 card and give your teammate 15 armor. Afterward, heal yourself or your teammate 13 HP. — canon reference: Bulbasaur
-- **Squirtle**: Your teammate ignores the next punch that would damage them. Afterward, give yourself or your teammate 6 armor. — canon reference: Squirtle
-- **Misty**: Heal yourself or your teammate 40 HP. Afterward, gain 3 armor. — canon reference: Misty
-- **Brock**: Draw 1 card and give your teammate 15 armor. Afterward, give your teammate +4 damage on their next attack. — canon reference: Brock
-- **Meowth**: Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10. — canon reference: Meowth
-- **Poké Ball**: Choose an opponent. Their next attack deals 20 less damage. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Poké Ball
-- **Pokédex**: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Pokédex
-- **Pikachu — Pressure** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, heal yourself 9 HP and reduce the next damage you take by 11. — canon reference: Pikachu
-- **Charizard — Follow-Through** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, heal yourself 10 HP and reduce the next damage you take by 11. — canon reference: Charizard
-- **Bulbasaur — Coordination** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, heal yourself 11 HP and reduce the next damage you take by 11. — canon reference: Bulbasaur
-- **Squirtle — Backup Plan** *(alternate pool option)*: Give yourself or your teammate 30 armor. Afterward, heal yourself 12 HP and reduce the next damage you take by 11. — canon reference: Squirtle
-- **Misty — Formation** *(alternate pool option)*: Your teammate ignores the next punch that would damage them. Afterward, heal yourself 1 HP and reduce the next damage you take by 12. — canon reference: Misty
+- **Brock** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Bulbasaur** — Draw 1 card and give your teammate 20 armor. Afterward, you and your teammate each get +20 damage on your next attack. Then your next attack deals 20 less damage.
+- **Bulbasaur — Coordination** — Reduce the next damage your teammate takes by 25. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
+- **Charizard** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
+- **Charizard — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 10 HP; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Meowth** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage. Also draw 1 card.
+- **Misty** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Misty — Formation** — Your teammate ignores the next punch that would damage them. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
+- **Pikachu** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Pikachu — Pressure** — Deal 20 damage to both opponents. Afterward, gain 10 armor; then your next attack gets +10 damage; then discard 1 random card from your hand.
+- **Poké Ball** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Pokédex** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
+- **Squirtle** — Your teammate ignores the next punch that would damage them. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
+- **Squirtle — Backup Plan** — Give yourself or your teammate 30 armor. Afterward, your next attack gets +10 damage; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Team Rocket** *(original)* — After 3 turns do 30 damage to each opponent
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Ash Ketchum**: Give both members of your team 30 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Ash Ketchum
-- **Mewtwo**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 12 damage. — canon reference: Mewtwo
-- **Legendary Pokémon**: Deal 45 damage to one other player, then draw 1 card. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Legendary Pokémon
-- **Master Ball**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, your next attack gets +5 damage. — canon reference: Master Ball
-- **Pokémon League**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Pokémon League
-- **Ash Ketchum — Rescue** *(alternate pool option)*: Heal both members of your team 35 HP. Afterward, heal yourself 2 HP and reduce the next damage you take by 12. — canon reference: Ash Ketchum
-- **Mewtwo — No Escape** *(alternate pool option)*: Steal 1 random card from an opponent. Afterward, heal yourself 3 HP and reduce the next damage you take by 12. — canon reference: Mewtwo
+- **Ash Ketchum** — Give both members of your team 30 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage. Also give yourself or your teammate 30 armor.
+- **Ash Ketchum — Rescue** — Heal both members of your team 40 HP. Afterward, give yourself or your teammate 10 armor; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Legendary Pokémon** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 20 damage.
+- **Master Ball** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **Mewtwo** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 10 damage. Then take 30 damage.
+- **Mewtwo — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +10 damage on their next attack; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Pokémon League** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, your next attack gets +10 damage. Then give the chosen opponent 20 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Gotta Catch 'Em All**: Draw 3 cards and steal 1 random card from an opponent, then discard 1 random card from your hand. — canon reference: Gotta Catch 'Em All
-- **Pokémon League — Champion Form** *(alternate pool option)*: You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, heal yourself 4 HP and reduce the next damage you take by 12. — canon reference: Pokémon League
+- **Gotta Catch 'Em All** — Draw 3 cards and steal 1 random card from an opponent, then discard 1 random card from your hand.
+- **Pokémon League — Champion Form** — You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP. Your next attack also gets +30 damage.
 
 ## Puella Magi Madoka Magica
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Kyubey**: Deal 20 damage to both opponents.
-- **Madoka Kaname**: Give both members of your team 15 armor. Afterward, give your teammate +4 damage on their next attack. — canon reference: Madoka Kaname
-- **Homura Akemi**: Choose an opponent. Their next action is a punch against themself. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Homura Akemi
-- **Sayaka Miki**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Sayaka Miki
-- **Mami Tomoe**: Deal 15 damage to both opponents. Afterward, reduce the next damage you take by 12. — canon reference: Mami Tomoe
-- **Kyoko Sakura**: Deal 18 damage to one other player and gain 12 armor. Afterward, your next attack gets +8 damage. — canon reference: Kyoko Sakura
-- **Soul Gem**: Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +8 on the next damage they take. — canon reference: Soul Gem
-- **Grief Seed**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, give your teammate +11 damage on their next attack. — canon reference: Grief Seed
-- **Witch's Labyrinth**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, reduce the next damage you take by 5. — canon reference: Witch's Labyrinth
-- **Charlotte**: Take 15 damage. Your next attack gets +35 damage. Afterward, reduce the next damage you take by 9. — canon reference: Charlotte
-- **Madoka Kaname — Cover** *(alternate pool option)*: Deal 20 damage to one other player; your teammate heals 15 HP. Afterward, heal yourself 5 HP and reduce the next damage you take by 12. — canon reference: Madoka Kaname
-- **Homura Akemi — Calculated Trap** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 6 HP and reduce the next damage you take by 12. — canon reference: Homura Akemi
-- **Sayaka Miki — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 7 HP and reduce the next damage you take by 12. — canon reference: Sayaka Miki
-- **Mami Tomoe — Counteroffensive** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, heal yourself 8 HP and reduce the next damage you take by 12. — canon reference: Mami Tomoe
-- **Kyoko Sakura — Overdrive** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 9 HP and reduce the next damage you take by 12. — canon reference: Kyoko Sakura
+- **Charlotte** — Take 20 damage. Your next attack gets +40 damage. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +20 damage.
+- **Grief Seed** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
+- **Homura Akemi** — Choose an opponent. Their next action is a punch against themself. Afterward, an opponent’s next attack deals 20 less damage. Then take 10 damage.
+- **Homura Akemi — Calculated Trap** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 10 HP; then give yourself or your teammate 10 armor; then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Kyoko Sakura** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 10 HP.
+- **Kyoko Sakura — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +10 on the next damage they take; then gain 10 armor; then take 10 damage.
+- **Kyubey** *(original)* — Deal 20 damage to both opponents.
+- **Madoka Kaname** — Give both members of your team 20 armor. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
+- **Madoka Kaname — Cover** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, gain 10 armor; then mark one other player for +10 on the next damage they take; then take 10 damage.
+- **Mami Tomoe** — Deal 20 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Mami Tomoe — Counteroffensive** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 10 less damage; then take 10 damage.
+- **Sayaka Miki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
+- **Sayaka Miki — Breakthrough** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10; then give your teammate +10 damage on their next attack; then take 10 damage.
+- **Soul Gem** — Take 10 damage, then deal 40 damage to one other player. Afterward, gain 10 armor. Then give the chosen opponent 20 armor.
+- **Witch's Labyrinth** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Homura's Shield**: Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 14. — canon reference: Homura's Shield
-- **Sayaka's Swords**: Deal 35 damage to both opponents. Afterward, give your teammate +11 damage on their next attack. — canon reference: Sayaka's Swords
-- **Kyoko's Spear**: Deal 35 damage to both opponents. Afterward, give yourself or your teammate 12 armor. — canon reference: Kyoko's Spear
-- **Walpurgisnacht**: Deal 30 damage to every other living player. Afterward, the next damage you take is increased by 15%. — canon reference: Walpurgisnacht
-- **The Contract**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, reduce the next damage you take by 6. — canon reference: The Contract
-- **Homura's Shield — Interference** *(alternate pool option)*: Choose an opponent. They discard 2 random cards. Afterward, heal yourself 10 HP and reduce the next damage you take by 12. — canon reference: Homura's Shield
-- **Sayaka's Swords — Decisive Strike** *(alternate pool option)*: Deal 60 damage to one other player. Afterward, heal yourself 11 HP and reduce the next damage you take by 12. — canon reference: Sayaka's Swords
+- **Homura's Shield** — Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
+- **Homura's Shield — Interference** — Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 10 armor; then heal yourself 10 HP; then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Kyoko's Spear** — Deal 40 damage to both opponents. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Sayaka's Swords** — Deal 40 damage to both opponents. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
+- **Sayaka's Swords — Decisive Strike** — Deal 60 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 10; then take 10 damage.
+- **The Contract** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +60 damage.
+- **Walpurgisnacht** — Deal 30 damage to every other living player. Afterward, your next attack gets +10 damage. Then give the chosen opponent 10 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Ultimate Madoka**: Heal both members of your team 50 HP. — canon reference: Ultimate Madoka
-- **The Contract — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, heal yourself 12 HP and reduce the next damage you take by 12. — canon reference: The Contract
+- **The Contract — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +10 damage; then take 20 damage. Your next attack also gets +20 damage.
+- **Ultimate Madoka** — Heal both members of your team 50 HP. Your next attack also gets +30 damage.
 
 ## Rascal Does Not Dream of Bunny Girl Senpai
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Puberty Syndrome**: on the start of your next turn you and an opponent of your choosing cannot target each other with cards or punches for one full turn
-- **Sakuta Azusagawa**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +11 damage. — canon reference: Sakuta Azusagawa
-- **Mai Sakurajima**: Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 7. — canon reference: Mai Sakurajima
-- **Tomoe Koga**: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 11 HP. — canon reference: Tomoe Koga
-- **Rio Futaba**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Rio Futaba
-- **Nodoka Toyohama**: Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +3 damage on their next attack. — canon reference: Nodoka Toyohama
-- **Kaede Azusagawa**: Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage. — canon reference: Kaede Azusagawa
-- **Shoko Makinohara**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, heal yourself 11 HP. — canon reference: Shoko Makinohara
-- **Bunny Girl**: Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Bunny Girl
-- **Laplace's Demon**: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Laplace's Demon
-- **Sakuta Azusagawa — Read the Field** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 1 less damage and you gain 1 armor. — canon reference: Sakuta Azusagawa
-- **Mai Sakurajima — Calculated Trap** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 2 less damage and you gain 1 armor. — canon reference: Mai Sakurajima
-- **Tomoe Koga — Lockdown** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 3 less damage and you gain 1 armor. — canon reference: Tomoe Koga
-- **Rio Futaba — Counterplay** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 4 less damage and you gain 1 armor. — canon reference: Rio Futaba
-- **Nodoka Toyohama — Checkmate** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 5 less damage and you gain 1 armor. — canon reference: Nodoka Toyohama
+- **Bunny Girl** — Draw 2 cards, then discard 1 random card from your hand. Afterward, gain 20 armor. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Kaede Azusagawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
+- **Laplace's Demon** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 30 damage. Your next attack also gets +20 damage.
+- **Mai Sakurajima** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 10 armor.
+- **Mai Sakurajima — Calculated Trap** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, heal yourself 10 HP; then give your teammate +10 damage on their next attack; then take 20 damage.
+- **Nodoka Toyohama** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack.
+- **Nodoka Toyohama — Checkmate** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 10 HP; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Puberty Syndrome** *(original)* — on the start of your next turn you and an opponent of your choosing cannot target each other with cards or punches for one full turn
+- **Rio Futaba** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
+- **Rio Futaba — Counterplay** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +10 damage; then gain 10 armor; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Sakuta Azusagawa** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then take 10 damage.
+- **Sakuta Azusagawa — Read the Field** — Mark one other player. The next damage they take is increased by 20. Afterward, gain 10 armor; then give yourself or your teammate 10 armor; then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Shoko Makinohara** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
+- **Tomoe Koga** — Mark one other player. The next damage they take is increased by 20. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
+- **Tomoe Koga — Lockdown** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 10 less damage; then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Body Swap**: Steal 1 random card from an opponent. Afterward, take 5 damage. — canon reference: Body Swap
-- **Invisible Mai**: Choose an opponent. They discard 2 random cards. Afterward, give yourself or your teammate 7 armor. — canon reference: Invisible Mai
-- **Time Loop**: Choose an opponent. They discard 2 random cards. Afterward, reduce the next damage you take by 6. — canon reference: Time Loop
-- **Kaede's Notebook**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 13 damage. — canon reference: Kaede's Notebook
-- **Dreaming Girl**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Dreaming Girl
-- **Body Swap — Interference** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 6 less damage and you gain 1 armor. — canon reference: Body Swap
-- **Invisible Mai — No Escape** *(alternate pool option)*: Choose an opponent. They skip their next turn. Afterward, an opponent’s next attack deals 7 less damage and you gain 1 armor. — canon reference: Invisible Mai
+- **Body Swap** — Steal 1 random card from an opponent. Then give the chosen opponent 20 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 80 less damage.
+- **Body Swap — Interference** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 10; then take 20 damage.
+- **Dreaming Girl** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack.
+- **Invisible Mai** — Choose an opponent. They discard 2 random cards. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 20 less damage. Also make an opponent’s next attack deal 20 less damage.
+- **Invisible Mai — No Escape** — Choose an opponent. They skip their next turn. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **Kaede's Notebook** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 30 damage. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
+- **Time Loop** — Choose an opponent. They discard 2 random cards. Afterward, gain 20 armor. Then take 10 damage. Also make an opponent’s next attack deal 20 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Adolescence Syndrome**: Choose an opponent. They skip their next turn. Take 20 damage. — canon reference: Adolescence Syndrome
-- **Dreaming Girl — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 8 less damage and you gain 1 armor. — canon reference: Dreaming Girl
+- **Adolescence Syndrome** — Choose an opponent. They skip their next turn. Take 20 damage. Also make an opponent’s next attack deal 50 less damage.
+- **Dreaming Girl — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
 
 ## Re:Zero
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Subaru Natsuki**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, take 12 damage. — canon reference: Subaru Natsuki
-- **Emilia**: Deal 20 damage to every other living player. Afterward, your next attack gets +9 damage. — canon reference: Emilia
-- **Rem — Re:Zero**: Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, the next damage you take is increased by 20%. — canon reference: Rem
-- **Ram**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, gain 6 armor. — canon reference: Ram
-- **Beatrice**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, give your teammate +10 damage on their next attack. — canon reference: Beatrice
-- **Puck**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, the next damage you take is increased by 15%. — canon reference: Puck
-- **Roswaal L Mathers**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 8 armor. — canon reference: Roswaal L Mathers
-- **Felt**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, the next damage you take is increased by 20%. — canon reference: Felt
-- **Crusch Karsten**: Take 15 damage. Your next attack gets +35 damage. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Crusch Karsten
-- **Felix Argyle**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Felix Argyle
-- **Subaru Natsuki — Over the Limit** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 9 less damage and you gain 1 armor. — canon reference: Subaru Natsuki
-- **Emilia — No Turning Back** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage and you gain 1 armor. — canon reference: Emilia
-- **Rem — Danger Zone** *(alternate pool option)*: Take 15 damage. Your next attack gets +35 damage. Afterward, an opponent’s next attack deals 11 less damage and you gain 1 armor. — canon reference: Rem
-- **Ram — All In** *(alternate pool option)*: Deal 20 damage to every other living player. Afterward, an opponent’s next attack deals 12 less damage and you gain 1 armor. — canon reference: Ram
-- **Beatrice — Burnout** *(alternate pool option)*: Deal 25 damage to one other player. Reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 1 less damage and you gain 2 armor. — canon reference: Beatrice
+- **Beatrice** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Beatrice — Burnout** — Deal 30 damage to one other player. Reduce the next damage you take by 10. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
+- **Crusch Karsten** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor. Your next attack also gets +20 damage.
+- **Emilia** — Deal 20 damage to every other living player. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
+- **Emilia — No Turning Back** — Take 10 damage, then deal 40 damage to one other player. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
+- **Felix Argyle** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Felt** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack.
+- **Puck** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 10 armor.
+- **Ram** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage.
+- **Ram — All In** — Deal 20 damage to every other living player. Afterward, your next attack gets +10 damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Rem — Danger Zone** — Take 20 damage. Your next attack gets +40 damage. Afterward, reduce the next damage you take by 10; then gain 10 armor; then your next attack deals 10 less damage. Your next attack also gets +20 damage.
+- **Rem — Re:Zero** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
+- **Roswaal L Mathers** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage. Your next attack also gets +30 damage.
+- **Subaru Natsuki** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, your next attack gets +10 damage. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +30 damage.
+- **Subaru Natsuki — Over the Limit** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 10 armor; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Reinhard van Astrea**: Take 20 damage, then deal 80 damage to one other player. Afterward, reduce the next damage you take by 8. — canon reference: Reinhard van Astrea
-- **Julius Juukulius**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Julius Juukulius
-- **Petelgeuse Romanee-Conti**: Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +5 damage. — canon reference: Petelgeuse Romanee-Conti
-- **Unseen Hand**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, your next attack gets +5 damage. — canon reference: Unseen Hand
-- **Witch of Envy**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, the next damage you take is increased by 15%. — canon reference: Witch of Envy
-- **Reinhard van Astrea — Desperation** *(alternate pool option)*: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, an opponent’s next attack deals 2 less damage and you gain 2 armor. — canon reference: Reinhard van Astrea
-- **Julius Juukulius — Point of No Return** *(alternate pool option)*: Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 3 less damage and you gain 2 armor. — canon reference: Julius Juukulius
+- **Julius Juukulius** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +60 damage.
+- **Julius Juukulius — Point of No Return** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
+- **Petelgeuse Romanee-Conti** — Take 20 damage, then deal 80 damage to one other player. Afterward, your next attack gets +20 damage. Then your next attack deals 10 less damage.
+- **Reinhard van Astrea** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 10 less damage.
+- **Reinhard van Astrea — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then your next attack gets +10 damage; then discard 1 random card from your hand. Your next attack also gets +70 damage.
+- **Unseen Hand** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP. Your next attack also gets +50 damage.
+- **Witch of Envy** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, your next attack gets +20 damage. Then take 20 damage. Your next attack also gets +70 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Return by Death**: When a player on your team dies revive them on 50 hp instantly after death
-- **Witch of Envy — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 4 less damage and you gain 2 armor. — canon reference: Witch of Envy
+- **Return by Death** *(original)* — The next time you or your teammate dies, revive that player at 80 HP. In 1v1, this protects you.
+- **Witch of Envy — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 10 armor; then discard 1 random card from your hand. Your next attack also gets +20 damage.
 
 ## Rent-a-Girlfriend
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Kazuya**: This card does nothing
-- **Chizuru Mizuhara**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage your teammate takes by 6. — canon reference: Chizuru Mizuhara
-- **Mami Nanami**: Heal both members of your team 20 HP. Afterward, give your teammate +11 damage on their next attack. — canon reference: Mami Nanami
-- **Ruka Sarashina**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, gain 12 armor. — canon reference: Ruka Sarashina
-- **Sumi Sakurasawa**: Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage your teammate takes by 13. — canon reference: Sumi Sakurasawa
-- **Mini Yaemori**: Until your next turn, you cannot be targeted by attacks. Afterward, give yourself or your teammate 7 armor. — canon reference: Mini Yaemori
-- **Nagomi Kinoshita**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 9 armor. — canon reference: Nagomi Kinoshita
-- **Sayuri Ichinose**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage you take by 9. — canon reference: Sayuri Ichinose
-- **Umi Nakano**: Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 7 HP. — canon reference: Umi Nakano
-- **Diamond Rental**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, you and your teammate each get +5 damage on your next attack. — canon reference: Diamond Rental
-- **Chizuru Mizuhara — Heart-to-Heart** *(alternate pool option)*: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, an opponent’s next attack deals 5 less damage and you gain 2 armor. — canon reference: Chizuru Mizuhara
-- **Mami Nanami — Helping Hand** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 6 less damage and you gain 2 armor. — canon reference: Mami Nanami
-- **Ruka Sarashina — Promise** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, an opponent’s next attack deals 7 less damage and you gain 2 armor. — canon reference: Ruka Sarashina
-- **Sumi Sakurasawa — Trust** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 8 less damage and you gain 2 armor. — canon reference: Sumi Sakurasawa
-- **Mini Yaemori — Reassurance** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, an opponent’s next attack deals 9 less damage and you gain 2 armor. — canon reference: Mini Yaemori
+- **Chizuru Mizuhara** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent +20 damage on their next attack.
+- **Chizuru Mizuhara — Heart-to-Heart** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, gain 10 armor; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Diamond Rental** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Kazuya** *(original)* — This card does nothing
+- **Mami Nanami** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
+- **Mami Nanami — Helping Hand** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 10 HP; then gain 10 armor; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Mini Yaemori** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent 20 armor.
+- **Mini Yaemori — Reassurance** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Nagomi Kinoshita** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
+- **Ruka Sarashina** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
+- **Ruka Sarashina — Promise** — Return one 3★ card from your discard pile to your hand. Afterward, reduce the next damage you take by 10; then heal yourself 10 HP; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Sayuri Ichinose** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then your next attack deals 10 less damage.
+- **Sumi Sakurasawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage your teammate takes by 10. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Sumi Sakurasawa — Trust** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 10; then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Umi Nakano** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Crowdfunded Movie**: You may play one additional non-5★ card this turn. Afterward, your next attack deals 11 less damage. — canon reference: Crowdfunded Movie
-- **Acting Dream**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +5 damage on their next attack. — canon reference: Acting Dream
-- **Rental Date**: Heal both members of your team 35 HP. Afterward, give yourself or your teammate 12 armor. — canon reference: Rental Date
-- **Grandmother Pact**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +4 damage on their next attack. — canon reference: Grandmother Pact
-- **Movie Premiere**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: Movie Premiere
-- **Crowdfunded Movie — Together** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 10 less damage and you gain 2 armor. — canon reference: Crowdfunded Movie
-- **Acting Dream — Shared Resolve** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 11 less damage and you gain 2 armor. — canon reference: Acting Dream
+- **Acting Dream** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
+- **Acting Dream — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
+- **Crowdfunded Movie** — You may play one additional non-5★ card this turn. Then give the chosen opponent +20 damage on their next attack. Then take 10 damage. Also give yourself or your teammate 40 armor.
+- **Crowdfunded Movie — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 10 armor; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Grandmother Pact** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Movie Premiere** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
+- **Rental Date** — Heal both members of your team 40 HP. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Chizuru Ichinose**: Heal yourself or your teammate 85 HP, then draw 1 card. — canon reference: Chizuru Ichinose
-- **Movie Premiere — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 12 less damage and you gain 2 armor. — canon reference: Movie Premiere
+- **Chizuru Ichinose** — Heal yourself or your teammate 90 HP, then draw 1 card.
+- **Movie Premiere — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
 
 ## SPY x FAMILY
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Such elegance**: You and your teammate heal 5 hp every time you play a card for the next 3 turns
-- **Loid Forger**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Loid Forger
-- **Yor Forger**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, take 12 damage. — canon reference: Yor Forger
-- **Anya Forger**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, give your teammate +6 damage on their next attack. — canon reference: Anya Forger
-- **Project Apple**: Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself or your teammate 9 HP. — canon reference: Project Apple
-- **Becky Blackbell**: Heal both members of your team 20 HP. Afterward, gain 11 armor. — canon reference: Becky Blackbell
-- **Damian Desmond**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +8 damage on their next attack. — canon reference: Damian Desmond
-- **Yuri Briar**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Yuri Briar
-- **Fiona Frost**: Draw 1 card and give yourself or your teammate 15 armor. Afterward, an opponent’s next attack deals 7 less damage. — canon reference: Fiona Frost
-- **Franky Franklin**: Choose an opponent. They discard 1 random card. Afterward, your next attack gets +7 damage. — canon reference: Franky Franklin
-- **Loid Forger — Positioning** *(alternate pool option)*: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 1 less damage and you gain 3 armor. — canon reference: Loid Forger
-- **Yor Forger — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 2 less damage and you gain 3 armor. — canon reference: Yor Forger
-- **Anya Forger — Lockdown** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 3 less damage and you gain 3 armor. — canon reference: Anya Forger
-- **Project Apple — Contingency** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 4 less damage and you gain 3 armor. — canon reference: Project Apple
-- **Becky Blackbell — Reassurance** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, an opponent’s next attack deals 5 less damage and you gain 3 armor. — canon reference: Becky Blackbell
+- **Anya Forger** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, gain 10 armor. Then your next attack deals 10 less damage.
+- **Anya Forger — Lockdown** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 10; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Becky Blackbell** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 10 HP.
+- **Becky Blackbell — Reassurance** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 10 armor; then take 10 damage.
+- **Damian Desmond** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage.
+- **Fiona Frost** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 10 HP.
+- **Franky Franklin** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Loid Forger** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Loid Forger — Positioning** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Project Apple** — Mark one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor. Also reduce the next damage you take by 30.
+- **Project Apple — Contingency** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +10 damage; then mark one other player for +10 on the next damage they take; then take 10 damage.
+- **Such elegance** *(original)* — You and your teammate heal 10 hp every time you play a card for the next 3 turns
+- **Yor Forger** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Yor Forger — Follow-Through** — Deal 20 damage to one other player, then draw 1 card. Afterward, heal yourself 10 HP; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
+- **Yuri Briar** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, reduce the next damage you take by 20. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Bond Forger**: You can see the abilities of opponents' cards for the rest of the game, but you cannot tell your teammate (tenitrus bolt if u do (die).
-- **Operation Strix**: Give both members of your team 30 armor. Afterward, reduce the next damage you take by 10. — canon reference: Operation Strix
-- **WISE**: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 10 less damage. — canon reference: WISE
-- **Garden**: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 11. — canon reference: Garden
-- **Stella Star**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, reduce the next damage you take by 14. — canon reference: Stella Star
-- **Operation Strix — Rescue** *(alternate pool option)*: Give your teammate +35 damage on their next attack, then draw 1 card. Afterward, an opponent’s next attack deals 6 less damage and you gain 3 armor. — canon reference: Operation Strix
-- **WISE — Perfect Setup** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, an opponent’s next attack deals 7 less damage and you gain 3 armor. — canon reference: WISE
+- **Bond Forger** *(original)* — See the abilities of your opponents’ cards for the rest of the game, then draw 2 cards. You still cannot tell your teammate without taking the Tonitrus Bolt penalty.
+- **Garden** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Operation Strix** — Give both members of your team 30 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Operation Strix — Rescue** — Give your teammate +40 damage on their next attack, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then give your teammate +10 damage on their next attack; then take 10 damage.
+- **Stella Star** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
+- **WISE** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **WISE — Perfect Setup** — Deal 40 damage to both opponents. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 10 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Forger Family**: Heal both members of your team 20 HP, give each +20 damage on their next attack, then draw 1 card. — canon reference: The Forger Family
-- **Tonitrus Bolt — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 8 less damage and you gain 3 armor. — canon reference: Tonitrus Bolt
+- **The Forger Family** — Heal both members of your team 20 HP, give each +20 damage on their next attack, then draw 1 card. Also give yourself or your teammate 30 armor.
+- **Tonitrus Bolt — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then gain 10 armor; then take 10 damage.
 
 ## Solo Leveling
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Sung Jinwoo**: Deal 18 damage to one other player and gain 12 armor. Afterward, reduce the next damage you take by 6. — canon reference: Sung Jinwoo
-- **Yoo Jinho**: Give yourself or your teammate 30 armor. Afterward, heal yourself 11 HP. — canon reference: Yoo Jinho
-- **Cha Hae-In**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 13. — canon reference: Cha Hae-In
-- **Go Gunhee**: Your teammate ignores the next punch that would damage them. Afterward, heal yourself 6 HP. — canon reference: Go Gunhee
-- **Baek Yoonho**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, give your teammate +4 damage on their next attack. — canon reference: Baek Yoonho
-- **Choi Jong-In**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 7 armor. — canon reference: Choi Jong-In
-- **Igris**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 7 armor. — canon reference: Igris
-- **Iron**: Reduce the next damage you or your teammate takes by 25. Afterward, gain 7 armor. — canon reference: Iron
-- **Tusk**: Deal 29 damage to one other player. Afterward, your next attack gets +6 damage. — canon reference: Tusk
-- **The System**: You may play one additional 3★ card this turn. Afterward, your next attack deals 5 less damage. — canon reference: The System
-- **Sung Jinwoo — Pressure** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 9 less damage and you gain 3 armor. — canon reference: Sung Jinwoo
-- **Yoo Jinho — Rally** *(alternate pool option)*: Draw 1 card and give your teammate 15 armor. Afterward, an opponent’s next attack deals 10 less damage and you gain 3 armor. — canon reference: Yoo Jinho
-- **Cha Hae-In — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, an opponent’s next attack deals 11 less damage and you gain 3 armor. — canon reference: Cha Hae-In
-- **Go Gunhee — Backup Plan** *(alternate pool option)*: Heal yourself or your teammate 40 HP. Afterward, an opponent’s next attack deals 12 less damage and you gain 3 armor. — canon reference: Go Gunhee
-- **Baek Yoonho — Overdrive** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, an opponent’s next attack deals 1 less damage and you gain 4 armor. — canon reference: Baek Yoonho
+- **Baek Yoonho** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
+- **Baek Yoonho — Overdrive** — Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then take 20 damage.
+- **Cha Hae-In** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage. Then heal the chosen opponent 10 HP.
+- **Cha Hae-In — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then take 20 damage.
+- **Choi Jong-In** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Go Gunhee** — Your teammate ignores the next punch that would damage them. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
+- **Go Gunhee — Backup Plan** — Heal yourself or your teammate 40 HP. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Igris** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Iron** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 10 armor. Then your next attack deals 10 less damage. Also reduce the next damage you take by 30.
+- **Sung Jinwoo** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
+- **Sung Jinwoo — Pressure** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor; then heal yourself 10 HP; then take 10 damage.
+- **The System** — You may play one additional 3★ card this turn. Then take 30 damage. Then heal the chosen opponent 20 HP. Also draw 1 card.
+- **Tusk** — Deal 30 damage to one other player. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
+- **Yoo Jinho** — Give yourself or your teammate 30 armor. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
+- **Yoo Jinho — Rally** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then take 10 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Arise**: Bring 3 non five star cards back to your pool from your discard pile
-- **Beru**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +11 damage on their next attack. — canon reference: Beru
-- **Shadow Exchange**: Deal 58 damage to one other player. Afterward, give yourself or your teammate 11 armor. — canon reference: Shadow Exchange
-- **Monarch's Domain**: Choose an opponent. They skip their next turn. Afterward, take 8 damage. — canon reference: Monarch's Domain
-- **Ruler's Authority**: Choose an opponent. They skip their next turn. Afterward, take 14 damage. — canon reference: Ruler's Authority
-- **Beru — Finisher** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 2 less damage and you gain 4 armor. — canon reference: Beru
-- **Shadow Exchange — Decisive Strike** *(alternate pool option)*: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 3 less damage and you gain 4 armor. — canon reference: Shadow Exchange
+- **Arise** *(original)* — Return up to 2 non-5★ cards from your discard pile to your hand.
+- **Beru** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Beru — Finisher** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then take 20 damage.
+- **Monarch's Domain** — Choose an opponent. They skip their next turn. Then give the chosen opponent +10 damage on their next attack. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
+- **Ruler's Authority** — Choose an opponent. They skip their next turn. Then discard 1 random card from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 20 less damage.
+- **Shadow Exchange** — Deal 60 damage to one other player. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
+- **Shadow Exchange — Decisive Strike** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Shadow Monarch**: Return up to 3 non-5★ cards from your discard pile to your hand and play one additional non-5★ card this turn. Take 20 damage. — canon reference: Shadow Monarch
-- **Demon King's Longsword — Final Push** *(alternate pool option)*: Deal 50 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 4 less damage and you gain 4 armor. — canon reference: Demon King's Longsword
+- **Demon King's Longsword — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then take 20 damage.
+- **Shadow Monarch** — Return up to 3 non-5★ cards from your discard pile to your hand and play one additional non-5★ card this turn. Take 20 damage. Your next attack also gets +20 damage.
 
 ## Steins;Gate
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Rintaro Okabe**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 12. — canon reference: Rintaro Okabe
-- **Kurisu Makise**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +12 damage. — canon reference: Kurisu Makise
-- **Mayuri Shiina**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, give your teammate +3 damage on their next attack. — canon reference: Mayuri Shiina
-- **Itaru Hashida**: Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 11. — canon reference: Itaru Hashida
-- **Suzuha Amane**: Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 14. — canon reference: Suzuha Amane
-- **Moeka Kiryu**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 8. — canon reference: Moeka Kiryu
-- **Luka Urushibara**: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 12 HP. — canon reference: Luka Urushibara
-- **Faris NyanNyan**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 5 HP. — canon reference: Faris NyanNyan
-- **Mr. Braun**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, your next attack gets +6 damage. — canon reference: Mr. Braun
-- **PhoneWave**: Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +12 damage. — canon reference: PhoneWave
-- **Rintaro Okabe — Read the Field** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, an opponent’s next attack deals 5 less damage and you gain 4 armor. — canon reference: Rintaro Okabe
-- **Kurisu Makise — Calculated Trap** *(alternate pool option)*: Deal 15 damage to an opponent and reduce the next damage you take by 15. Afterward, an opponent’s next attack deals 6 less damage and you gain 4 armor. — canon reference: Kurisu Makise
-- **Mayuri Shiina — Lockdown** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 7 less damage and you gain 4 armor. — canon reference: Mayuri Shiina
-- **Itaru Hashida — Counterplay** *(alternate pool option)*: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, an opponent’s next attack deals 8 less damage and you gain 4 armor. — canon reference: Itaru Hashida
-- **Suzuha Amane — Checkmate** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 9 less damage and you gain 4 armor. — canon reference: Suzuha Amane
+- **Faris NyanNyan** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20. Then take 30 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Itaru Hashida** — Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage.
+- **Itaru Hashida — Counterplay** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +20 damage; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage. Then take 20 damage.
+- **Kurisu Makise** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Kurisu Makise — Calculated Trap** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, heal yourself 20 HP; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **Luka Urushibara** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 20 less damage.
+- **Mayuri Shiina** — Deal 20 damage to an opponent and reduce the next damage you take by 15. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
+- **Mayuri Shiina — Lockdown** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **Moeka Kiryu** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor. Then take 10 damage.
+- **Mr. Braun** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 40 less damage.
+- **PhoneWave** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 10 HP. Then give the chosen opponent +20 damage on their next attack. Also draw 1 card.
+- **Rintaro Okabe** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **Rintaro Okabe — Read the Field** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, gain 20 armor; then reduce the next damage you take by 10; then take 20 damage.
+- **Suzuha Amane** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then take 20 damage. Also make an opponent’s next attack deal 20 less damage.
+- **Suzuha Amane — Checkmate** — Mark one other player. The next damage they take is increased by 20. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +10 damage on their next attack; then your next attack deals 10 less damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **D-Mail**: You and your teammate each get +25 damage on your next attack. Afterward, reduce the next damage you take by 6. — canon reference: D-Mail
-- **Reading Steiner**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 7 less damage. — canon reference: Reading Steiner
-- **Divergence Meter**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, heal yourself 14 HP. — canon reference: Divergence Meter
-- **IBN 5100**: Choose an opponent. They skip their next turn. Afterward, take 6 damage. — canon reference: IBN 5100
-- **World Line**: Steal 1 random card from an opponent. Afterward, your next attack deals 11 less damage. — canon reference: World Line
-- **D-Mail — Acceleration** *(alternate pool option)*: Deal 30 damage to one other player, then you may punch once this turn. Afterward, an opponent’s next attack deals 10 less damage and you gain 4 armor. — canon reference: D-Mail
-- **Reading Steiner — No Escape** *(alternate pool option)*: Steal 1 random card from an opponent. Afterward, an opponent’s next attack deals 11 less damage and you gain 4 armor. — canon reference: Reading Steiner
+- **D-Mail** — You and your teammate each get +30 damage on your next attack. Afterward, gain 10 armor. Then give the chosen opponent 20 armor. Also draw 1 card.
+- **D-Mail — Acceleration** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
+- **Divergence Meter** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
+- **IBN 5100** — Choose an opponent. They skip their next turn. Then take 10 damage. Then give the chosen opponent +10 damage on their next attack.
+- **Reading Steiner** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Reading Steiner — No Escape** — Steal 1 random card from an opponent. Afterward, give your teammate +20 damage on their next attack; then gain 10 armor; then your next attack deals 10 less damage.
+- **World Line** — Steal 1 random card from an opponent. Then discard 2 random cards from your hand. Then heal the chosen opponent 10 HP. Also make an opponent’s next attack deal 70 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Time Leap Machine**: go back in time two turns undoing all the actions of those two turns. All cards will be returned that were used during those turns (everything is reversed)
-- **World Line — Master Plan** *(alternate pool option)*: Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 12 less damage and you gain 4 armor. — canon reference: World Line
+- **Time Leap Machine** *(original)* — go back in time two turns undoing all the actions of those two turns. All cards will be returned that were used during those turns (everything is reversed)
+- **World Line — Master Plan** — Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 10 HP; then your next attack deals 10 less damage.
 
 ## Sword Art Online
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Overleveled**: take -15 dmg from incoming attacks until the start of your next turn
-- **Kirito**: Deal 28 damage to one other player. Afterward, give yourself or your teammate 6 armor. — canon reference: Kirito
-- **Asuna**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, your next attack gets +11 damage. — canon reference: Asuna
-- **Klein**: Reduce the next damage your teammate takes by 25. Afterward, heal yourself 13 HP. — canon reference: Klein
-- **Agil**: Heal yourself or your teammate 40 HP. Afterward, reduce the next damage you take by 10. — canon reference: Agil
-- **Silica**: Heal your teammate 25 HP and give them 15 armor. Afterward, reduce the next damage your teammate takes by 14. — canon reference: Silica
-- **Lisbeth**: Heal both members of your team 20 HP. Afterward, gain 3 armor. — canon reference: Lisbeth
-- **Yui — Sword Art Online**: Deal 15 damage to an opponent and they discard 1 random card. Afterward, reduce the next damage you take by 7. — canon reference: Yui
-- **Leafa**: Deal 18 damage to one other player and gain 12 armor. Afterward, your next attack gets +3 damage. — canon reference: Leafa
-- **Sinon**: Deal 15 damage to both opponents. Afterward, gain 6 armor. — canon reference: Sinon
-- **Kirito — Pressure** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, an opponent’s next attack deals 1 less damage and you gain 5 armor. — canon reference: Kirito
-- **Asuna — Follow-Through** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, an opponent’s next attack deals 2 less damage and you gain 5 armor. — canon reference: Asuna
-- **Klein — Coordination** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, an opponent’s next attack deals 3 less damage and you gain 5 armor. — canon reference: Klein
-- **Agil — Backup Plan** *(alternate pool option)*: Give both members of your team 15 armor. Afterward, an opponent’s next attack deals 4 less damage and you gain 5 armor. — canon reference: Agil
-- **Silica — Formation** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, an opponent’s next attack deals 5 less damage and you gain 5 armor. — canon reference: Silica
+- **Agil** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Agil — Backup Plan** — Give both members of your team 20 armor. Afterward, your next attack gets +20 damage; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
+- **Asuna** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, gain 20 armor. Then heal the chosen opponent 10 HP.
+- **Asuna — Follow-Through** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, heal yourself 20 HP; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
+- **Kirito** — Deal 30 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Kirito — Pressure** — Deal 20 damage to both opponents. Afterward, gain 20 armor; then your next attack gets +10 damage; then discard 1 random card from your hand.
+- **Klein** — Reduce the next damage your teammate takes by 25. Afterward, you and your teammate each get +20 damage on your next attack. Then heal the chosen opponent 10 HP.
+- **Klein — Coordination** — Heal both members of your team 20 HP. Afterward, reduce the next damage you take by 20; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
+- **Leafa** — Deal 20 damage to one other player and gain 10 armor. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 10 armor.
+- **Lisbeth** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 10 less damage.
+- **Overleveled** *(original)* — take -20 dmg from incoming attacks until the start of your next turn
+- **Silica** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
+- **Silica — Formation** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, mark one other player for +20 on the next damage they take; then an opponent’s next attack deals 10 less damage; then discard 1 random card from your hand.
+- **Sinon** — Deal 20 damage to both opponents. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 10 HP.
+- **Yui — Sword Art Online** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent 20 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Dual Blades**: Deal 35 damage to both opponents. Afterward, your next attack gets +11 damage. — canon reference: Dual Blades
-- **Starburst Stream**: Take 15 damage, then deal 75 damage to one other player. Afterward, your next attack gets +8 damage. — canon reference: Starburst Stream
-- **Mother's Rosario**: Deal 45 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. — canon reference: Mother's Rosario
-- **Aincrad**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, reduce the next damage you take by 15. — canon reference: Aincrad
-- **Heathcliff**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, heal yourself or your teammate 9 HP. — canon reference: Heathcliff
-- **Dual Blades — Finisher** *(alternate pool option)*: Deal 56 damage to one other player. Afterward, an opponent’s next attack deals 6 less damage and you gain 5 armor. — canon reference: Dual Blades
-- **Starburst Stream — Decisive Strike** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, an opponent’s next attack deals 7 less damage and you gain 5 armor. — canon reference: Starburst Stream
+- **Aincrad** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
+- **Dual Blades** — Deal 40 damage to both opponents. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
+- **Dual Blades — Finisher** — Deal 60 damage to one other player. Afterward, give yourself or your teammate 20 armor; then gain 10 armor; then discard 1 random card from your hand.
+- **Heathcliff** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 10 armor. Then take 20 damage. Also reduce the next damage you take by 40.
+- **Mother's Rosario** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **Starburst Stream** — Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent +10 damage on their next attack.
+- **Starburst Stream — Decisive Strike** — Deal 40 damage to both opponents. Afterward, give your teammate +20 damage on their next attack; then heal yourself 10 HP; then discard 1 random card from your hand.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Black Swordsman**: Deal 80 damage to one other player, then you may punch once this turn. — canon reference: The Black Swordsman
-- **Heathcliff — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 8 less damage and you gain 5 armor. — canon reference: Heathcliff
+- **Heathcliff — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then reduce the next damage you take by 10; then heal the chosen opponent 10 HP.
+- **The Black Swordsman** — Deal 80 damage to one other player, then you may punch once this turn.
 
 ## The Apothecary Diaries
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Poison Detection**: Neither opponent can heal on their next turn
-- **Maomao**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 3 less damage. — canon reference: Maomao
-- **Jinshi**: Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 3 armor. — canon reference: Jinshi
-- **Gaoshun**: Heal both members of your team 20 HP. Afterward, give yourself or your teammate 12 armor. — canon reference: Gaoshun
-- **Gyokuyou**: Heal yourself or your teammate 40 HP. Afterward, reduce the next damage your teammate takes by 13. — canon reference: Gyokuyou
-- **Lihua**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Lihua
-- **Lishu**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, your next attack gets +6 damage. — canon reference: Lishu
-- **Ah-Duo**: Choose an opponent. They discard 1 random card. Afterward, heal yourself or your teammate 6 HP. — canon reference: Ah-Duo
-- **Pairin**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Pairin
-- **Meimei**: Reduce the next damage you or your teammate takes by 25. Afterward, gain 4 armor. — canon reference: Meimei
-- **Maomao — Positioning** *(alternate pool option)*: Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 9 less damage and you gain 5 armor. — canon reference: Maomao
-- **Jinshi — Calculated Trap** *(alternate pool option)*: Mark one other player. The next damage they take is increased by 20. Afterward, an opponent’s next attack deals 10 less damage and you gain 5 armor. — canon reference: Jinshi
-- **Gaoshun — Coordination** *(alternate pool option)*: Draw 1 card and give your teammate 15 armor. Afterward, an opponent’s next attack deals 11 less damage and you gain 5 armor. — canon reference: Gaoshun
-- **Gyokuyou — Backup Plan** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, an opponent’s next attack deals 12 less damage and you gain 5 armor. — canon reference: Gyokuyou
-- **Lihua — Field Plan** *(alternate pool option)*: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, an opponent’s next attack deals 1 less damage and you gain 6 armor. — canon reference: Lihua
+- **Ah-Duo** — Choose an opponent. They discard 1 random card. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage. Also reduce the next damage you take by 30.
+- **Gaoshun** — Heal both members of your team 20 HP. Afterward, you and your teammate each get +20 damage on your next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Gaoshun — Coordination** — Draw 1 card and give your teammate 20 armor. Afterward, reduce the next damage you take by 20; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Gyokuyou** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP.
+- **Gyokuyou — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +20 damage; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP.
+- **Jinshi** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then your next attack deals 10 less damage. Also make an opponent’s next attack deal 20 less damage.
+- **Jinshi — Calculated Trap** — Mark one other player. The next damage they take is increased by 20. Afterward, heal yourself 20 HP; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
+- **Lihua** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
+- **Lihua — Field Plan** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Lishu** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
+- **Maomao** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, gain 20 armor. Then take 20 damage. Also reduce the next damage you take by 30.
+- **Maomao — Positioning** — Choose an opponent. They discard 1 random card. Afterward, gain 20 armor; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Meimei** — Reduce the next damage you or your teammate takes by 25. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Pairin** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 10 less damage. Then your next attack deals 10 less damage.
+- **Poison Detection** *(original)* — Neither opponent can heal on their next turn
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Lakan**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Lakan
-- **Luomen**: Heal yourself or your teammate 45 HP and give them 20 armor. Afterward, give your teammate +9 damage on their next attack. — canon reference: Luomen
-- **Blue Roses**: Deal 35 damage to both opponents. Afterward, reduce the next damage you take by 15. — canon reference: Blue Roses
-- **Poisoned Face Powder**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 11 less damage. — canon reference: Poisoned Face Powder
-- **The Rear Palace**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, reduce the next damage you take by 9. — canon reference: The Rear Palace
-- **Lakan — Countermeasure** *(alternate pool option)*: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 2 less damage and you gain 6 armor. — canon reference: Lakan
-- **Luomen — United Front** *(alternate pool option)*: Give your teammate +35 damage on their next attack, then draw 1 card. Afterward, an opponent’s next attack deals 3 less damage and you gain 6 armor. — canon reference: Luomen
+- **Blue Roses** — Deal 40 damage to both opponents. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
+- **Lakan** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, reduce the next damage you take by 10. Then take 20 damage.
+- **Lakan — Countermeasure** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, give yourself or your teammate 20 armor; then heal yourself 10 HP; then heal the chosen opponent 10 HP.
+- **Luomen** — Heal yourself or your teammate 50 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **Luomen — United Front** — Give your teammate +40 damage on their next attack, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then reduce the next damage you take by 10; then take 10 damage.
+- **Poisoned Face Powder** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 10 HP. Then heal the chosen opponent 20 HP.
+- **The Rear Palace** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, gain 20 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Maomao's Medicine Cabinet**: Heal yourself or your teammate 60 HP, then draw 2 cards. — canon reference: Maomao's Medicine Cabinet
-- **The Rear Palace — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 4 less damage and you gain 6 armor. — canon reference: The Rear Palace
+- **Maomao's Medicine Cabinet** — Heal yourself or your teammate 60 HP, then draw 2 cards.
+- **The Rear Palace — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 20 less damage; then your next attack gets +10 damage; then take 10 damage.
 
 ## The Devil Is a Part-Timer!
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **MgRonald's Worker**: make the opponent pay you one 3 star card of your choosing
-- **Sadao Maou**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, gain 10 armor. — canon reference: Sadao Maou
-- **Emi Yusa**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, gain 10 armor. — canon reference: Emi Yusa
-- **Chiho Sasaki**: Heal your teammate 25 HP and give them 10 armor. Afterward, give your teammate +10 damage on their next attack. — canon reference: Chiho Sasaki
-- **Shiro Ashiya**: Return one 3★ card from your discard pile to your hand. Afterward, reduce the next damage you take by 12. — canon reference: Shiro Ashiya
-- **Hanzō Urushihara**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, gain 5 armor. — canon reference: Hanzō Urushihara
-- **Suzuno Kamazuki**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, give yourself or your teammate 6 armor. — canon reference: Suzuno Kamazuki
-- **Alas Ramus**: Until your next turn, you cannot be targeted by attacks. Afterward, gain 4 armor. — canon reference: Alas Ramus
-- **MgRonald's**: Return one 3★ card from your discard pile to your hand. Afterward, reduce the next damage you take by 10. — canon reference: MgRonald's
-- **Devil's Castle**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, reduce the next damage you take by 10. — canon reference: Devil's Castle
-- **Sadao Maou — Heart-to-Heart** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 5 less damage and you gain 6 armor. — canon reference: Sadao Maou
-- **Emi Yusa — Helping Hand** *(alternate pool option)*: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, an opponent’s next attack deals 6 less damage and you gain 6 armor. — canon reference: Emi Yusa
-- **Chiho Sasaki — Promise** *(alternate pool option)*: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, an opponent’s next attack deals 7 less damage and you gain 6 armor. — canon reference: Chiho Sasaki
-- **Shiro Ashiya — Trust** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, an opponent’s next attack deals 8 less damage and you gain 6 armor. — canon reference: Shiro Ashiya
-- **Hanzō Urushihara — Reassurance** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 9 less damage and you gain 6 armor. — canon reference: Hanzō Urushihara
+- **Alas Ramus** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +20 damage on their next attack.
+- **Chiho Sasaki** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Chiho Sasaki — Promise** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage you take by 20; then an opponent’s next attack deals 10 less damage; then take 10 damage. Then take 20 damage.
+- **Devil's Castle** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then take 30 damage. Your next attack also gets +20 damage.
+- **Emi Yusa** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then discard 2 random cards from your hand.
+- **Emi Yusa — Helping Hand** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself 20 HP; then give your teammate +10 damage on their next attack; then take 10 damage. Then take 20 damage.
+- **Hanzō Urushihara** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 10 armor. Then take 20 damage.
+- **Hanzō Urushihara — Reassurance** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take; then heal yourself 10 HP; then take 10 damage.
+- **MgRonald's** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 10 HP. Then take 10 damage. Also give yourself or your teammate 30 armor.
+- **MgRonald's Worker** *(original)* — make the opponent pay you one 3 star card of your choosing
+- **Sadao Maou** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Sadao Maou — Heart-to-Heart** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 20 armor; then give yourself or your teammate 10 armor; then take 10 damage.
+- **Shiro Ashiya** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Shiro Ashiya — Trust** — Heal both members of your team 20 HP. Afterward, your next attack gets +20 damage; then gain 10 armor; then take 10 damage.
+- **Suzuno Kamazuki** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then take 20 damage. Also give yourself or your teammate 30 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Better Half**: You may play one additional non-5★ card this turn. Afterward, take 14 damage. — canon reference: Better Half
-- **Hero Emilia**: Heal yourself or your teammate 70 HP. Afterward, give your teammate +12 damage on their next attack. — canon reference: Hero Emilia
-- **Demon King Satan**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 11 armor. — canon reference: Demon King Satan
-- **Lucifer's Hacking**: Steal 1 random card from an opponent. Afterward, take 8 damage. — canon reference: Lucifer's Hacking
-- **Holy Magic**: You may play one additional non-5★ card this turn. Afterward, your next attack deals 4 less damage. — canon reference: Holy Magic
-- **Better Half — Together** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, an opponent’s next attack deals 10 less damage and you gain 6 armor. — canon reference: Better Half
-- **Hero Emilia — Shared Resolve** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 11 less damage and you gain 6 armor. — canon reference: Hero Emilia
+- **Better Half** — You may play one additional non-5★ card this turn. Then your next attack deals 10 less damage. Then your next attack deals 20 less damage. Also give yourself or your teammate 40 armor.
+- **Better Half — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 20 armor; then reduce the next damage you take by 10; then take 20 damage.
+- **Demon King Satan** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
+- **Hero Emilia** — Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Hero Emilia — Shared Resolve** — You may play one additional non-5★ card this turn. Afterward, give your teammate +20 damage on their next attack; then your next attack gets +10 damage; then take 20 damage.
+- **Holy Magic** — You may play one additional non-5★ card this turn. Then give the chosen opponent +10 damage on their next attack. Then your next attack deals 10 less damage. Also give yourself or your teammate 30 armor.
+- **Lucifer's Hacking** — Steal 1 random card from an opponent. Then heal the chosen opponent 10 HP. Then give the chosen opponent +10 damage on their next attack. Also make an opponent’s next attack deal 30 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Maou at Work**: Heal both members of your team 30 HP, give each +15 damage on their next attack, then draw 1 card. — canon reference: Maou at Work
-- **Holy Magic — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 12 less damage and you gain 6 armor. — canon reference: Holy Magic
+- **Holy Magic — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then mark one other player for +10 on the next damage they take; then take 20 damage.
+- **Maou at Work** — Heal both members of your team 30 HP, give each +20 damage on their next attack, then draw 1 card.
 
 ## The Fragrant Flower Blooms with Dignity
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Apology**: Lose 20 HP, heal your teammate 35 HP, then draw 1 card.
-- **Rintaro Tsumugi**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, gain 5 armor. — canon reference: Rintaro Tsumugi
-- **Kaoruko Waguri**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, give yourself or your teammate 10 armor. — canon reference: Kaoruko Waguri
-- **Shohei Usami**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 14. — canon reference: Shohei Usami
-- **Saku Natsusawa**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 6 HP. — canon reference: Saku Natsusawa
-- **Ayato Yorita**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, give yourself or your teammate 12 armor. — canon reference: Ayato Yorita
-- **Subaru Hoshina**: Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 12 armor. — canon reference: Subaru Hoshina
-- **Kyoko Tsumugi**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, reduce the next damage your teammate takes by 13. — canon reference: Kyoko Tsumugi
-- **Tsumugi Bakery**: Return one 3★ card from your discard pile to your hand. Afterward, gain 9 armor. — canon reference: Tsumugi Bakery
-- **Chidori Public High**: Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +6 damage on their next attack. — canon reference: Chidori Public High
-- **Rintaro Tsumugi — Heart-to-Heart** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, an opponent’s next attack deals 1 less damage and you gain 7 armor. — canon reference: Rintaro Tsumugi
-- **Kaoruko Waguri — Helping Hand** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, an opponent’s next attack deals 2 less damage and you gain 7 armor. — canon reference: Kaoruko Waguri
-- **Shohei Usami — Promise** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 3 less damage and you gain 7 armor. — canon reference: Shohei Usami
-- **Saku Natsusawa — Trust** *(alternate pool option)*: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, an opponent’s next attack deals 4 less damage and you gain 7 armor. — canon reference: Saku Natsusawa
-- **Ayato Yorita — Reassurance** *(alternate pool option)*: Heal your teammate 25 HP and give them 10 armor. Afterward, an opponent’s next attack deals 5 less damage and you gain 7 armor. — canon reference: Ayato Yorita
+- **Apology** *(original)* — Lose 20 HP, heal your teammate 40 HP, then draw 1 card.
+- **Ayato Yorita** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 10 armor.
+- **Ayato Yorita — Reassurance** — Heal your teammate 30 HP and give them 10 armor. Afterward, mark one other player for +20 on the next damage they take; then reduce the next damage you take by 10; then your next attack deals 10 less damage.
+- **Chidori Public High** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Kaoruko Waguri** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 20 HP.
+- **Kaoruko Waguri — Helping Hand** — Heal both members of your team 20 HP. Afterward, heal yourself 20 HP; then an opponent’s next attack deals 10 less damage; then take 20 damage.
+- **Kyoko Tsumugi** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
+- **Rintaro Tsumugi** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
+- **Rintaro Tsumugi — Heart-to-Heart** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, gain 20 armor; then give your teammate +10 damage on their next attack; then take 20 damage.
+- **Saku Natsusawa** — Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself or your teammate 10 HP. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Saku Natsusawa — Trust** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, your next attack gets +20 damage; then heal yourself 10 HP; then take 20 damage.
+- **Shohei Usami** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand.
+- **Shohei Usami — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 20; then gain 10 armor; then take 20 damage.
+- **Subaru Hoshina** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Tsumugi Bakery** — Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 10 armor. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Kaoruko's Cake**: Heal both members of your team 35 HP. Afterward, reduce the next damage you take by 6. — canon reference: Kaoruko's Cake
-- **Study Session**: You may play one additional non-5★ card this turn, then draw 1 card. Afterward, discard 1 random card from your hand. — canon reference: Study Session
-- **The School Divide**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: The School Divide
-- **Rintaro's Kindness**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. — canon reference: Rintaro's Kindness
-- **Confession**: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, reduce the next damage your teammate takes by 10. — canon reference: Confession
-- **Kaoruko's Cake — Together** *(alternate pool option)*: You may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 6 less damage and you gain 7 armor. — canon reference: Kaoruko's Cake
-- **Study Session — Showstopper** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 7 less damage and you gain 7 armor. — canon reference: Study Session
+- **Confession** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 40 armor.
+- **Kaoruko's Cake** — Heal both members of your team 40 HP. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 20 less damage. Also give yourself or your teammate 30 armor.
+- **Kaoruko's Cake — Together** — You may play one additional non-5★ card this turn. Afterward, give yourself or your teammate 20 armor; then your next attack gets +10 damage; then your next attack deals 10 less damage.
+- **Rintaro's Kindness** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then discard 2 random cards from your hand. Also give yourself or your teammate 60 armor.
+- **Study Session** — You may play one additional non-5★ card this turn, then draw 1 card. Then discard 1 random card from your hand. Then take 10 damage. Also draw 1 card.
+- **Study Session — Showstopper** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then mark one other player for +10 on the next damage they take; then your next attack deals 10 less damage.
+- **The School Divide** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Fragrant Flower**: Heal both members of your team 35 HP, give each 10 armor, then draw 1 card. — canon reference: Fragrant Flower
-- **Confession — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 8 less damage and you gain 7 armor. — canon reference: Confession
+- **Confession — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then give yourself or your teammate 10 armor; then your next attack deals 10 less damage.
+- **Fragrant Flower** — Heal both members of your team 40 HP, give each 10 armor, then draw 1 card.
 
 ## The Quintessential Quintuplets
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Futaro Uesugi**: Heal your teammate 25 HP and give them 10 armor. Afterward, reduce the next damage you take by 9. — canon reference: Futaro Uesugi
-- **Ichika Nakano**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 10 armor. — canon reference: Ichika Nakano
-- **Nino Nakano**: Heal your teammate 25 HP and give them 10 armor. Afterward, reduce the next damage you take by 10. — canon reference: Nino Nakano
-- **Miku Nakano**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage your teammate takes by 12. — canon reference: Miku Nakano
-- **Yotsuba Nakano**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, gain 12 armor. — canon reference: Yotsuba Nakano
-- **Itsuki Nakano**: Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage you take by 5. — canon reference: Itsuki Nakano
-- **Raiha Uesugi**: Heal both members of your team 20 HP. Afterward, give your teammate +12 damage on their next attack. — canon reference: Raiha Uesugi
-- **Maruo Nakano**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 8. — canon reference: Maruo Nakano
-- **Isanari Uesugi**: Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 13 HP. — canon reference: Isanari Uesugi
-- **Study Session — The Quintessential Quintuplets**: Draw 1 card. Your next attack gets +10 damage. Afterward, gain 7 armor. — canon reference: Study Session
-- **Futaro Uesugi — Heart-to-Heart** *(alternate pool option)*: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, an opponent’s next attack deals 9 less damage and you gain 7 armor. — canon reference: Futaro Uesugi
-- **Ichika Nakano — Helping Hand** *(alternate pool option)*: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage and you gain 7 armor. — canon reference: Ichika Nakano
-- **Nino Nakano — Promise** *(alternate pool option)*: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, an opponent’s next attack deals 11 less damage and you gain 7 armor. — canon reference: Nino Nakano
-- **Miku Nakano — Trust** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 12 less damage and you gain 7 armor. — canon reference: Miku Nakano
-- **Yotsuba Nakano — Reassurance** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, an opponent’s next attack deals 1 less damage and you gain 8 armor. — canon reference: Yotsuba Nakano
+- **Futaro Uesugi** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Futaro Uesugi — Heart-to-Heart** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, gain 20 armor; then an opponent’s next attack deals 10 less damage; then your next attack deals 10 less damage.
+- **Ichika Nakano** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
+- **Ichika Nakano — Helping Hand** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, heal yourself 20 HP; then gain 10 armor; then your next attack deals 10 less damage.
+- **Isanari Uesugi** — Return one 3★ card from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then take 10 damage.
+- **Itsuki Nakano** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 20. Then take 20 damage.
+- **Maruo Nakano** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
+- **Miku Nakano** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 20 armor.
+- **Miku Nakano — Trust** — Draw 2 cards, then discard 1 random card from your hand. Afterward, your next attack gets +20 damage; then reduce the next damage you take by 10; then discard 1 random card from your hand.
+- **Nino Nakano** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Nino Nakano — Promise** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage you take by 20; then heal yourself 10 HP; then your next attack deals 10 less damage.
+- **Raiha Uesugi** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
+- **Study Session — The Quintessential Quintuplets** — Draw 1 card. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **Yotsuba Nakano** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, reduce the next damage your teammate takes by 10. Then give the chosen opponent +20 damage on their next attack.
+- **Yotsuba Nakano — Reassurance** — Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +20 on the next damage they take; then your next attack gets +10 damage; then discard 1 random card from your hand.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Quintessential quintuplets**: This does not count as a played card, play 2 cards this turn. You can’t place a 5 star as either card
-- **Bell Kisser**: You may play one additional non-5★ card this turn. Afterward, take 9 damage. — canon reference: Bell Kisser
-- **Scrambled Eggs**: Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 6 armor. — canon reference: Scrambled Eggs
-- **School Festival**: Deal 45 damage to one other player, then draw 1 card. Afterward, gain 5 armor. — canon reference: School Festival
-- **Sisters' War**: Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 6. — canon reference: Sisters' War
-- **Bell Kisser — Together** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, an opponent’s next attack deals 2 less damage and you gain 8 armor. — canon reference: Bell Kisser
-- **Scrambled Eggs — Shared Resolve** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, an opponent’s next attack deals 3 less damage and you gain 8 armor. — canon reference: Scrambled Eggs
+- **Bell Kisser** — You may play one additional non-5★ card this turn. Then take 20 damage. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 40 armor.
+- **Bell Kisser — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 20 armor; then mark one other player for +10 on the next damage they take; then discard 1 random card from your hand.
+- **Quintessential quintuplets** *(original)* — This does not count as a played card, play 2 cards this turn. You can’t place a 5 star as either card
+- **School Festival** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Scrambled Eggs** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
+- **Scrambled Eggs — Shared Resolve** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +20 damage on their next attack; then give yourself or your teammate 10 armor; then discard 1 random card from your hand.
+- **Sisters' War** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then your next attack deals 20 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Nakano Sisters**: Draw 2 cards. You may play one additional non-5★ card this turn, then heal yourself or your teammate 25 HP. — canon reference: The Nakano Sisters
-- **Wedding Day — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 4 less damage and you gain 8 armor. — canon reference: Wedding Day
+- **The Nakano Sisters** — Draw 2 cards. You may play one additional non-5★ card this turn, then heal yourself or your teammate 30 HP.
+- **Wedding Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then give your teammate +10 damage on their next attack; then discard 1 random card from your hand.
 
 ## The Rising of the Shield Hero
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Rage Shield**: Deal 20 damage to both opponents.
-- **Naofumi Iwatani**: Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Naofumi Iwatani
-- **Raphtalia**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, give your teammate +12 damage on their next attack. — canon reference: Raphtalia
-- **Filo**: Deal 30 damage to one other player. Afterward, your next attack gets +11 damage. — canon reference: Filo
-- **Melty Q Melromarc**: Give yourself or your teammate 30 armor. Afterward, reduce the next damage you take by 7. — canon reference: Melty Q Melromarc
-- **Rishia Ivyred**: Heal your teammate 25 HP and give them 15 armor. Afterward, you and your teammate each get +6 damage on your next attack. — canon reference: Rishia Ivyred
-- **Motoyasu Kitamura**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, take 4 damage. — canon reference: Motoyasu Kitamura
-- **Ren Amaki**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Ren Amaki
-- **Itsuki Kawasumi**: Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +9 damage. — canon reference: Itsuki Kawasumi
-- **Air Strike Shield**: Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 3 less damage. — canon reference: Air Strike Shield
-- **Naofumi Iwatani — Positioning** *(alternate pool option)*: Draw 1 card and give yourself or your teammate 15 armor. Afterward, an opponent’s next attack deals 5 less damage and you gain 8 armor. — canon reference: Naofumi Iwatani
-- **Raphtalia — Follow-Through** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 6 less damage and you gain 8 armor. — canon reference: Raphtalia
-- **Filo — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, an opponent’s next attack deals 7 less damage and you gain 8 armor. — canon reference: Filo
-- **Melty Q Melromarc — Backup Plan** *(alternate pool option)*: Your teammate ignores the next punch that would damage them. Afterward, an opponent’s next attack deals 8 less damage and you gain 8 armor. — canon reference: Melty Q Melromarc
-- **Rishia Ivyred — Formation** *(alternate pool option)*: Heal your teammate 25 HP and give them 15 armor. Afterward, an opponent’s next attack deals 9 less damage and you gain 8 armor. — canon reference: Rishia Ivyred
+- **Air Strike Shield** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Filo** — Deal 30 damage to one other player. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +30 damage.
+- **Filo — Breakthrough** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 20; then your next attack gets +10 damage; then heal the chosen opponent 10 HP.
+- **Itsuki Kawasumi** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +20 damage. Then give the chosen opponent 20 armor.
+- **Melty Q Melromarc** — Give yourself or your teammate 30 armor. Afterward, heal yourself or your teammate 20 HP. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Melty Q Melromarc — Backup Plan** — Your teammate ignores the next punch that would damage them. Afterward, your next attack gets +20 damage; then mark one other player for +10 on the next damage they take; then heal the chosen opponent 10 HP.
+- **Motoyasu Kitamura** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then your next attack deals 10 less damage.
+- **Naofumi Iwatani** — Reduce the next damage you or your teammate takes by 25. Afterward, an opponent’s next attack deals 10 less damage. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Naofumi Iwatani — Positioning** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, gain 20 armor; then heal yourself 10 HP; then discard 1 random card from your hand.
+- **Rage Shield** *(original)* — Deal 20 damage to both opponents.
+- **Raphtalia** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, an opponent’s next attack deals 20 less damage. Then take 20 damage.
+- **Raphtalia — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then reduce the next damage you take by 10; then discard 1 random card from your hand.
+- **Ren Amaki** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then your next attack deals 10 less damage.
+- **Rishia Ivyred** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then discard 1 random card from your hand.
+- **Rishia Ivyred — Formation** — Heal your teammate 30 HP and give them 20 armor. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 10 armor; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Iron Maiden**: Deal 60 damage to one other player. Afterward, gain 7 armor. — canon reference: Iron Maiden
-- **Blood Sacrifice**: Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +9 on the next damage they take. — canon reference: Blood Sacrifice
-- **Curse Series**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, reduce the next damage you take by 11. — canon reference: Curse Series
-- **Glass**: Deal 35 damage to both opponents. Afterward, gain 4 armor. — canon reference: Glass
-- **L'Arc Berg**: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: L'Arc Berg
-- **Iron Maiden — Finisher** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, an opponent’s next attack deals 10 less damage and you gain 8 armor. — canon reference: Iron Maiden
-- **Blood Sacrifice — Point of No Return** *(alternate pool option)*: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, an opponent’s next attack deals 11 less damage and you gain 8 armor. — canon reference: Blood Sacrifice
+- **Blood Sacrifice** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage.
+- **Blood Sacrifice — Point of No Return** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 10 less damage; then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Curse Series** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +80 damage.
+- **Glass** — Deal 40 damage to both opponents. Afterward, gain 10 armor. Then take 10 damage.
+- **Iron Maiden** — Deal 60 damage to one other player. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
+- **Iron Maiden — Finisher** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 20 armor; then give your teammate +10 damage on their next attack; then heal the chosen opponent 10 HP.
+- **L'Arc Berg** — Deal 50 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then give the chosen opponent +20 damage on their next attack.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Legendary Shield**: Give both members of your team 40 armor. Reduce the next damage your teammate takes by 20. — canon reference: Legendary Shield
-- **L'Arc Berg — Final Push** *(alternate pool option)*: Deal 56 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 12 less damage and you gain 8 armor. — canon reference: L'Arc Berg
+- **L'Arc Berg — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then gain 10 armor; then heal the chosen opponent 10 HP.
+- **Legendary Shield** — Give both members of your team 40 armor. Reduce the next damage your teammate takes by 20. Also reduce the next damage you take by 40.
 
 ## To Be Hero X
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Lin Ling / The Commoner**: Heal your teammate 25 HP and give them 15 armor. Afterward, reduce the next damage your teammate takes by 8. — canon reference: Lin Ling / The Commoner
-- **Nice**: Deal 20 damage to one other player, then draw 1 card. Afterward, gain 7 armor. — canon reference: Nice
-- **E-Soul**: Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 14. — canon reference: E-Soul
-- **Lucky Cyan**: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage. — canon reference: Lucky Cyan
-- **Loli**: Heal yourself or your teammate 25 HP and give them 10 armor. Afterward, your next attack gets +6 damage. — canon reference: Loli
-- **Ghostblade**: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +3 damage. — canon reference: Ghostblade
-- **The Johnnies**: Deal 20 damage to one other player; your teammate heals 15 HP. Afterward, give yourself or your teammate 13 armor. — canon reference: The Johnnies
-- **Dragon Boy**: Deal 15 damage to both opponents. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Dragon Boy
-- **Ahu**: Draw 1 card and give your teammate 15 armor. Afterward, give your teammate +8 damage on their next attack. — canon reference: Ahu
-- **Moon**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, give your teammate +7 damage on their next attack. — canon reference: Moon
-- **Lin Ling / The Commoner — Cover** *(alternate pool option)*: Give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 1 less damage and you gain 9 armor. — canon reference: Lin Ling / The Commoner
-- **Nice — Follow-Through** *(alternate pool option)*: Deal 15 damage to both opponents. Afterward, an opponent’s next attack deals 2 less damage and you gain 9 armor. — canon reference: Nice
-- **E-Soul — Breakthrough** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, an opponent’s next attack deals 3 less damage and you gain 9 armor. — canon reference: E-Soul
-- **Lucky Cyan — Quick Shift** *(alternate pool option)*: You and your teammate each get +10 damage on your next attack. Afterward, an opponent’s next attack deals 4 less damage and you gain 9 armor. — canon reference: Lucky Cyan
-- **Loli — Field Plan** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 5 less damage and you gain 9 armor. — canon reference: Loli
+- **Ahu** — Draw 1 card and give your teammate 20 armor. Afterward, heal yourself or your teammate 10 HP. Then discard 1 random card from your hand.
+- **Dragon Boy** — Deal 20 damage to both opponents. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **E-Soul** — Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 10. Then take 20 damage.
+- **E-Soul — Breakthrough** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then take 10 damage.
+- **Ghostblade** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Lin Ling / The Commoner** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 10 armor.
+- **Lin Ling / The Commoner — Cover** — Give yourself or your teammate 30 armor. Afterward, gain 10 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
+- **Loli** — Heal yourself or your teammate 30 HP and give them 10 armor. Afterward, an opponent’s next attack deals 20 less damage. Then your next attack deals 20 less damage.
+- **Loli — Field Plan** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then take 10 damage.
+- **Lucky Cyan** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, mark one other player for +10 on the next damage they take. Then discard 2 random cards from your hand. Also draw 1 card. Also gain 50 armor.
+- **Lucky Cyan — Quick Shift** — You and your teammate each get +10 damage on your next attack. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Moon** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor.
+- **Nice** — Deal 20 damage to one other player, then draw 1 card. Afterward, gain 20 armor. Then heal the chosen opponent 20 HP.
+- **Nice — Follow-Through** — Deal 20 damage to both opponents. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then take 10 damage.
+- **The Johnnies** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, you and your teammate each get +10 damage on your next attack. Then give the chosen opponent +10 damage on their next attack.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Queen**: Reaction when an opponent attacks: redirect the attack to whichever teammate has higher hp
-- **Trust Value**: Choose an opponent. They skip their next turn. Afterward, your next attack deals 12 less damage. — canon reference: Trust Value
-- **Fear**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Fear
-- **Smile**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 6 damage. — canon reference: Smile
-- **Hero Affairs Commission**: Deal 45 damage to an opponent; they cannot heal until the start of their next turn. Afterward, your next attack gets +8 damage. — canon reference: Hero Affairs Commission
-- **Trust Value — Interference** *(alternate pool option)*: Steal 1 random card from an opponent. Afterward, an opponent’s next attack deals 6 less damage and you gain 9 armor. — canon reference: Trust Value
-- **Fear — No Escape** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 7 less damage and you gain 9 armor. — canon reference: Fear
+- **Fear** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, gain 20 armor. Then give the chosen opponent 20 armor.
+- **Fear — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then take 10 damage. Then take 20 damage.
+- **Hero Affairs Commission** — Deal 50 damage to an opponent; they cannot heal until the start of their next turn. Afterward, an opponent’s next attack deals 20 less damage. Then heal the chosen opponent 10 HP.
+- **Queen** *(original)* — Reaction when an opponent attacks: redirect the attack to whichever teammate has higher hp
+- **Smile** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then heal the chosen opponent 20 HP. Then give the chosen opponent +20 damage on their next attack.
+- **Trust Value** — Choose an opponent. They skip their next turn. Then your next attack deals 10 less damage. Then give the chosen opponent +20 damage on their next attack. Also make an opponent’s next attack deal 20 less damage.
+- **Trust Value — Interference** — Steal 1 random card from an opponent. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then take 10 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Snap**: Use when an opponent casts a card, negate the effects of that card
-- **Heroes Tournament — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 8 less damage and you gain 9 armor. — canon reference: Heroes Tournament
+- **Heroes Tournament — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then take 10 damage.
+- **Snap** *(original)* — Use when an opponent casts a card, negate the effects of that card
 
 ## Tokyo Ghoul
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Kagune**: Deal 20 damage to one opponent. If they are below half do 30
-- **Ken Kaneki**: Take 15 damage. Your next attack gets +35 damage. Afterward, gain 11 armor. — canon reference: Ken Kaneki
-- **Touka Kirishima**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, gain 3 armor. — canon reference: Touka Kirishima
-- **Hideyoshi Nagachika**: Heal your teammate 25 HP and give them 15 armor. Afterward, give your teammate +9 damage on their next attack. — canon reference: Hideyoshi Nagachika
-- **Hinami Fueguchi**: Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 11 armor. — canon reference: Hinami Fueguchi
-- **Nishiki Nishio**: Deal 20 damage to one other player, then draw 1 card. Afterward, give your teammate +12 damage on their next attack. — canon reference: Nishiki Nishio
-- **Shuu Tsukiyama**: Draw 3 cards, then discard 2 random cards from your hand. Afterward, your next attack gets +13 damage. — canon reference: Shuu Tsukiyama
-- **Koutarou Amon**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 5 armor. — canon reference: Koutarou Amon
-- **Juuzou Suzuya**: Deal 29 damage to one other player. Afterward, gain 7 armor. — canon reference: Juuzou Suzuya
-- **Anteiku**: Heal yourself or your teammate 40 HP. Afterward, give your teammate +11 damage on their next attack. — canon reference: Anteiku
-- **Ken Kaneki — Over the Limit** *(alternate pool option)*: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, an opponent’s next attack deals 9 less damage and you gain 9 armor. — canon reference: Ken Kaneki
-- **Touka Kirishima — Follow-Through** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, an opponent’s next attack deals 10 less damage and you gain 9 armor. — canon reference: Touka Kirishima
-- **Hideyoshi Nagachika — Coordination** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, an opponent’s next attack deals 11 less damage and you gain 9 armor. — canon reference: Hideyoshi Nagachika
-- **Hinami Fueguchi — Backup Plan** *(alternate pool option)*: Reduce the next damage your teammate takes by 25. Afterward, an opponent’s next attack deals 12 less damage and you gain 9 armor. — canon reference: Hinami Fueguchi
-- **Nishiki Nishio — Overdrive** *(alternate pool option)*: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, an opponent’s next attack deals 1 less damage and you gain 10 armor. — canon reference: Nishiki Nishio
+- **Anteiku** — Heal yourself or your teammate 40 HP. Afterward, give yourself or your teammate 20 armor. Then discard 2 random cards from your hand. Also give yourself or your teammate 30 armor.
+- **Hideyoshi Nagachika** — Heal your teammate 30 HP and give them 20 armor. Afterward, reduce the next damage your teammate takes by 10. Then take 10 damage.
+- **Hideyoshi Nagachika — Coordination** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage you take by 10; then mark one other player for +20 on the next damage they take; then take 20 damage.
+- **Hinami Fueguchi** — Heal yourself or your teammate 40 HP. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 20 less damage.
+- **Hinami Fueguchi — Backup Plan** — Reduce the next damage your teammate takes by 25. Afterward, your next attack gets +10 damage; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Juuzou Suzuya** — Deal 30 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
+- **Kagune** *(original)* — Deal 20 damage to one opponent. If they are below half do 30
+- **Ken Kaneki** — Take 20 damage. Your next attack gets +40 damage. Afterward, gain 20 armor. Then take 20 damage. Your next attack also gets +30 damage.
+- **Ken Kaneki — Over the Limit** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor; then reduce the next damage you take by 20; then take 20 damage. Your next attack also gets +20 damage.
+- **Koutarou Amon** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
+- **Nishiki Nishio** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor.
+- **Nishiki Nishio — Overdrive** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +10 on the next damage they take; then give your teammate +20 damage on their next attack; then take 20 damage.
+- **Shuu Tsukiyama** — Draw 3 cards, then discard 2 random cards from your hand. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Touka Kirishima** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
+- **Touka Kirishima — Follow-Through** — Deal 20 damage to one other player and gain 10 armor. Afterward, heal yourself 10 HP; then your next attack gets +20 damage; then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Kakuja**: Deal 30 damage to every other living player. Afterward, reduce the next damage you take by 7. — canon reference: Kakuja
-- **Kishou Arima**: Deal 45 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 12 armor. — canon reference: Kishou Arima
-- **Eto Yoshimura**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, the next damage you take is increased by 20%. — canon reference: Eto Yoshimura
-- **One-Eyed Owl**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, gain 5 armor. — canon reference: One-Eyed Owl
-- **Centipede**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, mark one other player for +13 on the next damage they take. — canon reference: Centipede
-- **Kakuja — Desperation** *(alternate pool option)*: Take 20 damage, then deal 80 damage to one other player. Afterward, an opponent’s next attack deals 2 less damage and you gain 10 armor. — canon reference: Kakuja
-- **Kishou Arima — Decisive Strike** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 3 less damage and you gain 10 armor. — canon reference: Kishou Arima
+- **Centipede** — Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +40 damage.
+- **Eto Yoshimura** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then take 30 damage. Your next attack also gets +80 damage.
+- **Kakuja** — Deal 30 damage to every other living player. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Kakuja — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 10 armor; then an opponent’s next attack deals 20 less damage; then take 20 damage.
+- **Kishou Arima** — Deal 50 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 10 armor.
+- **Kishou Arima — Decisive Strike** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +10 damage on their next attack; then gain 20 armor; then take 20 damage.
+- **One-Eyed Owl** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +70 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Half-Ghoul**: Take 25 damage, then deal 130 damage to one other player. — canon reference: Half-Ghoul
-- **Centipede — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 4 less damage and you gain 10 armor. — canon reference: Centipede
+- **Centipede — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then heal yourself 20 HP; then your next attack deals 10 less damage.
+- **Half-Ghoul** — Take 30 damage, then deal 130 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then take 20 damage.
 
 ## Uma Musume
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Wild Joker**: Force your opponent to play the same card they just played on their next turn
-- **Agnes Tachyon**: Return one 3★ card from your discard pile to your hand, then draw 1 card.
-- **Special Week**: Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Special Week
-- **Silence Suzuka**: You and your teammate each gain 15 armor. Afterward, you and your teammate each get +6 damage on your next attack. — canon reference: Silence Suzuka
-- **Tokai Teio**: Your teammate may ignore the next punch that would damage them. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Tokai Teio
-- **Mejiro McQueen**: Give your teammate +20 damage on their next attack. Afterward, gain 9 armor. — canon reference: Mejiro McQueen
-- **Rice Shower**: Deal 15 damage to both opponents. Afterward, reduce the next damage you take by 14. — canon reference: Rice Shower
-- **Gold Ship**: Draw 1 card and gain 15 armor. Afterward, give your teammate +3 damage on their next attack. — canon reference: Gold Ship
-- **Vodka**: Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, give yourself or your teammate 6 armor. — canon reference: Vodka
-- **Daiwa Scarlet**: You and your teammate each gain 15 armor. Afterward, you and your teammate each get +4 damage on your next attack. — canon reference: Daiwa Scarlet
-- **Special Week — Perfect Form** *(alternate pool option)*: Your next attack deals ×1.25 damage. Afterward, an opponent’s next attack deals 5 less damage and you gain 10 armor. — canon reference: Special Week
-- **Silence Suzuka — Second Wind** *(alternate pool option)*: Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, an opponent’s next attack deals 6 less damage and you gain 10 armor. — canon reference: Silence Suzuka
-- **Tokai Teio — Closing Sprint** *(alternate pool option)*: Give your teammate +20 damage on their next attack. Afterward, an opponent’s next attack deals 7 less damage and you gain 10 armor. — canon reference: Tokai Teio
-- **Mejiro McQueen — Training Payoff** *(alternate pool option)*: Give your teammate +20 damage on their next attack. Afterward, an opponent’s next attack deals 8 less damage and you gain 10 armor. — canon reference: Mejiro McQueen
-- **Rice Shower — Clutch Play** *(alternate pool option)*: Give your teammate +20 damage on their next attack. Afterward, an opponent’s next attack deals 9 less damage and you gain 10 armor. — canon reference: Rice Shower
+- **Agnes Tachyon** *(original)* — Return one 3★ card from your discard pile to your hand, then draw 1 card.
+- **Daiwa Scarlet** — You and your teammate each gain 20 armor. Afterward, reduce the next damage you take by 10. Then heal the chosen opponent 20 HP. Your next attack also gets +20 damage.
+- **Gold Ship** — Draw 1 card and gain 20 armor. Afterward, reduce the next damage you take by 10. Then take 30 damage. Your next attack also gets +20 damage.
+- **Mejiro McQueen** — Give your teammate +20 damage on their next attack. Afterward, gain 10 armor. Then give the chosen opponent 20 armor. Your next attack also gets +20 damage.
+- **Mejiro McQueen — Training Payoff** — Give your teammate +20 damage on their next attack. Afterward, your next attack gets +10 damage; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
+- **Rice Shower** — Deal 20 damage to both opponents. Afterward, gain 10 armor. Then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Rice Shower — Clutch Play** — Give your teammate +20 damage on their next attack. Afterward, mark one other player for +10 on the next damage they take; then an opponent’s next attack deals 20 less damage; then your next attack deals 10 less damage.
+- **Silence Suzuka** — You and your teammate each gain 20 armor. Afterward, your next attack gets +20 damage. Then give the chosen opponent +20 damage on their next attack.
+- **Silence Suzuka — Second Wind** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, heal yourself 10 HP; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
+- **Special Week** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 20 armor. Then take 20 damage.
+- **Special Week — Perfect Form** — Your next attack deals ×1.25 damage. Afterward, gain 10 armor; then your next attack gets +20 damage; then your next attack deals 10 less damage.
+- **Tokai Teio** — Your teammate may ignore the next punch that would damage them. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage. Your next attack also gets +20 damage.
+- **Tokai Teio — Closing Sprint** — Give your teammate +20 damage on their next attack. Afterward, reduce the next damage you take by 10; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
+- **Vodka** — Heal yourself or your teammate 30 HP and give them +10 on their next attack. Afterward, gain 10 armor. Then heal the chosen opponent 20 HP.
+- **Wild Joker** *(original)* — Force your opponent to play the same card they just played on their next turn
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **The Gray Monster**: 1.5x damage for your team's next attack. If you are below 30 hp it’s 2x damage. Cannot be used to increase damage from a five star card
-- **Winning Live**: You may play one additional non-5★ card this turn, then draw 1 card. Afterward, your next attack deals 7 less damage. — canon reference: Winning Live
-- **URA Finals**: Deal 40 damage to one other player, then you may punch once this turn. Afterward, give your teammate +10 damage on their next attack. — canon reference: URA Finals
-- **Tracen Academy**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +10 on the next damage they take. — canon reference: Tracen Academy
-- **Kitasan Black**: Draw 2 cards and give your teammate +25 damage on their next attack. Afterward, give yourself or your teammate 9 armor. — canon reference: Kitasan Black
-- **Winning Live — Acceleration** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage and you gain 10 armor. — canon reference: Winning Live
-- **URA Finals — Photo Finish** *(alternate pool option)*: You and your teammate each get +30 damage on your next attack. Afterward, an opponent’s next attack deals 11 less damage and you gain 10 armor. — canon reference: URA Finals
+- **Kitasan Black** — Draw 2 cards and give your teammate +30 damage on their next attack. Afterward, gain 20 armor. Then take 20 damage.
+- **The Gray Monster** *(original)* — You and your teammate each get ×1.25 damage on your next attack. If you are below 30 HP, use ×1.5 instead. This cannot boost a 5★ card.
+- **Tracen Academy** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, heal yourself 10 HP. Then discard 2 random cards from your hand. Also draw 1 card. Also gain 20 armor.
+- **URA Finals** — Deal 40 damage to one other player, then you may punch once this turn. Afterward, reduce the next damage you take by 20. Then give the chosen opponent 20 armor.
+- **URA Finals — Photo Finish** — You and your teammate each get +30 damage on your next attack. Afterward, give your teammate +10 damage on their next attack; then heal yourself 20 HP; then discard 1 random card from your hand. Your next attack also gets +20 damage.
+- **Winning Live** — You may play one additional non-5★ card this turn, then draw 1 card. Then give the chosen opponent 10 armor. Then take 20 damage. Also draw 1 card.
+- **Winning Live — Acceleration** — Deal 50 damage to one other player, then draw 1 card. Afterward, give yourself or your teammate 10 armor; then gain 20 armor; then your next attack deals 10 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **The Overlord of Centuries End**: Until the start of your next turn you cannot go below 1 hp, at the start of that next turn do 30 damage to both opponents
-- **Satono Diamond — Champion Form** *(alternate pool option)*: You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, an opponent’s next attack deals 12 less damage and you gain 10 armor. — canon reference: Satono Diamond
+- **Satono Diamond — Champion Form** — You and your teammate each get ×1.4 damage on your next attack and 20 armor. Afterward, an opponent’s next attack deals 10 less damage; then reduce the next damage you take by 20; then discard 1 random card from your hand. Your next attack also gets +40 damage.
+- **The Overlord of Centuries End** *(original)* — Until the start of your next turn you cannot go below 10 hp, at the start of that next turn do 30 damage to both opponents
 
 ## Vinland Saga
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **True Warrior**: The next three punches your opponents play against you don’t deal damage.
-- **Thorfinn**: Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself or your teammate 8 HP. — canon reference: Thorfinn
-- **Askeladd**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, heal yourself 11 HP. — canon reference: Askeladd
-- **Canute**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, give yourself or your teammate 10 armor. — canon reference: Canute
-- **Thors**: You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 8 armor. — canon reference: Thors
-- **Einar**: Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +10 damage. — canon reference: Einar
-- **Arnheid**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, give yourself or your teammate 3 armor. — canon reference: Arnheid
-- **Snake**: You and your teammate each get +10 damage on your next attack. Afterward, mark one other player for +6 on the next damage they take. — canon reference: Snake
-- **Leif Erikson**: Deal 25 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 6 less damage. — canon reference: Leif Erikson
-- **Ketil**: You and your teammate each get +10 damage on your next attack. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Ketil
-- **Thorfinn — Positioning** *(alternate pool option)*: Choose an opponent. Their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 1 less damage and you gain 11 armor. — canon reference: Thorfinn
-- **Askeladd — Prepared Response** *(alternate pool option)*: Choose an opponent. Their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 2 less damage and you gain 11 armor. — canon reference: Askeladd
-- **Canute — Measured Strike** *(alternate pool option)*: Draw 1 card and give yourself or your teammate 15 armor. Afterward, an opponent’s next attack deals 3 less damage and you gain 11 armor. — canon reference: Canute
-- **Thors — Contingency** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 4 less damage and you gain 11 armor. — canon reference: Thors
-- **Einar — Field Plan** *(alternate pool option)*: Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 5 less damage and you gain 11 armor. — canon reference: Einar
+- **Arnheid** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor.
+- **Askeladd** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, give yourself or your teammate 10 armor. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Askeladd — Prepared Response** — Choose an opponent. Their next attack deals 20 less damage. Afterward, heal yourself 10 HP; then give yourself or your teammate 20 armor; then discard 1 random card from your hand. Also reduce the next damage you take by 30.
+- **Canute** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, give yourself or your teammate 20 armor. Then take 30 damage. Also reduce the next damage you take by 30.
+- **Canute — Measured Strike** — Draw 1 card and give yourself or your teammate 20 armor. Afterward, reduce the next damage you take by 10; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
+- **Einar** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also reduce the next damage you take by 60.
+- **Einar — Field Plan** — Deal 20 damage to one other player, then draw 1 card. Afterward, mark one other player for +10 on the next damage they take; then gain 20 armor; then discard 1 random card from your hand.
+- **Ketil** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
+- **Leif Erikson** — Deal 30 damage to one other player and reduce the next damage you take by 10. Afterward, an opponent’s next attack deals 20 less damage. Then discard 1 random card from your hand.
+- **Snake** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 20 armor. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
+- **Thorfinn** — Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP. Also reduce the next damage you take by 30.
+- **Thorfinn — Positioning** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand. Also reduce the next damage you take by 30.
+- **Thors** — You and your teammate each get +10 damage on your next attack. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 20 armor. Also reduce the next damage you take by 30.
+- **Thors — Contingency** — Deal 20 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
+- **True Warrior** *(original)* — The next three punches your opponents play against you don’t deal damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **I have no enemies**: Enemy punches deal 1 damage to you for the rest of the game
-- **Thorkell**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Thorkell
-- **Thorgil**: Deal 45 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 11 less damage. — canon reference: Thorgil
-- **The Farm**: Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: The Farm
-- **A Warrior Needs No Sword**: Take 15 damage, then deal 75 damage to one other player. Afterward, give your teammate +11 damage on their next attack. — canon reference: A Warrior Needs No Sword
-- **Thorkell — Countermeasure** *(alternate pool option)*: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, an opponent’s next attack deals 6 less damage and you gain 11 armor. — canon reference: Thorkell
-- **Thorgil — Perfect Setup** *(alternate pool option)*: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, an opponent’s next attack deals 7 less damage and you gain 11 armor. — canon reference: Thorgil
+- **A Warrior Needs No Sword** — Take 20 damage, then deal 80 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage.
+- **I have no enemies** *(original)* — Enemy punches deal 10 damage to you for the rest of the game
+- **The Farm** — Draw 2 cards and give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 10 less damage. Then take 20 damage.
+- **Thorgil** — Deal 50 damage to one other player, then reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage. Then discard 2 random cards from your hand. Also reduce the next damage you take by 30.
+- **Thorgil — Perfect Setup** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give your teammate +10 damage on their next attack; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
+- **Thorkell** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then your next attack deals 10 less damage.
+- **Thorkell — Countermeasure** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, give yourself or your teammate 10 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Thors' Teaching**: The next punch that would damage either member of your team deals 0 instead. Heal both members of your team 20 HP. — canon reference: Thors' Teaching
-- **Vinland — Grand Strategy** *(alternate pool option)*: Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 8 less damage and you gain 11 armor. — canon reference: Vinland
+- **Thors' Teaching** — The next punch that would damage either member of your team deals 0 instead. Heal both members of your team 20 HP. Also reduce the next damage you take by 50.
+- **Vinland — Grand Strategy** — Deal 60 damage to one other player, give yourself or your teammate 40 armor, and reduce the next damage you take by 20. Afterward, an opponent’s next attack deals 10 less damage; then your next attack gets +20 damage; then heal the chosen opponent 10 HP.
 
 ## Violet Evergarden
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Auto Memory Doll**: Have the opponent reveal what 3 non 5 star cards of their choosing do
-- **Violet Evergarden**: Give both members of your team 15 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Violet Evergarden
-- **Claudia Hodgins**: Heal both members of your team 20 HP. Afterward, give yourself or your teammate 8 armor. — canon reference: Claudia Hodgins
-- **Cattleya Baudelaire**: Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, gain 7 armor. — canon reference: Cattleya Baudelaire
-- **Benedict Blue**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage you take by 14. — canon reference: Benedict Blue
-- **Iris Cannary**: Heal both members of your team 20 HP. Afterward, give your teammate +4 damage on their next attack. — canon reference: Iris Cannary
-- **Erica Brown**: Heal your teammate 25 HP and give them 10 armor. Afterward, give your teammate +9 damage on their next attack. — canon reference: Erica Brown
-- **Luculia Marlborough**: Draw 2 cards, then discard 1 random card from your hand. Afterward, heal yourself 9 HP. — canon reference: Luculia Marlborough
-- **Leon Stephanotis**: Return one 3★ card from your discard pile to your hand. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Leon Stephanotis
-- **Anne Magnolia**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, you and your teammate each get +5 damage on your next attack. — canon reference: Anne Magnolia
-- **Violet Evergarden — Cover** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, an opponent’s next attack deals 9 less damage and you gain 11 armor. — canon reference: Violet Evergarden
-- **Claudia Hodgins — Helping Hand** *(alternate pool option)*: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, an opponent’s next attack deals 10 less damage and you gain 11 armor. — canon reference: Claudia Hodgins
-- **Cattleya Baudelaire — Promise** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 11 less damage and you gain 11 armor. — canon reference: Cattleya Baudelaire
-- **Benedict Blue — Trust** *(alternate pool option)*: Heal your teammate 25 HP and give them 10 armor. Afterward, an opponent’s next attack deals 12 less damage and you gain 11 armor. — canon reference: Benedict Blue
-- **Iris Cannary — Reassurance** *(alternate pool option)*: Draw 2 cards, then discard 1 random card from your hand. Afterward, an opponent’s next attack deals 1 less damage and you gain 12 armor. — canon reference: Iris Cannary
+- **Anne Magnolia** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Auto Memory Doll** *(original)* — Have the opponent reveal what 3 non 5 star cards of their choosing do
+- **Benedict Blue** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then heal the chosen opponent 10 HP.
+- **Benedict Blue — Trust** — Heal your teammate 30 HP and give them 10 armor. Afterward, your next attack gets +10 damage; then gain 20 armor; then heal the chosen opponent 10 HP.
+- **Cattleya Baudelaire** — Heal your teammate 20 HP and reduce the next damage they take by 15. Afterward, give yourself or your teammate 20 armor. Then take 20 damage.
+- **Cattleya Baudelaire — Promise** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage you take by 10; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
+- **Claudia Hodgins** — Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 10 HP.
+- **Claudia Hodgins — Helping Hand** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself 10 HP; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Erica Brown** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Iris Cannary** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 20 armor. Then give the chosen opponent 10 armor.
+- **Iris Cannary — Reassurance** — Draw 2 cards, then discard 1 random card from your hand. Afterward, mark one other player for +10 on the next damage they take; then heal yourself 20 HP; then take 10 damage.
+- **Leon Stephanotis** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then take 20 damage. Also give yourself or your teammate 30 armor.
+- **Luculia Marlborough** — Draw 2 cards, then discard 1 random card from your hand. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Violet Evergarden** — Give both members of your team 20 armor. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Violet Evergarden — Cover** — Heal both members of your team 20 HP. Afterward, gain 10 armor; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Gilbert Bougainvillea**: You may play one additional non-5★ card this turn. Afterward, take 13 damage. — canon reference: Gilbert Bougainvillea
-- **Dietfried Bougainvillea**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, reduce the next damage you take by 7. — canon reference: Dietfried Bougainvillea
-- **Emerald Brooch**: Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, give yourself or your teammate 7 armor. — canon reference: Emerald Brooch
-- **Typewriter**: You may play one additional non-5★ card this turn, then draw 1 card. Afterward, take 13 damage. — canon reference: Typewriter
-- **Fifty Letters**: Deal 30 damage to one other player, then you may punch once this turn. Afterward, an opponent’s next attack deals 3 less damage. — canon reference: Fifty Letters
-- **Gilbert Bougainvillea — Together** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, an opponent’s next attack deals 2 less damage and you gain 12 armor. — canon reference: Gilbert Bougainvillea
-- **Dietfried Bougainvillea — Shared Resolve** *(alternate pool option)*: Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, an opponent’s next attack deals 3 less damage and you gain 12 armor. — canon reference: Dietfried Bougainvillea
+- **Dietfried Bougainvillea** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, heal yourself or your teammate 20 HP. Then take 30 damage. Also give yourself or your teammate 40 armor.
+- **Dietfried Bougainvillea — Shared Resolve** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give your teammate +10 damage on their next attack; then your next attack gets +20 damage; then take 10 damage.
+- **Emerald Brooch** — Choose an opponent. They discard 1 random card and their next attack deals 20 less damage. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack. Also reduce the next damage you take by 30.
+- **Fifty Letters** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, gain 10 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Gilbert Bougainvillea** — You may play one additional non-5★ card this turn. Then discard 2 random cards from your hand. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 70 armor.
+- **Gilbert Bougainvillea — Together** — Heal yourself or your teammate 40 HP and give them 30 armor. Afterward, give yourself or your teammate 10 armor; then reduce the next damage you take by 20; then take 10 damage.
+- **Typewriter** — You may play one additional non-5★ card this turn, then draw 1 card. Then give the chosen opponent +10 damage on their next attack. Then your next attack deals 10 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **I Love You**: Heal both members of your team 35 HP, then return one non-5★ card from your discard pile to your hand. — canon reference: I Love You
-- **Fifty Letters — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 4 less damage and you gain 12 armor. — canon reference: Fifty Letters
+- **Fifty Letters — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **I Love You** — Heal both members of your team 40 HP, then return one non-5★ card from your discard pile to your hand. Also give yourself or your teammate 30 armor.
 
 ## Vivy: Fluorite Eye’s Song
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Vivy**: Heal yourself 20 HP, then draw 1 card. Afterward, an opponent’s next attack deals 4 less damage. — canon reference: Vivy
-- **Matsumoto**: Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, gain 4 armor. — canon reference: Matsumoto
-- **Estella**: Draw 1 card and give your teammate 15 armor. Afterward, you and your teammate each get +6 damage on your next attack. — canon reference: Estella
-- **Elizabeth**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +4 on the next damage they take. — canon reference: Elizabeth
-- **Grace**: Heal both members of your team 20 HP. Afterward, reduce the next damage your teammate takes by 8. — canon reference: Grace
-- **Ophelia**: Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, heal yourself 7 HP. — canon reference: Ophelia
-- **Antonio**: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, give yourself or your teammate 5 armor. — canon reference: Antonio
-- **Yugo Kakitani**: Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +6 damage. — canon reference: Yugo Kakitani
-- **Momoka Kirishima**: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, you and your teammate each get +6 damage on your next attack. — canon reference: Momoka Kirishima
-- **Sunrise**: Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 9 less damage. — canon reference: Sunrise
-- **Vivy — Momentum** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, an opponent’s next attack deals 5 less damage and you gain 12 armor. — canon reference: Vivy
-- **Matsumoto — Calculated Trap** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, an opponent’s next attack deals 6 less damage and you gain 12 armor. — canon reference: Matsumoto
-- **Estella — Coordination** *(alternate pool option)*: Heal yourself or your teammate 40 HP. Afterward, an opponent’s next attack deals 7 less damage and you gain 12 armor. — canon reference: Estella
-- **Elizabeth — Counteroffensive** *(alternate pool option)*: Deal 18 damage to one other player and gain 12 armor. Afterward, an opponent’s next attack deals 8 less damage and you gain 12 armor. — canon reference: Elizabeth
-- **Grace — Formation** *(alternate pool option)*: Give yourself or your teammate 30 armor. Afterward, an opponent’s next attack deals 9 less damage and you gain 12 armor. — canon reference: Grace
+- **Antonio** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 20. Then your next attack deals 10 less damage.
+- **Elizabeth** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 20 armor.
+- **Elizabeth — Counteroffensive** — Deal 20 damage to one other player and gain 10 armor. Afterward, your next attack gets +10 damage; then heal yourself 20 HP; then take 20 damage.
+- **Estella** — Draw 1 card and give your teammate 20 armor. Afterward, give your teammate +20 damage on their next attack. Then take 20 damage.
+- **Estella — Coordination** — Heal yourself or your teammate 40 HP. Afterward, reduce the next damage you take by 10; then gain 20 armor; then take 10 damage.
+- **Grace** — Heal both members of your team 20 HP. Afterward, give yourself or your teammate 10 armor. Then give the chosen opponent 10 armor.
+- **Grace — Formation** — Give yourself or your teammate 30 armor. Afterward, mark one other player for +10 on the next damage they take; then reduce the next damage you take by 20; then take 20 damage.
+- **Matsumoto** — Deal 20 damage to an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 20. Then take 30 damage.
+- **Matsumoto — Calculated Trap** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, heal yourself 10 HP; then an opponent’s next attack deals 20 less damage; then take 10 damage.
+- **Momoka Kirishima** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, heal yourself or your teammate 10 HP. Then give the chosen opponent 20 armor.
+- **Ophelia** — Choose an opponent. They discard 1 random card; then you draw 1 card. Afterward, your next attack gets +10 damage. Then give the chosen opponent 20 armor.
+- **Sunrise** — Choose one other player. At the start of their next turn, deal 30 damage to them. Afterward, reduce the next damage you take by 10. Then your next attack deals 20 less damage. Also reduce the next damage you take by 30.
+- **Vivy** — Heal yourself 20 HP, then draw 1 card. Afterward, gain 20 armor. Then discard 2 random cards from your hand. Also draw 1 card.
+- **Vivy — Momentum** — Return one 3★ card from your discard pile to your hand, then discard 1 random card. Afterward, gain 10 armor; then give your teammate +20 damage on their next attack; then take 10 damage. Also draw 1 card.
+- **Yugo Kakitani** — Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Metal Float**: Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +11 on the next damage they take. — canon reference: Metal Float
-- **Singularity Project**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, your next attack deals 13 less damage. — canon reference: Singularity Project
-- **The Archive**: Choose an opponent. They discard 2 random cards. Afterward, give your teammate +10 damage on their next attack. — canon reference: The Archive
-- **Toak**: Deal 45 damage to one other player, then draw 1 card. Afterward, give your teammate +5 damage on their next attack. — canon reference: Toak
-- **Diva**: You and your teammate each get +25 damage on your next attack. Afterward, heal yourself 6 HP. — canon reference: Diva
-- **Metal Float — Desperation** *(alternate pool option)*: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, an opponent’s next attack deals 10 less damage and you gain 12 armor. — canon reference: Metal Float
-- **Singularity Project — No Escape** *(alternate pool option)*: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, an opponent’s next attack deals 11 less damage and you gain 12 armor. — canon reference: Singularity Project
+- **Diva** — You and your teammate each get +30 damage on your next attack. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack. Also draw 1 card.
+- **Metal Float** — Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor.
+- **Metal Float — Desperation** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, give yourself or your teammate 10 armor; then your next attack gets +20 damage; then take 20 damage. Your next attack also gets +60 damage.
+- **Singularity Project** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then take 20 damage. Then discard 1 random card from your hand.
+- **Singularity Project — No Escape** — Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, give your teammate +10 damage on their next attack; then mark one other player for +20 on the next damage they take; then take 20 damage.
+- **The Archive** — Choose an opponent. They discard 2 random cards. Afterward, an opponent’s next attack deals 10 less damage. Then give the chosen opponent 10 armor. Also make an opponent’s next attack deal 20 less damage.
+- **Toak** — Deal 50 damage to one other player, then draw 1 card. Afterward, gain 10 armor. Then your next attack deals 20 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Flourite Eye’s Song**: 1.5x all damage and healing from you and your teammate this turn and the user can cast a second card
-- **Diva — Finale** *(alternate pool option)*: Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 12 less damage and you gain 12 armor. — canon reference: Diva
+- **Diva — Finale** — Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Afterward, an opponent’s next attack deals 10 less damage; then give yourself or your teammate 20 armor; then take 20 damage.
+- **Flourite Eye’s Song** *(original)* — Draw 1 card. Your next attack deals ×1.5 damage, and you may play one additional non-5★ card this turn.
 
 ## Wistoria: Wand and Sword
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Magicless**: 0.75x the damage of the next attack targeted at you
-- **Will Serfort**: Deal 18 damage to one other player and gain 12 armor. Afterward, your next attack gets +4 damage. — canon reference: Will Serfort
-- **Elfaria Albis Serfort**: Choose an opponent. Their next attack deals 15 less damage; your next attack gets +10. Afterward, mark one other player for +3 on the next damage they take. — canon reference: Elfaria Albis Serfort
-- **Colette Loire**: Heal your teammate 25 HP and give them 15 armor. Afterward, you and your teammate each get +3 damage on your next attack. — canon reference: Colette Loire
-- **Sion Ulster**: Deal 28 damage to one other player. Afterward, mark one other player for +5 on the next damage they take. — canon reference: Sion Ulster
-- **Julius Reinberg**: Draw 2 cards, then discard 1 random card. Afterward, give yourself or your teammate 11 armor. — canon reference: Julius Reinberg
-- **Wignall Lindorr**: Draw 2 cards, then discard 1 random card. Afterward, give your teammate +4 damage on their next attack. — canon reference: Wignall Lindorr
-- **Lihanna Owenzaus**: Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, reduce the next damage you take by 7. — canon reference: Lihanna Owenzaus
-- **Rosty Naumann**: Heal both members of your team 20 HP. Afterward, reduce the next damage you take by 14. — canon reference: Rosty Naumann
-- **Workner Norgram**: Give yourself or your teammate 30 armor. Afterward, reduce the next damage you take by 8. — canon reference: Workner Norgram
-- **Will Serfort — Pressure** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, mark one other player for +1 on the next damage they take and heal yourself 1 HP. — canon reference: Will Serfort
-- **Elfaria Albis Serfort — Arcane Turn** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +2 on the next damage they take and heal yourself 1 HP. — canon reference: Elfaria Albis Serfort
-- **Colette Loire — Coordination** *(alternate pool option)*: Deal 20 damage to one other player and give your teammate 10 armor. Afterward, mark one other player for +3 on the next damage they take and heal yourself 1 HP. — canon reference: Colette Loire
-- **Sion Ulster — Counteroffensive** *(alternate pool option)*: Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, mark one other player for +4 on the next damage they take and heal yourself 1 HP. — canon reference: Sion Ulster
-- **Julius Reinberg — Unseen Hand** *(alternate pool option)*: Deal 25 damage to one other player and mark them for +10 on the next damage they take. Afterward, mark one other player for +5 on the next damage they take and heal yourself 1 HP. — canon reference: Julius Reinberg
+- **Colette Loire** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +10 damage on their next attack. Then take 10 damage.
+- **Colette Loire — Coordination** — Deal 20 damage to one other player and give your teammate 10 armor. Afterward, reduce the next damage you take by 10; then heal yourself 20 HP; then your next attack deals 10 less damage.
+- **Elfaria Albis Serfort** — Choose an opponent. Their next attack deals 20 less damage; your next attack gets +10. Afterward, reduce the next damage you take by 10. Then take 10 damage. Also mark one other player for +20 on the next damage they take.
+- **Elfaria Albis Serfort — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then gain 20 armor; then take 20 damage.
+- **Julius Reinberg** — Draw 2 cards, then discard 1 random card. Afterward, gain 20 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Julius Reinberg — Unseen Hand** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, mark one other player for +10 on the next damage they take; then your next attack gets +20 damage; then your next attack deals 10 less damage.
+- **Lihanna Owenzaus** — Deal 20 damage to one other player. Your next attack gets +10 damage. Afterward, gain 10 armor. Then give the chosen opponent +20 damage on their next attack. Your next attack also gets +20 damage.
+- **Magicless** *(original)* — 0.75x the damage of the next attack targeted at you
+- **Rosty Naumann** — Heal both members of your team 20 HP. Afterward, you and your teammate each get +20 damage on your next attack. Then take 30 damage. Also give yourself or your teammate 30 armor.
+- **Sion Ulster** — Deal 30 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP.
+- **Sion Ulster — Counteroffensive** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, your next attack gets +10 damage; then reduce the next damage you take by 20; then your next attack deals 10 less damage.
+- **Wignall Lindorr** — Draw 2 cards, then discard 1 random card. Afterward, reduce the next damage you take by 20. Then take 10 damage.
+- **Will Serfort** — Deal 20 damage to one other player and gain 10 armor. Afterward, give your teammate +20 damage on their next attack. Then give the chosen opponent +10 damage on their next attack.
+- **Will Serfort — Pressure** — Deal 20 damage to one other player. The next damage they take is increased by 10. Afterward, gain 10 armor; then an opponent’s next attack deals 20 less damage; then take 20 damage.
+- **Workner Norgram** — Give yourself or your teammate 30 armor. Afterward, you and your teammate each get +10 damage on your next attack. Then give the chosen opponent 10 armor.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Wis**: Heal your teammate 45 HP and give them +25 damage on their next attack. Afterward, mark one other player for +7 on the next damage they take. — canon reference: Wis
-- **Rigarden Magical Academy**: Give both members of your team 30 armor. Afterward, reduce the next damage you take by 6. — canon reference: Rigarden Magical Academy
-- **Dungeon**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, give your teammate +4 damage on their next attack. — canon reference: Dungeon
-- **Magia Vander**: Until your next turn, cap any single damage instance you take at 30. Afterward, gain 10 armor. — canon reference: Magia Vander
-- **Ice Faction**: Choose an opponent. They skip their next turn. Afterward, take 13 damage. — canon reference: Ice Faction
-- **Wis — Countermeasure** *(alternate pool option)*: Deal 35 damage to both opponents. Afterward, mark one other player for +6 on the next damage they take and heal yourself 1 HP. — canon reference: Wis
-- **Rigarden Magical Academy — United Front** *(alternate pool option)*: Give both members of your team 30 armor. Afterward, mark one other player for +7 on the next damage they take and heal yourself 1 HP. — canon reference: Rigarden Magical Academy
+- **Dungeon** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +20 on the next damage they take. Then give the chosen opponent 10 armor. Your next attack also gets +50 damage.
+- **Ice Faction** — Choose an opponent. They skip their next turn. Then give the chosen opponent 10 armor. Then give the chosen opponent +10 damage on their next attack.
+- **Magia Vander** — Until your next turn, cap any single damage instance you take at 30. Afterward, gain 20 armor. Then take 10 damage.
+- **Rigarden Magical Academy** — Give both members of your team 30 armor. Afterward, heal yourself or your teammate 20 HP. Then give the chosen opponent +10 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Rigarden Magical Academy — United Front** — Give both members of your team 30 armor. Afterward, give your teammate +10 damage on their next attack; then give yourself or your teammate 20 armor; then your next attack deals 10 less damage.
+- **Wis** — Heal your teammate 50 HP and give them +30 damage on their next attack. Afterward, gain 20 armor. Then discard 1 random card from your hand.
+- **Wis — Countermeasure** — Deal 40 damage to both opponents. Afterward, give yourself or your teammate 10 armor; then mark one other player for +20 on the next damage they take; then your next attack deals 10 less damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Wand and Sword**: Deal 90 damage to one other player and gain 20 armor. — canon reference: Wand and Sword
-- **Ice Faction — Transcendence** *(alternate pool option)*: Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 35 damage to you. Afterward, mark one other player for +8 on the next damage they take and heal yourself 1 HP. — canon reference: Ice Faction
+- **Ice Faction — Transcendence** — Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 40 damage to you. Afterward, an opponent’s next attack deals 10 less damage; then give your teammate +20 damage on their next attack; then your next attack deals 10 less damage.
+- **Wand and Sword** — Deal 90 damage to one other player and gain 20 armor.
 
 ## Witch Hat Atelier
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Coco**: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, give your teammate +7 damage on their next attack. — canon reference: Coco
-- **Qifrey**: Deal 25 damage to one other player and mark them for +10 on the next damage they take. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Qifrey
-- **Agott Arklaum**: Deal 15 damage to both opponents and draw 1 card. Afterward, heal yourself 12 HP. — canon reference: Agott Arklaum
-- **Tetia**: Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +7 damage. — canon reference: Tetia
-- **Richeh**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, heal yourself 13 HP. — canon reference: Richeh
-- **Olruggio**: Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, your next attack gets +3 damage. — canon reference: Olruggio
-- **Brushbuddy**: Until your next turn, you cannot be targeted by attacks. Afterward, gain 9 armor. — canon reference: Brushbuddy
-- **Tartah**: Choose an opponent. They cannot heal until the start of their next turn. Afterward, reduce the next damage you take by 5. — canon reference: Tartah
-- **Euini**: Return one 3★ card from your discard pile to your hand. Afterward, heal yourself 5 HP. — canon reference: Euini
-- **Nolnoa**: Deal 15 damage to both opponents and draw 1 card. Afterward, an opponent’s next attack deals 12 less damage. — canon reference: Nolnoa
-- **Coco — Hidden Art** *(alternate pool option)*: Reduce the next damage you or your teammate takes by 25. Afterward, mark one other player for +9 on the next damage they take and heal yourself 1 HP. — canon reference: Coco
-- **Qifrey — Arcane Turn** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +10 on the next damage they take and heal yourself 1 HP. — canon reference: Qifrey
-- **Agott Arklaum — Forbidden Pattern** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, mark one other player for +11 on the next damage they take and heal yourself 1 HP. — canon reference: Agott Arklaum
-- **Tetia — Resonance** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +12 on the next damage they take and heal yourself 1 HP. — canon reference: Tetia
-- **Richeh — Unseen Hand** *(alternate pool option)*: Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +1 on the next damage they take and heal yourself 2 HP. — canon reference: Richeh
+- **Agott Arklaum** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 10. Then give the chosen opponent 20 armor.
+- **Agott Arklaum — Forbidden Pattern** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 10; then your next attack gets +20 damage; then discard 1 random card from your hand.
+- **Brushbuddy** — Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP.
+- **Coco** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then heal the chosen opponent 10 HP. Also mark one other player for +20 on the next damage they take.
+- **Coco — Hidden Art** — Reduce the next damage you or your teammate takes by 25. Afterward, gain 10 armor; then heal yourself 20 HP; then your next attack deals 10 less damage.
+- **Euini** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take. Then your next attack deals 20 less damage. Also mark one other player for +20 on the next damage they take.
+- **Nolnoa** — Deal 20 damage to both opponents and draw 1 card. Afterward, reduce the next damage you take by 20. Then give the chosen opponent +20 damage on their next attack.
+- **Olruggio** — Your next attack deals ×1.25 damage and you gain 10 armor. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent 20 armor. Also mark one other player for +20 on the next damage they take.
+- **Qifrey** — Deal 30 damage to one other player and mark them for +10 on the next damage they take. Afterward, reduce the next damage you take by 10. Then give the chosen opponent +10 damage on their next attack.
+- **Qifrey — Arcane Turn** — Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself 10 HP; then reduce the next damage you take by 20; then discard 1 random card from your hand.
+- **Richeh** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then heal the chosen opponent 20 HP.
+- **Richeh — Unseen Hand** — Return one 3★ card from your discard pile to your hand. Afterward, mark one other player for +10 on the next damage they take; then give yourself or your teammate 20 armor; then discard 1 random card from your hand. Also mark one other player for +20 on the next damage they take.
+- **Tartah** — Choose an opponent. They cannot heal until the start of their next turn. Afterward, mark one other player for +20 on the next damage they take. Then heal the chosen opponent 20 HP.
+- **Tetia** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +20 damage. Then discard 2 random cards from your hand. Also mark one other player for +40 on the next damage they take.
+- **Tetia — Resonance** — Return one 3★ card from your discard pile to your hand. Afterward, your next attack gets +10 damage; then mark one other player for +20 on the next damage they take; then discard 1 random card from your hand.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Iguin**: Deal 50 damage to one other player and mark them for +15 on the next damage they take. Afterward, reduce the next damage you take by 5. — canon reference: Iguin
-- **Brimmed Caps**: Choose an opponent. They skip their next turn. Afterward, your next attack deals 6 less damage. — canon reference: Brimmed Caps
-- **Great Hall of Witches**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, reduce the next damage you take by 9. — canon reference: Great Hall of Witches
-- **Knights Moralis**: Choose an opponent. They skip their next turn. Afterward, your next attack deals 11 less damage. — canon reference: Knights Moralis
-- **Forbidden Magic**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Forbidden Magic
-- **Iguin — Mystic Shift** *(alternate pool option)*: Deal 50 damage to one other player and mark them for +15 on the next damage they take. Afterward, mark one other player for +2 on the next damage they take and heal yourself 2 HP. — canon reference: Iguin
-- **Brimmed Caps — Grand Invocation** *(alternate pool option)*: Deal 50 damage to one other player and mark them for +15 on the next damage they take. Afterward, mark one other player for +3 on the next damage they take and heal yourself 2 HP. — canon reference: Brimmed Caps
+- **Brimmed Caps** — Choose an opponent. They skip their next turn. Then take 20 damage. Then give the chosen opponent +20 damage on their next attack. Also mark one other player for +20 on the next damage they take.
+- **Brimmed Caps — Grand Invocation** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, give your teammate +10 damage on their next attack; then an opponent’s next attack deals 20 less damage; then discard 1 random card from your hand.
+- **Forbidden Magic** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then take 10 damage. Your next attack also gets +70 damage.
+- **Great Hall of Witches** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, mark one other player for +10 on the next damage they take. Then give the chosen opponent +10 damage on their next attack. Your next attack also gets +60 damage.
+- **Iguin** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, reduce the next damage you take by 10. Then discard 2 random cards from your hand. Also mark one other player for +20 on the next damage they take.
+- **Iguin — Mystic Shift** — Deal 50 damage to one other player and mark them for +20 on the next damage they take. Afterward, give yourself or your teammate 10 armor; then give your teammate +20 damage on their next attack; then discard 1 random card from your hand.
+- **Knights Moralis** — Choose an opponent. They skip their next turn. Then take 20 damage. Then take 30 damage. Also mark one other player for +40 on the next damage they take.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Piss Dragon**: Deal 30 damage to both opponents. Until the start of your next turn, your team cannot take more than 30 damage from any single attack.
-- **Forbidden Magic — Last Gamble** *(alternate pool option)*: Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, mark one other player for +4 on the next damage they take and heal yourself 2 HP. — canon reference: Forbidden Magic
+- **Forbidden Magic — Last Gamble** — Take 30 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%. Afterward, an opponent’s next attack deals 10 less damage; then gain 20 armor; then discard 1 random card from your hand.
+- **Piss Dragon** *(original)* — Deal 30 damage to both opponents. Until your next turn, your team cannot take more than 50 damage from any single attack.
 
 ## You and I Are Polar Opposites
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Opposites**: if you heal during the turn an opponent of your choosing take half the damage as you healed
-- **Miyu Suzuki**: Until your next turn, you cannot be targeted by attacks. Afterward, heal yourself or your teammate 10 HP. — canon reference: Miyu Suzuki
-- **Yusuke Tani**: Until your next turn, you cannot be targeted by attacks. Afterward, gain 10 armor. — canon reference: Yusuke Tani
-- **Kentaro Yamada**: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, reduce the next damage you take by 5. — canon reference: Kentaro Yamada
-- **Natsumi Nishi**: Lose 15 HP, heal your teammate 35 HP, then draw 1 card. Afterward, give your teammate +6 damage on their next attack. — canon reference: Natsumi Nishi
-- **Shuji Taira**: Return one 3★ card from your discard pile to your hand. Afterward, give yourself or your teammate 5 armor. — canon reference: Shuji Taira
-- **Shino Azuma**: Heal your teammate 25 HP and give them 10 armor. Afterward, give your teammate +3 damage on their next attack. — canon reference: Shino Azuma
-- **Aoi Sato**: Draw 2 cards, then discard 1 random card from your hand. Afterward, give yourself or your teammate 12 armor. — canon reference: Aoi Sato
-- **Manami Watanabe**: Heal both members of your team 20 HP. Afterward, gain 8 armor. — canon reference: Manami Watanabe
-- **Rikako Honda**: Heal yourself or your teammate 35 HP, then draw 1 card. Afterward, gain 11 armor. — canon reference: Rikako Honda
-- **Miyu Suzuki — Heart-to-Heart** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, mark one other player for +5 on the next damage they take and heal yourself 2 HP. — canon reference: Miyu Suzuki
-- **Yusuke Tani — Helping Hand** *(alternate pool option)*: Heal both members of your team 20 HP. Afterward, mark one other player for +6 on the next damage they take and heal yourself 2 HP. — canon reference: Yusuke Tani
-- **Kentaro Yamada — Promise** *(alternate pool option)*: Give yourself or your teammate 25 armor, then draw 1 card. Afterward, mark one other player for +7 on the next damage they take and heal yourself 2 HP. — canon reference: Kentaro Yamada
-- **Natsumi Nishi — Trust** *(alternate pool option)*: Until your next turn, you cannot be targeted by attacks. Afterward, mark one other player for +8 on the next damage they take and heal yourself 2 HP. — canon reference: Natsumi Nishi
-- **Shuji Taira — Reassurance** *(alternate pool option)*: Heal your teammate 15 HP and give them +15 damage on their next attack. Afterward, mark one other player for +9 on the next damage they take and heal yourself 2 HP. — canon reference: Shuji Taira
+- **Aoi Sato** — Draw 2 cards, then discard 1 random card from your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent 20 armor. Also give yourself or your teammate 30 armor.
+- **Kentaro Yamada** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, give yourself or your teammate 10 armor. Then take 10 damage.
+- **Kentaro Yamada — Promise** — Give yourself or your teammate 30 armor, then draw 1 card. Afterward, reduce the next damage you take by 20; then your next attack gets +20 damage; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Manami Watanabe** — Heal both members of your team 20 HP. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Miyu Suzuki** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 20. Then heal the chosen opponent 20 HP.
+- **Miyu Suzuki — Heart-to-Heart** — Heal both members of your team 20 HP. Afterward, gain 20 armor; then heal yourself 20 HP; then heal the chosen opponent 10 HP.
+- **Natsumi Nishi** — Lose 20 HP, heal your teammate 40 HP, then draw 1 card. Afterward, give your teammate +20 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **Natsumi Nishi — Trust** — Until your next turn, you cannot be targeted by attacks. Afterward, your next attack gets +20 damage; then mark one other player for +20 on the next damage they take; then heal the chosen opponent 10 HP. Then take 20 damage.
+- **Opposites** *(original)* — if you heal during the turn an opponent of your choosing take half the damage as you healed
+- **Rikako Honda** — Heal yourself or your teammate 40 HP, then draw 1 card. Afterward, reduce the next damage your teammate takes by 10. Then heal the chosen opponent 20 HP.
+- **Shino Azuma** — Heal your teammate 30 HP and give them 10 armor. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
+- **Shuji Taira** — Return one 3★ card from your discard pile to your hand. Afterward, give your teammate +10 damage on their next attack. Then give the chosen opponent +20 damage on their next attack. Also give yourself or your teammate 30 armor.
+- **Shuji Taira — Reassurance** — Heal your teammate 20 HP and give them +20 damage on their next attack. Afterward, mark one other player for +20 on the next damage they take; then give yourself or your teammate 20 armor; then heal the chosen opponent 10 HP.
+- **Yusuke Tani** — Until your next turn, you cannot be targeted by attacks. Afterward, reduce the next damage your teammate takes by 10. Then your next attack deals 10 less damage.
+- **Yusuke Tani — Helping Hand** — Heal both members of your team 20 HP. Afterward, heal yourself 20 HP; then reduce the next damage you take by 20; then heal the chosen opponent 10 HP.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Study Session — You and I Are Polar Opposites**: You may play one additional non-5★ card this turn, then draw 1 card. Afterward, take 9 damage. — canon reference: Study Session
-- **Culture Festival — You and I Are Polar Opposites**: Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, heal yourself 8 HP. — canon reference: Culture Festival
-- **Matching Keychains**: Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 4 armor. — canon reference: Matching Keychains
-- **Long-Distance Promise**: Heal both members of your team 35 HP. Afterward, give yourself or your teammate 10 armor. — canon reference: Long-Distance Promise
-- **Valentine's Day**: Heal yourself or your teammate 70 HP. Afterward, give yourself or your teammate 8 armor. — canon reference: Valentine's Day
-- **Study Session — Acceleration** *(alternate pool option)*: Deal 30 damage to one other player, then you may punch once this turn. Afterward, mark one other player for +10 on the next damage they take and heal yourself 2 HP. — canon reference: Study Session
-- **Culture Festival — Showstopper** *(alternate pool option)*: Deal 45 damage to one other player, then draw 1 card. Afterward, mark one other player for +11 on the next damage they take and heal yourself 2 HP. — canon reference: Culture Festival
+- **Culture Festival — Showstopper** — Deal 50 damage to one other player, then draw 1 card. Afterward, give your teammate +20 damage on their next attack; then an opponent’s next attack deals 20 less damage; then heal the chosen opponent 10 HP.
+- **Culture Festival — You and I Are Polar Opposites** — Draw 3 cards, then discard 1 random card. Your next attack gets +20 damage. Afterward, gain 20 armor. Then take 10 damage.
+- **Long-Distance Promise** — Heal both members of your team 40 HP. Afterward, give your teammate +10 damage on their next attack. Then discard 1 random card from your hand. Also give yourself or your teammate 30 armor.
+- **Matching Keychains** — Return up to 2 non-5★ cards from your discard pile to your hand. Afterward, give yourself or your teammate 20 armor. Then heal the chosen opponent 20 HP. Also give yourself or your teammate 30 armor.
+- **Study Session — Acceleration** — Deal 30 damage to one other player, then you may punch once this turn. Afterward, give yourself or your teammate 20 armor; then give your teammate +20 damage on their next attack; then heal the chosen opponent 10 HP.
+- **Study Session — You and I Are Polar Opposites** — You may play one additional non-5★ card this turn, then draw 1 card. Then take 20 damage. Then discard 1 random card from your hand. Also draw 1 card.
+- **Valentine's Day** — Heal yourself or your teammate 70 HP. Afterward, reduce the next damage your teammate takes by 20. Then give the chosen opponent 10 armor.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Suzuki and Tani**: Heal both members of your team 30 HP. You and your teammate each get +15 damage on your next attack. — canon reference: Suzuki and Tani
-- **Valentine's Day — Unbreakable Bond** *(alternate pool option)*: Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card. Afterward, mark one other player for +12 on the next damage they take and heal yourself 2 HP. — canon reference: Valentine's Day
+- **Suzuki and Tani** — Heal both members of your team 30 HP. You and your teammate each get +20 damage on your next attack. Also give yourself or your teammate 30 armor.
+- **Valentine's Day — Unbreakable Bond** — Heal yourself or your teammate 80 HP, give them 20 armor, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage; then gain 20 armor; then take 10 damage.
 
 ## Yu-Gi-Oh!
 
-### 3★ (15 available; choose 10)
+### 3★
 
-- **Pot of Greed**: Draw two new 3 star cards
-- **Yugi Muto**: Choose an opponent. Their next attack deals 20 less damage. Afterward, give yourself or your teammate 11 armor. — canon reference: Yugi Muto
-- **Seto Kaiba**: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, an opponent’s next attack deals 5 less damage. — canon reference: Seto Kaiba
-- **Joey Wheeler**: Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Joey Wheeler
-- **Téa Gardner**: Heal your teammate 25 HP and give them 15 armor. Afterward, reduce the next damage your teammate takes by 11. — canon reference: Téa Gardner
-- **Tristan Taylor**: Choose an opponent. Their next attack deals 20 less damage. Afterward, reduce the next damage you take by 9. — canon reference: Tristan Taylor
-- **Bakura**: Choose an opponent. Their next action is a punch against themself. Afterward, your next attack gets +4 damage. — canon reference: Bakura
-- **Dark Magician**: Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +9 damage. — canon reference: Dark Magician
-- **Blue-Eyes White Dragon**: Deal 20 damage to one other player, then draw 1 card. Afterward, reduce the next damage you take by 13. — canon reference: Blue-Eyes White Dragon
-- **Red-Eyes Black Dragon**: Take 10 damage, then deal 40 damage to one other player. Afterward, your next attack gets +4 damage. — canon reference: Red-Eyes Black Dragon
-- **Yugi Muto — Read the Field** *(alternate pool option)*: Deal 15 damage to an opponent and they discard 1 random card. Afterward, mark one other player for +1 on the next damage they take and heal yourself 3 HP. — canon reference: Yugi Muto
-- **Seto Kaiba — Follow-Through** *(alternate pool option)*: Choose one other player. At the start of their next turn, deal 35 damage to them. Afterward, mark one other player for +2 on the next damage they take and heal yourself 3 HP. — canon reference: Seto Kaiba
-- **Joey Wheeler — Danger Zone** *(alternate pool option)*: Take 10 damage, then deal 40 damage to one other player. Afterward, mark one other player for +3 on the next damage they take and heal yourself 3 HP. — canon reference: Joey Wheeler
-- **Téa Gardner — Backup Plan** *(alternate pool option)*: Deal 20 damage to one other player; your teammate heals 15 HP. Afterward, mark one other player for +4 on the next damage they take and heal yourself 3 HP. — canon reference: Téa Gardner
-- **Tristan Taylor — Checkmate** *(alternate pool option)*: Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +5 on the next damage they take and heal yourself 3 HP. — canon reference: Tristan Taylor
+- **Bakura** — Choose an opponent. Their next action is a punch against themself. Afterward, gain 10 armor. Then take 10 damage.
+- **Blue-Eyes White Dragon** — Deal 20 damage to one other player, then draw 1 card. Afterward, an opponent’s next attack deals 20 less damage. Then discard 2 random cards from your hand. Your next attack also gets +20 damage.
+- **Dark Magician** — Reduce the next damage you or your teammate takes by 25. Afterward, your next attack gets +10 damage. Then your next attack deals 10 less damage. Also mark one other player for +20 on the next damage they take.
+- **Joey Wheeler** — Your next attack deals ×1.4 damage, but the next damage you take is increased by ×1.25. Afterward, gain 10 armor. Then heal the chosen opponent 10 HP. Your next attack also gets +20 damage.
+- **Joey Wheeler — Danger Zone** — Take 10 damage, then deal 40 damage to one other player. Afterward, reduce the next damage you take by 20; then mark one other player for +20 on the next damage they take; then take 10 damage.
+- **Monster Reborn** — Your next attack deals ×1.75 damage, but the next damage you take is ×1.5. Your next attack also gets +10 damage, and an opponent gets +10 on their next attack.
+- **Red-Eyes Black Dragon** — Take 10 damage, then deal 40 damage to one other player. Afterward, give your teammate +10 damage on their next attack. Then heal the chosen opponent 10 HP.
+- **Seto Kaiba** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, reduce the next damage you take by 20. Then take 30 damage. Your next attack also gets +20 damage.
+- **Seto Kaiba — Follow-Through** — Choose one other player. At the start of their next turn, deal 40 damage to them. Afterward, heal yourself 20 HP; then your next attack gets +20 damage; then take 10 damage.
+- **Tristan Taylor** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 20 armor. Then discard 1 random card from your hand. Also make an opponent’s next attack deal 20 less damage.
+- **Tristan Taylor — Checkmate** — Choose an opponent. At the start of their next turn, deal 30 damage to them. Afterward, mark one other player for +20 on the next damage they take; then give your teammate +20 damage on their next attack; then take 10 damage.
+- **Téa Gardner** — Heal your teammate 30 HP and give them 20 armor. Afterward, give your teammate +20 damage on their next attack. Then your next attack deals 10 less damage.
+- **Téa Gardner — Backup Plan** — Deal 20 damage to one other player; your teammate heals 20 HP. Afterward, your next attack gets +20 damage; then give yourself or your teammate 20 armor; then take 10 damage.
+- **Yugi Muto** — Choose an opponent. Their next attack deals 20 less damage. Afterward, gain 10 armor. Then discard 2 random cards from your hand. Also make an opponent’s next attack deal 50 less damage.
+- **Yugi Muto — Read the Field** — Deal 20 damage to an opponent and they discard 1 random card. Afterward, gain 20 armor; then reduce the next damage you take by 20; then take 10 damage. Then take 20 damage.
 
-### 4★ (7 available; choose 5)
+### 4★
 
-- **Monster Reborn**: Your next attack deals ×1.75 damage, but the next damage you take is increased by ×1.5. Afterward, take 9 damage. — canon reference: Monster Reborn
-- **Exodia the Forbidden One**: Flip a coin: heads, deal 75 damage to one other player; tails, take 35 damage and draw 2 cards. Afterward, reduce the next damage you take by 14. — canon reference: Exodia the Forbidden One
-- **Slifer the Sky Dragon**: Deal 45 damage to one other player, then draw 1 card. Afterward, mark one other player for +12 on the next damage they take. — canon reference: Slifer the Sky Dragon
-- **Obelisk the Tormentor**: Draw 2 cards, then you may play one additional non-5★ card this turn. Afterward, take 5 damage. — canon reference: Obelisk the Tormentor
-- **The Winged Dragon of Ra**: Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, your next attack gets +12 damage. — canon reference: The Winged Dragon of Ra
-- **Monster Reborn — Desperation** *(alternate pool option)*: Take 20 damage, then deal 80 damage to one other player. Afterward, mark one other player for +6 on the next damage they take and heal yourself 3 HP. — canon reference: Monster Reborn
-- **Exodia the Forbidden One — Point of No Return** *(alternate pool option)*: Deal 30 damage to every other living player. Afterward, mark one other player for +7 on the next damage they take and heal yourself 3 HP. — canon reference: Exodia the Forbidden One
+- **Exodia the Forbidden One** — Flip a coin: heads, deal 80 damage to one other player; tails, take 40 damage and draw 2 cards. Afterward, gain 10 armor. Then your next attack deals 10 less damage. Your next attack also gets +60 damage.
+- **Exodia the Forbidden One — Point of No Return** — Deal 30 damage to every other living player. Afterward, give your teammate +20 damage on their next attack; then gain 20 armor; then take 20 damage.
+- **Monster Reborn — Desperation** — Take 20 damage, then deal 80 damage to one other player. Afterward, give yourself or your teammate 20 armor; then an opponent’s next attack deals 20 less damage; then take 10 damage.
+- **Obelisk the Tormentor** — Draw 2 cards, then you may play one additional non-5★ card this turn. Then your next attack deals 10 less damage. Then heal the chosen opponent 20 HP.
+- **Pot of Greed** *(original)* — Draw two 3★ cards from your deck.
+- **Slifer the Sky Dragon** — Deal 50 damage to one other player, then draw 1 card. Afterward, your next attack gets +10 damage. Then take 30 damage.
+- **The Winged Dragon of Ra** — Deal 40 damage to one other player. The next damage they take is increased by 20. Afterward, gain 20 armor. Then take 20 damage.
 
-### 5★ (2 available; choose 1)
+### 5★
 
-- **Atem**: Draw 2 cards. You may play one additional non-5★ card this turn, then discard 1 random card. — canon reference: Atem
-- **The Winged Dragon of Ra — Final Push** *(alternate pool option)*: Deal 52 damage to both opponents. Your next attack gets +20 damage. Afterward, mark one other player for +8 on the next damage they take and heal yourself 3 HP. — canon reference: The Winged Dragon of Ra
+- **Atem** — Draw 2 cards. You may play one additional non-5★ card this turn, then discard 1 random card. Also make an opponent’s next attack deal 20 less damage.
+- **The Winged Dragon of Ra — Final Push** — Deal 60 damage to both opponents. Your next attack gets +20 damage. Afterward, an opponent’s next attack deals 20 less damage; then heal yourself 20 HP; then take 20 damage.
