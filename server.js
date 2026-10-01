@@ -111,6 +111,7 @@ function makePlayer(socket, name, seat) {
     selectedShows: [],
     selectedCardIds: [],
     ready: false,
+    rematchReady: false,
     firstTurnTaken: false,
     buffs: blankBuffs(),
   };
@@ -159,7 +160,7 @@ function buildDeckForSelection(shows, cardIds) {
 }
 
 function preparePlayerDeck(p) {
-  p.hp = STARTING_HP; p.armor = 0; p.hand = []; p.discard = []; p.buffs = blankBuffs(); p.firstTurnTaken = false;
+  p.hp = STARTING_HP; p.armor = 0; p.hand = []; p.discard = []; p.buffs = blankBuffs(); p.firstTurnTaken = false; p.rematchReady = false;
   p.deck = shuffle(buildDeckForSelection(p.selectedShows, p.selectedCardIds) || []);
   for (let i = 0; i < STARTING_HAND_SIZE; i++) drawCard(p);
 }
@@ -247,6 +248,7 @@ function newTurnState(seat, number) {
     seat,
     number,
     mainActionUsed: false,
+    mainActionType: null,
     cardsPlayed: 0,
     cardPlayLimit: 1,
     noFiveStarExtraCards: false,
@@ -270,8 +272,10 @@ function publicPlayer(p, viewer, room) {
     handCount: p.hand.length,
     hand: reveal ? p.hand.map(id => getCard(id)) : [],
     discardCount: p.discard.length,
+    discard: p.discard.map(id => getCard(id)).filter(Boolean),
     deckCount: p.deck.length,
     ready: p.ready,
+    rematchReady: !!p.rematchReady,
     selectedShows: self ? [...p.selectedShows] : [],
     selectedCardIds: self ? [...p.selectedCardIds] : [],
     selectedShowCount: p.selectedShows.length,
@@ -326,6 +330,9 @@ function stateFor(room, viewer) {
     shows: SHOWS,
     startingTeam: room.startingTeam,
     environment: room.environment || null,
+    lastPlayed: room.lastPlayed || null,
+    rematchReadyCount: room.players.filter(x => x.rematchReady).length,
+    rematchNeeded: room.requiredPlayers,
     config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW, minEnvironmentsPerShow: MIN_ENVIRONMENTS_PER_SHOW },
     pending: room.pending && room.pending.forSocket === viewer.socketId ? room.pending.public : null,
   };
@@ -465,6 +472,7 @@ function handleDeath(room, p) {
   const teamStillAlive = room.players.some(x => teamOf(x) === losingTeam && x.hp > 0);
   if (!teamStillAlive) {
     room.phase = 'finished';
+    room.players.forEach(x => x.rematchReady = false);
     const winningTeam = losingTeam === 0 ? 1 : 0;
     const names = room.players.filter(x => teamOf(x) === winningTeam).map(x => x.name).join(' & ');
     room.winner = `Team ${winningTeam === 0 ? 'A' : 'B'} (${names})`;
@@ -880,6 +888,75 @@ function saveTurnSnapshot(room) {
   if (room.history.length > 8) room.history.shift();
 }
 
+function hasPunchTarget(room, p) {
+  return room.players.some(x => x.socketId !== p.socketId && x.hp > 0 && !x.buffs.untargetableUntilOwnTurn);
+}
+
+function hasLegalCardPlay(room, p) {
+  return p.hand.some(id => {
+    const card = getCard(id);
+    return card && !canPlayCard(room, p, card);
+  });
+}
+
+function hasRemainingActions(room, p) {
+  if (!canAct(room, p)) return false;
+  if (!room.turn.mainActionUsed) return hasPunchTarget(room, p) || hasLegalCardPlay(room, p) || p.buffs.forceSelfPunch;
+  if (room.turn.extraPunchAllowed && hasPunchTarget(room, p)) return true;
+  if (room.turn.cardsPlayed < room.turn.cardPlayLimit && hasLegalCardPlay(room, p)) return true;
+  return false;
+}
+
+function finishTurn(room, p, auto = false) {
+  if (!canAct(room, p)) return false;
+  if (room.turn.goldenPairRequired) {
+    log(room, `${p.name} ended the turn without completing the Golden Ball pair; no pair bonus was gained.`);
+  }
+  if (p.buffs.mustPunchTurns > 0) p.buffs.mustPunchTurns -= 1;
+  if (p.buffs.attackBoostTurns > 0) {
+    p.buffs.attackBoostTurns -= 1;
+    if (p.buffs.attackBoostTurns <= 0) p.buffs.persistentAttackMultiplier = 1;
+  }
+  if (p.buffs.damageTakenMultiplierTurns > 0) {
+    p.buffs.damageTakenMultiplierTurns -= 1;
+    if (p.buffs.damageTakenMultiplierTurns <= 0) p.buffs.persistentDamageTakenMultiplier = 1;
+  }
+  tickTerrainAfterTurn(room, p);
+  if (auto) log(room, `${p.name} has no actions left, so the turn ended automatically.`);
+  saveTurnSnapshot(room);
+  advanceTurn(room);
+  return true;
+}
+
+function scheduleAutoEnd(room, p) {
+  if (room.phase !== 'playing' || !isCurrent(room, p) || hasRemainingActions(room, p)) return;
+  const seat = room.turn.seat;
+  const number = room.turn.number;
+  setTimeout(() => {
+    if (room.phase !== 'playing' || room.turn.seat !== seat || room.turn.number !== number) return;
+    const current = currentPlayer(room);
+    if (!current || current.socketId !== p.socketId || hasRemainingActions(room, p)) return;
+    finishTurn(room, p, true);
+  }, 650);
+}
+
+function beginMatch(room, isRematch = false) {
+  room.players.forEach(preparePlayerDeck);
+  room.environment = null;
+  room.lastPlayed = null;
+  room.winner = null;
+  room.pending = null;
+  room.history = [];
+  if (isRematch) room.log = [];
+  room.startingTeam = Math.random() < 0.5 ? 0 : 1;
+  const firstSeat = room.startingTeam === 0 ? 0 : 1;
+  room.phase = 'playing';
+  room.turn = newTurnState(firstSeat, 1);
+  saveTurnSnapshot(room);
+  log(room, `${isRematch ? 'Rematch coin flip' : 'Coin flip'}: Team ${room.startingTeam===0?'A':'B'} goes first in ${room.mode}. The player taking the very first turn does not draw. ${currentPlayer(room).name} starts.`);
+  startOfTurn(room, currentPlayer(room));
+}
+
 function canPlayCard(room, p, card) {
   if (!canAct(room, p)) return 'It is not your turn.';
   if (!p.hand.includes(card.id)) return 'That card is not in your hand.';
@@ -890,6 +967,7 @@ function canPlayCard(room, p, card) {
   if (room.turn.noFiveStarExtraCards && room.turn.cardsPlayed >= 0 && card.stars === 5 && room.turn.firstCardWasQuintessential) return 'Quintessential Quintuplets does not allow 5-star follow-up cards.';
   if (room.turn.mainActionUsed && room.turn.extraCardMaxStars != null && card.stars > room.turn.extraCardMaxStars) return `Your extra card play is limited to ${room.turn.extraCardMaxStars}★ or lower.`;
   if (!room.turn.mainActionUsed) return null;
+  if (room.turn.mainActionType === 'punch' && room.turn.cardPlayLimit <= 1) return 'You already used your main action to punch this turn.';
   if (room.turn.cardsPlayed < room.turn.cardPlayLimit) return null;
   return 'You have already used your card/action allowance this turn.';
 }
@@ -933,8 +1011,11 @@ function playCard(room, p, card, targetSeat = null) {
 
   const wasQuintessential = card.name.toLowerCase() === 'quintessential quintuplets';
   discardCard(p, card.id);
+  const firstAction = !room.turn.mainActionUsed;
   room.turn.mainActionUsed = true;
+  if (firstAction) room.turn.mainActionType = 'card';
   if (!wasQuintessential) room.turn.cardsPlayed += 1;
+  const resolutionStart = room.log.length;
   log(room, `${p.name} played ${card.name} (${card.stars}★).`);
 
   if (opp?.buffs.heliocentricPunish) {
@@ -943,12 +1024,23 @@ function playCard(room, p, card, targetSeat = null) {
   }
 
   const result = resolveCard(room, p, opp, card, targetSeat);
+  const chosenTarget = playerBySeat(room, targetSeat);
+  room.lastPlayed = {
+    card: { id: card.id, name: card.name, stars: card.stars, effect: card.effect, show: card.show || card.origin || '', cardType: card.cardType || 'card' },
+    playerName: p.name,
+    playerSeat: p.seat,
+    targetName: chosenTarget?.name || null,
+    targetSeat: chosenTarget?.seat ?? null,
+    resolution: room.log.slice(resolutionStart + 1).map(x => x.text).slice(-8),
+    at: Date.now(),
+  };
   if (p.hp <= 0 && room.phase === 'playing') {
     saveTurnSnapshot(room);
     advanceTurn(room);
     return null;
   }
   emitState(room);
+  scheduleAutoEnd(room, p);
   return null;
 }
 
@@ -957,7 +1049,7 @@ io.on('connection', socket => {
     const code = roomCode();
     mode = mode === '1v1' ? '1v1' : '2v2';
     const requiredPlayers = mode === '1v1' ? 2 : 4;
-    const room = { code, mode, requiredPlayers, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null, environment:null };
+    const room = { code, mode, requiredPlayers, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null, environment:null, lastPlayed:null };
     rooms.set(code, room); socket.data.roomCode = code; socket.join(code);
     log(room, `${room.players[0].name} created a ${mode} room ${code}. Choose exactly ${SHOWS_PER_DECK} shows, build your 48-card deck, and ready up.`); emitState(room);
   });
@@ -979,16 +1071,7 @@ io.on('connection', socket => {
     if (!deck) return socket.emit('errorMessage',`Choose exactly ${SHOWS_PER_DECK} valid shows and exactly 10×3★, 5×4★, and 1×5★ from each show (48 cards total), with at least ${MIN_ENVIRONMENTS_PER_SHOW} Environment cards from each show.`);
     p.selectedShows=[...new Set(shows)]; p.selectedCardIds=[...deck]; p.ready=true;
     log(room, `${p.name} locked a custom 48-card deck (${p.selectedShows.join(' / ')}).`);
-    if (room.players.length===room.requiredPlayers && room.players.every(x=>x.ready)) {
-      room.players.forEach(preparePlayerDeck);
-      room.environment=null;
-      room.startingTeam=Math.random()<0.5?0:1;
-      const firstSeat=room.startingTeam===0?0:1;
-      room.phase='playing'; room.turn=newTurnState(firstSeat,1);
-      saveTurnSnapshot(room);
-      log(room, `Coin flip: Team ${room.startingTeam===0?'A':'B'} goes first in ${room.mode}. The player taking the very first turn does not draw. ${currentPlayer(room).name} starts.`);
-      startOfTurn(room,currentPlayer(room));
-    }
+    if (room.players.length===room.requiredPlayers && room.players.every(x=>x.ready)) beginMatch(room, false);
     emitState(room);
   });
 
@@ -1009,20 +1092,24 @@ io.on('connection', socket => {
     if (p.buffs.forceSelfPunch) {
       p.buffs.forceSelfPunch = false;
       room.turn.mainActionUsed = true;
+      room.turn.mainActionType = 'punch';
       applyDamage(room, p, p, BASE_PUNCH_DAMAGE, { isPunch: true, isAttack: true });
       log(room, `${p.name} was forced to punch themself.`);
       if (p.hp <= 0 && room.phase === 'playing') { saveTurnSnapshot(room); advanceTurn(room); return; }
-      emitState(room); return;
+      emitState(room); scheduleAutoEnd(room, p); return;
     }
     if (room.turn.mainActionUsed && !room.turn.extraPunchAllowed) return socket.emit('errorMessage', 'You already used your main action this turn.');
     if (!target) return socket.emit('errorMessage', 'Choose a living teammate or enemy to punch.');
     if (target.buffs.untargetableUntilOwnTurn) return socket.emit('errorMessage', `${target.name} is untargetable right now.`);
+    const firstAction = !room.turn.mainActionUsed;
     room.turn.mainActionUsed = true;
+    if (firstAction) room.turn.mainActionType = 'punch';
     room.turn.extraPunchAllowed = false;
     const base = p.buffs.punchDamageOverrideTurns > 0 ? p.buffs.punchDamageOverride : BASE_PUNCH_DAMAGE;
     applyDamage(room, p, target, base, { isPunch: true, isAttack: true });
     if (p.hp <= 0 && room.phase === 'playing') { saveTurnSnapshot(room); advanceTurn(room); return; }
     emitState(room);
+    scheduleAutoEnd(room, p);
   });
 
 
@@ -1030,21 +1117,18 @@ io.on('connection', socket => {
     const room = requireRoom(socket); if (!room) return;
     const p = playerBySocket(room, socket.id);
     if (!canAct(room, p)) return socket.emit('errorMessage', 'It is not your turn.');
-    if (room.turn.goldenPairRequired) {
-      log(room, `${p.name} ended the turn without completing the Golden Ball pair; no pair bonus was gained.`);
+    finishTurn(room, p, false);
+  });
+
+  socket.on('requestRematch', () => {
+    const room = requireRoom(socket); if (!room || room.phase !== 'finished') return;
+    const p = playerBySocket(room, socket.id); if (!p) return;
+    p.rematchReady = true;
+    log(room, `${p.name} is ready for a rematch.`);
+    if (room.players.length === room.requiredPlayers && room.players.every(x => x.rematchReady)) {
+      beginMatch(room, true);
     }
-    if (p.buffs.mustPunchTurns > 0) p.buffs.mustPunchTurns -= 1;
-    if (p.buffs.attackBoostTurns > 0) {
-      p.buffs.attackBoostTurns -= 1;
-      if (p.buffs.attackBoostTurns <= 0) p.buffs.persistentAttackMultiplier = 1;
-    }
-    if (p.buffs.damageTakenMultiplierTurns > 0) {
-      p.buffs.damageTakenMultiplierTurns -= 1;
-      if (p.buffs.damageTakenMultiplierTurns <= 0) p.buffs.persistentDamageTakenMultiplier = 1;
-    }
-    tickTerrainAfterTurn(room, p);
-    saveTurnSnapshot(room);
-    advanceTurn(room);
+    emitState(room);
   });
 
   socket.on('disconnect', () => {
@@ -1058,6 +1142,7 @@ io.on('connection', socket => {
     }
     if (p && room.phase === 'playing') {
       room.phase = 'finished';
+      room.players.forEach(x => x.rematchReady = false);
       const winningTeam = teamOf(p) === 0 ? 1 : 0;
       const names = room.players.filter(x => teamOf(x) === winningTeam).map(x => x.name).join(' & ');
       room.winner = `Team ${winningTeam === 0 ? 'A' : 'B'} (${names})`;

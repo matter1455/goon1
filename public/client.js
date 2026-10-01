@@ -35,9 +35,11 @@ $('punchBtn').onclick = () => {
   socket.emit('punch', { targetSeat });
 };
 $('endBtn').onclick = () => socket.emit('endTurn');
+$('playAgainBtn').onclick = () => socket.emit('requestRematch');
+$('closeDiscardBtn').onclick = () => $('discardDialog').close();
 $('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('Room code copied.'); };
-$('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); };
-$('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); };
+$('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); renderBoard(); updateTargetHint(); };
+$('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); renderBoard(); updateTargetHint(); };
 $('showSearch').oninput = renderShowPicker;
 $('readyDeckBtn').onclick = () => {
   const problem = deckProblem();
@@ -84,12 +86,18 @@ function renderState() {
   $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `Waiting for ${state.turn.currentName}...`;
   $('yourTeamLetter').textContent = teamLetter(state.you.seat);
   $('enemyTeamLetter').textContent = teamLetter(state.you.seat) === 'A' ? 'B' : 'A';
-  renderTargets(); renderBoard(); renderEnvironment(); renderHand(state.you.hand || [], myTurn); renderLog();
+  renderTargets(); renderBoard(); renderEnvironment(); renderHand(state.you.hand || [], myTurn); renderLog(); renderLastPlayed(); renderDiscardPiles(); updateTargetHint();
   $('deckCount').textContent = `${state.you.deckCount} deck`;
 
   $('punchBtn').disabled = !myTurn || (state.turn.mainActionUsed && !state.turn.extraPunchAllowed);
   $('endBtn').disabled = !myTurn;
-  if (state.phase === 'finished') $('punchBtn').disabled = $('endBtn').disabled = true;
+  const finished = state.phase === 'finished';
+  if (finished) $('punchBtn').disabled = $('endBtn').disabled = true;
+  $('playAgainBtn').classList.toggle('hidden', !finished);
+  $('playAgainBtn').disabled = !!state.you?.rematchReady;
+  $('playAgainBtn').textContent = state.you?.rematchReady ? 'Ready for Rematch ✓' : 'Play Again';
+  $('rematchStatus').classList.toggle('hidden', !finished);
+  if (finished) $('rematchStatus').textContent = `${state.rematchReadyCount || 0}/${state.rematchNeeded || state.requiredPlayers || 2} players ready`;
 }
 
 function renderWaitingRoster() {
@@ -207,14 +215,13 @@ function renderShowPreview(){
 }
 
 function renderTargets(){
-  const others=(state.players||[]).filter(p=>!p.isSelf&&p.hp>0).sort((a,b)=>a.seat-b.seat);
-  const cardCandidates=(state.players||[]).filter(p=>p.hp>0).sort((a,b)=>a.seat-b.seat);
-  if(!cardCandidates.some(p=>p.seat===selectedTargetSeat)){
-    const firstEnemy=others.find(p=>teamOfSeat(p.seat)!==teamOfSeat(state.you.seat));
-    selectedTargetSeat=firstEnemy?.seat??others[0]?.seat??state.you?.seat??null;
+  const candidates=(state.players||[]).filter(p=>p.hp>0).sort((a,b)=>a.seat-b.seat);
+  if(!candidates.some(p=>p.seat===selectedTargetSeat)){
+    const firstEnemy=candidates.find(p=>!p.isSelf&&teamOfSeat(p.seat)!==teamOfSeat(state.you.seat));
+    selectedTargetSeat=firstEnemy?.seat??candidates.find(p=>!p.isSelf)?.seat??state.you?.seat??null;
   }
-  fillTargetSelect($('targetSelect'),others);
-  fillTargetSelect($('cardTargetSelect'),cardCandidates);
+  fillTargetSelect($('targetSelect'),candidates);
+  fillTargetSelect($('cardTargetSelect'),candidates);
 }
 function fillTargetSelect(select,candidates){
   select.innerHTML='';
@@ -225,7 +232,8 @@ function fillTargetSelect(select,candidates){
   });
 }
 function syncDialogTarget(){ if(selectedTargetSeat!=null)$('cardTargetSelect').value=String(selectedTargetSeat); }
-function getPunchTargetSeat(){ const x=(state.players||[]).find(p=>p.seat===Number(selectedTargetSeat)&&!p.isSelf&&p.hp>0); return x?.seat??(state.players||[]).find(p=>!p.isSelf&&p.hp>0)?.seat??null; }
+function getPunchTargetSeat(){ const x=(state.players||[]).find(p=>p.seat===Number(selectedTargetSeat)&&!p.isSelf&&p.hp>0); return x?.seat??null; }
+function updateTargetHint(){ const p=(state?.players||[]).find(x=>x.seat===Number(selectedTargetSeat)); if($('targetHint')) $('targetHint').textContent=p?`Target: ${p.name}. You can also click a player.`:'Choose a target or click a player.'; }
 
 function renderEnvironment(){
   const env = state.environment || null;
@@ -239,13 +247,15 @@ function renderBoard(){
   [state.you,state.teammate].filter(Boolean).sort((a,b)=>a.seat-b.seat).forEach(p=>allyGrid.appendChild(makePlayerTile(p,p.isSelf?'self':'ally')));
 }
 function makePlayerTile(p,kind){
-  const tile=document.createElement('article'); tile.className=`player-tile glass ${kind} ${p.hp<=0?'dead':''} ${state.turn.seat===p.seat&&state.phase==='playing'?'active-turn':''}`;
+  const tile=document.createElement('article'); tile.className=`player-tile glass ${kind} ${p.hp<=0?'dead':''} ${state.turn.seat===p.seat&&state.phase==='playing'?'active-turn':''} ${Number(selectedTargetSeat)===Number(p.seat)?'selected-target':''}`;
   const pct=Math.max(0,Math.min(100,p.hp/state.config.startingHp*100));
   const handPreview=p.hand?.length?`<div class="revealed-hand">${p.hand.map(c=>`<span>${escapeHtml(c.name)}</span>`).join('')}</div>`:`<div class="mini-backs">${Array.from({length:Math.min(p.handCount,10)},()=>'<i></i>').join('')}${p.handCount>10?`<b>+${p.handCount-10}</b>`:''}</div>`;
   const buffs=(p.buffs||[]).map(b=>`<span class="buff">${escapeHtml(b)}</span>`).join('');
   const relation=p.isSelf?'YOU':teamOfSeat(p.seat)===teamOfSeat(state.you.seat)?'TEAMMATE':'ENEMY';
   tile.innerHTML=`<div class="player-line"><div><span class="label">TEAM ${teamLetter(p.seat)} · ${relation}</span><h2>${escapeHtml(p.name)}</h2></div><div class="hp-number"><b>${p.hp}</b><span>HP</span></div></div><div class="hpbar"><div style="width:${pct}%"></div></div><div class="status-row">${p.armor?`<span class="armor">◆ ${p.armor} armor</span>`:''}<div class="buffs">${buffs}</div></div><div class="tile-bottom"><div>${handPreview}</div><span class="discard-mini">Deck ${p.deckCount} · Discard ${p.discardCount}</span></div>`;
-  if(!p.isSelf&&p.hp>0) tile.onclick=()=>{selectedTargetSeat=p.seat;renderTargets();tile.classList.add('target-flash');setTimeout(()=>tile.classList.remove('target-flash'),250);};
+  if(p.hp>0) tile.onclick=()=>{selectedTargetSeat=p.seat;renderTargets();renderBoard();updateTargetHint();toast(`Target selected: ${p.name}`);};
+  const discard = tile.querySelector('.discard-mini');
+  if(discard){ discard.classList.add('clickable-discard'); discard.onclick=e=>{e.stopPropagation();openDiscard(p);}; }
   return tile;
 }
 
@@ -266,6 +276,30 @@ $('cancelCardBtn').onclick=()=>$('cardDialog').close();
 $('playCardBtn').onclick=()=>{if(selectedCard)socket.emit('playCard',{cardId:selectedCard.id,targetSeat:selectedTargetSeat});$('cardDialog').close();};
 
 function renderLog(){const el=$('battleLog');el.innerHTML='';[...(state.log||[])].reverse().forEach(x=>{const d=document.createElement('div');d.className='log-item';d.textContent=x.text;el.appendChild(d);});}
+function renderLastPlayed(){
+  const panel=$('lastPlayedPanel'); const lp=state?.lastPlayed;
+  panel.classList.toggle('hidden',!lp);
+  if(!lp) return;
+  const target=lp.targetName?` → ${lp.targetName}`:'';
+  $('lastPlayedCard').innerHTML=`<b>${escapeHtml(lp.card.name)}</b><span>${'★'.repeat(lp.card.stars)}</span><small>${escapeHtml(lp.playerName)}${escapeHtml(target)}</small><p>${escapeHtml(lp.card.effect)}</p>`;
+  $('lastPlayedResolution').innerHTML=(lp.resolution||[]).map(x=>`<div>${escapeHtml(x)}</div>`).join('') || '<div>Effect resolved.</div>';
+  $('lastPlayedCard').onclick=()=>showCard(lp.card,false);
+}
+function renderDiscardPiles(){
+  const el=$('discardPiles'); if(!el) return; el.innerHTML='';
+  (state.players||[]).slice().sort((a,b)=>a.seat-b.seat).forEach(p=>{
+    const b=document.createElement('button'); b.className='discard-button'; b.innerHTML=`<b>${escapeHtml(p.name)}</b><span>${p.discardCount} card${p.discardCount===1?'':'s'}</span>`; b.onclick=()=>openDiscard(p); el.appendChild(b);
+  });
+}
+function openDiscard(player){
+  $('discardDialogTitle').textContent=`${player.name}'s Discard Pile (${player.discardCount})`;
+  const grid=$('discardDialogGrid'); grid.innerHTML='';
+  const list=player.discard||[];
+  if(!list.length){ grid.innerHTML='<p class="empty-discard">No cards in this discard pile yet.</p>'; }
+  else list.slice().reverse().forEach(c=>{const n=makeCard(c);n.onclick=()=>showCard(c,false);grid.appendChild(n);});
+  $('discardDialog').showModal();
+}
+
 function toast(message){const t=$('toast');t.textContent=message;t.classList.remove('hidden');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>t.classList.add('hidden'),3200);}
 $('clearToastBtn').onclick=()=>$('toast').classList.add('hidden');
 

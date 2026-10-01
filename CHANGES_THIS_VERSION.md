@@ -1,13 +1,12 @@
 # Changes in this version
 
-- Kept the same simple layout, but changed the website to a black/dark theme.
-- Increased card-effect text size substantially so abilities are easier to read.
-- Expanded every show from 24 available cards to **33 available cards**.
-- Every show now has 20×3★, 10×4★, and 3×5★ available.
-- Deck construction is unchanged: choose 10×3★, 5×4★, and 1×5★ from each selected show.
-- Total card catalog increased from 1,392 to **1,914 cards**.
-- Reworked generated card names to be less repetitive and more like attacks, plays, scenes, bad decisions, techniques, and plot moments.
-- Extra cards lean more heavily on canon techniques/items/events/locations instead of adding only more character-name cards.
-- Original hand-written card names are preserved.
-- Six Environment cards per show remain, and only one Environment can exist on the board at a time.
-- Previous balance rules, memes, 1v1/2v2, friendly fire, and clean 10-point combat values remain.
+- Added a public **Last Played Card** panel. Everyone can inspect the card text after it is played.
+- Added a short resolution summary under the last played card using the actual battle events produced by the server.
+- Made discard piles clearly visible and public. Click a player's discard count or the Discard Piles buttons to inspect every discarded card.
+- The target dropdown now includes every living player and stays synchronized with board clicks.
+- Clicking any living player selects them as the current target and gives them a visible TARGET outline.
+- Punching still cannot target yourself unless a card specifically forces a self-punch.
+- Added server-side automatic turn ending when the current player has no legal actions remaining.
+- Auto-end respects extra-card-play cards, Golden Ball pairing, and extra-punch effects instead of ending too early.
+- Fixed the base action rule so a normal punch cannot be followed by a normal card play on the same turn.
+- Added **Play Again**. After a match, every player can ready for a rematch; once everyone clicks it, the same decks are reshuffled and a new coin flip begins in the same room.

@@ -65,13 +65,16 @@
           </div>
 
           <div class="target-box">
-            <label for="targetSelect">Target</label>
+            <label for="targetSelect">Selected Target</label>
             <select id="targetSelect"></select>
+            <small id="targetHint">You can also click a player on the board.</small>
           </div>
 
           <div class="action-stack">
             <button id="punchBtn" class="action punch"><span>👊</span><b>Punch</b></button>
             <button id="endBtn" class="action end"><span>→</span><b>End Turn</b></button>
+            <button id="playAgainBtn" class="primary hidden">Play Again</button>
+            <small id="rematchStatus" class="hidden"></small>
           </div>
         </aside>
 
@@ -83,6 +86,11 @@
               <div><span>Environment</span><b id="environmentName">None</b><small id="environmentOwner"></small></div>
             </div>
             <div id="matchBanner" class="match-banner">Waiting for action</div>
+            <div id="lastPlayedPanel" class="last-played-panel hidden">
+              <div class="last-played-head">Last Played Card</div>
+              <button id="lastPlayedCard" class="last-played-card"></button>
+              <div id="lastPlayedResolution" class="last-played-resolution"></div>
+            </div>
             <div id="vsMode" class="vs-2v2">2 <span>VS</span> 2</div>
           </div>
           <div class="team-heading ally-heading"><span>TEAM <b id="yourTeamLetter">A</b></span></div>
@@ -92,6 +100,10 @@
         <aside class="side-panel right-panel glass">
           <div class="panel-head"><h3>Battle Log</h3><button id="clearToastBtn" class="icon-btn">×</button></div>
           <div id="battleLog" class="battle-log"></div>
+          <div class="discard-section">
+            <h3>Discard Piles</h3>
+            <div id="discardPiles" class="discard-piles"></div>
+          </div>
         </aside>
       </div>
 
@@ -119,6 +131,11 @@
       <select id="cardTargetSelect"></select>
     </div>
     <div class="dialog-actions"><button id="cancelCardBtn" class="ghost">Cancel</button><button id="playCardBtn" class="primary">Play Card</button></div>
+  </dialog>
+
+  <dialog id="discardDialog" class="library-dialog discard-dialog">
+    <div class="library-top"><h2 id="discardDialogTitle">Discard Pile</h2><button id="closeDiscardBtn" class="icon-btn">×</button></div>
+    <div id="discardDialogGrid" class="library-grid"></div>
   </dialog>
 
   <script src="/socket.io/socket.io.js"></script>

@@ -37,3 +37,11 @@ Open `http://localhost:3000`.
 - `game-settings.json` — HP, punch damage, deck counts, Environment minimum
 - `CARD_CATALOG.md` — all cards
 - `BALANCE_AUDIT.md` — balance notes
+
+## Turn / information UI
+
+- Use the target dropdown or click a living player to select a target.
+- The latest played card remains visible to everyone and can be clicked to inspect its full text.
+- Discard piles are public and inspectable.
+- If a player has used all legal actions, the server automatically ends their turn.
+- After a game ends, all players can click **Play Again** to start a rematch with the same decks.
