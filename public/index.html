@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Anime Clash TCG — 2v2 Show Decks</title>
+  <title>Anime Clash TCG — 1v1 & 2v2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
@@ -12,35 +12,37 @@
 <body>
   <div class="noise"></div>
   <header class="topbar">
-    <div class="brand"><span class="brand-mark">AC</span><span>ANIME CLASH <b>TCG</b> <small>2v2</small></span></div>
+    <div class="brand"><span class="brand-mark">AC</span><span>ANIME CLASH <b>TCG</b> <small id="brandMode">1v1 / 2v2</small></span></div>
     <button id="libraryBtn" class="ghost small">Card Library</button>
   </header>
 
   <main>
     <section id="lobby" class="lobby shell">
       <div class="hero-copy">
-        <div class="eyebrow">REAL-TIME 2V2 FANMADE CARD BATTLE</div>
+        <div class="eyebrow">REAL-TIME 1V1 / 2V2 FANMADE CARD BATTLE</div>
         <h1>300 HP each.<br><span>Three shows build your deck.</span></h1>
-        <p>Create one private room and send the code to three friends. Each player picks exactly three shows. Every show contributes 10 three-star, 5 four-star, and 1 five-star card for a 48-card deck.</p>
+        <p>Choose 1v1 or 2v2, create a private room, and send the code to the other player(s). Each player picks exactly three shows, then chooses 10 three-star, 5 four-star, and 1 five-star card from each show for a 48-card deck.</p>
         <div class="rule-pills">
-          <span>2 vs 2</span><span>300 HP</span><span>20 punch</span><span>5-card opening hand</span><span>Draw each turn</span><span>48-card decks</span><span>Friendly fire</span>
+          <span>1v1 or 2v2</span><span>300 HP</span><span>20 punch</span><span>5-card opening hand</span><span>Draw each turn</span><span>48-card decks</span><span>Friendly fire</span>
         </div>
       </div>
 
       <div class="lobby-card glass">
         <label>Display name</label>
         <input id="nameInput" maxlength="24" placeholder="Player name" value="Player" />
-        <button id="createBtn" class="primary">Create 2v2 room</button>
+        <label>Game mode</label>
+        <select id="modeSelect" class="mode-select"><option value="2v2" selected>2v2 — four players</option><option value="1v1">1v1 — two players</option></select>
+        <button id="createBtn" class="primary">Create room</button>
         <div class="divider"><span>or join</span></div>
         <div class="join-row"><input id="roomInput" maxlength="5" placeholder="ROOM CODE" /><button id="joinBtn" class="secondary">Join</button></div>
-        <p class="micro">Four total players use the same room code. No account required.</p>
+        <p class="micro">Everyone uses the same room code. The room creator chooses 1v1 or 2v2. No account required.</p>
       </div>
     </section>
 
     <section id="waiting" class="waiting shell hidden">
       <div class="glass waiting-box deck-waiting-box">
-        <div class="eyebrow">2V2 ROOM</div>
-        <h2>Choose your three shows</h2>
+        <div class="eyebrow" id="waitingModeLabel">ROOM</div>
+        <h2>Build your deck</h2>
         <div class="room-code" id="waitingCode">-----</div>
         <button id="copyCodeBtn" class="secondary">Copy room code</button>
         <p id="waitingStatus">Waiting for players and decks…</p>
@@ -51,10 +53,11 @@
             <div><span class="label">YOUR 48-CARD DECK</span><h3 id="deckSelectionTitle">0 / 3 shows selected</h3></div>
             <button id="readyDeckBtn" class="primary" disabled>Lock deck & ready</button>
           </div>
-          <p class="micro">Every show below is a complete 16-card package: 10× 3★, 5× 4★, 1× 5★. Select exactly three.</p>
+          <p class="micro">Each show now has a 24-card pool: 15× 3★, 7× 4★, 2× 5★. Pick exactly three shows, then choose 10× 3★, 5× 4★, and 1× 5★ from each show.</p>
           <input id="showSearch" class="show-search" placeholder="Search shows…" />
           <div id="showPicker" class="show-picker"></div>
           <div id="selectedShows" class="selected-shows"></div>
+          <div id="showPreviewMeta" class="show-preview-meta"></div>
           <div id="showPreview" class="show-preview"></div>
         </div>
       </div>
@@ -73,7 +76,7 @@
           <div class="target-box">
             <label for="targetSelect">ACTION TARGET</label>
             <select id="targetSelect"></select>
-            <small>Single-target damage can hit a teammate. Enemy-wide effects still follow their printed wording.</small>
+            <small>Single-target damage can hit any other living player. In 2v2, that includes your teammate.</small>
           </div>
 
           <div class="action-stack">
@@ -82,7 +85,7 @@
           </div>
           <div class="rules-mini">
             <h3>Main turn rule</h3>
-            <p>At the start of your turn, draw 1 card. Then normally choose either one card or one punch. Special cards can grant extra plays. The team chosen by the opening coin flip skips its first-turn draws.</p>
+            <p>At the start of your turn, draw 1 card. Then normally choose either one card or one punch. Special cards can grant extra plays. The side that wins the opening coin flip goes first, but the player taking the very first turn does not draw a card. After that, turns draw normally.</p>
           </div>
         </aside>
 
@@ -91,7 +94,7 @@
           <div id="enemyGrid" class="players-grid enemies-grid"></div>
           <div class="center-field">
             <div id="matchBanner" class="match-banner">Waiting for action</div>
-            <div class="vs-2v2">2 <span>VS</span> 2</div>
+            <div id="vsMode" class="vs-2v2">2 <span>VS</span> 2</div>
           </div>
           <div class="team-heading ally-heading"><span>TEAM <b id="yourTeamLetter">A</b></span><small>YOUR TEAM</small></div>
           <div id="allyGrid" class="players-grid allies-grid"></div>

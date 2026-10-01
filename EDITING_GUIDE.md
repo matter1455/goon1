@@ -11,32 +11,57 @@ Edit `game-settings.json`:
   "startingHandSize": 5,
   "showsPerDeck": 3,
   "cardsPerShow": { "3": 10, "4": 5, "5": 1 },
+  "poolCardsPerShow": { "3": 15, "4": 7, "5": 2 },
   "deckSize": 48,
   "openingTeamSkipsFirstDraw": true
 }
 ```
 
-Restart the server after changing this file.
+`cardsPerShow` is what goes into a legal deck from each selected show. `poolCardsPerShow` describes how many cards are available to choose from in that show.
+
+The current first-player rule is: the coin-flip winner goes first, but the player taking **turn 1** does not draw. Everyone draws normally from turn 2 onward.
+
+## 1v1 / 2v2
+
+The room creator chooses the mode in the lobby. `server.js` stores the mode with the room:
+
+- `1v1` → 2 seats (`A1`, `B1`)
+- `2v2` → 4 seats (`A1`, `B1`, `A2`, `B2`)
+
+Turn order in 2v2 is A1 → B1 → A2 → B2. Dead players are skipped.
 
 ## How the card files work
 
-`data/canon_references.py` contains the 16 canon references assigned to every show. The order is:
+`data/canon_references.py` contains the core canon references assigned to each show. The generator first creates the original 16-card core package, then adds alternate cards tied back to those references so each show reaches:
 
 ```text
-first 10  -> 3★
-next 5    -> 4★
-last 1    -> 5★
+15 × 3★
+ 7 × 4★
+ 2 × 5★
+--------
+24 cards available per show
 ```
 
-`data/generate_cards.py` combines those references with the preserved original cards in `data/legacy_cards.json`, assigns balanced automated abilities, validates the rarity counts, and writes `data/cards.json`.
+A player still chooses only:
+
+```text
+10 × 3★
+ 5 × 4★
+ 1 × 5★
+--------
+16 cards from that show
+```
+
+Three shows = 48 cards.
 
 Run:
 
 ```bash
 python data/generate_cards.py
+python data/validate_cards.py
 ```
 
-**Important:** this overwrites `data/cards.json`.
+**Important:** `generate_cards.py` overwrites `data/cards.json`.
 
 ## Balance philosophy
 
@@ -48,33 +73,29 @@ The pure-stat targets are guides:
 5★: about 100 damage / 100 healing / 80 armor
 ```
 
-Do not force a utility card to also receive full baseline damage. Draw, discard, turn denial, extra card plays, damage multipliers, delayed attacks, information, immunity, recursion, and similar effects consume part of the card's power budget. Drawbacks and setup can justify going above the pure-stat line.
+Utility consumes part of the budget. Draw, discard, turn denial, extra card plays, damage multipliers, delayed attacks, immunity, recursion, and similar effects should reduce raw stats. Setup, self-damage, delayed resolution, or narrow conditions can justify exceeding the pure-stat baseline.
 
-## Generated-card roles
+## Alternate pool cards
 
-`reference_profile()` in `data/generate_cards.py` decides whether a canon reference should behave more like:
+The extra 8 cards per show are generated from existing canon references. Their subtitle is fanmade, while `canonRef` records the actual show reference the card is based on.
 
-- `assault`
-- `team`
-- `control`
-- `social`
-- `tempo`
-- `sport`
-- `risk`
-- `mystic`
-- `tactical`
+Example:
 
-Exact overrides and keyword rules prevent obvious mismatches such as an iconic attack being turned into a pure healing card. Add an entry to `ROLE_OVERRIDES` if you want to force a particular reference into another play style.
-
-## Curated 5★ cards
-
-`FIVE_STAR_SPECIALS` in `data/generate_cards.py` contains hand-designed marquee effects for shows whose 5★ slot was not already occupied by one of the original cards.
-
-These deliberately use special mechanics and do **not** need to equal exactly 100 damage / 100 healing / 80 armor.
+```json
+{
+  "name": "Example Character — Breakthrough",
+  "show": "Example Show",
+  "stars": 3,
+  "canonRef": "Example Character",
+  "variant": true,
+  "effect": "...",
+  "action": { "type": "bundle", "main": {}, "after": [] }
+}
+```
 
 ## Structured effects supported by the server
 
-Generated cards can combine these operations in sequences, bundles, and coin flips:
+Generated cards can combine:
 
 - damage / delayed damage
 - healing
@@ -83,7 +104,7 @@ Generated cards can combine these operations in sequences, bundles, and coin fli
 - random discard
 - attack bonuses and multipliers
 - incoming-damage multipliers/reductions
-- marks that increase the next damage taken
+- marks
 - healing prevention
 - untargetability
 - discard-pile recursion
@@ -97,33 +118,9 @@ Generated cards can combine these operations in sequences, bundles, and coin fli
 - revival support
 - bonus next-turn draws
 
-The server applies these effects rather than merely printing their text.
-
-## Directly editing one card
-
-The final live catalog is `data/cards.json`. A generated card contains both text and automation data:
-
-```json
-{
-  "name": "Example",
-  "show": "Example Show",
-  "stars": 3,
-  "effect": "Deal 20 damage to one other player, then draw 1 card.",
-  "action": {
-    "type": "sequence",
-    "steps": [
-      { "op": "damage", "target": "chosen_other", "amount": 20 },
-      { "op": "draw", "target": "self", "count": 1 }
-    ]
-  }
-}
-```
-
-If you edit `cards.json` directly, do not rerun `generate_cards.py` unless you also copy the change into the generator or original-card source file.
-
 ## Website files
 
 - `public/index.html` — layout/text.
 - `public/style.css` — appearance.
-- `public/client.js` — deck builder, show tabs, target selector, and controls.
-- `server.js` — server-enforced game logic.
+- `public/client.js` — mode picker, deck builder, card selection, targets, and controls.
+- `server.js` — server-enforced rules.

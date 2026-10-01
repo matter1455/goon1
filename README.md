@@ -1,43 +1,43 @@
-# Anime Clash TCG — 2v2 Canon-Card Edition
+# Anime Clash TCG — 1v1 / 2v2 Expanded Deck Builder
 
-A realtime browser prototype for a fanmade 2v2 TCG. This build uses the new 300-HP / three-show deck rules and replaces the old generic filler cards with show-specific canon references and unique automated abilities.
+A realtime browser prototype for a fanmade anime TCG. This build supports **1v1 and 2v2**, custom 48-card deck building, room codes, 300 HP, 20-damage punches, friendly fire in 2v2, and an expanded card pool for every show.
 
 ## Rules currently enforced
 
 - 300 HP per player.
 - Punch = 20 damage.
 - Normally choose **one card OR one punch** on your turn.
-- Draw 1 card at the beginning of your turn.
+- Draw 1 card at the beginning of each turn.
+- The player taking the **very first turn of the match does not draw**. After that, draws happen normally.
 - Opening hand = 5 cards.
 - Deck = 48 cards.
 - Unlimited hand size.
-- A deck is exactly 3 shows.
-- Every show package is exactly 16 cards: **10× 3★, 5× 4★, 1× 5★**.
-- A coin flip chooses the starting team.
-- Both players on the team that wins the opening coin flip skip the automatic draw on their first personal turn.
-- Friendly fire is enabled for punches and manually targeted single-target damage.
-- A team wins when both opposing players are knocked out.
+- A deck uses exactly 3 shows.
+- From each selected show, choose **10× 3★, 5× 4★, and 1× 5★**.
+- Each show now has a larger pool: **15× 3★, 7× 4★, and 2× 5★**.
+- A coin flip chooses which side goes first.
+- 1v1 rooms require 2 players; 2v2 rooms require 4 players.
+- Friendly fire is enabled for punches and manually targeted single-target damage in 2v2.
+- A side wins when every opposing player is knocked out.
 
 ## Card catalog
 
-`data/cards.json` contains **928 cards across 58 shows**:
+`data/cards.json` contains **1,392 cards across 58 shows**.
 
-- the original 90 fanmade cards are preserved and normalized to the new rules where a direct stat adjustment was needed;
-- **838 new cards** use characters, abilities, objects, locations, groups, or story concepts tied to their listed series;
-- the old generic generated labels such as `Crossfire`, `Second Wind`, and `Guard Stance` have been removed;
-- every generated card has unique printed effect text **and a unique structured action sequence**;
-- recognizable offensive/defensive/control/support references are assigned suitable mechanical roles instead of blindly inheriting one generic show template;
-- generated 5★ cards use hand-designed show-specific marquee effects rather than generic rarity filler.
+Every show has 24 available cards, so choosing a show no longer forces the same 16 cards every time. The deck builder automatically starts you with a legal 10/5/1 package for each selected show, and you can click cards to swap among the extra options before locking the deck.
 
-The baselines are treated as a **power budget**, not a strict formula. A card with draw, denial, delayed damage, extra plays, setup, a drawback, or a conditional effect can sit above or below the raw damage/heal/armor baseline when the total effect justifies it.
+The original cards remain in the live catalog. Added cards use canon references already assigned to their listed series, while the card subtitles/effects are fanmade. Generated abilities remain executable by the server rather than being text-only.
+
+The rarity baselines are treated as a **power budget**, not a strict formula. Draw, denial, delayed damage, extra plays, setup, drawbacks, conditions, and team utility can move a card above or below the pure-stat baseline.
 
 ## Files for card design
 
-- `data/canon_references.py` — the canon references used to fill each show package.
-- `data/generate_cards.py` — the balance/effect generator and curated 5★ effects.
+- `data/canon_references.py` — canon references used by each show.
+- `data/generate_cards.py` — balance/effect generator, alternate pool options, and curated 5★ effects.
 - `data/legacy_cards.json` — preserved source list for the original cards.
-- `data/cards.json` — the final live catalog consumed by the game.
-- `CARD_CATALOG.md` — a human-readable list of every show, card, rarity, and effect.
+- `data/cards.json` — final live catalog used by the website.
+- `data/validate_cards.py` — validates pool sizes, names, references, and generated-effect uniqueness.
+- `CARD_CATALOG.md` — human-readable list of all cards.
 
 ## Run locally
 
@@ -54,30 +54,24 @@ Then open:
 http://localhost:3000
 ```
 
-For development with automatic restart:
-
-```bash
-npm run dev
-```
-
-## Online multiplayer
-
-Deploy the folder to a Node/WebSocket-capable host such as Render or Railway.
+## Deploy on Render
 
 ```text
 Build command: npm install
 Start command: npm start
 ```
 
-All four players open the same public URL. One creates a room and sends the five-character room code to the other three.
+Everyone opens the same public Render URL. One player creates either a 1v1 or 2v2 room and shares the five-character room code.
+
+If this folder replaces the files in an existing GitHub repository already connected to Render, committing/pushing the replacement files should trigger a new deploy automatically.
 
 ## Main editable files
 
-- `game-settings.json` — HP, punch damage, opening hand, deck size, and show composition.
+- `game-settings.json` — HP, punch damage, opening hand, deck composition, and card-pool size.
 - `data/cards.json` — final card catalog.
-- `data/canon_references.py` — show/card reference pool.
+- `data/canon_references.py` — show reference pool.
 - `data/generate_cards.py` — generated effects and balance logic.
-- `server.js` — multiplayer rules and automated effects.
-- `public/index.html` — layout.
-- `public/client.js` — browser UI, targeting, deck builder, and show tabs.
+- `server.js` — multiplayer modes, turns, deck validation, and automated effects.
+- `public/index.html` — layout and rules text.
+- `public/client.js` — room mode picker, targets, and custom deck builder.
 - `public/style.css` — appearance.

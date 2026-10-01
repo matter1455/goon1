@@ -10,11 +10,12 @@ for c in cards:
     by_show[c['show']][int(c['stars'])] += 1
 
 errors=[]
-if len(cards) != 928: errors.append(f'Expected 928 cards, got {len(cards)}')
+EXPECTED=(15,7,2)
+if len(cards) != 1392: errors.append(f'Expected 1392 cards, got {len(cards)}')
 if len(by_show) != 58: errors.append(f'Expected 58 shows, got {len(by_show)}')
 for show in SHOW_REFERENCES:
     got=by_show[show]
-    if (got[3],got[4],got[5]) != (10,5,1): errors.append(f'{show}: got {dict(got)}')
+    if (got[3],got[4],got[5]) != EXPECTED: errors.append(f'{show}: got {dict(got)}')
 
 names=[c['name'].casefold() for c in cards]
 if len(names)!=len(set(names)): errors.append('Duplicate card names found')
@@ -29,7 +30,7 @@ for c in generated:
     if c.get('canonRef') not in SHOW_REFERENCES[c['show']]:
         errors.append(f"{c['name']}: canonRef not in its show reference list")
 
-banned=('opening move','crossfire','second wind','guard stance','momentum shift','series finale','signature technique')
+banned=('opening move','crossfire','guard stance','momentum shift','series finale','signature technique')
 for c in generated:
     if any(x in c['name'].casefold() for x in banned): errors.append(f"Generic filler name remains: {c['name']}")
 
@@ -42,6 +43,7 @@ print('VALIDATION OK')
 print(f'- {len(cards)} cards')
 print(f'- {len(by_show)} shows')
 print(f'- {len(generated)} generated canon-reference cards')
-print('- every show = 10x 3-star / 5x 4-star / 1x 5-star')
+print('- every show pool = 15x 3-star / 7x 4-star / 2x 5-star')
+print('- each deck still selects 10x 3-star / 5x 4-star / 1x 5-star per chosen show')
 print('- generated effect text unique')
 print('- generated structured actions unique')

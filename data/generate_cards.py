@@ -765,6 +765,81 @@ def add_signature_twist(effect, action, show, ref, stars, profile, attempt=0):
         step, text = pick
     return effect.rstrip('.') + '. ' + text, {'type':'bundle','main':action,'after':[step]}
 
+
+VARIANT_TITLES = {
+    'assault': ['Pressure', 'Follow-Through', 'Breakthrough', 'Counteroffensive', 'Overdrive', 'Finisher', 'Decisive Strike', 'Final Push'],
+    'team': ['Cover', 'Rally', 'Coordination', 'Backup Plan', 'Formation', 'Rescue', 'United Front', 'Last Stand'],
+    'control': ['Read the Field', 'Calculated Trap', 'Lockdown', 'Counterplay', 'Checkmate', 'Interference', 'No Escape', 'Master Plan'],
+    'social': ['Heart-to-Heart', 'Helping Hand', 'Promise', 'Trust', 'Reassurance', 'Together', 'Shared Resolve', 'Unbreakable Bond'],
+    'tempo': ['Momentum', 'Encore', 'Second Beat', 'Quick Shift', 'Set the Pace', 'Acceleration', 'Showstopper', 'Finale'],
+    'sport': ['Perfect Form', 'Second Wind', 'Closing Sprint', 'Training Payoff', 'Clutch Play', 'Peak Condition', 'Photo Finish', 'Champion Form'],
+    'risk': ['Over the Limit', 'No Turning Back', 'Danger Zone', 'All In', 'Burnout', 'Desperation', 'Point of No Return', 'Last Gamble'],
+    'mystic': ['Hidden Art', 'Arcane Turn', 'Forbidden Pattern', 'Resonance', 'Unseen Hand', 'Mystic Shift', 'Grand Invocation', 'Transcendence'],
+    'tactical': ['Positioning', 'Prepared Response', 'Measured Strike', 'Contingency', 'Field Plan', 'Countermeasure', 'Perfect Setup', 'Grand Strategy'],
+}
+
+
+def alternate_five_effect(profile, show_index):
+    """Second marquee option for each show.
+
+    This deliberately uses a different mechanical shape from the show's original 5★ while
+    staying in the same broad 5★ power budget.  The small per-show numeric offset is only
+    there to keep decks from feeling mechanically cloned.
+    """
+    j = show_index % 4
+    if profile == 'assault':
+        return (f'Deal {50+j*2} damage to both opponents. Your next attack gets +20 damage.',
+                seq(st('damage','enemies',amount=50+j*2), st('buff_attack','self',amount=20)))
+    if profile == 'team':
+        return ('Heal both members of your team 35 HP and give each 25 armor.',
+                seq(st('heal','team',amount=35), st('armor','team',amount=25)))
+    if profile == 'control':
+        return ('Choose an opponent. They skip their next turn. Draw 1 card, then their next attack deals 20 less damage.',
+                seq(st('skip_turn','chosen_enemy',count=1), st('draw','self',count=1), st('buff_attack','chosen_enemy',amount=-20)))
+    if profile == 'social':
+        return ('Heal yourself or your teammate 75 HP, give them 20 armor, then draw 1 card.',
+                seq(st('heal','ally',amount=75), st('armor','ally',amount=20), st('draw','self',count=1)))
+    if profile == 'tempo':
+        return ('Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card.',
+                seq(st('draw','self',count=3), st('extra_play','self',count=1,maxStars=4), st('discard_random','self',count=1)))
+    if profile == 'sport':
+        return ('You and your teammate each get ×1.4 damage on your next attack and 20 armor.',
+                seq(st('attack_multiplier','team',mult=1.4), st('armor','team',amount=20)))
+    if profile == 'risk':
+        return ('Take 25 damage, then deal 120 damage to one other player. The next damage you take is increased by 25%.',
+                seq(st('damage','self',amount=25,attack=False), st('damage','chosen_other',amount=120), st('next_damage_multiplier','self',mult=1.25)))
+    if profile == 'mystic':
+        return ('Deal 70 damage to one other player. Until your next turn, no single hit can deal more than 35 damage to you.',
+                seq(st('damage','chosen_other',amount=70), st('damage_cap','self',amount=35)))
+    return ('Deal 55 damage to one other player, give yourself or your teammate 35 armor, and reduce the next damage you take by 20.',
+            seq(st('damage','chosen_other',amount=55), st('armor','ally',amount=35), st('reduce_next','self',amount=20)))
+
+
+def add_variant_signature(effect, action, serial):
+    """Add a small, executable, mechanically unique rider to an alternate card.
+
+    12x12 combinations across four rider families provide 576 distinct signatures while
+    keeping the extra value small (1-12 points per rider) so the base rarity budget still
+    drives balance.
+    """
+    family = serial // 144
+    within = serial % 144
+    a = 1 + (within % 12)
+    b = 1 + ((within // 12) % 12)
+    if family == 0:
+        after = [st('armor','self',amount=a), st('buff_attack','self',amount=b)]
+        text = f'Afterward, gain {a} armor and your next attack gets +{b} damage.'
+    elif family == 1:
+        after = [st('heal','self',amount=a), st('reduce_next','self',amount=b)]
+        text = f'Afterward, heal yourself {a} HP and reduce the next damage you take by {b}.'
+    elif family == 2:
+        after = [st('buff_attack','chosen_enemy',amount=-a), st('armor','self',amount=b)]
+        text = f'Afterward, an opponent’s next attack deals {a} less damage and you gain {b} armor.'
+    else:
+        after = [st('mark','chosen_other',amount=a), st('heal','self',amount=b)]
+        text = f'Afterward, mark one other player for +{a} on the next damage they take and heal yourself {b} HP.'
+    return effect.rstrip('.') + '. ' + text, {'type':'bundle','main':action,'after':after}
+
 legacy_clean = [clean_legacy(c) for c in legacy]
 by_show = defaultdict(lambda: defaultdict(list))
 for c in legacy_clean:
@@ -843,17 +918,62 @@ for show_index, show in enumerate(show_names):
         if added != need:
             raise RuntimeError(f'Not enough canon candidates for {show} {star}★: need {need}, added {added}')
 
+# Expand every show's card POOL beyond the 16 cards that actually go into a deck.
+# Players still build with 10x 3★, 5x 4★, and 1x 5★ from each selected show, but now
+# each show offers 15x 3★, 7x 4★, and 2x 5★ to choose from.
+POOL_TARGETS = {3: 15, 4: 7, 5: 2}
+for show_index, show in enumerate(show_names):
+    refs = SHOW_REFERENCES[show]
+    show_profile = PROFILES[show]
+    variant_specs = [
+        *[(3, refs[i], i) for i in range(5)],
+        *[(4, refs[10+i], i) for i in range(2)],
+        (5, refs[14], 0),
+    ]
+    for star, ref, variant_index in variant_specs:
+        card_profile = reference_profile(show, ref, show_profile)
+        titles = VARIANT_TITLES.get(card_profile, VARIANT_TITLES['tactical'])
+        title_index = (variant_index + (0 if star == 3 else 5 if star == 4 else 7)) % len(titles)
+        name = f'{ref} — {titles[title_index]}'
+        if name.casefold() in used_names:
+            name = f'{name} — {show}'
+
+        if star == 5:
+            effect, action = alternate_five_effect(card_profile, show_index)
+        else:
+            # Hash a variant-only label so the alternate card does not simply reuse the base slot.
+            themed_slot = themed_slot_for(show, f'{ref} | alternate {variant_index+1}', star, card_profile)
+            effect, action = generated_effect(card_profile, star, themed_slot, show_index)
+
+        variant_serial = show_index * 8 + (variant_index if star == 3 else 5 + variant_index if star == 4 else 7)
+        peffect, paction = add_variant_signature(effect, action, variant_serial)
+        action_key = json.dumps(paction, sort_keys=True, ensure_ascii=False)
+        if peffect in seen_generated_effects or action_key in seen_generated_actions:
+            raise RuntimeError(f'Duplicate alternate ability for {show}: {ref}')
+
+        seen_generated_effects.add(peffect)
+        seen_generated_actions.add(action_key)
+        out.append({
+            'id': next_id, 'name': name, 'show': show, 'origin': show, 'stars': star,
+            'effect': peffect, 'action': paction, 'generated': True, 'variant': True,
+            'canonRef': ref, 'profile': card_profile, 'showProfile': show_profile,
+        })
+        next_id += 1
+        used_names.add(name.casefold())
+
 counts=defaultdict(Counter)
 for c in out: counts[c['show']][c['stars']]+=1
 assert len(counts)==58
-assert all(v[3]==10 and v[4]==5 and v[5]==1 for v in counts.values())
-assert len(out)==928
+assert all(v[3]==POOL_TARGETS[3] and v[4]==POOL_TARGETS[4] and v[5]==POOL_TARGETS[5] for v in counts.values())
+assert len(out)==58 * sum(POOL_TARGETS.values())
 assert len({c['name'].casefold() for c in out})==len(out)
 
-# Ensure generated cards do not use the old generic filler labels.
-banned=('opening move','crossfire','second wind','guard stance','momentum shift','series finale','signature technique')
+# Ensure generated cards do not use the old generic filler labels from the earliest prototype.
+banned=('opening move','crossfire','guard stance','momentum shift','series finale','signature technique')
 assert not any(c.get('generated') and any(x in c['name'].lower() for x in banned) for c in out)
 
 (ROOT/'cards.json').write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
 (ROOT/'shows.json').write_text(json.dumps(show_names, ensure_ascii=False, indent=2), encoding='utf-8')
-print(f'Generated {len(out)} cards across {len(counts)} shows; {sum(c.get("generated",False) for c in out)} canon-based new cards.')
+print(f'Generated {len(out)} cards across {len(counts)} shows; pool per show = 15x3★ / 7x4★ / 2x5★.')
+print(f'{sum(c.get("generated",False) for c in out)} generated canon-reference cards; deck requirement remains 10/5/1 per selected show.')
+

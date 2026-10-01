@@ -13,6 +13,7 @@ const STARTING_HAND_SIZE = SETTINGS.startingHandSize;
 const SHOWS_PER_DECK = SETTINGS.showsPerDeck;
 const DECK_SIZE = SETTINGS.deckSize;
 const CARDS_PER_SHOW = SETTINGS.cardsPerShow;
+const POOL_CARDS_PER_SHOW = SETTINGS.poolCardsPerShow || { '3': 15, '4': 7, '5': 2 };
 const SHOWS = [...new Set(CARDS.map(c => c.show || c.origin))].sort();
 // Card-specific gamble effects still use these internal odds; there is no base gamble action.
 const STANDARD_GAMBLE = {3: 0.70, 4: 0.25, 5: 0.05};
@@ -28,7 +29,7 @@ const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/api/cards', (_req, res) => res.json(CARDS));
-app.get('/api/config', (_req, res) => res.json({ startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW }));
+app.get('/api/config', (_req, res) => res.json({ startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW }));
 app.get('/api/shows', (_req, res) => res.json(SHOWS));
 
 const rooms = new Map();
@@ -107,30 +108,49 @@ function makePlayer(socket, name, seat) {
     discard: [],
     deck: [],
     selectedShows: [],
+    selectedCardIds: [],
     ready: false,
     firstTurnTaken: false,
     buffs: blankBuffs(),
   };
 }
 
-function buildDeckForShows(shows) {
+function defaultCardIdsForShows(shows) {
+  const ids = [];
+  for (const show of shows) {
+    for (const star of [3,4,5]) {
+      const need = Number(CARDS_PER_SHOW[String(star)]);
+      ids.push(...CARDS.filter(c => (c.show || c.origin) === show && Number(c.stars) === star).sort((a,b)=>a.id-b.id).slice(0, need).map(c=>c.id));
+    }
+  }
+  return ids;
+}
+
+function buildDeckForSelection(shows, cardIds) {
   if (!Array.isArray(shows) || shows.length !== SHOWS_PER_DECK) return null;
-  const unique = [...new Set(shows)];
-  if (unique.length !== SHOWS_PER_DECK || unique.some(x => !SHOWS.includes(x))) return null;
-  const chosen = CARDS.filter(c => unique.includes(c.show || c.origin));
-  if (chosen.length !== DECK_SIZE) return null;
-  for (const show of unique) {
+  const uniqueShows = [...new Set(shows)];
+  if (uniqueShows.length !== SHOWS_PER_DECK || uniqueShows.some(x => !SHOWS.includes(x))) return null;
+
+  let ids = Array.isArray(cardIds) ? [...new Set(cardIds.map(Number).filter(Number.isFinite))] : [];
+  if (!ids.length) ids = defaultCardIdsForShows(uniqueShows);
+  if (ids.length !== DECK_SIZE) return null;
+
+  const chosen = ids.map(getCard);
+  if (chosen.some(c => !c)) return null;
+  if (chosen.some(c => !uniqueShows.includes(c.show || c.origin))) return null;
+
+  for (const show of uniqueShows) {
     const cards = chosen.filter(c => (c.show || c.origin) === show);
     const counts = {3:0,4:0,5:0};
     cards.forEach(c => counts[c.stars]++);
     if (counts[3] !== Number(CARDS_PER_SHOW['3']) || counts[4] !== Number(CARDS_PER_SHOW['4']) || counts[5] !== Number(CARDS_PER_SHOW['5'])) return null;
   }
-  return shuffle(chosen.map(c => c.id));
+  return ids;
 }
 
 function preparePlayerDeck(p) {
   p.hp = STARTING_HP; p.armor = 0; p.hand = []; p.discard = []; p.buffs = blankBuffs(); p.firstTurnTaken = false;
-  p.deck = buildDeckForShows(p.selectedShows) || [];
+  p.deck = shuffle(buildDeckForSelection(p.selectedShows, p.selectedCardIds) || []);
   for (let i = 0; i < STARTING_HAND_SIZE; i++) drawCard(p);
 }
 
@@ -222,7 +242,9 @@ function publicPlayer(p, viewer, room) {
     deckCount: p.deck.length,
     ready: p.ready,
     selectedShows: self ? [...p.selectedShows] : [],
+    selectedCardIds: self ? [...p.selectedCardIds] : [],
     selectedShowCount: p.selectedShows.length,
+    selectedCardCount: p.selectedCardIds.length,
     buffs: summarizeBuffs(p.buffs),
     isSelf: self,
   };
@@ -261,7 +283,9 @@ function stateFor(room, viewer) {
     code: room.code,
     phase: room.phase,
     winner: room.winner,
-    waitingFor: Math.max(0, 4 - room.players.length),
+    mode: room.mode,
+    requiredPlayers: room.requiredPlayers,
+    waitingFor: Math.max(0, room.requiredPlayers - room.players.length),
     turn: { ...room.turn, currentName: currentPlayer(room)?.name || '' },
     you: publicPlayer(viewer, viewer, room),
     teammate: mate ? publicPlayer(mate, viewer, room) : null,
@@ -270,7 +294,7 @@ function stateFor(room, viewer) {
     log: room.log,
     shows: SHOWS,
     startingTeam: room.startingTeam,
-    config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW },
+    config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW },
     pending: room.pending && room.pending.forSocket === viewer.socketId ? room.pending.public : null,
   };
 }
@@ -434,9 +458,8 @@ function startOfTurn(room, p) {
   p.buffs.delayedTeamRocket = p.buffs.delayedTeamRocket.filter(x => x.turns > 0);
   if (p.buffs.skipTurns > 0 && room.phase === 'playing') { p.buffs.skipTurns -= 1; log(room, `${p.name}'s turn was skipped.`); setTimeout(() => advanceTurn(room), 250); return false; }
 
-  const isFirstPersonalTurn = !p.firstTurnTaken;
-  const skipOpeningDraw = SETTINGS.openingTeamSkipsFirstDraw && isFirstPersonalTurn && teamOf(p) === room.startingTeam;
-  if (skipOpeningDraw) log(room, `${p.name} skips the opening draw because Team ${room.startingTeam === 0 ? 'A' : 'B'} went first.`);
+  const skipOpeningDraw = SETTINGS.openingTeamSkipsFirstDraw && room.turn.number === 1 && teamOf(p) === room.startingTeam;
+  if (skipOpeningDraw) log(room, `${p.name} skips the draw on the very first turn because Team ${room.startingTeam === 0 ? 'A' : 'B'} won the coin flip and went first.`);
   else {
     const drawCount = 1 + Math.max(0, Number(p.buffs.bonusNextDraw) || 0);
     const gained = drawCards(p, drawCount);
@@ -450,11 +473,12 @@ function startOfTurn(room, p) {
 
 function advanceTurn(room) {
   if (room.phase !== 'playing') return;
-  let nextSeat = room.turn.seat;
+  const seatOrder = room.mode === '1v1' ? [0,1] : [0,1,2,3];
+  let idx = seatOrder.indexOf(room.turn.seat);
   let next = null;
-  for (let i = 0; i < 4; i++) {
-    nextSeat = (nextSeat + 1) % 4;
-    const candidate = playerBySeat(room, nextSeat);
+  for (let i = 0; i < seatOrder.length; i++) {
+    idx = (idx + 1) % seatOrder.length;
+    const candidate = playerBySeat(room, seatOrder[idx]);
     if (candidate && candidate.hp > 0) { next = candidate; break; }
   }
   if (!next) return;
@@ -863,36 +887,39 @@ function playCard(room, p, card, targetSeat = null) {
 }
 
 io.on('connection', socket => {
-  socket.on('createRoom', ({ name } = {}) => {
+  socket.on('createRoom', ({ name, mode } = {}) => {
     const code = roomCode();
-    const room = { code, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null };
+    mode = mode === '1v1' ? '1v1' : '2v2';
+    const requiredPlayers = mode === '1v1' ? 2 : 4;
+    const room = { code, mode, requiredPlayers, phase:'waiting', players:[makePlayer(socket,name,0)], turn:newTurnState(0,1), log:[], winner:null, history:[], pending:null, startingTeam:null };
     rooms.set(code, room); socket.data.roomCode = code; socket.join(code);
-    log(room, `${room.players[0].name} created room ${code}. Choose exactly ${SHOWS_PER_DECK} shows and ready up.`); emitState(room);
+    log(room, `${room.players[0].name} created a ${mode} room ${code}. Choose exactly ${SHOWS_PER_DECK} shows, build your 48-card deck, and ready up.`); emitState(room);
   });
 
   socket.on('joinRoom', ({ code, name } = {}) => {
     code = String(code || '').trim().toUpperCase(); const room = rooms.get(code);
     if (!room) return socket.emit('errorMessage','Room not found.');
-    if (room.players.length >= 4) return socket.emit('errorMessage','Room is full.');
-    const seat=[0,1,2,3].find(s=>!room.players.some(x=>x.seat===s)); const p=makePlayer(socket,name,seat);
+    if (room.players.length >= room.requiredPlayers) return socket.emit('errorMessage','Room is full.');
+    const allowedSeats = room.mode === '1v1' ? [0,1] : [0,1,2,3];
+    const seat=allowedSeats.find(s=>!room.players.some(x=>x.seat===s)); const p=makePlayer(socket,name,seat);
     room.players.push(p); socket.data.roomCode=code; socket.join(code);
     log(room, `${p.name} joined as Team ${teamOf(p)===0?'A':'B'} Player ${Math.floor(seat/2)+1}.`); emitState(room);
   });
 
-  socket.on('setDeck', ({ shows } = {}) => {
+  socket.on('setDeck', ({ shows, cardIds } = {}) => {
     const room=requireRoom(socket); if (!room || room.phase!=='waiting') return;
     const p=playerBySocket(room,socket.id); if (!p) return;
-    const deck=buildDeckForShows(shows);
-    if (!deck) return socket.emit('errorMessage',`Choose exactly ${SHOWS_PER_DECK} valid shows. Each show must contain 10×3★, 5×4★, and 1×5★.`);
-    p.selectedShows=[...new Set(shows)]; p.ready=true;
-    log(room, `${p.name} locked a 48-card deck (${p.selectedShows.join(' / ')}).`);
-    if (room.players.length===4 && room.players.every(x=>x.ready)) {
+    const deck=buildDeckForSelection(shows, cardIds);
+    if (!deck) return socket.emit('errorMessage',`Choose exactly ${SHOWS_PER_DECK} valid shows and exactly 10×3★, 5×4★, and 1×5★ from each show (48 cards total).`);
+    p.selectedShows=[...new Set(shows)]; p.selectedCardIds=[...deck]; p.ready=true;
+    log(room, `${p.name} locked a custom 48-card deck (${p.selectedShows.join(' / ')}).`);
+    if (room.players.length===room.requiredPlayers && room.players.every(x=>x.ready)) {
       room.players.forEach(preparePlayerDeck);
       room.startingTeam=Math.random()<0.5?0:1;
       const firstSeat=room.startingTeam===0?0:1;
       room.phase='playing'; room.turn=newTurnState(firstSeat,1);
       saveTurnSnapshot(room);
-      log(room, `Coin flip: Team ${room.startingTeam===0?'A':'B'} goes first. ${currentPlayer(room).name} starts.`);
+      log(room, `Coin flip: Team ${room.startingTeam===0?'A':'B'} goes first in ${room.mode}. The player taking the very first turn does not draw. ${currentPlayer(room).name} starts.`);
       startOfTurn(room,currentPlayer(room));
     }
     emitState(room);

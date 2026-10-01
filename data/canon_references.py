@@ -1,5 +1,6 @@
-# Canon-based references used to fill each show's 10x 3-star, 5x 4-star, 1x 5-star package.
-# Each list is ordered as 10 lower-rarity references, 5 higher-impact references, 1 marquee reference.
+# Canon-based references used to build each show's core cards and alternate pool options.
+# Each list is ordered as 10 lower-rarity references, 5 higher-impact references, 1 marquee reference;
+# generate_cards.py reuses selected references for additional fanmade alternate cards.
 SHOW_REFERENCES = {
 "86 Eighty-Six": [
     "Shin Nouzen", "Vladilena Milizé", "Raiden Shuga", "Anju Emma", "Theoto Rikka", "Kurena Kukumila", "Fido", "Frederica Rosenfort", "Juggernaut", "Spearhead Squadron",
