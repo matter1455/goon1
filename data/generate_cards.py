@@ -179,7 +179,7 @@ FIVE_STAR_SPECIALS = {
     'Fairy Tail': ('Heal both members of your team 40 HP, then draw 1 card.', seq(st('heal','team',amount=40), st('draw','self',count=1))),
     'Frieren': ('Deal 65 damage to one other player, draw 1 card, and reduce the next damage you take by 25.', seq(st('damage','chosen_other',amount=65), st('draw','self',count=1), st('reduce_next','self',amount=25))),
     'Horimiya': ('Heal both members of your team 35 HP. Reduce the next damage your teammate takes by 25.', seq(st('heal','team',amount=35), st('reduce_next','ally',amount=25))),
-    'Komi Can’t Communicate': ('Choose an opponent. Their next attack deals 30 less damage and they cannot heal until the start of their next turn. Draw 2 cards.', seq(st('buff_attack','chosen_enemy',amount=-30), st('prevent_heal','chosen_enemy',turns=1), st('draw','self',count=2))),
+    'Komi Can’t Communicate': ('Choose an opponent. Their next attack deals 30 less damage and they cannot heal during their next turn. Draw 2 cards.', seq(st('buff_attack','chosen_enemy',amount=-30), st('prevent_heal','chosen_enemy',turns=1), st('draw','self',count=2))),
     "Miss Kobayashi's Dragon Maid": ('Give both members of your team 30 armor and heal each 20 HP.', seq(st('armor','team',amount=30), st('heal','team',amount=20))),
     'My Dress-Up Darling': ('Draw 3 cards. You may play one additional non-5★ card this turn, then discard 1 random card.', seq(st('draw','self',count=3), st('extra_play','self',count=1,maxStars=4), st('discard_random','self',count=1))),
     'My Hero Academia': ('Deal 105 damage to one other player. You and your teammate each get +10 damage on your next attack.', seq(st('damage','chosen_other',amount=105), st('buff_attack','team',amount=10))),
@@ -495,7 +495,7 @@ def generated_effect(profile, stars, slot, show_index):
         elif profile == 'control':
             table = [
                 ('Deal 15 damage to an opponent and they discard 1 random card.', seq(st('damage','chosen_enemy',amount=15),st('discard_random','chosen_enemy',count=1))),
-                ('Deal 20 damage to an opponent. They cannot heal until the start of their next turn.', seq(st('damage','chosen_enemy',amount=20),st('prevent_heal','chosen_enemy',turns=1))),
+                ('Deal 20 damage to an opponent. They cannot heal during their next turn.', seq(st('damage','chosen_enemy',amount=20),st('prevent_heal','chosen_enemy',turns=1))),
                 ('Choose an opponent. Their next attack deals 20 less damage.', seq(st('buff_attack','chosen_enemy',amount=-20))),
                 ('Mark one other player. The next damage they take is increased by 20.', seq(st('mark','chosen_other',amount=20))),
                 ('Draw 2 cards, then discard 1 random card from your hand.', seq(st('draw','self',count=2),st('discard_random','self',count=1))),
@@ -564,7 +564,7 @@ def generated_effect(profile, stars, slot, show_index):
                 ('Draw 2 cards, then discard 1 random card.', seq(st('draw','self',count=2),st('discard_random','self',count=1))),
                 ('Choose one other player. At the start of their next turn, deal 35 damage to them.', seq(st('delayed_damage','chosen_other',amount=35,turns=1))),
                 ('Your next attack deals ×1.25 damage and you gain 10 armor.', seq(st('attack_multiplier','self',mult=1.25),st('armor','self',amount=10))),
-                ('Choose an opponent. They cannot heal until the start of their next turn.', seq(st('prevent_heal','chosen_enemy',turns=1))),
+                ('Choose an opponent. They cannot heal during their next turn.', seq(st('prevent_heal','chosen_enemy',turns=1))),
                 ('Deal 15 damage to both opponents and draw 1 card.', seq(st('damage','enemies',amount=15),st('draw','self',count=1))),
                 ('Until your next turn, you cannot be targeted by attacks.', seq(st('untargetable','self'))),
                 ('Return one 3★ card from your discard pile to your hand.', seq(st('return_discard','self',count=1,stars=3))),
@@ -607,7 +607,7 @@ def generated_effect(profile, stars, slot, show_index):
                 ('Choose an opponent. They skip their next turn.', seq(st('skip_turn','chosen_enemy',count=1))),
                 ('Steal 1 random card from an opponent.', seq(st('steal_random','chosen_enemy',count=1))),
                 ('Choose an opponent. They discard 2 random cards.', seq(st('discard_random','chosen_enemy',count=2))),
-                ('Deal 45 damage to an opponent; they cannot heal until the start of their next turn.', seq(st('damage','chosen_enemy',amount=45),st('prevent_heal','chosen_enemy',turns=1))),
+                ('Deal 45 damage to an opponent; they cannot heal during their next turn.', seq(st('damage','chosen_enemy',amount=45),st('prevent_heal','chosen_enemy',turns=1))),
                 ('Draw 2 cards, then you may play one additional non-5★ card this turn.', seq(st('draw','self',count=2),st('extra_play','self',count=1,maxStars=4))),
             ]
         elif profile == 'social':
@@ -1601,7 +1601,7 @@ def _describe_step(step):
         if t=='ally': return f'Reduce the next damage you or your teammate takes by {a}'
         return f'Reduce your next incoming damage by {a}'
     if op=='mark': return f'Mark one other player for +{a} damage the next time they take damage'
-    if op=='prevent_heal': return 'One opponent cannot heal until the start of their next turn'
+    if op=='prevent_heal': return 'One opponent cannot heal during their next turn'
     if op=='force_self_punch': return 'Choose an opponent. Their next action is a punch against themself'
     if op=='delayed_damage': return f'Deal {a} delayed damage to one other player at the start of their next turn'
     if op=='untargetable': return 'Until your next turn, you cannot be targeted'

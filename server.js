@@ -301,7 +301,7 @@ function publicPlayer(p, viewer, room) {
 
 function summarizeBuffs(b) {
   const out = [];
-  if (b.untargetableUntilOwnTurn) out.push('Untargetable');
+  if (b.untargetableUntilOwnTurn) out.push('Untargetable by enemies');
   if (b.nextDamageMultiplier !== 1) out.push(`Next dmg taken ×${b.nextDamageMultiplier}`);
   if (b.nextDamageFlatReduction) out.push(`-${b.nextDamageFlatReduction} next dmg`);
   if (b.nextAttackMultiplier !== 1) out.push(`Next attack ×${b.nextAttackMultiplier}`);
@@ -311,7 +311,7 @@ function summarizeBuffs(b) {
   if (b.infinityCharges) out.push(`Infinity: ${b.infinityCharges}`);
   if (b.berserkReflect) out.push('Berserk armed');
   if (b.reviveAt80) out.push('Return by Death armed');
-  if (b.cannotHealTurns) out.push('Healing blocked');
+  if (b.cannotHealTurns) out.push(`Healing blocked: ${b.cannotHealTurns} own turn${b.cannotHealTurns === 1 ? '' : 's'}`);
   if (b.damageCap) out.push(`Damage cap ${b.damageCap}`);
   if (b.cannotDropBelowOne) out.push('Cannot drop below 1');
   if (b.deathNoteTurns != null) out.push(`Death Note: ${b.deathNoteTurns}`);
@@ -380,6 +380,39 @@ function heal(room, p, amount, source = '') {
   return healed;
 }
 
+function getAttackProfile(source, opts = {}) {
+  if (!source) return { persistentMultiplier: 1, nextMultiplier: 1, flatBonus: 0 };
+  const fromFiveStar = !!opts.fromFiveStar;
+  return {
+    persistentMultiplier: source.buffs.attackBoostTurns > 0 ? source.buffs.persistentAttackMultiplier : 1,
+    nextMultiplier: fromFiveStar ? 1 : source.buffs.nextAttackMultiplier,
+    flatBonus: source.buffs.nextAttackFlatBonus,
+  };
+}
+
+function consumeAttackBuffs(source) {
+  if (!source) return;
+  source.buffs.nextAttackMultiplier = 1;
+  source.buffs.nextAttackFlatBonus = 0;
+}
+
+// Resolve one attack against one or many targets while consuming "next attack"
+// modifiers only once. This is important for AoE/split attacks: every hit that
+// belongs to the same attack sees the same multiplier and flat bonus.
+function applyAttackBatch(room, source, hits, opts = {}) {
+  const validHits = (hits || []).filter(h => h?.target && h.target.hp > 0);
+  if (!validHits.length) return [];
+  const attackProfile = getAttackProfile(source, opts);
+  const results = validHits.map(h => applyDamage(room, source, h.target, h.amount, {
+    ...opts,
+    isAttack: true,
+    attackProfile,
+    consumeAttackBuffs: false,
+  }));
+  consumeAttackBuffs(source);
+  return results;
+}
+
 function applyDamage(room, source, target, baseAmount, opts = {}) {
   if (!target || target.hp <= 0) return 0;
   let amount = Math.max(0, Number(baseAmount) || 0);
@@ -409,13 +442,11 @@ function applyDamage(room, source, target, baseAmount, opts = {}) {
   }
 
   if (source && isAttack) {
-    if (source.buffs.attackBoostTurns > 0) amount *= source.buffs.persistentAttackMultiplier;
-    if (!opts.fromFiveStar) {
-      amount *= source.buffs.nextAttackMultiplier;
-    }
-    amount += source.buffs.nextAttackFlatBonus;
-    source.buffs.nextAttackMultiplier = 1;
-    source.buffs.nextAttackFlatBonus = 0;
+    const profile = opts.attackProfile || getAttackProfile(source, opts);
+    amount *= profile.persistentMultiplier;
+    amount *= profile.nextMultiplier;
+    amount += profile.flatBonus;
+    if (opts.consumeAttackBuffs !== false) consumeAttackBuffs(source);
   }
 
   if (target.buffs.nextDamageMultiplier !== 1) {
@@ -509,7 +540,6 @@ function startOfTurn(room, p) {
     p.buffs.cannotDropBelowOne = false; p.buffs.cannotDropBelowOneUntilOwnTurn = false;
     for (const foe of aliveEnemies(room, p)) applyDamage(room, p, foe, 30, { isAttack: false });
   }
-  if (p.buffs.cannotHealTurns > 0) p.buffs.cannotHealTurns -= 1;
   if (p.buffs.punchDamageOverrideTurns > 0) p.buffs.punchDamageOverrideTurns -= 1;
   if (Array.isArray(p.buffs.delayedDamage) && p.buffs.delayedDamage.length) {
     for (const delayed of p.buffs.delayedDamage) delayed.turns -= 1;
@@ -527,7 +557,13 @@ function startOfTurn(room, p) {
   const due = p.buffs.delayedTeamRocket.filter(x => x.turns <= 0);
   for (const _ of due) applyDamage(room, null, p, 30, { isAttack:false });
   p.buffs.delayedTeamRocket = p.buffs.delayedTeamRocket.filter(x => x.turns > 0);
-  if (p.buffs.skipTurns > 0 && room.phase === 'playing') { p.buffs.skipTurns -= 1; log(room, `${p.name}'s turn was skipped.`); setTimeout(() => advanceTurn(room), 250); return false; }
+  if (p.buffs.skipTurns > 0 && room.phase === 'playing') {
+    p.buffs.skipTurns -= 1;
+    tickEndOfOwnTurnStatuses(p);
+    log(room, `${p.name}'s turn was skipped.`);
+    setTimeout(() => advanceTurn(room), 250);
+    return false;
+  }
 
   const field = terrainForTeam(room, teamOf(p));
   if (field?.kind === 'heal') heal(room, p, field.amount, field.name);
@@ -664,7 +700,13 @@ function structuredStep(room, p, card, targetSeat, step, context = {}) {
   const first = targets[0];
   const amount = Number(step.amount) || 0;
   if (step.op === 'damage') {
-    for (const t of targets) applyDamage(room, step.target === 'self' ? p : p, t, amount, { isAttack: step.attack !== false, fromFiveStar: card.stars === 5 });
+    if (step.attack === false) {
+      for (const t of targets) applyDamage(room, p, t, amount, { isAttack: false, fromFiveStar: card.stars === 5 });
+    } else if (targets.length > 1) {
+      applyAttackBatch(room, p, targets.map(t => ({ target: t, amount })), { fromFiveStar: card.stars === 5 });
+    } else {
+      for (const t of targets) applyDamage(room, p, t, amount, { isAttack: true, fromFiveStar: card.stars === 5 });
+    }
   } else if (step.op === 'heal') {
     for (const t of targets) heal(room, t, amount, card.name);
   } else if (step.op === 'armor') {
@@ -779,7 +821,12 @@ function resolveCard(room, p, opp, card, targetSeat = null, context = {}) {
     ? chosenAny
     : opp;
   const damage = (amount, target = selectedDamageTarget) => applyDamage(room, p, target, amount, { isAttack: true, fromFiveStar: card.stars === 5 });
-  const damageEnemies = amount => aliveEnemies(room, p).forEach(target => damage(amount, target));
+  const damageEnemies = amount => applyAttackBatch(
+    room,
+    p,
+    aliveEnemies(room, p).map(target => ({ target, amount })),
+    { fromFiveStar: card.stars === 5 }
+  );
   const mate = teammate(room, p);
   const ally = allyTarget(room, p, targetSeat);
 
@@ -825,8 +872,16 @@ function resolveCard(room, p, opp, card, targetSeat = null, context = {}) {
     if (Math.random() < 0.5) { p.buffs.nextAttackMultiplier *= 1.5; log(room, `${p.name} flipped tails: next attack ×1.5.`); }
     else { log(room, `${p.name} flipped heads and takes 40.`); applyDamage(room, p, p, 40, { isAttack: false }); }
   }
-  else if (n === 'fire dragon roar') { damage(20); aliveEnemies(room, p).filter(x => !opp || x.seat !== opp.seat).forEach(x => damage(10, x)); }
-  else if (n === 'meteor fall') room.players.filter(x => x.socketId !== p.socketId && x.hp > 0).forEach(x => applyDamage(room, p, x, 20, { isAttack: true }));
+  else if (n === 'fire dragon roar') {
+    const hits = [];
+    if (selectedDamageTarget) hits.push({ target: selectedDamageTarget, amount: 20 });
+    for (const x of aliveEnemies(room, p).filter(x => !selectedDamageTarget || x.seat !== selectedDamageTarget.seat)) hits.push({ target: x, amount: 10 });
+    applyAttackBatch(room, p, hits, { fromFiveStar: card.stars === 5 });
+  }
+  else if (n === 'meteor fall') {
+    const hits = room.players.filter(x => x.socketId !== p.socketId && x.hp > 0).map(target => ({ target, amount: 20 }));
+    applyAttackBatch(room, p, hits, { fromFiveStar: card.stars === 5 });
+  }
   else if (n === 'crippling depression') room.players.filter(x => x.hp > 0).forEach(x => applyDamage(room, p, x, 10, { isAttack: false }));
   else if (n === 'overleveled') p.buffs.overleveledUntilOwnTurn = true;
   else if (n === 'digivolve' || n === 'breathing technique') {
@@ -981,6 +1036,13 @@ function hasRemainingActions(room, p) {
   return false;
 }
 
+function tickEndOfOwnTurnStatuses(p) {
+  // Healing lock is counted only by the affected player's own turns.
+  // A value of 1 means they stay unable to heal for this entire turn,
+  // then the lock expires when their turn ends. A teammate's turn never consumes it.
+  if (p.buffs.cannotHealTurns > 0) p.buffs.cannotHealTurns -= 1;
+}
+
 function finishTurn(room, p, auto = false) {
   if (!canAct(room, p)) return false;
   if (room.turn.goldenPairRequired) {
@@ -995,6 +1057,7 @@ function finishTurn(room, p, auto = false) {
     p.buffs.damageTakenMultiplierTurns -= 1;
     if (p.buffs.damageTakenMultiplierTurns <= 0) p.buffs.persistentDamageTakenMultiplier = 1;
   }
+  tickEndOfOwnTurnStatuses(p);
   tickTerrainAfterTurn(room, p);
   if (auto) log(room, `${p.name} has no actions left, so the turn ended automatically.`);
   saveTurnSnapshot(room);
@@ -1363,12 +1426,18 @@ function playCard(room, p, card, targetSeat = null, recoveryCardIds = undefined)
 
   const opp = otherPlayer(room, p, targetSeat);
   const chosen = playerBySeat(room, targetSeat);
-  const actionTargetsAnyOther = card.action && (['damage','damage_draw','mark'].includes(card.action.type) || actionHarmfullyTargetsChosen(card.action));
-  const targetedPlayer = (actionTargetsAnyOther || FRIENDLY_FIRE_DAMAGE_CARDS.has(card.name.toLowerCase())) && chosen && chosen.hp > 0 && chosen.socketId !== p.socketId
-    ? chosen
-    : opp;
-  if (targetedPlayer?.buffs.untargetableUntilOwnTurn && (actionHarmfullyTargetsChosen(card.action) || /damage|opponent|enemy|target/i.test(card.effect))) {
-    return `${targetedPlayer.name} is untargetable right now.`;
+  // Untargetable only stops hostile targeting. It must never stop a heal, armor,
+  // or other friendly effect just because some unrelated enemy is untargetable.
+  const actionTargetsChosenHostile = !!card.action && (
+    ['damage','damage_draw','mark'].includes(card.action.type) ||
+    actionHarmfullyTargetsChosen(card.action)
+  );
+  const chosenHostileTarget = (actionTargetsChosenHostile || FRIENDLY_FIRE_DAMAGE_CARDS.has(card.name.toLowerCase())) &&
+    chosen && chosen.hp > 0 && chosen.socketId !== p.socketId
+      ? chosen
+      : null;
+  if (chosenHostileTarget?.buffs.untargetableUntilOwnTurn) {
+    return `${chosenHostileTarget.name} is untargetable by hostile effects right now.`;
   }
 
   const wasQuintessential = card.name.toLowerCase() === 'quintessential quintuplets';

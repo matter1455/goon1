@@ -63,3 +63,7 @@ Snap, Pepper Dance, and Queen are true Reaction cards. They are used from hand d
 
 ### Lobby / board controls
 Ready players can press **Unready** before the game begins to edit their deck again. Enemy panels use a thick red border; the selected target uses a separate cyan dashed outline. The battle board/player panels are larger for easier reading.
+
+### Status timing clarification
+- Untargetable stops hostile targeting; friendly heals and support are still allowed.
+- Healing-block effects last through the affected player's next own turn. Teammate turns do not consume them.

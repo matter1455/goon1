@@ -1559,7 +1559,7 @@
     "show": "Attack on Titan",
     "origin": "Attack on Titan",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 20 less damage.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 20 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -3453,7 +3453,7 @@
     "show": "Code Geass",
     "origin": "Code Geass",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 20 armor.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. Gain 20 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -5705,7 +5705,7 @@
     "show": "Death Note",
     "origin": "Death Note",
     "stars": 4,
-    "effect": "One opponent skips their next turn. Take 30 damage. One opponent cannot heal until the start of their next turn.",
+    "effect": "One opponent skips their next turn. Take 30 damage. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -5740,7 +5740,7 @@
     "show": "Death Note",
     "origin": "Death Note",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 10.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Reduce your next incoming damage by 10.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -7814,7 +7814,7 @@
     "show": "Fate/stay night",
     "origin": "Fate/stay night",
     "stars": 3,
-    "effect": "One opponent cannot heal until the start of their next turn. Mark one other player for +30 damage the next time they take damage. Take 30 damage.",
+    "effect": "One opponent cannot heal during their next turn. Mark one other player for +30 damage the next time they take damage. Take 30 damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -8013,7 +8013,7 @@
     "show": "Fate/stay night",
     "origin": "Fate/stay night",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 10 less damage.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 10 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -8607,7 +8607,7 @@
     "show": "Frieren",
     "origin": "Frieren",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Mark one other player for +20 damage the next time they take damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -10449,7 +10449,7 @@
     "show": "Jujutsu Kaisen",
     "origin": "Jujutsu Kaisen",
     "stars": 3,
-    "effect": "One opponent cannot heal until the start of their next turn. Gain 20 armor.",
+    "effect": "One opponent cannot heal during their next turn. Gain 20 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -10520,7 +10520,7 @@
     "show": "Jujutsu Kaisen",
     "origin": "Jujutsu Kaisen",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent discards 1 random card.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent discards 1 random card.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -10553,7 +10553,7 @@
     "show": "Jujutsu Kaisen",
     "origin": "Jujutsu Kaisen",
     "stars": 4,
-    "effect": "Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent cannot heal until the start of their next turn.",
+    "effect": "Draw 2 cards. You may play 1 additional 4★ or lower card this turn. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -10770,7 +10770,7 @@
     "show": "Kaguya-sama: Love Is War",
     "origin": "Kaguya-sama: Love Is War",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent cannot heal until the start of their next turn.",
+    "effect": "Deal 20 damage to one opponent. Reduce your next incoming damage by 20. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11603,7 +11603,7 @@
     "show": "Komi Can’t Communicate",
     "origin": "Komi Can’t Communicate",
     "stars": 5,
-    "effect": "One opponent’s next attack deals 30 less damage. One opponent cannot heal until the start of their next turn. Draw 2 cards.",
+    "effect": "One opponent’s next attack deals 30 less damage. One opponent cannot heal during their next turn. Draw 2 cards.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11636,7 +11636,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 10 armor.",
+    "effect": "Deal 20 damage to one opponent. One opponent cannot heal during their next turn. Gain 10 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11669,7 +11669,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent discards 1 random card.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. One opponent discards 1 random card.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11768,7 +11768,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent cannot heal until the start of their next turn.",
+    "effect": "Deal 20 damage to one opponent. One opponent discards 1 random card. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11801,7 +11801,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. Mark one other player for +20 damage the next time they take damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -11901,7 +11901,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -12038,7 +12038,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 10 armor.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Gain 10 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -15882,7 +15882,7 @@
     "show": "Overlord",
     "origin": "Overlord",
     "stars": 3,
-    "effect": "One opponent’s next attack deals 20 less damage. Mark one other player for +10 damage the next time they take damage. One opponent cannot heal until the start of their next turn.",
+    "effect": "One opponent’s next attack deals 20 less damage. Mark one other player for +10 damage the next time they take damage. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -15936,7 +15936,7 @@
     "show": "Overlord",
     "origin": "Overlord",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 20.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Reduce your next incoming damage by 20.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -16003,7 +16003,7 @@
     "show": "Overlord",
     "origin": "Overlord",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 10 less damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 10 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -16979,7 +16979,7 @@
     "show": "Pokémon",
     "origin": "Pokémon",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Gain 20 armor.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Gain 20 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -17319,7 +17319,7 @@
     "show": "Puella Magi Madoka Magica",
     "origin": "Puella Magi Madoka Magica",
     "stars": 3,
-    "effect": "One opponent discards 1 random card. Draw 1 card. One opponent cannot heal until the start of their next turn.",
+    "effect": "One opponent discards 1 random card. Draw 1 card. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -17706,7 +17706,7 @@
     "show": "Rascal Does Not Dream of Bunny Girl Senpai",
     "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
     "stars": 3,
-    "effect": "Draw 2 cards. Yourself discards 1 random card. One opponent cannot heal until the start of their next turn.",
+    "effect": "Draw 2 cards. Yourself discards 1 random card. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -17772,7 +17772,7 @@
     "show": "Rascal Does Not Dream of Bunny Girl Senpai",
     "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 20.",
+    "effect": "Deal 20 damage to one opponent. One opponent cannot heal during their next turn. Reduce your next incoming damage by 20.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -18012,7 +18012,7 @@
     "show": "Rascal Does Not Dream of Bunny Girl Senpai",
     "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -20500,7 +20500,7 @@
     "show": "Steins;Gate",
     "origin": "Steins;Gate",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 20 less damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 20 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -24012,7 +24012,7 @@
     "show": "To Be Hero X",
     "origin": "To Be Hero X",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 30 less damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 30 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -24079,7 +24079,7 @@
     "show": "To Be Hero X",
     "origin": "To Be Hero X",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 40 less damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 40 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -26111,7 +26111,7 @@
     "show": "Vivy: Fluorite Eye’s Song",
     "origin": "Vivy: Fluorite Eye’s Song",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent cannot heal until the start of their next turn.",
+    "effect": "Deal 20 damage to one opponent. One opponent cannot heal during their next turn. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -27302,7 +27302,7 @@
     "show": "Witch Hat Atelier",
     "origin": "Witch Hat Atelier",
     "stars": 3,
-    "effect": "One opponent cannot heal until the start of their next turn. Mark one other player for +20 damage the next time they take damage.",
+    "effect": "One opponent cannot heal during their next turn. Mark one other player for +20 damage the next time they take damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -28999,7 +28999,7 @@
     "show": "86 Eighty-Six",
     "origin": "86 Eighty-Six",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Give yourself or your teammate +10 damage on their next attack.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Give yourself or your teammate +10 damage on their next attack.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -32091,7 +32091,7 @@
     "show": "Code Geass",
     "origin": "Code Geass",
     "stars": 3,
-    "effect": "Deal 10 damage to one opponent. One opponent cannot heal until the start of their next turn. One opponent’s next attack deals 30 less damage.",
+    "effect": "Deal 10 damage to one opponent. One opponent cannot heal during their next turn. One opponent’s next attack deals 30 less damage.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -32283,7 +32283,7 @@
     "show": "Code Geass",
     "origin": "Code Geass",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Give yourself or your teammate 20 armor.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Give yourself or your teammate 20 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -34282,7 +34282,7 @@
     "show": "Death Note",
     "origin": "Death Note",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Heal yourself 20 HP.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Heal yourself 20 HP.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -34316,7 +34316,7 @@
     "show": "Death Note",
     "origin": "Death Note",
     "stars": 5,
-    "effect": "One opponent skips their next turn. Draw 1 card. One opponent cannot heal until the start of their next turn.",
+    "effect": "One opponent skips their next turn. Draw 1 card. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -34520,7 +34520,7 @@
     "show": "Death Note",
     "origin": "Death Note",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Deal 50 delayed damage to one other player at the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Deal 50 delayed damage to one other player at the start of their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -39742,7 +39742,7 @@
     "show": "Kaguya-sama: Love Is War",
     "origin": "Kaguya-sama: Love Is War",
     "stars": 4,
-    "effect": "One opponent discards 2 random cards. Mark one other player for +20 damage the next time they take damage. One opponent cannot heal until the start of their next turn.",
+    "effect": "One opponent discards 2 random cards. Mark one other player for +20 damage the next time they take damage. One opponent cannot heal during their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -40905,7 +40905,7 @@
     "show": "Lord of Mysteries",
     "origin": "Lord of Mysteries",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Give yourself or your teammate 10 armor.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Give yourself or your teammate 10 armor.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -44894,7 +44894,7 @@
     "show": "Overlord",
     "origin": "Overlord",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Deal 40 delayed damage to one other player at the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Deal 40 delayed damage to one other player at the start of their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -44963,7 +44963,7 @@
     "show": "Overlord",
     "origin": "Overlord",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Deal 60 delayed damage to one other player at the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Deal 60 delayed damage to one other player at the start of their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -46400,7 +46400,7 @@
     "show": "Puella Magi Madoka Magica",
     "origin": "Puella Magi Madoka Magica",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Deal 20 delayed damage to one other player at the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Deal 20 delayed damage to one other player at the start of their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -46900,7 +46900,7 @@
     "show": "Rascal Does Not Dream of Bunny Girl Senpai",
     "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Deal 30 delayed damage to one other player at the start of their next turn.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Deal 30 delayed damage to one other player at the start of their next turn.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -49073,7 +49073,7 @@
     "show": "Steins;Gate",
     "origin": "Steins;Gate",
     "stars": 3,
-    "effect": "Deal 20 damage to one opponent. One opponent cannot heal until the start of their next turn. Reduce your next incoming damage by 10.",
+    "effect": "Deal 20 damage to one opponent. One opponent cannot heal during their next turn. Reduce your next incoming damage by 10.",
     "action": {
       "type": "sequence",
       "steps": [
@@ -52894,7 +52894,7 @@
     "show": "To Be Hero X",
     "origin": "To Be Hero X",
     "stars": 4,
-    "effect": "Deal 50 damage to one opponent. One opponent cannot heal until the start of their next turn. Your next attack gets +30 damage.",
+    "effect": "Deal 50 damage to one opponent. One opponent cannot heal during their next turn. Your next attack gets +30 damage.",
     "action": {
       "type": "sequence",
       "steps": [
