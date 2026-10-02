@@ -36,14 +36,17 @@
         <div id="waitingModeLabel">ROOM</div>
         <h2>Waiting Room</h2>
         <div class="room-code" id="waitingCode">-----</div>
-        <button id="copyCodeBtn" class="secondary">Copy Room Code</button>
+        <div class="waiting-room-buttons">
+          <button id="copyCodeBtn" class="secondary">Copy Room Code</button>
+          <button id="switchTeamBtn" class="secondary hidden">Switch Team</button>
+        </div>
         <p id="waitingStatus">Waiting for players...</p>
         <div id="waitingRoster" class="waiting-roster"></div>
 
         <div class="deck-builder">
           <div class="deck-builder-head">
             <div><h3 id="deckSelectionTitle">0 / 3 shows selected</h3></div>
-            <button id="readyDeckBtn" class="primary" disabled>Ready</button>
+            <div class="ready-controls"><button id="readyDeckBtn" class="primary" disabled>Ready</button><button id="unreadyDeckBtn" class="secondary hidden">Unready</button></div>
           </div>
           <input id="showSearch" class="show-search" placeholder="Search shows" />
           <div id="showPicker" class="show-picker"></div>

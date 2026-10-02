@@ -127,7 +127,7 @@ button:hover:not(:disabled) { filter: brightness(.96); }
 
 /* game layout */
 .game { padding: 16px 16px 205px; }
-.game-grid { max-width: 1500px; margin: auto; display: grid; grid-template-columns: 220px minmax(0,1fr) 260px; gap: 12px; }
+.game-grid { max-width: 1820px; margin: auto; display: grid; grid-template-columns: 210px minmax(760px,1fr) 240px; gap: 16px; }
 .side-panel { padding: 12px; min-height: 540px; }
 .room-chip { background: #f3f3f3; border: 1px solid #ccc; padding: 8px; }
 .room-chip b { float: right; }
@@ -147,24 +147,24 @@ button:hover:not(:disabled) { filter: brightness(.96); }
 .rules-mini { border-top: 1px solid #ccc; padding-top: 10px; }
 .rules-mini h3 { margin: 0 0 5px; font-size: 13px; }
 .rules-mini p { margin: 0; color: #666; font-size: 11px; line-height: 1.45; }
-.board { display: flex; flex-direction: column; gap: 9px; }
+.board { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
 .team-heading { display: flex; justify-content: space-between; color: #555; font-size: 12px; font-weight: bold; }
 .enemy-heading b { color: #c9302c; }
 .ally-heading b { color: var(--blue); }
-.players-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 9px; }
+.players-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
 .players-grid:has(.player-tile:only-child) { grid-template-columns: 1fr; }
-.player-tile { background: white; border: 1px solid #aaa; padding: 13px; min-height: 130px; }
-.player-tile.enemy { border-top: 4px solid #d9534f; }
-.player-tile.ally, .player-tile.self { border-top: 4px solid #337ab7; }
+.player-tile { background: white; border: 2px solid #777; padding: 18px; min-height: 175px; }
+.player-tile.enemy { border: 6px solid #d43f3a; }
+.player-tile.ally, .player-tile.self { border: 3px solid #337ab7; }
 .player-tile.active-turn { outline: 3px solid #f0ad4e; }
 .player-tile.dead { opacity: .5; }
 .player-tile.target-flash { background: #fff3cd; }
 .player-line { display: flex; justify-content: space-between; gap: 10px; }
-.player-line h2 { font-size: 17px; margin: 3px 0 7px; }
+.player-line h2 { font-size: 20px; margin: 3px 0 10px; }
 .hp-number { display: flex; align-items: baseline; gap: 4px; }
-.hp-number b { font-size: 24px; }
+.hp-number b { font-size: 30px; }
 .hp-number span { color: #777; font-size: 10px; }
-.hpbar { height: 12px; border: 1px solid #999; background: #eee; overflow: hidden; }
+.hpbar { height: 16px; border: 1px solid #999; background: #eee; overflow: hidden; }
 .hpbar > div { height: 100%; background: var(--green); transition: width .2s; }
 .status-row { min-height: 25px; margin-top: 7px; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
 .armor { color: #245b9e; font-size: 11px; font-weight: bold; }
@@ -358,16 +358,18 @@ dialog { background: #101010; color: #f3f3f3; border-color: #555; }
 .target-box small { display: block; margin-top: 6px; line-height: 1.3; }
 .player-tile { cursor: pointer; }
 .player-tile.selected-target {
-  outline: 3px solid #f0c94d;
-  outline-offset: 2px;
+  outline: 4px dashed #49d6ff;
+  outline-offset: 5px;
+  box-shadow: 0 0 0 2px #071b22;
 }
 .player-tile.selected-target::after {
-  content: "TARGET";
+  content: "SELECTED TARGET";
   float: right;
-  margin-top: 6px;
-  padding: 2px 6px;
-  border: 1px solid #f0c94d;
-  color: #f0c94d;
+  margin-top: 8px;
+  padding: 3px 7px;
+  border: 2px solid #49d6ff;
+  color: #49d6ff;
+  background: #071b22;
   font-size: 10px;
   font-weight: bold;
 }
@@ -456,3 +458,24 @@ dialog { background: #101010; color: #f3f3f3; border-color: #555; }
 .reaction-option .tcg-card { width:100%; min-width:0; flex-basis:auto; height:auto; min-height:190px; }
 
 .reaction-choice-note { color:#bbb; font-size:14px; margin:8px 0 0; }
+
+
+/* Waiting room team controls */
+.waiting-room-buttons { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
+
+
+/* Waiting-room ready controls */
+.ready-controls { display: flex; gap: 8px; align-items: center; }
+.ready-controls button { min-width: 92px; }
+
+/* Bigger battle board + clearer team/target borders. */
+.player-tile.enemy { border: 6px solid #d43f3a !important; }
+.player-tile.ally, .player-tile.self { border: 3px solid #3f79d8 !important; }
+.player-tile.selected-target { outline: 4px dashed #49d6ff !important; outline-offset: 5px; }
+.center-field { padding: 18px; min-height: 165px; }
+.team-heading { font-size: 14px; }
+
+@media (max-width: 1100px) {
+  .game-grid { grid-template-columns: 185px minmax(520px,1fr) 210px; gap: 10px; }
+  .player-tile { min-height: 155px; padding: 14px; }
+}

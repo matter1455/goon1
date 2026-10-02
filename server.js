@@ -208,6 +208,17 @@ function allyTarget(room, p, preferredSeat = null) {
 }
 function currentPlayer(room) { return room.players.find(p => p.seat === room.turn.seat); }
 function playerBySocket(room, socketId) { return room.players.find(p => p.socketId === socketId); }
+function turnSeatOrder(room) {
+  // 2v2 is grouped by team: A1 -> A2 -> B1 -> B2.
+  // Team identity still comes from seat parity: A = 0/2, B = 1/3.
+  return room.mode === '1v1' ? [0, 1] : [0, 2, 1, 3];
+}
+function firstSeatForTeam(room, team) {
+  return turnSeatOrder(room).find(seat => {
+    const p = playerBySeat(room, seat);
+    return p && teamOf(p) === Number(team) && p.hp > 0;
+  });
+}
 
 function drawCard(player) {
   const id = player.deck.pop();
@@ -537,7 +548,7 @@ function startOfTurn(room, p) {
 
 function advanceTurn(room) {
   if (room.phase !== 'playing') return;
-  const seatOrder = room.mode === '1v1' ? [0,1] : [0,1,2,3];
+  const seatOrder = turnSeatOrder(room);
   let idx = seatOrder.indexOf(room.turn.seat);
   let next = null;
   for (let i = 0; i < seatOrder.length; i++) {
@@ -1012,11 +1023,12 @@ function beginMatch(room, isRematch = false) {
   room.history = [];
   if (isRematch) room.log = [];
   room.startingTeam = Math.random() < 0.5 ? 0 : 1;
-  const firstSeat = room.startingTeam === 0 ? 0 : 1;
+  const firstSeat = firstSeatForTeam(room, room.startingTeam);
   room.phase = 'playing';
   room.turn = newTurnState(firstSeat, 1);
   saveTurnSnapshot(room);
-  log(room, `${isRematch ? 'Rematch coin flip' : 'Coin flip'}: Team ${room.startingTeam===0?'A':'B'} goes first in ${room.mode}. The player taking the very first turn does not draw. ${currentPlayer(room).name} starts.`);
+  const orderNote = room.mode === '2v2' ? ' Turn order stays grouped by team: teammate, then teammate, then the two opponents.' : '';
+  log(room, `${isRematch ? 'Rematch coin flip' : 'Coin flip'}: Team ${room.startingTeam===0?'A':'B'} goes first in ${room.mode}. The player taking the very first turn does not draw.${orderNote} ${currentPlayer(room).name} starts.`);
   startOfTurn(room, currentPlayer(room));
 }
 
@@ -1447,6 +1459,25 @@ io.on('connection', socket => {
     log(room, `${p.name} joined as Team ${teamOf(p)===0?'A':'B'} Player ${Math.floor(seat/2)+1}.`); emitState(room);
   });
 
+
+  socket.on('switchTeam', () => {
+    const room = requireRoom(socket); if (!room || room.phase !== 'waiting') return;
+    if (room.mode !== '2v2') return socket.emit('errorMessage', 'Team switching is only available in 2v2.');
+    const p = playerBySocket(room, socket.id); if (!p) return;
+    const oldSeat = p.seat;
+    const oldTeam = teamOf(p);
+    // Swap with the same player slot on the other team (A1 <-> B1, A2 <-> B2).
+    // If that slot is empty, simply move into it.
+    const targetSeat = oldSeat % 2 === 0 ? oldSeat + 1 : oldSeat - 1;
+    const other = playerBySeat(room, targetSeat);
+    if (other) other.seat = oldSeat;
+    p.seat = targetSeat;
+    const newTeam = teamOf(p);
+    if (other) log(room, `${p.name} switched to Team ${newTeam===0?'A':'B'} and ${other.name} switched to Team ${oldTeam===0?'A':'B'}.`);
+    else log(room, `${p.name} switched from Team ${oldTeam===0?'A':'B'} to Team ${newTeam===0?'A':'B'}.`);
+    emitState(room);
+  });
+
   socket.on('setDeck', ({ shows, cardIds } = {}) => {
     const room=requireRoom(socket); if (!room || room.phase!=='waiting') return;
     const p=playerBySocket(room,socket.id); if (!p) return;
@@ -1455,6 +1486,14 @@ io.on('connection', socket => {
     p.selectedShows=[...new Set(shows)]; p.selectedCardIds=[...deck]; p.ready=true;
     log(room, `${p.name} locked a custom 48-card deck (${p.selectedShows.join(' / ')}).`);
     if (room.players.length===room.requiredPlayers && room.players.every(x=>x.ready)) beginMatch(room, false);
+    emitState(room);
+  });
+
+  socket.on('unreadyDeck', () => {
+    const room = requireRoom(socket); if (!room || room.phase !== 'waiting') return;
+    const p = playerBySocket(room, socket.id); if (!p || !p.ready) return;
+    p.ready = false;
+    log(room, `${p.name} is no longer ready and can edit their deck again.`);
     emitState(room);
   });
 
@@ -1529,26 +1568,44 @@ io.on('connection', socket => {
     emitState(room);
   });
 
-  socket.on('disconnect', () => {
+  function leaveCurrentRoom(reason = 'left the game') {
     const room = requireRoom(socket); if (!room) return;
-    const p = playerBySocket(room, socket.id);
-    if (p) log(room, `${p.name} disconnected.`);
+    const p = playerBySocket(room, socket.id); if (!p) return;
+    const code = room.code;
+    log(room, `${p.name} ${reason}.`);
+
     if (room.phase === 'waiting') {
       room.players = room.players.filter(x => x.socketId !== socket.id);
-      if (!room.players.length) rooms.delete(room.code); else emitState(room);
+      socket.leave(code);
+      socket.data.roomCode = null;
+      if (!room.players.length) rooms.delete(code); else emitState(room);
       return;
     }
-    if (p && room.phase === 'playing') {
+
+    if (room.phase === 'playing') {
       room.phase = 'finished';
+      room.pending = null;
       room.players.forEach(x => x.rematchReady = false);
       const winningTeam = teamOf(p) === 0 ? 1 : 0;
-      const names = room.players.filter(x => teamOf(x) === winningTeam).map(x => x.name).join(' & ');
-      room.winner = `Team ${winningTeam === 0 ? 'A' : 'B'} (${names})`;
-      log(room, `${room.winner} wins because ${p.name} disconnected.`);
+      const names = room.players.filter(x => teamOf(x) === winningTeam && x.socketId !== socket.id).map(x => x.name).join(' & ');
+      room.winner = `Team ${winningTeam === 0 ? 'A' : 'B'}${names ? ` (${names})` : ''}`;
+      log(room, `${room.winner} wins because ${p.name} left the game.`);
+      socket.leave(code);
+      socket.data.roomCode = null;
       emitState(room);
-      setTimeout(() => rooms.delete(room.code), 60_000);
+      setTimeout(() => rooms.delete(code), 60_000);
+      return;
     }
-  });
+
+    // Finished rooms do not need to keep a player who closed/navigated away.
+    room.players = room.players.filter(x => x.socketId !== socket.id);
+    socket.leave(code);
+    socket.data.roomCode = null;
+    if (!room.players.length) rooms.delete(code); else emitState(room);
+  }
+
+  socket.on('leaveRoom', () => leaveCurrentRoom('left the game'));
+  socket.on('disconnect', () => leaveCurrentRoom('disconnected'));
 
 });
 

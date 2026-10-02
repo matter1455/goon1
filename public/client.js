@@ -41,6 +41,8 @@ $('playAgainBtn').onclick = () => socket.emit('requestRematch');
 $('closeDiscardBtn').onclick = () => $('discardDialog').close();
 $('reactionPassBtn').onclick = () => socket.emit('reactionResponse', { cardId: null });
 $('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('Room code copied.'); };
+$('switchTeamBtn').onclick = () => socket.emit('switchTeam');
+$('unreadyDeckBtn').onclick = () => socket.emit('unreadyDeck');
 $('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); renderBoard(); updateTargetHint(); };
 $('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); renderBoard(); updateTargetHint(); };
 $('showSearch').oninput = renderShowPicker;
@@ -49,6 +51,18 @@ $('readyDeckBtn').onclick = () => {
   if (problem) return toast(problem);
   socket.emit('setDeck', { shows: selectedShows, cardIds: [...selectedCardIds] });
 };
+
+
+// Closing/reloading/navigating away leaves the room instead of keeping a ghost seat.
+let leavingPage = false;
+function leaveBecausePageClosed() {
+  if (leavingPage || !state?.code) return;
+  leavingPage = true;
+  try { socket.emit('leaveRoom'); } catch (_) {}
+  try { socket.disconnect(); } catch (_) {}
+}
+window.addEventListener('pagehide', leaveBecausePageClosed);
+window.addEventListener('beforeunload', leaveBecausePageClosed);
 
 socket.on('state', s => {
   state = s;
@@ -74,9 +88,17 @@ function renderState() {
     $('waitingStatus').textContent = count < need
       ? `Need ${need-count} more player${need-count===1?'':'s'} · ${ready}/${count} decks ready`
       : `${ready}/${need} decks ready — game starts when everyone is ready.`;
+    const switchBtn = $('switchTeamBtn');
+    const canSwitch = state.mode === '2v2' && !!state.you;
+    switchBtn.classList.toggle('hidden', !canSwitch);
+    if (canSwitch) switchBtn.textContent = `Switch to Team ${teamLetter(state.you.seat)==='A'?'B':'A'}`;
     renderWaitingRoster(); renderShowPicker(); renderSelectedShows(); renderShowPreview();
-    $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
-    $('readyDeckBtn').textContent = state.you.ready ? 'READY ✓' : 'READY';
+    const isReady = !!state.you.ready;
+    $('readyDeckBtn').classList.toggle('hidden', isReady);
+    $('unreadyDeckBtn').classList.toggle('hidden', !isReady);
+    $('readyDeckBtn').disabled = !isReady && !!deckProblem();
+    $('readyDeckBtn').textContent = 'READY';
+    $('unreadyDeckBtn').disabled = false;
     return;
   }
 
@@ -105,16 +127,20 @@ function renderState() {
 
 function renderWaitingRoster() {
   const el = $('waitingRoster'); el.innerHTML='';
-  const need = state.requiredPlayers || 4;
-  (state.players||[]).slice().sort((a,b)=>a.seat-b.seat).forEach(p=>{
-    const d=document.createElement('div'); d.className=`roster-seat team-${teamLetter(p.seat).toLowerCase()}`;
-    const slot = state.mode === '1v1' ? 'SOLO' : `P${Math.floor(p.seat/2)+1}`;
-    d.innerHTML=`<span>Team ${teamLetter(p.seat)} · ${slot}</span><b>${escapeHtml(p.name)}</b>${p.isSelf?'<em>YOU</em>':''}<span class="${p.ready?'ready-badge':'not-ready-badge'}">${p.ready?'READY':`${p.selectedCardCount||0}/48 CARDS`}</span>`;
+  const seatOrder = state.mode === '1v1' ? [0,1] : [0,2,1,3];
+  seatOrder.forEach(seat=>{
+    const p=(state.players||[]).find(x=>Number(x.seat)===seat);
+    const d=document.createElement('div');
+    const slot = state.mode === '1v1' ? 'SOLO' : `P${Math.floor(seat/2)+1}`;
+    if(p){
+      d.className=`roster-seat team-${teamLetter(p.seat).toLowerCase()}`;
+      d.innerHTML=`<span>Team ${teamLetter(p.seat)} · ${slot}</span><b>${escapeHtml(p.name)}</b>${p.isSelf?'<em>YOU</em>':''}<span class="${p.ready?'ready-badge':'not-ready-badge'}">${p.ready?'READY':`${p.selectedCardCount||0}/48 CARDS`}</span>`;
+    } else {
+      d.className=`roster-seat empty team-${teamLetter(seat).toLowerCase()}`;
+      d.innerHTML=`<span>Team ${teamLetter(seat)} · ${slot}</span><b>Waiting for player</b>`;
+    }
     el.appendChild(d);
   });
-  for(let i=(state.players||[]).length;i<need;i++){
-    const d=document.createElement('div'); d.className='roster-seat empty'; d.innerHTML='<span>EMPTY SLOT</span><b>Waiting for player</b>'; el.appendChild(d);
-  }
 }
 
 function showCards(show, star=null) {
@@ -163,7 +189,7 @@ function toggleDeckCard(card) {
     selectedCardIds.add(card.id);
   }
   renderSelectedShows(); renderShowPreview();
-  $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
+  $('readyDeckBtn').disabled = !!deckProblem();
 }
 
 function renderShowPicker(){
@@ -180,7 +206,7 @@ function renderShowPicker(){
         else toast('You can only select 3 shows.');
       }
       renderShowPicker(); renderSelectedShows(); renderShowPreview();
-      if (state?.phase==='waiting') $('readyDeckBtn').disabled = state.you.ready || !!deckProblem();
+      if (state?.phase==='waiting') $('readyDeckBtn').disabled = !!deckProblem();
     };
     el.appendChild(b);
   });

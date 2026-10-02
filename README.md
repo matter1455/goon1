@@ -54,3 +54,12 @@ Open `http://localhost:3000`.
 Cards that return cards from the discard pile now let the player choose the exact eligible cards before the recovery card is played. The recovery card itself cannot be selected.
 
 Snap, Pepper Dance, and Queen are true Reaction cards. They are used from hand during an out-of-turn reaction window instead of as normal main-turn cards. Reaction windows pause the current action for up to 10 seconds.
+
+
+## Team order / lobby switching / leaving
+- In 2v2, turns are grouped by team: Team A player 1 -> Team A player 2 -> Team B player 1 -> Team B player 2 (or the same order starting with Team B if Team B wins the coin flip).
+- While a 2v2 room is still in the waiting/deck-building phase, use **Switch Team** to move to the other team. If the matching slot is occupied, the two players swap teams.
+- Closing the tab, reloading, or navigating away sends a leave event. In a waiting room your seat is freed; during a live match leaving forfeits the match to the other team.
+
+### Lobby / board controls
+Ready players can press **Unready** before the game begins to edit their deck again. Enemy panels use a thick red border; the selected target uses a separate cyan dashed outline. The battle board/player panels are larger for easier reading.
