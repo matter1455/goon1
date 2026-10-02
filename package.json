@@ -1,6 +1,6 @@
 {
   "name": "fanmade-anime-tcg",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "private": true,
   "description": "Realtime 1v1/2v2 fanmade TCG with dark UI, 48-card three-show decks, expanded 33-card show pools, environments, and room codes",
   "main": "server.js",

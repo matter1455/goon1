@@ -130,12 +130,25 @@
       <label for="cardTargetSelect">Target</label>
       <select id="cardTargetSelect"></select>
     </div>
+    <div id="discardRecoveryRow" class="discard-recovery hidden">
+      <div class="discard-recovery-head"><b id="discardRecoveryTitle">Choose from discard</b><span id="discardRecoveryCount"></span></div>
+      <div id="discardRecoveryGrid" class="discard-recovery-grid"></div>
+    </div>
     <div class="dialog-actions"><button id="cancelCardBtn" class="ghost">Cancel</button><button id="playCardBtn" class="primary">Play Card</button></div>
   </dialog>
 
   <dialog id="discardDialog" class="library-dialog discard-dialog">
     <div class="library-top"><h2 id="discardDialogTitle">Discard Pile</h2><button id="closeDiscardBtn" class="icon-btn">×</button></div>
     <div id="discardDialogGrid" class="library-grid"></div>
+  </dialog>
+
+  <dialog id="reactionDialog" class="card-dialog reaction-dialog">
+    <div class="reaction-head"><h2 id="reactionTitle">React?</h2><span id="reactionTimer">20s</span></div>
+    <p id="reactionPrompt"></p>
+    <div id="reactionIncoming" class="reaction-incoming"></div>
+    <div id="reactionOptions" class="reaction-options"></div>
+    <p id="reactionChoiceNote" class="reaction-choice-note">Nothing happens until you choose. Passing keeps the incoming action unchanged.</p>
+    <div class="dialog-actions"><button id="reactionPassBtn" class="ghost">Pass / Let It Happen</button></div>
   </dialog>
 
   <script src="/socket.io/socket.io.js"></script>

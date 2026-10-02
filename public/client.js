@@ -9,6 +9,8 @@ let selectedCardIds = new Set();
 let previewShow = null;
 let libraryStar = 'all';
 let libraryShow = 'all';
+let selectedRecoveryIds = new Set();
+let reactionCountdownTimer = null;
 
 const $ = id => document.getElementById(id);
 const lobby = $('lobby'), waiting = $('waiting'), game = $('game');
@@ -37,6 +39,7 @@ $('punchBtn').onclick = () => {
 $('endBtn').onclick = () => socket.emit('endTurn');
 $('playAgainBtn').onclick = () => socket.emit('requestRematch');
 $('closeDiscardBtn').onclick = () => $('discardDialog').close();
+$('reactionPassBtn').onclick = () => socket.emit('reactionResponse', { cardId: null });
 $('copyCodeBtn').onclick = async () => { if (!state) return; await navigator.clipboard?.writeText(state.code); toast('Room code copied.'); };
 $('targetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); syncDialogTarget(); renderBoard(); updateTargetHint(); };
 $('cardTargetSelect').onchange = e => { selectedTargetSeat = Number(e.target.value); if ([...$('targetSelect').options].some(o=>Number(o.value)===selectedTargetSeat)) $('targetSelect').value = String(selectedTargetSeat); renderBoard(); updateTargetHint(); };
@@ -82,15 +85,15 @@ function renderState() {
   $('turnNumber').textContent = state.turn.number;
   $('vsMode').innerHTML = state.mode === '1v1' ? '1 <span>VS</span> 1' : '2 <span>VS</span> 2';
   const myTurn = state.turn.seat === state.you.seat && state.phase === 'playing';
-  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `${state.turn.currentName}'s turn`;
-  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : myTurn ? 'YOUR TURN' : `Waiting for ${state.turn.currentName}...`;
+  $('turnText').textContent = state.phase === 'finished' ? `${state.winner}` : state.reactionPending ? (state.pending ? 'YOUR REACTION' : 'REACTION WINDOW') : myTurn ? 'YOUR TURN' : `${state.turn.currentName}'s turn`;
+  $('matchBanner').textContent = state.phase === 'finished' ? `${state.winner}` : state.reactionPending ? (state.pending ? 'YOUR REACTION' : 'Waiting for a reaction...') : myTurn ? 'YOUR TURN' : `Waiting for ${state.turn.currentName}...`;
   $('yourTeamLetter').textContent = teamLetter(state.you.seat);
   $('enemyTeamLetter').textContent = teamLetter(state.you.seat) === 'A' ? 'B' : 'A';
-  renderTargets(); renderBoard(); renderEnvironment(); renderHand(state.you.hand || [], myTurn); renderLog(); renderLastPlayed(); renderDiscardPiles(); updateTargetHint();
+  renderTargets(); renderBoard(); renderEnvironment(); renderHand(state.you.hand || [], myTurn); renderLog(); renderLastPlayed(); renderDiscardPiles(); updateTargetHint(); renderPendingReaction();
   $('deckCount').textContent = `${state.you.deckCount} deck`;
 
-  $('punchBtn').disabled = !myTurn || (state.turn.mainActionUsed && !state.turn.extraPunchAllowed);
-  $('endBtn').disabled = !myTurn;
+  $('punchBtn').disabled = !myTurn || !!state.reactionPending || (state.turn.mainActionUsed && !state.turn.extraPunchAllowed);
+  $('endBtn').disabled = !myTurn || !!state.reactionPending;
   const finished = state.phase === 'finished';
   if (finished) $('punchBtn').disabled = $('endBtn').disabled = true;
   $('playAgainBtn').classList.toggle('hidden', !finished);
@@ -259,22 +262,92 @@ function makePlayerTile(p,kind){
   return tile;
 }
 
+function isReactionCard(card){return ['snap','pepper dance','queen'].includes(String(card?.name||'').toLowerCase());}
 function renderHand(hand,myTurn){
   const el=$('yourHand'); el.innerHTML=''; $('handCount').textContent=`${hand.length} card${hand.length===1?'':'s'}`;
-  hand.forEach(card=>{const n=makeCard(card); n.onclick=()=>showCard(card,myTurn&&state.phase==='playing'); el.appendChild(n);});
+  hand.forEach(card=>{const n=makeCard(card); n.onclick=()=>showCard(card,myTurn&&state.phase==='playing'&&!state.reactionPending&&!isReactionCard(card)); el.appendChild(n);});
 }
 function makeCard(card){
   const d=document.createElement('article'); d.className=`tcg-card ${card.stars===3?'three':card.stars===4?'four':'five'}`;
   d.innerHTML=`<div class="stars">${'★'.repeat(card.stars)}</div><h4>${escapeHtml(card.name)}</h4><p>${escapeHtml(card.effect)}</p>`; return d;
 }
+function findReturnDiscardStep(action){
+  if(!action)return null;
+  if(action.type==='bundle')return findReturnDiscardStep(action.main)||(action.after||[]).find(x=>x?.op==='return_discard')||null;
+  if(action.type==='sequence')return (action.steps||[]).find(x=>x?.op==='return_discard')||null;
+  if(action.type==='coin')return [...(action.heads||[]),...(action.tails||[])].find(x=>x?.op==='return_discard')||null;
+  return null;
+}
+function recoverySpecForCard(card){
+  const step=findReturnDiscardStep(card?.action);
+  if(step)return {count:Number(step.count)||1,stars:step.stars!=null?Number(step.stars):null,maxStars:step.maxStars!=null?Number(step.maxStars):null};
+  const n=String(card?.name||'').toLowerCase();
+  if(n==='agnes tachyon')return {count:1,stars:3,maxStars:null};
+  if(n==='the father'||n==='arise')return {count:2,stars:null,maxStars:4};
+  return null;
+}
+function renderRecoveryPicker(card,playable){
+  const row=$('discardRecoveryRow'); const grid=$('discardRecoveryGrid');
+  selectedRecoveryIds=new Set();
+  const spec=playable?recoverySpecForCard(card):null;
+  row.classList.toggle('hidden',!spec); grid.innerHTML='';
+  if(!spec)return;
+  const eligible=(state?.you?.discard||[]).filter(c=>c.id!==card.id&&(spec.stars==null||Number(c.stars)===spec.stars)&&(spec.maxStars==null||Number(c.stars)<=spec.maxStars));
+  $('discardRecoveryTitle').textContent=`Choose up to ${spec.count} card${spec.count===1?'':'s'} from your discard`;
+  const update=()=>{$('discardRecoveryCount').textContent=`${selectedRecoveryIds.size}/${spec.count} selected`;};
+  if(!eligible.length){grid.innerHTML='<p class="empty-discard">No eligible cards in your discard pile.</p>';update();return;}
+  eligible.slice().reverse().forEach(c=>{
+    const b=document.createElement('button'); b.type='button'; b.className='recovery-choice';
+    b.innerHTML=`<b>${escapeHtml(c.name)}</b><span>${'★'.repeat(c.stars)}</span><small>${escapeHtml(c.effect)}</small>`;
+    b.onclick=()=>{
+      if(selectedRecoveryIds.has(c.id))selectedRecoveryIds.delete(c.id);
+      else if(selectedRecoveryIds.size<spec.count)selectedRecoveryIds.add(c.id);
+      else return toast(`You can only return ${spec.count} card${spec.count===1?'':'s'}.`);
+      b.classList.toggle('selected',selectedRecoveryIds.has(c.id)); update();
+    };
+    grid.appendChild(b);
+  });
+  update();
+}
 function showCard(card,playable){
   selectedCard=playable?card:null; const cls=card.stars===3?'three':card.stars===4?'four':'five';
   $('cardDetail').innerHTML=`<div class="card-detail-card ${cls}"><div class="stars">${'★'.repeat(card.stars)}</div><h2>${escapeHtml(card.name)}</h2><p>${escapeHtml(card.effect)}</p></div>`;
-  $('playCardBtn').classList.toggle('hidden',!playable); $('cardTargetRow').classList.toggle('hidden',!playable||!(state?.players?.length>1)); syncDialogTarget(); $('cardDialog').showModal();
+  $('playCardBtn').classList.toggle('hidden',!playable); $('cardTargetRow').classList.toggle('hidden',!playable||!(state?.players?.length>1)); renderRecoveryPicker(card,playable); syncDialogTarget(); $('cardDialog').showModal();
 }
 $('cancelCardBtn').onclick=()=>$('cardDialog').close();
-$('playCardBtn').onclick=()=>{if(selectedCard)socket.emit('playCard',{cardId:selectedCard.id,targetSeat:selectedTargetSeat});$('cardDialog').close();};
+$('playCardBtn').onclick=()=>{if(selectedCard)socket.emit('playCard',{cardId:selectedCard.id,targetSeat:selectedTargetSeat,recoveryCardIds:[...selectedRecoveryIds]});$('cardDialog').close();};
 
+function renderPendingReaction(){
+  const dlg=$('reactionDialog'); const pending=state?.pending;
+  if(!pending||pending.type!=='reaction'){
+    if(reactionCountdownTimer){clearInterval(reactionCountdownTimer);reactionCountdownTimer=null;}
+    if(dlg.open)dlg.close();
+    return;
+  }
+  $('reactionTitle').textContent='React or let it happen?';
+  $('reactionPrompt').textContent=pending.prompt||'Choose whether to use a reaction card.';
+  const incoming=$('reactionIncoming'); incoming.innerHTML='';
+  if(pending.incomingCard){
+    const c=pending.incomingCard; incoming.innerHTML=`<b>Incoming: ${escapeHtml(c.name)}</b><span>${'★'.repeat(c.stars)}</span><p>${escapeHtml(c.effect)}</p>`;
+  }else if(pending.sourceName){incoming.innerHTML=`<b>Incoming attack from ${escapeHtml(pending.sourceName)}</b>${pending.targetName?`<p>Target: ${escapeHtml(pending.targetName)}</p>`:''}`;}
+  const opts=$('reactionOptions'); opts.innerHTML='';
+  (pending.eligibleCards||[]).forEach(c=>{
+    const wrap=document.createElement('div');wrap.className='reaction-option';
+    const cardNode=makeCard(c);
+    cardNode.onclick=()=>showCard(c,false);
+    const use=document.createElement('button');use.className='primary';use.textContent=`Use ${c.name}`;use.onclick=()=>socket.emit('reactionResponse',{cardId:c.id});
+    wrap.appendChild(cardNode);wrap.appendChild(use);opts.appendChild(wrap);
+  });
+  if(reactionCountdownTimer){clearInterval(reactionCountdownTimer);reactionCountdownTimer=null;}
+  const timerEl=$('reactionTimer');
+  const updateTimer=()=>{
+    const ms=Math.max(0,Number(pending.expiresAt||Date.now())-Date.now());
+    timerEl.textContent=`${Math.ceil(ms/1000)}s`;
+  };
+  updateTimer();
+  reactionCountdownTimer=setInterval(updateTimer,250);
+  if(!dlg.open)dlg.showModal();
+}
 function renderLog(){const el=$('battleLog');el.innerHTML='';[...(state.log||[])].reverse().forEach(x=>{const d=document.createElement('div');d.className='log-item';d.textContent=x.text;el.appendChild(d);});}
 function renderLastPlayed(){
   const panel=$('lastPlayedPanel'); const lp=state?.lastPlayed;

@@ -417,3 +417,42 @@ dialog { background: #101010; color: #f3f3f3; border-color: #555; }
 
 #playAgainBtn { margin-top: 8px; }
 #rematchStatus { color: #aaa; text-align: center; display: block; margin-top: 4px; }
+
+/* Discard selection for recovery cards */
+.discard-recovery {
+  margin-top: 12px;
+  padding: 10px;
+  border: 1px solid #444;
+  background: #141414;
+}
+.discard-recovery-head { display:flex; justify-content:space-between; gap:10px; margin-bottom:8px; }
+.discard-recovery-head span { color:#aaa; font-size:12px; }
+.discard-recovery-grid { display:grid; gap:7px; max-height:260px; overflow:auto; }
+.recovery-choice {
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:4px 10px;
+  text-align:left;
+  background:#1a1a1a;
+  color:#eee;
+  border:1px solid #444;
+  padding:8px;
+}
+.recovery-choice small { grid-column:1 / -1; color:#bbb; line-height:1.35; }
+.recovery-choice.selected { border-color:#59a9ff; outline:2px solid #315d8d; background:#142131; }
+
+/* Actual out-of-turn reaction window */
+.reaction-dialog { width:min(720px,94vw); }
+.reaction-head { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.reaction-head h2 { margin:0; }
+.reaction-head span { color:#aaa; font-size:12px; }
+#reactionPrompt { font-size:15px; line-height:1.45; }
+.reaction-incoming { border:1px solid #444; background:#151515; padding:10px; margin:10px 0; }
+.reaction-incoming b { display:block; font-size:16px; }
+.reaction-incoming span { color:#e0b83f; }
+.reaction-incoming p { margin:6px 0 0; line-height:1.4; color:#ddd; }
+.reaction-options { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; }
+.reaction-option { display:flex; flex-direction:column; gap:7px; }
+.reaction-option .tcg-card { width:100%; min-width:0; flex-basis:auto; height:auto; min-height:190px; }
+
+.reaction-choice-note { color:#bbb; font-size:14px; margin:8px 0 0; }

@@ -24,6 +24,8 @@ const FRIENDLY_FIRE_DAMAGE_CARDS = new Set([
   'explosion', 'rassengan', 'hit the nape', 'pull the chord', 'kagune',
   'thunder spear', 'one punch', 'seeing stars', 'excalibur'
 ]);
+const REACTION_CARD_NAMES = new Set(['snap', 'pepper dance', 'queen']);
+const REACTION_TIMEOUT_MS = 20000;
 
 const app = express();
 const server = http.createServer(app);
@@ -95,6 +97,7 @@ function blankBuffs() {
     delayedDamage: [],
     bonusNextDraw: 0,
     mustPunchTurns: 0,
+    pepperReflectOnce: false,
   };
 }
 
@@ -331,6 +334,7 @@ function stateFor(room, viewer) {
     startingTeam: room.startingTeam,
     environment: room.environment || null,
     lastPlayed: room.lastPlayed || null,
+    reactionPending: !!room.pending,
     rematchReadyCount: room.players.filter(x => x.rematchReady).length,
     rematchNeeded: room.requiredPlayers,
     config: { startingHp: STARTING_HP, basePunchDamage: BASE_PUNCH_DAMAGE, startingHandSize: STARTING_HAND_SIZE, showsPerDeck: SHOWS_PER_DECK, deckSize: DECK_SIZE, cardsPerShow: CARDS_PER_SHOW, poolCardsPerShow: POOL_CARDS_PER_SHOW, minEnvironmentsPerShow: MIN_ENVIRONMENTS_PER_SHOW },
@@ -351,7 +355,7 @@ function requireRoom(socket) {
 }
 
 function isCurrent(room, p) { return currentPlayer(room)?.socketId === p.socketId; }
-function canAct(room, p) { return room.phase === 'playing' && isCurrent(room, p) && p.hp > 0; }
+function canAct(room, p) { return room.phase === 'playing' && !room.pending && isCurrent(room, p) && p.hp > 0; }
 
 function heal(room, p, amount, source = '') {
   if (p.buffs.cannotHealTurns > 0) {
@@ -433,6 +437,12 @@ function applyDamage(room, source, target, baseAmount, opts = {}) {
   const hpDamage = target.hp - Math.max(0, nextHp);
   target.hp = Math.max(0, nextHp);
   log(room, `${source ? source.name : 'Effect'} dealt ${amount} damage to ${target.name}${target.armor ? ` (${target.armor} armor left)` : ''}.`);
+
+  if (target.buffs.pepperReflectOnce && source && source.socketId !== target.socketId && amount > 0) {
+    target.buffs.pepperReflectOnce = false;
+    log(room, `${target.name}'s Pepper Dance reflected ${amount} damage back to ${source.name}.`);
+    applyDamage(room, target, source, amount, { isAttack: false });
+  }
 
   if (target.buffs.berserkReflect && source && amount > 0) {
     target.buffs.berserkReflect = false;
@@ -558,6 +568,56 @@ function restoreFromDiscard(player, count, predicate = () => true) {
   return chosen;
 }
 
+function restoreChosenFromDiscard(player, selectedIds, count, predicate = () => true, excludeCardId = null) {
+  const unique = [...new Set((selectedIds || []).map(Number).filter(Number.isFinite))].slice(0, Math.max(0, Number(count) || 0));
+  const chosen = unique.filter(id => id !== Number(excludeCardId) && player.discard.includes(id) && predicate(getCard(id)));
+  if (!chosen.length) return [];
+  for (const id of chosen) {
+    const idx = player.discard.indexOf(id);
+    if (idx >= 0) player.discard.splice(idx, 1);
+  }
+  player.hand.push(...chosen);
+  return chosen;
+}
+
+function findReturnDiscardStep(action) {
+  if (!action) return null;
+  if (action.type === 'bundle') return findReturnDiscardStep(action.main) || (action.after || []).find(x => x?.op === 'return_discard') || null;
+  if (action.type === 'sequence') return (action.steps || []).find(x => x?.op === 'return_discard') || null;
+  if (action.type === 'coin') {
+    const all = [...(action.heads || []), ...(action.tails || [])];
+    return all.find(x => x?.op === 'return_discard') || null;
+  }
+  return null;
+}
+
+function discardRecoverySpec(card) {
+  const step = findReturnDiscardStep(card?.action);
+  if (step) return { count: Number(step.count) || 1, stars: step.stars != null ? Number(step.stars) : null, maxStars: step.maxStars != null ? Number(step.maxStars) : null };
+  const n = String(card?.name || '').toLowerCase();
+  if (n === 'agnes tachyon') return { count: 1, stars: 3, maxStars: null };
+  if (n === 'the father') return { count: 2, stars: null, maxStars: 4 };
+  if (n === 'arise') return { count: 2, stars: null, maxStars: 4 };
+  return null;
+}
+
+function validateRecoverySelection(player, card, selectedIds) {
+  const spec = discardRecoverySpec(card);
+  if (!spec) return { ids: [], error: null };
+  if (!Array.isArray(selectedIds)) return { ids: [], error: 'Choose the card(s) you want to return from your discard pile before playing this card.' };
+  const ids = [...new Set(selectedIds.map(Number).filter(Number.isFinite))];
+  if (ids.length > spec.count) return { ids: [], error: `You can return at most ${spec.count} card${spec.count === 1 ? '' : 's'} with ${card.name}.` };
+  for (const id of ids) {
+    const c = getCard(id);
+    if (id === Number(card.id)) return { ids: [], error: `${card.name} cannot return itself from the discard pile.` };
+    if (!player.discard.includes(id)) return { ids: [], error: 'One of the selected cards is not in your discard pile anymore.' };
+    if (!c) return { ids: [], error: 'One of the selected discard cards could not be found.' };
+    if (spec.stars != null && Number(c.stars) !== spec.stars) return { ids: [], error: `${card.name} can only return ${spec.stars}★ cards.` };
+    if (spec.maxStars != null && Number(c.stars) > spec.maxStars) return { ids: [], error: `${card.name} can only return ${spec.maxStars}★ or lower cards.` };
+  }
+  return { ids, error: null };
+}
+
 function manual(room, p, card) {
   log(room, `Manual effect: ${card.name} — ${card.effect}`);
 }
@@ -588,7 +648,7 @@ function targetSet(room, p, targetSeat, selector) {
   }
 }
 
-function structuredStep(room, p, card, targetSeat, step) {
+function structuredStep(room, p, card, targetSeat, step, context = {}) {
   const targets = targetSet(room, p, targetSeat, step.target || 'self');
   const first = targets[0];
   const amount = Number(step.amount) || 0;
@@ -646,8 +706,9 @@ function structuredStep(room, p, card, targetSeat, step) {
     for (const t of targets) t.buffs.untargetableUntilOwnTurn = true;
   } else if (step.op === 'return_discard') {
     const count=Number(step.count)||1; const stars=step.stars != null ? Number(step.stars) : null; const maxStars=step.maxStars != null ? Number(step.maxStars) : null;
-    const restored=restoreFromDiscard(p,count,c => (!stars || c.stars===stars) && (!maxStars || c.stars<=maxStars));
-    log(room, `${p.name} returned ${restored.length} card${restored.length===1?'':'s'} from discard (${card.name}).`);
+    const restored=restoreChosenFromDiscard(p, context.recoveryCardIds || [], count, c => (!stars || c.stars===stars) && (!maxStars || c.stars<=maxStars), card.id);
+    const names = restored.map(id => getCard(id)?.name).filter(Boolean);
+    log(room, `${p.name} returned ${restored.length} card${restored.length===1?'':'s'} from discard${names.length ? `: ${names.join(', ')}` : ''} (${card.name}).`);
   } else if (step.op === 'punch_immunity') {
     for (const t of targets) t.buffs.punchImmunityCharges += Number(step.charges)||1;
   } else if (step.op === 'extra_punch') {
@@ -678,17 +739,17 @@ function structuredStep(room, p, card, targetSeat, step) {
   }
 }
 
-function resolveStructuredAction(room,p,card,targetSeat,action){
+function resolveStructuredAction(room,p,card,targetSeat,action,context = {}){
   if (!action) return false;
   if (action.type === 'bundle') {
-    resolveStructuredAction(room,p,card,targetSeat,action.main);
-    for (const step of action.after || []) structuredStep(room,p,card,targetSeat,step);
+    resolveStructuredAction(room,p,card,targetSeat,action.main,context);
+    for (const step of action.after || []) structuredStep(room,p,card,targetSeat,step,context);
     return true;
   }
-  if (action.type === 'sequence') { for(const step of action.steps||[]) structuredStep(room,p,card,targetSeat,step); return true; }
+  if (action.type === 'sequence') { for(const step of action.steps||[]) structuredStep(room,p,card,targetSeat,step,context); return true; }
   if (action.type === 'coin') {
     const heads=Math.random()<0.5; log(room, `${p.name} flipped ${heads?'heads':'tails'} (${card.name}).`);
-    for(const step of (heads?action.heads:action.tails)||[]) structuredStep(room,p,card,targetSeat,step);
+    for(const step of (heads?action.heads:action.tails)||[]) structuredStep(room,p,card,targetSeat,step,context);
     return true;
   }
   if (action.type === 'terrain') {
@@ -698,7 +759,7 @@ function resolveStructuredAction(room,p,card,targetSeat,action){
   return false;
 }
 
-function resolveCard(room, p, opp, card, targetSeat = null) {
+function resolveCard(room, p, opp, card, targetSeat = null, context = {}) {
   const n = card.name.toLowerCase();
   const chosenAny = playerBySeat(room, targetSeat);
   // Friendly fire is allowed for manually targeted, single-target damage cards.
@@ -713,7 +774,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
 
   if (card.action) {
     const a = card.action;
-    if (resolveStructuredAction(room, p, card, targetSeat, a)) return 'ok';
+    if (resolveStructuredAction(room, p, card, targetSeat, a, context)) return 'ok';
     const anyOther = chosenAny && chosenAny.socketId !== p.socketId && chosenAny.hp > 0 ? chosenAny : (opp || mate);
     const friendly = chosenAny && chosenAny.hp > 0 && teamOf(chosenAny) === teamOf(p) ? chosenAny : (mate || p);
     if (a.type === 'damage') damage(a.amount, anyOther);
@@ -773,9 +834,10 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   else if (n === 'heliocentrical heresy') { aliveEnemies(room, p).forEach(x => { damage(10, x); x.buffs.heliocentricPunish = true; }); }
   else if (n === 'pull the chord') { applyDamage(room, p, p, 10, { isAttack: false }); damage(40); }
   else if (n === 'agnes tachyon') {
-    const restored = restoreFromDiscard(p, 1, c => c.stars === 3);
+    const restored = restoreChosenFromDiscard(p, context.recoveryCardIds || [], 1, c => c.stars === 3, card.id);
     drawCards(p, 1);
-    log(room, `${p.name} restored ${restored.length} three-star card and drew 1 card.`);
+    const names = restored.map(id => getCard(id)?.name).filter(Boolean);
+    log(room, `${p.name} restored ${restored.length} three-star card${names.length ? `: ${names.join(', ')}` : ''} and drew 1 card.`);
   }
   else if (n === 'pot of greed') { drawStar(p, 3); drawStar(p, 3); log(room, `${p.name} drew two 3-star cards.`); }
   else if (n === 'true warrior') p.buffs.punchImmunityCharges += 3;
@@ -787,7 +849,7 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   else if (n === 'how cute') damageEnemies(40);
   else if (n === 'sandevistan') { opp.buffs.skipTurns += 1; room.turn.extraPunchAllowed = true; }
   else if (n === 'thunder spear') damage(60);
-  else if (n === 'arise') { const r = restoreFromDiscard(p, 2, c => c.stars < 5); log(room, `${p.name} restored ${r.length} cards.`); }
+  else if (n === 'arise') { const r = restoreChosenFromDiscard(p, context.recoveryCardIds || [], 2, c => c.stars < 5, card.id); const names=r.map(id=>getCard(id)?.name).filter(Boolean); log(room, `${p.name} restored ${r.length} card${r.length===1?'':'s'}${names.length?`: ${names.join(', ')}`:''}.`); }
   else if (n === 'you’re next' || n === "you're next") { p.buffs.nextAttackFlatBonus += 30; if (mate) mate.buffs.nextAttackFlatBonus += 30; }
   else if (n === 'berserk') p.buffs.berserkReflect = true;
   else if (n === 'the gray monster') { const mult = p.hp < 30 ? 1.5 : 1.25; p.buffs.nextAttackMultiplier *= mult; if (mate) mate.buffs.nextAttackMultiplier *= mult; }
@@ -852,10 +914,11 @@ function resolveCard(room, p, opp, card, targetSeat = null) {
   }
   else if (n === 'the overlord of centuries end') { p.buffs.cannotDropBelowOne = true; p.buffs.cannotDropBelowOneUntilOwnTurn = true; }
   else if (n === 'the father') {
-    const restored = restoreFromDiscard(p, 2, c => c.stars < 5);
+    const restored = restoreChosenFromDiscard(p, context.recoveryCardIds || [], 2, c => c.stars < 5, card.id);
     room.turn.cardPlayLimit = Math.max(room.turn.cardPlayLimit, room.turn.cardsPlayed + 1);
     room.turn.extraCardMaxStars = 4;
-    log(room, `${p.name} restored ${restored.length} cards and may play one additional non-5★ card.`);
+    const names = restored.map(id => getCard(id)?.name).filter(Boolean);
+    log(room, `${p.name} restored ${restored.length} card${restored.length===1?'':'s'}${names.length ? `: ${names.join(', ')}` : ''} and may play one additional non-5★ card.`);
   }
   else if (n === 'piss dragon') { damageEnemies(30); [p, mate].filter(Boolean).forEach(x => { x.buffs.damageCap = 50; x.buffs.damageCapUntilOwnTurn = true; }); }
   else if (n === 'the world') { aliveEnemies(room, p).forEach(x => x.buffs.skipTurns += 1); applyDamage(room, p, p, 40, { isAttack:false }); }
@@ -958,8 +1021,10 @@ function beginMatch(room, isRematch = false) {
 }
 
 function canPlayCard(room, p, card) {
+  if (room.pending) return 'Wait for the reaction window to finish.';
   if (!canAct(room, p)) return 'It is not your turn.';
   if (!p.hand.includes(card.id)) return 'That card is not in your hand.';
+  if (REACTION_CARD_NAMES.has(String(card.name || '').toLowerCase())) return `${card.name} is a Reaction card. Keep it in your hand and use it when the reaction window appears.`;
   if (p.buffs.forceSelfPunch) return 'Aura forces your next action to be a punch against yourself.';
   if (p.buffs.mustPunchTurns > 0) return 'This effect forces you to use punches on this turn; you cannot play a card.';
   if (p.buffs.blockCardId === card.id) return 'That card is blocked this turn.';
@@ -970,6 +1035,211 @@ function canPlayCard(room, p, card) {
   if (room.turn.mainActionType === 'punch' && room.turn.cardPlayLimit <= 1) return 'You already used your main action to punch this turn.';
   if (room.turn.cardsPlayed < room.turn.cardPlayLimit) return null;
   return 'You have already used your card/action allowance this turn.';
+}
+
+
+function cardInfo(card) {
+  return card ? { id: card.id, name: card.name, stars: card.stars, effect: card.effect, show: card.show || card.origin || '', cardType: card.cardType || 'card' } : null;
+}
+
+function cardsNamedInHand(player, names) {
+  const wanted = new Set(names.map(x => String(x).toLowerCase()));
+  return player.hand.map(getCard).filter(c => c && wanted.has(String(c.name).toLowerCase()));
+}
+
+function attackSelectorsFromAction(action, out = []) {
+  if (!action) return out;
+  if (action.type === 'bundle') {
+    attackSelectorsFromAction(action.main, out);
+    for (const step of action.after || []) if (step?.op === 'damage' && step.attack !== false) out.push(step.target || 'self');
+  } else if (action.type === 'sequence') {
+    for (const step of action.steps || []) if (step?.op === 'damage' && step.attack !== false) out.push(step.target || 'self');
+  } else if (action.type === 'coin') {
+    for (const step of [...(action.heads || []), ...(action.tails || [])]) if (step?.op === 'damage' && step.attack !== false) out.push(step.target || 'self');
+  } else if (action.type === 'damage' || action.type === 'damage_draw') out.push('chosen_other');
+  else if (action.type === 'split_enemies') out.push('enemies');
+  return out;
+}
+
+function incomingAttackTargetSeats(room, source, card, targetSeat) {
+  const seats = new Set();
+  const chosen = playerBySeat(room, targetSeat);
+  const addSelector = selector => {
+    if (selector === 'chosen_enemy') {
+      const t = chosen && teamOf(chosen) !== teamOf(source) && chosen.hp > 0 ? chosen : otherPlayer(room, source, targetSeat);
+      if (t) seats.add(t.seat);
+    } else if (selector === 'chosen_other') {
+      const t = chosen && chosen.socketId !== source.socketId && chosen.hp > 0 ? chosen : otherPlayer(room, source, targetSeat);
+      if (t) seats.add(t.seat);
+    } else if (selector === 'enemies') aliveEnemies(room, source).forEach(x => seats.add(x.seat));
+    else if (selector === 'all_others') room.players.filter(x => x.hp > 0 && x.socketId !== source.socketId).forEach(x => seats.add(x.seat));
+    else if (selector === 'ally' || selector === 'team' || selector === 'self') { /* not an incoming enemy attack */ }
+  };
+  for (const selector of attackSelectorsFromAction(card.action)) addSelector(selector);
+  if (seats.size) return [...seats];
+
+  const n = String(card.name || '').toLowerCase();
+  if (FRIENDLY_FIRE_DAMAGE_CARDS.has(n)) {
+    const t = chosen && chosen.socketId !== source.socketId && chosen.hp > 0 ? chosen : otherPlayer(room, source, targetSeat);
+    if (t) seats.add(t.seat);
+  } else if (['kyubey','rage shield','how cute','hinokami kagura','piss dragon'].includes(n)) aliveEnemies(room, source).forEach(x => seats.add(x.seat));
+  else if (n === 'meteor fall') room.players.filter(x => x.hp > 0 && x.socketId !== source.socketId).forEach(x => seats.add(x.seat));
+  else if (n === 'fire dragon roar') aliveEnemies(room, source).forEach(x => seats.add(x.seat));
+  return [...seats];
+}
+
+function clearPendingReaction(room) {
+  if (room.pending?.timer) clearTimeout(room.pending.timer);
+  room.pending = null;
+}
+
+function activateReactionResponder(room) {
+  const pending = room.pending;
+  if (!pending) return;
+  if (pending.index >= pending.responders.length) {
+    const resume = pending.resume;
+    const context = pending.context;
+    clearPendingReaction(room);
+    resume(context);
+    return;
+  }
+  const responder = pending.responders[pending.index];
+  const player = playerBySeat(room, responder.seat);
+  if (!player || player.hp <= 0) { pending.index += 1; return activateReactionResponder(room); }
+  const validOptions = responder.options.filter(o => player.hand.includes(o.cardId));
+  if (!validOptions.length) { pending.index += 1; return activateReactionResponder(room); }
+  pending.forSocket = player.socketId;
+  pending.currentSeat = player.seat;
+  pending.currentOptions = validOptions;
+  pending.public = {
+    type: 'reaction',
+    title: 'Reaction Window',
+    prompt: responder.prompt || pending.prompt,
+    sourceName: pending.sourceName,
+    targetName: pending.targetName || null,
+    incomingCard: pending.incomingCard || null,
+    eligibleCards: validOptions.map(o => cardInfo(getCard(o.cardId))).filter(Boolean),
+    timeoutMs: REACTION_TIMEOUT_MS,
+    expiresAt: Date.now() + REACTION_TIMEOUT_MS,
+    manualChoiceRequired: true,
+  };
+  const id = pending.id;
+  pending.timer = setTimeout(() => {
+    if (room.pending?.id !== id) return;
+    const current = playerBySeat(room, room.pending.currentSeat);
+    if (!current) return;
+    handleReactionChoice(room, current, null, true);
+  }, REACTION_TIMEOUT_MS);
+  emitState(room);
+}
+
+function startReactionWindow(room, responders, meta, context, resume) {
+  if (!responders.length) { resume(context); return false; }
+  clearPendingReaction(room);
+  room.pending = {
+    id: `${Date.now()}-${Math.random()}`,
+    responders,
+    index: 0,
+    sourceName: meta.sourceName || '',
+    targetName: meta.targetName || null,
+    incomingCard: meta.incomingCard || null,
+    prompt: meta.prompt || 'You may react or pass.',
+    context,
+    resume,
+    public: null,
+    forSocket: null,
+    timer: null,
+  };
+  activateReactionResponder(room);
+  return true;
+}
+
+function snapResponders(room, source) {
+  return enemies(room, source).filter(x => x.hp > 0).map(x => {
+    const snaps = cardsNamedInHand(x, ['snap']);
+    return snaps.length ? { seat: x.seat, options: snaps.map(c => ({ cardId: c.id, kind: 'snap' })), prompt: `${source.name} played a card. Use Snap to negate the whole card, or pass.` } : null;
+  }).filter(Boolean);
+}
+
+function attackReactionResponders(room, source, targetSeats, allowQueen = true) {
+  const uniqueTargets = [...new Set(targetSeats.map(Number))].map(seat => playerBySeat(room, seat)).filter(x => x && x.hp > 0);
+  const responders = [];
+
+  // Queen is checked before Pepper Dance so a redirect happens before the original
+  // target spends a Pepper Dance on an attack that is no longer hitting them.
+  if (allowQueen && uniqueTargets.length === 1 && room.mode === '2v2' && teamOf(source) !== teamOf(uniqueTargets[0])) {
+    const target = uniqueTargets[0];
+    const defenders = room.players.filter(x => x.hp > 0 && teamOf(x) === teamOf(target));
+    const redirect = defenders.filter(x => x.seat !== target.seat && !x.buffs.untargetableUntilOwnTurn).sort((a,b) => b.hp - a.hp)[0];
+    if (redirect && redirect.hp > target.hp) {
+      for (const defender of defenders) {
+        const queens = cardsNamedInHand(defender, ['queen']);
+        if (queens.length) responders.push({
+          seat: defender.seat,
+          options: queens.map(c => ({ cardId: c.id, kind: 'queen', redirectSeat: redirect.seat })),
+          prompt: `${source.name} is attacking ${target.name}. Queen can redirect the attack to ${redirect.name}, who has more HP.`,
+        });
+      }
+    }
+  }
+
+  for (const target of uniqueTargets) {
+    const peppers = cardsNamedInHand(target, ['pepper dance']);
+    if (peppers.length) responders.push({
+      seat: target.seat,
+      options: peppers.map(c => ({ cardId: c.id, kind: 'pepper' })),
+      prompt: `${source.name} is attacking ${target.name}. Pepper Dance halves your next incoming damage from this attack and reflects that halved amount back.`,
+    });
+  }
+  return responders;
+}
+
+function handleReactionChoice(room, responder, cardId, timedOut = false) {
+  const pending = room.pending;
+  if (!pending || pending.forSocket !== responder.socketId) return;
+  if (pending.timer) clearTimeout(pending.timer);
+  const option = cardId == null ? null : pending.currentOptions.find(o => Number(o.cardId) === Number(cardId));
+  if (!option) {
+    log(room, `${responder.name} ${timedOut ? 'did not react in time' : 'passed the reaction window'}.`);
+    pending.index += 1;
+    activateReactionResponder(room);
+    return;
+  }
+  if (!discardCard(responder, option.cardId)) {
+    pending.index += 1;
+    activateReactionResponder(room);
+    return;
+  }
+  const reactionCard = getCard(option.cardId);
+  if (option.kind === 'snap') {
+    pending.context.cancelled = true;
+    log(room, `${responder.name} reacted with Snap and negated ${pending.incomingCard?.name || 'the card'}.`);
+    const resume = pending.resume, context = pending.context;
+    clearPendingReaction(room);
+    resume(context);
+    return;
+  }
+  if (option.kind === 'pepper') {
+    responder.buffs.nextDamageMultiplier *= 0.5;
+    responder.buffs.pepperReflectOnce = true;
+    log(room, `${responder.name} reacted with Pepper Dance.`);
+    pending.index += 1;
+    activateReactionResponder(room);
+    return;
+  }
+  if (option.kind === 'queen') {
+    pending.context.targetSeat = option.redirectSeat;
+    pending.context.queenRedirected = true;
+    const redirect = playerBySeat(room, option.redirectSeat);
+    log(room, `${responder.name} reacted with Queen and redirected the attack to ${redirect?.name || 'their teammate'}.`);
+    const resume = pending.resume, context = pending.context;
+    clearPendingReaction(room);
+    resume(context);
+    return;
+  }
+  log(room, `${responder.name} used ${reactionCard?.name || 'a reaction card'}.`);
+  pending.index += 1;
+  activateReactionResponder(room);
 }
 
 function actionHarmfullyTargetsChosen(action) {
@@ -987,11 +1257,99 @@ function harmfulStepTargetsChosen(step) {
   return step.op === 'buff_attack' && Number(step.amount) < 0;
 }
 
-function playCard(room, p, card, targetSeat = null) {
+function finalizePlayedCard(room, p, card, targetSeat, context, resolutionStart) {
   const opp = otherPlayer(room, p, targetSeat);
-  const error = canPlayCard(room, p, card);
-  if (error) return error;
+  if (context.cancelled) {
+    const chosenTarget = playerBySeat(room, targetSeat);
+    room.lastPlayed = {
+      card: cardInfo(card),
+      playerName: p.name,
+      playerSeat: p.seat,
+      targetName: chosenTarget?.name || null,
+      targetSeat: chosenTarget?.seat ?? null,
+      resolution: room.log.slice(resolutionStart + 1).map(x => x.text).slice(-10),
+      at: Date.now(),
+    };
+    emitState(room);
+    scheduleAutoEnd(room, p);
+    return;
+  }
 
+  if (opp?.buffs.heliocentricPunish) {
+    opp.buffs.heliocentricPunish = false;
+    applyDamage(room, opp, p, 10, { isAttack: false });
+  }
+
+  resolveCard(room, p, opp, card, targetSeat, context);
+  const chosenTarget = playerBySeat(room, targetSeat);
+  room.lastPlayed = {
+    card: cardInfo(card),
+    playerName: p.name,
+    playerSeat: p.seat,
+    targetName: chosenTarget?.name || null,
+    targetSeat: chosenTarget?.seat ?? null,
+    resolution: room.log.slice(resolutionStart + 1).map(x => x.text).slice(-10),
+    at: Date.now(),
+  };
+  if (p.hp <= 0 && room.phase === 'playing') {
+    saveTurnSnapshot(room);
+    advanceTurn(room);
+    return;
+  }
+  emitState(room);
+  scheduleAutoEnd(room, p);
+}
+
+function finishCardAfterAttackReactions(room, p, card, context, resolutionStart) {
+  if (context.queenRedirected && !context.postQueenPepperChecked) {
+    context.postQueenPepperChecked = true;
+    const target = playerBySeat(room, context.targetSeat);
+    const responders = target ? attackReactionResponders(room, p, [target.seat], false) : [];
+    if (responders.length) {
+      return startReactionWindow(room, responders, {
+        sourceName: p.name,
+        targetName: target?.name || null,
+        incomingCard: cardInfo(card),
+        prompt: `${p.name}'s attack was redirected to ${target?.name || 'a new target'}. You may use Pepper Dance or pass.`,
+      }, context, ctx => finishCardAfterAttackReactions(room, p, card, ctx, resolutionStart));
+    }
+  }
+  finalizePlayedCard(room, p, card, context.targetSeat, context, resolutionStart);
+}
+
+function continuePlayedCardAfterSnap(room, p, card, context, resolutionStart) {
+  if (context.cancelled) return finalizePlayedCard(room, p, card, context.targetSeat, context, resolutionStart);
+  const targetSeats = incomingAttackTargetSeats(room, p, card, context.targetSeat);
+  const responders = attackReactionResponders(room, p, targetSeats, true);
+  if (responders.length) {
+    const firstTarget = targetSeats.length === 1 ? playerBySeat(room, targetSeats[0]) : null;
+    return startReactionWindow(room, responders, {
+      sourceName: p.name,
+      targetName: firstTarget?.name || (targetSeats.length > 1 ? 'multiple players' : null),
+      incomingCard: cardInfo(card),
+      prompt: `${p.name}'s ${card.name} is an incoming attack. You may react or pass.`,
+    }, context, ctx => finishCardAfterAttackReactions(room, p, card, ctx, resolutionStart));
+  }
+  finishCardAfterAttackReactions(room, p, card, context, resolutionStart);
+}
+
+function playCard(room, p, card, targetSeat = null, recoveryCardIds = undefined) {
+  if (room.pending) return 'Wait for the reaction window to finish.';
+  const initialError = canPlayCard(room, p, card);
+  if (initialError) return initialError;
+
+  // Random-next-card replaces the selected card before it is committed.
+  if (p.buffs.randomNextCard) {
+    p.buffs.randomNextCard = false;
+    const playable = p.hand.map(getCard).filter(c => c && !REACTION_CARD_NAMES.has(String(c.name).toLowerCase()));
+    if (playable.length) card = playable[Math.floor(Math.random() * playable.length)];
+    log(room, `Seeing Stars randomized ${p.name}'s card into ${card.name}.`);
+  }
+
+  const recovery = validateRecoverySelection(p, card, recoveryCardIds);
+  if (recovery.error) return recovery.error;
+
+  const opp = otherPlayer(room, p, targetSeat);
   const chosen = playerBySeat(room, targetSeat);
   const actionTargetsAnyOther = card.action && (['damage','damage_draw','mark'].includes(card.action.type) || actionHarmfullyTargetsChosen(card.action));
   const targetedPlayer = (actionTargetsAnyOther || FRIENDLY_FIRE_DAMAGE_CARDS.has(card.name.toLowerCase())) && chosen && chosen.hp > 0 && chosen.socketId !== p.socketId
@@ -1001,16 +1359,8 @@ function playCard(room, p, card, targetSeat = null) {
     return `${targetedPlayer.name} is untargetable right now.`;
   }
 
-  // Random-next-card effect replaces the chosen card.
-  if (p.buffs.randomNextCard) {
-    p.buffs.randomNextCard = false;
-    const playable = p.hand.map(getCard).filter(Boolean);
-    if (playable.length) card = playable[Math.floor(Math.random() * playable.length)];
-    log(room, `Seeing Stars randomized ${p.name}'s card into ${card.name}.`);
-  }
-
   const wasQuintessential = card.name.toLowerCase() === 'quintessential quintuplets';
-  discardCard(p, card.id);
+  if (!discardCard(p, card.id)) return 'That card is no longer in your hand.';
   const firstAction = !room.turn.mainActionUsed;
   room.turn.mainActionUsed = true;
   if (firstAction) room.turn.mainActionType = 'card';
@@ -1018,30 +1368,63 @@ function playCard(room, p, card, targetSeat = null) {
   const resolutionStart = room.log.length;
   log(room, `${p.name} played ${card.name} (${card.stars}★).`);
 
-  if (opp?.buffs.heliocentricPunish) {
-    opp.buffs.heliocentricPunish = false;
-    applyDamage(room, opp, p, 10, { isAttack: false });
-  }
-
-  const result = resolveCard(room, p, opp, card, targetSeat);
+  const context = { targetSeat: targetSeat == null ? null : Number(targetSeat), recoveryCardIds: recovery.ids, cancelled: false };
   const chosenTarget = playerBySeat(room, targetSeat);
   room.lastPlayed = {
-    card: { id: card.id, name: card.name, stars: card.stars, effect: card.effect, show: card.show || card.origin || '', cardType: card.cardType || 'card' },
+    card: cardInfo(card),
     playerName: p.name,
     playerSeat: p.seat,
     targetName: chosenTarget?.name || null,
     targetSeat: chosenTarget?.seat ?? null,
-    resolution: room.log.slice(resolutionStart + 1).map(x => x.text).slice(-8),
+    resolution: ['Waiting for reactions...'],
     at: Date.now(),
   };
-  if (p.hp <= 0 && room.phase === 'playing') {
-    saveTurnSnapshot(room);
-    advanceTurn(room);
+
+  const responders = snapResponders(room, p);
+  if (responders.length) {
+    startReactionWindow(room, responders, {
+      sourceName: p.name,
+      targetName: chosenTarget?.name || null,
+      incomingCard: cardInfo(card),
+      prompt: `${p.name} played ${card.name}. Use Snap to negate it, or pass.`,
+    }, context, ctx => continuePlayedCardAfterSnap(room, p, card, ctx, resolutionStart));
     return null;
   }
+  continuePlayedCardAfterSnap(room, p, card, context, resolutionStart);
+  return null;
+}
+
+
+function resolvePunchAfterReactions(room, p, context) {
+  if (context.queenRedirected && !context.postQueenPepperChecked) {
+    context.postQueenPepperChecked = true;
+    const redirected = playerBySeat(room, context.targetSeat);
+    const responders = redirected ? attackReactionResponders(room, p, [redirected.seat], false) : [];
+    if (responders.length) {
+      return startReactionWindow(room, responders, {
+        sourceName: p.name, targetName: redirected?.name || null, incomingCard: null,
+        prompt: `${p.name}'s punch was redirected to ${redirected?.name || 'a new target'}. You may use Pepper Dance or pass.`,
+      }, context, ctx => resolvePunchAfterReactions(room, p, ctx));
+    }
+  }
+  const target = playerBySeat(room, context.targetSeat);
+  if (!target || target.hp <= 0 || target.socketId === p.socketId) {
+    log(room, `${p.name}'s punch had no valid target after reactions.`);
+    emitState(room);
+    scheduleAutoEnd(room, p);
+    return;
+  }
+  if (target.buffs.untargetableUntilOwnTurn) {
+    log(room, `${p.name}'s punch could not hit ${target.name} because they are untargetable.`);
+    emitState(room);
+    scheduleAutoEnd(room, p);
+    return;
+  }
+  const base = p.buffs.punchDamageOverrideTurns > 0 ? p.buffs.punchDamageOverride : BASE_PUNCH_DAMAGE;
+  applyDamage(room, p, target, base, { isPunch: true, isAttack: true });
+  if (p.hp <= 0 && room.phase === 'playing') { saveTurnSnapshot(room); advanceTurn(room); return; }
   emitState(room);
   scheduleAutoEnd(room, p);
-  return null;
 }
 
 io.on('connection', socket => {
@@ -1075,20 +1458,27 @@ io.on('connection', socket => {
     emitState(room);
   });
 
-  socket.on('playCard', ({ cardId, targetSeat } = {}) => {
+  socket.on('playCard', ({ cardId, targetSeat, recoveryCardIds } = {}) => {
     const room = requireRoom(socket); if (!room) return;
     const p = playerBySocket(room, socket.id); if (!p) return;
     const card = getCard(cardId); if (!card) return;
-    const error = playCard(room, p, card, targetSeat);
+    const error = playCard(room, p, card, targetSeat, recoveryCardIds);
     if (error) socket.emit('errorMessage', error);
+  });
+
+  socket.on('reactionResponse', ({ cardId } = {}) => {
+    const room = requireRoom(socket); if (!room) return;
+    const p = playerBySocket(room, socket.id); if (!p) return;
+    if (!room.pending || room.pending.forSocket !== p.socketId) return socket.emit('errorMessage', 'There is no reaction waiting for you.');
+    handleReactionChoice(room, p, cardId == null ? null : Number(cardId), false);
   });
 
   socket.on('punch', ({ targetSeat } = {}) => {
     const room = requireRoom(socket); if (!room) return;
-    const p = playerBySocket(room, socket.id);
+    const p = playerBySocket(room, socket.id); if (!p) return;
     const chosen = playerBySeat(room, targetSeat);
     const target = chosen && chosen.socketId !== p.socketId && chosen.hp > 0 ? chosen : null;
-    if (!canAct(room, p)) return socket.emit('errorMessage', 'It is not your turn.');
+    if (!canAct(room, p)) return socket.emit('errorMessage', room.pending ? 'Wait for the reaction window to finish.' : 'It is not your turn.');
     if (p.buffs.forceSelfPunch) {
       p.buffs.forceSelfPunch = false;
       room.turn.mainActionUsed = true;
@@ -1105,11 +1495,19 @@ io.on('connection', socket => {
     room.turn.mainActionUsed = true;
     if (firstAction) room.turn.mainActionType = 'punch';
     room.turn.extraPunchAllowed = false;
-    const base = p.buffs.punchDamageOverrideTurns > 0 ? p.buffs.punchDamageOverride : BASE_PUNCH_DAMAGE;
-    applyDamage(room, p, target, base, { isPunch: true, isAttack: true });
-    if (p.hp <= 0 && room.phase === 'playing') { saveTurnSnapshot(room); advanceTurn(room); return; }
-    emitState(room);
-    scheduleAutoEnd(room, p);
+    log(room, `${p.name} declared a punch at ${target.name}.`);
+    const context = { targetSeat: target.seat, sourceSeat: p.seat, kind: 'punch' };
+    const responders = attackReactionResponders(room, p, [target.seat], true);
+    if (responders.length) {
+      startReactionWindow(room, responders, {
+        sourceName: p.name,
+        targetName: target.name,
+        incomingCard: null,
+        prompt: `${p.name} is punching ${target.name}. You may react or pass.`,
+      }, context, ctx => resolvePunchAfterReactions(room, p, ctx));
+      return;
+    }
+    resolvePunchAfterReactions(room, p, context);
   });
 
 

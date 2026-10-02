@@ -1,3 +1,6 @@
+## Reaction cards
+Reaction cards are optional. When a valid trigger occurs, the eligible player gets a reaction window and must choose to use a reaction or pass. Reactions are never auto-played. A timeout only counts as a pass.
+
 # Fanmade Anime TCG
 
 Realtime browser TCG with room codes, 1v1 and 2v2, custom 48-card decks, friendly fire, meme cards, and one shared Environment slot.
@@ -45,3 +48,9 @@ Open `http://localhost:3000`.
 - Discard piles are public and inspectable.
 - If a player has used all legal actions, the server automatically ends their turn.
 - After a game ends, all players can click **Play Again** to start a rematch with the same decks.
+
+## Discard recovery and reactions
+
+Cards that return cards from the discard pile now let the player choose the exact eligible cards before the recovery card is played. The recovery card itself cannot be selected.
+
+Snap, Pepper Dance, and Queen are true Reaction cards. They are used from hand during an out-of-turn reaction window instead of as normal main-turn cards. Reaction windows pause the current action for up to 10 seconds.

@@ -1,12 +1,20 @@
+# Manual reaction choices
+
+- Snap, Pepper Dance, and Queen never auto-play.
+- Eligible players explicitly choose **Use Reaction** or **Pass / Let It Happen**.
+- Clicking the reaction card itself only inspects it; it does not consume it.
+- The reaction window now lasts 20 seconds. If no choice is made, the game auto-passes only so the match cannot be stalled forever.
+- A reaction card is discarded only after the player explicitly clicks its Use button.
+
 # Changes in this version
 
-- Added a public **Last Played Card** panel. Everyone can inspect the card text after it is played.
-- Added a short resolution summary under the last played card using the actual battle events produced by the server.
-- Made discard piles clearly visible and public. Click a player's discard count or the Discard Piles buttons to inspect every discarded card.
-- The target dropdown now includes every living player and stays synchronized with board clicks.
-- Clicking any living player selects them as the current target and gives them a visible TARGET outline.
-- Punching still cannot target yourself unless a card specifically forces a self-punch.
-- Added server-side automatic turn ending when the current player has no legal actions remaining.
-- Auto-end respects extra-card-play cards, Golden Ball pairing, and extra-punch effects instead of ending too early.
-- Fixed the base action rule so a normal punch cannot be followed by a normal card play on the same turn.
-- Added **Play Again**. After a match, every player can ready for a rematch; once everyone clicks it, the same decks are reshuffled and a new coin flip begins in the same room.
+- Discard recovery is now player-selected instead of automatic/random. Recovery cards show your eligible discard cards before you play them.
+- A recovery card cannot return itself with its own effect.
+- Added real out-of-turn reaction windows.
+- Snap can be used when an opponent plays a card to negate that card's entire effect.
+- Pepper Dance can be used when you are attacked; it halves that incoming damage and reflects the halved amount back.
+- Queen can be used in 2v2 before a direct opponent attack to redirect it to the higher-HP teammate when that redirect is valid.
+- Reaction cards are no longer playable as ordinary main-turn cards; they stay in hand until a valid reaction window appears.
+- Reaction windows pause the active turn and auto-pass after 10 seconds if the responder does nothing.
+- Queen resolves before Pepper Dance so Pepper is not wasted on a target that gets redirected.
+- The existing public discard piles, played-card display, click/dropdown targeting, auto-end turns, rematch button, 1v1/2v2 modes, and Environment system are preserved.
